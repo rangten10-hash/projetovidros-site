@@ -1,5 +1,6 @@
 import { Shield } from "lucide-react";
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo-box-seguro.png";
 
 const Hero = () => {
   return (
@@ -11,25 +12,21 @@ const Hero = () => {
         loop
         playsInline
         className="absolute inset-0 w-full h-full object-cover"
-        poster=""
       >
-        <source
-          src="https://videos.pexels.com/video-files/5529612/5529612-uhd_2560_1440_25fps.mp4"
-          type="video/mp4"
-        />
+        <source src="/videos/hero-video.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-petrol/70" />
+      <div className="absolute inset-0 bg-petrol/60" />
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-        <div className="inline-flex items-center gap-2 bg-accent/20 border border-copper/40 rounded-full px-5 py-2 mb-8">
-          <Shield className="w-4 h-4 text-copper" />
-          <span className="text-copper-light text-sm font-medium tracking-wider uppercase">
-            Desde 1991 · Pioneiros em Segurança
-          </span>
-        </div>
+        {/* Logo */}
+        <img
+          src={logo}
+          alt="Box + Seguro - Desde 1991"
+          className="w-36 h-36 md:w-48 md:h-48 mx-auto mb-8 drop-shadow-2xl"
+        />
 
         <h1 className="font-display text-4xl md:text-6xl lg:text-7xl text-primary-foreground mb-6 leading-tight">
           A segurança da sua família{" "}
