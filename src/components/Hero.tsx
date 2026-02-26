@@ -1,6 +1,4 @@
-import { Shield } from "lucide-react";
 import { Link } from "react-router-dom";
-import logo from "@/assets/logo-box-seguro.png";
 
 const Hero = () => {
   return (
@@ -21,12 +19,6 @@ const Hero = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-        {/* Logo */}
-        <img
-          src={logo}
-          alt="Box + Seguro - Desde 1991"
-          className="w-36 h-36 md:w-48 md:h-48 mx-auto mb-8 drop-shadow-2xl"
-        />
 
         <h1 className="font-display text-4xl md:text-6xl lg:text-7xl text-primary-foreground mb-6 leading-tight">
           A segurança da sua família{" "}
