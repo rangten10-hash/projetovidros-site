@@ -15,7 +15,7 @@ const Hero = () => {
       </video>
 
       {/* Overlay */}
-      <div className="absolute inset-0 bg-petrol/60" />
+      <div className="absolute inset-0 bg-petrol/25" />
 
       {/* Content */}
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
