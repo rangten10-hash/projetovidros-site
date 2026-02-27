@@ -9,6 +9,7 @@ import PortasVidro from "./pages/PortasVidro";
 import Espelhos from "./pages/Espelhos";
 import EspelhosLed from "./pages/EspelhosLed";
 import Projetos from "./pages/Projetos";
+import Simulador from "./pages/Simulador";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/espelhos" element={<Espelhos />} />
           <Route path="/espelhos-led" element={<EspelhosLed />} />
           <Route path="/projetos" element={<Projetos />} />
+          <Route path="/simulador" element={<Simulador />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
