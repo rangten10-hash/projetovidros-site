@@ -9,6 +9,7 @@ const navItems = [
   { label: "Espelhos", path: "/espelhos" },
   { label: "Espelhos LED", path: "/espelhos-led" },
   { label: "Projetos", path: "/projetos" },
+  { label: "Simulador", path: "/simulador" },
 ];
 
 const Header = () => {
