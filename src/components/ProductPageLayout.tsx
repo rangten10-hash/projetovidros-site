@@ -1,5 +1,6 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import { ArrowLeft, Phone } from "lucide-react";
+import { ArrowLeft, Phone, X } from "lucide-react";
 import Header from "./Header";
 import Footer from "./Footer";
 import WhatsAppButton from "./WhatsAppButton";
@@ -8,6 +9,7 @@ interface Product {
   name: string;
   image: string;
   description?: string;
+  fullDescription?: string;
 }
 
 interface ProductPageLayoutProps {
@@ -17,6 +19,8 @@ interface ProductPageLayoutProps {
 }
 
 const ProductPageLayout = ({ title, subtitle, products }: ProductPageLayoutProps) => {
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
@@ -38,7 +42,11 @@ const ProductPageLayout = ({ title, subtitle, products }: ProductPageLayoutProps
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {products.map((product) => (
-              <div key={product.name} className="group bg-card rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-500 border border-border">
+              <div
+                key={product.name}
+                className="group bg-card rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-500 border border-border cursor-pointer"
+                onClick={() => setSelectedProduct(product)}
+              >
                 <div className="aspect-square overflow-hidden">
                   <img
                     src={product.image}
@@ -56,6 +64,7 @@ const ProductPageLayout = ({ title, subtitle, products }: ProductPageLayoutProps
                     href="https://wa.me/5500000000000"
                     target="_blank"
                     rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
                     className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-5 py-2.5 rounded-md text-sm font-semibold hover:bg-copper-light transition-colors"
                   >
                     <Phone className="w-4 h-4" />
@@ -67,6 +76,52 @@ const ProductPageLayout = ({ title, subtitle, products }: ProductPageLayoutProps
           </div>
         </div>
       </section>
+
+      {/* Product Detail Modal */}
+      {selectedProduct && (
+        <div
+          className="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4"
+          onClick={() => setSelectedProduct(null)}
+        >
+          <div
+            className="bg-card rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="relative">
+              <img
+                src={selectedProduct.image}
+                alt={selectedProduct.name}
+                className="w-full h-64 sm:h-80 object-cover rounded-t-2xl"
+              />
+              <button
+                onClick={() => setSelectedProduct(null)}
+                className="absolute top-4 right-4 bg-black/50 hover:bg-black/70 text-white rounded-full p-2 transition-colors"
+              >
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+            <div className="p-8">
+              <h2 className="font-display text-2xl md:text-3xl text-foreground mb-4">
+                {selectedProduct.name}
+              </h2>
+              {selectedProduct.fullDescription && (
+                <div className="text-muted-foreground leading-relaxed whitespace-pre-line mb-6">
+                  {selectedProduct.fullDescription}
+                </div>
+              )}
+              <a
+                href="https://wa.me/5500000000000"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-6 py-3 rounded-md text-sm font-semibold hover:bg-copper-light transition-colors"
+              >
+                <Phone className="w-4 h-4" />
+                Pedir Orçamento
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
 
       <Footer />
       <WhatsAppButton />
