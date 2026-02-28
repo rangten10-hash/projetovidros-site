@@ -1,5 +1,4 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
-import boxSeguro from "@/assets/box-seguro.jpg";
 import boxCerto from "@/assets/box-certo.jpg";
 import boxFlex from "@/assets/box-flex.jpg";
 import boxElegance from "@/assets/box-elegance.jpg";
@@ -10,15 +9,90 @@ import boxTransfer from "@/assets/box-transfer.jpg";
 import boxTradicional from "@/assets/box-tradicional.jpg";
 
 const products = [
-  { name: "Box + Seguro", image: boxSeguro, description: "Nosso modelo premium com tecnologia antiestilhaço e vidros laminados de alta resistência. Máxima segurança para sua família." },
-  { name: "Box Certo", image: boxCerto, description: "Design clean com acabamento impecável. A escolha certa para quem busca elegância e funcionalidade." },
-  { name: "Box Flex", image: boxFlex, description: "Sistema flexível que se adapta a qualquer espaço. Ideal para banheiros compactos." },
-  { name: "Box Elegance", image: boxElegance, description: "Sofisticação em cada detalhe. Ferragens premium e acabamento dourado." },
-  { name: "Box Reto", image: boxReto, description: "Linhas retas e minimalistas. Design contemporâneo para banheiros modernos." },
-  { name: "Box Nobre", image: boxNobre, description: "Acabamento nobre com ferragens pretas. O toque de luxo que seu banheiro merece." },
-  { name: "Duo Safe", image: boxDuo, description: "Sistema duplo com portas amplas. Conforto e praticidade para banheiros espaçosos." },
-  { name: "Transfer", image: boxTransfer, description: "Modelo com acessibilidade. Barras de apoio integradas ao design." },
-  { name: "Box Tradicional", image: boxTradicional, description: "O clássico que nunca sai de moda. Qualidade comprovada por décadas." },
+  {
+    name: "Box Certo",
+    image: boxCerto,
+    description: "Praticidade e funcionalidade com porta de abertura 180°.",
+    fullDescription: `Para aprimorar o espaço do seu banheiro desenvolvemos o Box Certo, trazendo praticidade e funcionalidade para seu dia-a-dia.
+
+A porta do box possui uma abertura de 180°, tanto para dentro como para fora, com três paradas de 90°. Isso ajuda a otimizar o aproveitamento do espaço do ambiente. Além disso, possui um sistema especial que faz a porta se fechar sozinha com um simples toque.
+
+O Box Certo pode ser montado em cantos, espaços frontais, sobre banheiras ou até mesmo como porta bipartida. É totalmente acessível e seguro, perfeito para hotéis e residências. Possui várias cores de acabamento; Branco, Preto, Fosco e Brilhante.
+
+Você pode adquirir o Box Certo com toda a tranquilidade e segurança.`,
+  },
+  {
+    name: "Box Flex",
+    image: boxFlex,
+    description: "Solução para banheiros pequenos com abertura articulada.",
+    fullDescription: `A sua solução para banheiros pequenos.
+
+Por ter a abertura articulada, tem um aproveitamento melhor do cômodo e você ganha até 90% de passagem livre no vão.
+
+Seu design é sofisticado, sem trilhos na parte superior, o que deixa o ambiente clean, discreto e funcional. As dobradiças são de metais nobres com alta resistência, podendo também ser montado de canto. O sistema flexível do box é muito fácil de se manusear.
+
+Produto com garantia de fábrica. Temos várias cores de acabamento: branco, dourado, preto, cromado e rose.
+
+Conhecido popularmente como box camarão, box articulado, box pantográfico, box flexível… O original é o BOX FLEX, fabricado pela Ideia Glass.`,
+  },
+  {
+    name: "Box Elegance",
+    image: boxElegance,
+    description: "Roldanas aparentes com metais nobres e design contemporâneo.",
+    fullDescription: `Transforme o seu box de banheiro em um espaço aconchegante e sofisticado com o Box Elegance. A opção do Tubo Oblongo deixa o ambiente moderno e foi criado especialmente para manter uma padronização de todas linhas com roldanas aparentes, sendo usado no Elegance, Due e Encanto.
+
+Cada detalhe do Box Elegance foi pensado para combinar com as tendências da decoração contemporânea. As roldanas aparentes deslizam com leveza sobre o trilho deixando o box de banheiro muito mais Elegante.
+
+Fabricado em diferentes cores de acabamento, ele pode se adaptar ao seu projeto com facilidade. A Ideia Glass fornece todas as peças para fazer projetos com vidros especiais, também temos uma consultoria especializada que te ajuda em todos os detalhes.
+
+As roldanas aparentes do Box Elegance são produzidas com metais nobres que passam por um processo especial de tratamento. Por isso, a Ideia Glass dá uma garantia de fábrica.
+
+O Box Elegance é a melhor solução para quem valoriza modernidade e sofisticação com alta durabilidade.`,
+  },
+  {
+    name: "Box Reto",
+    image: boxReto,
+    description: "Perfil retangular com capa de acabamento que esconde as ferragens.",
+    fullDescription: `O Box Reto possui o perfil superior retangular com uma capa de acabamento que esconde as ferragens do box, deixando o espaço mais harmonizado e com destaque para o vidro e a área de banho.
+
+Com esse modelo, é possível fazer boxes até o teto no estilo sauna ou na medida que você desejar.
+
+Possui um sistema de funcionamento leve para abrir e fechar, sendo possível ser feito em vãos de até 2,50 metros de largura.`,
+  },
+  {
+    name: "Box Nobre",
+    image: boxNobre,
+    description: "Sistema de amortecimento no fechamento e abertura das portas.",
+    fullDescription: `O Box Nobre foi projetado e fabricado pela Ideia Glass para aumentar a segurança no box de banheiro, você pode colocar o amortecedor ao abrir e fechar a porta do box.
+
+Linha que como o nome já diz NOBRE, perfeita para fazer fechamentos de área de banho em todos os formatos, Box Frontal (f1), box em L (C1 / canto), box frontal (f2), box com 2 portas centralizadas(F3), porém também pode ser usado como fechamentos de áreas externas e até mesmo porta de correr para dividir ambientes.
+
+Mais resistência e qualidade:
+
+Todos os perfis do box são fabricados de Alumínio com ligas especiais reforçadas. As espessuras das paredes do alumínio da linha Nobre são mais robustas que os box tradicionais de mercado. Deixando o box Nobre com mais resistência e um acabamento premium.
+
+Amortecimento quando abre e quando fecha:
+
+O grande diferencial do Box Nobre é o sistema de amortecimento no fechamento e abertura das portas que impede que o movimento brusco ao abrir e fechar a porta possa quebrar acidentalmente o vidro.`,
+  },
+  {
+    name: "Duo Safe",
+    image: boxDuo,
+    description: "Alta segurança com pinças de pressão e duas folhas de correr.",
+    fullDescription: `O Box Duo Safe da Tec-Vidro é um sistema de envidraçamento para banheiros focado em alta segurança, projetado para utilizar tanto vidro temperado quanto laminado, sem a necessidade de furos na peça de vidro. Sua principal característica é o uso de pinças de pressão e a ausência de vidros fixos, com duas folhas de correr.`,
+  },
+  {
+    name: "Transfer",
+    image: boxTransfer,
+    description: "Alta acessibilidade com abertura de 2/3 do vão total.",
+    fullDescription: `O Box Transfer é um sistema de fechamento para banheiros projetado para oferecer alta acessibilidade e otimização de espaço, sendo ideal para vãos pequenos. A principal característica é a movimentação simultânea das folhas, permitindo uma abertura de 2/3 do vão total.`,
+  },
+  {
+    name: "Box Tradicional",
+    image: boxTradicional,
+    description: "Solução clássica com ótimo custo-benefício e durabilidade.",
+    fullDescription: `O Box Tradicional de Vidro (frequentemente referido como modelo padrão ou frontal ou de Canto) é a solução mais clássica, segura e funcional para banheiros brasileiros. Ele combina a robustez de perfis de alumínio com a transparência e resistência do vidro temperado, sendo ideal para quem busca ótimo custo-benefício e durabilidade.`,
+  },
 ];
 
 const BoxBanheiro = () => (
