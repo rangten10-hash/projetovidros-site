@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
-import logo from "@/assets/logo-box-seguro.png";
+import logo from "@/assets/logo-projectovidros.png";
 
 const Footer = () => {
   return (
@@ -10,8 +10,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img src={logo} alt="Box + Seguro" className="w-12 h-12 rounded-full" />
-              <span className="font-display text-xl text-primary-foreground">Box + Seguro</span>
+              <img src={logo} alt="Projecto Vidros" className="h-16 w-auto brightness-0 invert" />
             </div>
             <p className="text-primary-foreground/50 text-sm leading-relaxed">
               Desde 1991, pioneiros em segurança para vidros. Tecnologia antiestilhaço e vidros laminados de alta resistência.
@@ -48,9 +47,9 @@ const Footer = () => {
                 <Phone className="w-4 h-4 text-copper" />
                 (00) 0000-0000
               </a>
-              <a href="mailto:contato@boxseguro.com.br" className="flex items-center gap-3 text-primary-foreground/50 hover:text-copper-light text-sm transition-colors">
+              <a href="mailto:contato@projectovidros.com.br" className="flex items-center gap-3 text-primary-foreground/50 hover:text-copper-light text-sm transition-colors">
                 <Mail className="w-4 h-4 text-copper" />
-                contato@boxseguro.com.br
+                contato@projectovidros.com.br
               </a>
               <div className="flex items-start gap-3 text-primary-foreground/50 text-sm">
                 <MapPin className="w-4 h-4 text-copper mt-0.5" />
@@ -62,7 +61,7 @@ const Footer = () => {
 
         <div className="border-t border-copper/10 mt-12 pt-8 text-center">
           <p className="text-primary-foreground/30 text-xs">
-            © {new Date().getFullYear()} Box + Seguro. Todos os direitos reservados.
+            © {new Date().getFullYear()} Projecto Vidros. Todos os direitos reservados.
           </p>
         </div>
       </div>

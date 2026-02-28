@@ -16,9 +16,9 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
-      <div className="container mx-auto px-4 flex items-center justify-between h-28">
-        <Link to="/" className="flex items-center h-full py-2">
-          <img src={logo} alt="Projecto Vidros" className="h-full max-h-24 w-auto" />
+      <div className="container mx-auto px-4 flex items-center justify-between h-36">
+        <Link to="/" className="flex items-center h-full py-3">
+          <img src={logo} alt="Projecto Vidros" className="h-full w-auto" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-6">

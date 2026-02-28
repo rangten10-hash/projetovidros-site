@@ -26,7 +26,7 @@ const ProductPageLayout = ({ title, subtitle, products }: ProductPageLayoutProps
       <Header />
 
       {/* Hero Banner */}
-      <section className="pt-20 bg-petrol">
+      <section className="pt-28 bg-petrol">
         <div className="container mx-auto px-4 py-16">
           <Link to="/" className="inline-flex items-center gap-2 text-copper hover:text-copper-light text-sm mb-6 transition-colors">
             <ArrowLeft className="w-4 h-4" />
