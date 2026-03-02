@@ -7,14 +7,16 @@ import WhatsAppButton from "./WhatsAppButton";
 interface GalleryPageLayoutProps {
   title: string;
   subtitle: string;
-  image: string;
+  image?: string;
+  images?: string[];
 }
 
-const GalleryPageLayout = ({ title, subtitle, image }: GalleryPageLayoutProps) => {
-  // Create 8 gallery items using the same image (in production these would be unique)
-  const galleryItems = Array.from({ length: 8 }, (_, i) => ({
+const GalleryPageLayout = ({ title, subtitle, image, images }: GalleryPageLayoutProps) => {
+  const imageList = images || (image ? Array(8).fill(image) : []);
+
+  const galleryItems = imageList.map((img, i) => ({
     id: i + 1,
-    image: image,
+    image: img,
     label: `${title} ${i + 1}`,
   }));
 
