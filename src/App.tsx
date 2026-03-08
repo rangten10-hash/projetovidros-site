@@ -11,7 +11,7 @@ import EspelhosLed from "./pages/EspelhosLed";
 import Projetos from "./pages/Projetos";
 import Simulador from "./pages/Simulador";
 import NotFound from "./pages/NotFound";
-
+import CookieConsent from "./components/CookieConsent";
 const queryClient = new QueryClient();
 
 const App = () => (
