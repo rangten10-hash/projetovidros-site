@@ -47,13 +47,9 @@ const Footer = () => {
                 <Phone className="w-4 h-4 text-copper" />
                 (11) 96765-2289
               </a>
-              <a href="mailto:contato@projectovidros.com.br" className="flex items-center gap-3 text-primary-foreground/50 hover:text-copper-light text-sm transition-colors">
-                <Mail className="w-4 h-4 text-copper" />
-                contato@projectovidros.com.br
-              </a>
               <div className="flex items-start gap-3 text-primary-foreground/50 text-sm">
                 <MapPin className="w-4 h-4 text-copper mt-0.5" />
-                Sua Cidade - Estado
+                São Paulo - SP
               </div>
             </div>
           </div>
