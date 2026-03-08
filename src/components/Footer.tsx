@@ -9,8 +9,8 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <img src={logo} alt="Projecto Vidros" className="h-16 w-auto brightness-0 invert" />
+            <div className="mb-4">
+              <h3 className="text-primary-foreground font-display text-xl font-semibold">Projecto Vidros</h3>
             </div>
             <p className="text-primary-foreground/50 text-sm leading-relaxed">
               Desde 1991, pioneiros em segurança para vidros. Tecnologia antiestilhaço e vidros laminados de alta resistência.
