@@ -30,6 +30,7 @@ const App = () => (
           <Route path="/simulador" element={<Simulador />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <CookieConsent />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
