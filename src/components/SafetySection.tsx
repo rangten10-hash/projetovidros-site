@@ -1,5 +1,5 @@
 import { Shield, Award, Heart } from "lucide-react";
-import logo from "@/assets/logo-box-seguro.png";
+import logo from "@/assets/logo-projectovidros.png";
 
 const features = [
   {
