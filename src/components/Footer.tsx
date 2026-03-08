@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin } from "lucide-react";
-import logo from "@/assets/logo-projectovidros.png";
+import { Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -10,7 +9,7 @@ const Footer = () => {
           {/* Brand */}
           <div>
             <div className="mb-4">
-              <h3 className="text-primary-foreground font-display text-xl font-semibold">Projecto Vidros</h3>
+              <h3 className="text-primary-foreground font-display text-xl font-semibold">Projeto Vidros</h3>
             </div>
             <p className="text-primary-foreground/50 text-sm leading-relaxed">
               Desde 1991, pioneiros em segurança para vidros. Tecnologia antiestilhaço e vidros laminados de alta resistência.
@@ -47,13 +46,9 @@ const Footer = () => {
                 <Phone className="w-4 h-4 text-copper" />
                 (11) 96765-2289
               </a>
-              <a href="mailto:contato@projectovidros.com.br" className="flex items-center gap-3 text-primary-foreground/50 hover:text-copper-light text-sm transition-colors">
-                <Mail className="w-4 h-4 text-copper" />
-                contato@projectovidros.com.br
-              </a>
               <div className="flex items-start gap-3 text-primary-foreground/50 text-sm">
                 <MapPin className="w-4 h-4 text-copper mt-0.5" />
-                Sua Cidade - Estado
+                São Paulo - SP
               </div>
             </div>
           </div>
@@ -61,7 +56,7 @@ const Footer = () => {
 
         <div className="border-t border-copper/10 mt-12 pt-8 text-center">
           <p className="text-primary-foreground/30 text-xs">
-            © {new Date().getFullYear()} Projecto Vidros. Todos os direitos reservados.
+            © {new Date().getFullYear()} Projeto Vidros. Todos os direitos reservados.
           </p>
         </div>
       </div>
