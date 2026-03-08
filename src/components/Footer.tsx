@@ -57,7 +57,7 @@ const Footer = () => {
 
         <div className="border-t border-copper/10 mt-12 pt-8 text-center">
           <p className="text-primary-foreground/30 text-xs">
-            © {new Date().getFullYear()} Projecto Vidros. Todos os direitos reservados.
+            © {new Date().getFullYear()} Projeto Vidros. Todos os direitos reservados.
           </p>
         </div>
       </div>

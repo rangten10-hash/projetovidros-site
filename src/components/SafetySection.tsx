@@ -52,7 +52,7 @@ const SafetySection = () => {
             <div className="flex justify-center mb-12">
               <img
                 src={logo}
-                alt="Selo Box + Seguro - Desde 1991"
+                alt="Projeto Vidros - Desde 1991"
                 className="w-72 h-72 object-contain drop-shadow-2xl"
               />
             </div>
