@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin } from "lucide-react";
-import logo from "@/assets/logo-projectovidros.png";
+import { Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
