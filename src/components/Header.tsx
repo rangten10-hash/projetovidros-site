@@ -68,7 +68,7 @@ const Header = () => {
               </Link>
             ))}
             <a
-              href="https://wa.me/5500000000000"
+              href="https://wa.me/5511967652289"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-5 py-2.5 rounded-md text-sm font-semibold w-fit mt-2"
