@@ -72,7 +72,7 @@ const Footer = () => {
           <p className="text-primary-foreground/30 text-xs">
             © {new Date().getFullYear()} Projeto Vidros. Todos os direitos reservados.
           </p>
-          <p className="text-primary-foreground/30 text-xs">
+          <p className="text-primary-foreground/30 text-xs pr-16">
             Desenvolvido por <a href="https://agenciarangten.com.br" target="_blank" rel="noopener noreferrer" className="text-copper/60 hover:text-copper transition-colors">Agência Rangten</a>
           </p>
         </div>
