@@ -53,7 +53,7 @@ const SafetySection = () => {
               <img
                 src={logo}
                 alt="Selo Box + Seguro - Desde 1991"
-                className="w-48 h-48 object-contain drop-shadow-2xl"
+                className="w-72 h-72 object-contain drop-shadow-2xl"
               />
             </div>
 
