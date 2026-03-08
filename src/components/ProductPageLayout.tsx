@@ -91,7 +91,7 @@ const ProductPageLayout = ({ title, subtitle, products }: ProductPageLayoutProps
               <img
                 src={selectedProduct.image}
                 alt={selectedProduct.name}
-                className="w-full h-64 sm:h-80 object-cover rounded-t-2xl"
+                className="w-full max-h-[50vh] object-contain bg-muted/30 rounded-t-2xl"
               />
               <button
                 onClick={() => setSelectedProduct(null)}
