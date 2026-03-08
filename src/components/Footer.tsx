@@ -54,9 +54,26 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="border-t border-copper/10 mt-12 pt-8 text-center">
+        {/* Social Media */}
+        <div className="border-t border-copper/10 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div className="flex items-center gap-4">
+            <a href="#" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/50 hover:text-copper transition-colors" aria-label="Instagram">
+              <Instagram className="w-5 h-5" />
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/50 hover:text-copper transition-colors" aria-label="YouTube">
+              <Youtube className="w-5 h-5" />
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="text-primary-foreground/50 hover:text-copper transition-colors" aria-label="TikTok">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5" />
+              </svg>
+            </a>
+          </div>
           <p className="text-primary-foreground/30 text-xs">
             © {new Date().getFullYear()} Projeto Vidros. Todos os direitos reservados.
+          </p>
+          <p className="text-primary-foreground/30 text-xs">
+            Desenvolvido por <a href="https://agenciarangten.com.br" target="_blank" rel="noopener noreferrer" className="text-copper/60 hover:text-copper transition-colors">Agência Rangten</a>
           </p>
         </div>
       </div>
