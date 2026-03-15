@@ -1,14 +1,19 @@
+import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import { Shield, AlertTriangle, CheckCircle, Sparkles } from "lucide-react";
+import { Shield, AlertTriangle, CheckCircle, Sparkles, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import boxSeguro1 from "@/assets/box-seguro-1.jpg";
 import boxSeguro2 from "@/assets/box-seguro-2.jpg";
 import boxSeguro3 from "@/assets/box-seguro-3.jpg";
 import boxSeguro4 from "@/assets/box-seguro-4.jpg";
 
+const galleryImages = [boxSeguro1, boxSeguro2, boxSeguro3, boxSeguro4];
+
 const BoxSeguro = () => {
+  const [lightboxImg, setLightboxImg] = useState<string | null>(null);
+
   return (
     <div className="min-h-screen">
       <Header />
@@ -122,12 +127,37 @@ const BoxSeguro = () => {
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-            {[boxSeguro1, boxSeguro2, boxSeguro3, boxSeguro4].map((img, i) => (
-              <div key={i} className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3]">
+            {galleryImages.map((img, i) => (
+              <div
+                key={i}
+                className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] cursor-pointer"
+                onClick={() => setLightboxImg(img)}
+              >
                 <img src={img} alt={`Box +Seguro exemplo ${i + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
               </div>
             ))}
           </div>
+
+          {/* Lightbox */}
+          {lightboxImg && (
+            <div
+              className="fixed inset-0 z-[100] bg-black/90 flex items-center justify-center p-4"
+              onClick={() => setLightboxImg(null)}
+            >
+              <button
+                className="absolute top-4 right-4 text-white/80 hover:text-white z-10"
+                onClick={() => setLightboxImg(null)}
+              >
+                <X className="w-8 h-8" />
+              </button>
+              <img
+                src={lightboxImg}
+                alt="Box +Seguro"
+                className="max-w-full max-h-[90vh] object-contain rounded-lg"
+                onClick={(e) => e.stopPropagation()}
+              />
+            </div>
+          )}
         </div>
       </section>
 
