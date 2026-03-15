@@ -61,7 +61,7 @@ const ProductPageLayout = ({ title, subtitle, products }: ProductPageLayoutProps
                     <p className="text-muted-foreground text-sm mb-4">{product.description}</p>
                   )}
                   <a
-                    href="https://wa.me/5500000000000"
+                    href="https://wa.me/5511967652289?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança."
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
