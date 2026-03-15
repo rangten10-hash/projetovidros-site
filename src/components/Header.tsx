@@ -2,10 +2,14 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import logo from "@/assets/logo-projectovidros.png";
+import logoBoxSeguro from "@/assets/logo-box-seguro.png";
 
-const navItems = [
+const navItemsLeft = [
   { label: "Box de Banheiro", path: "/box-de-banheiro" },
   { label: "Portas de Vidro", path: "/portas-de-vidro" },
+];
+
+const navItemsRight = [
   { label: "Espelhos", path: "/espelhos" },
   { label: "Espelhos LED", path: "/espelhos-led" },
   { label: "Projetos", path: "/projetos" },
@@ -22,7 +26,29 @@ const Header = () => {
         </Link>
 
         <nav className="hidden lg:flex items-center gap-6">
-          {navItems.map((item) => (
+          {navItemsLeft.map((item) => (
+            <Link
+              key={item.path}
+              to={item.path}
+              className="text-foreground/70 hover:text-accent transition-colors text-sm font-medium tracking-wide uppercase"
+            >
+              {item.label}
+            </Link>
+          ))}
+
+          {/* Box +Seguro - Destaque central */}
+          <Link
+            to="/box-seguro"
+            className="mx-2 hover:opacity-80 transition-opacity"
+          >
+            <img
+              src={logoBoxSeguro}
+              alt="Box +Seguro"
+              className="h-14 w-auto"
+            />
+          </Link>
+
+          {navItemsRight.map((item) => (
             <Link
               key={item.path}
               to={item.path}
@@ -57,7 +83,24 @@ const Header = () => {
       {isOpen && (
         <div className="lg:hidden bg-white border-t border-border">
           <nav className="container mx-auto px-4 py-4 flex flex-col gap-3">
-            {navItems.map((item) => (
+            {navItemsLeft.map((item) => (
+              <Link
+                key={item.path}
+                to={item.path}
+                onClick={() => setIsOpen(false)}
+                className="text-foreground/70 hover:text-accent transition-colors py-2 text-sm font-medium tracking-wide uppercase"
+              >
+                {item.label}
+              </Link>
+            ))}
+            <Link
+              to="/box-seguro"
+              onClick={() => setIsOpen(false)}
+              className="py-2"
+            >
+              <img src={logoBoxSeguro} alt="Box +Seguro" className="h-10 w-auto" />
+            </Link>
+            {navItemsRight.map((item) => (
               <Link
                 key={item.path}
                 to={item.path}
