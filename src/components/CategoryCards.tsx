@@ -6,11 +6,11 @@ import categoryEspelhosLed from "@/assets/category-espelhos-led.jpg";
 import categoryProjetos from "@/assets/category-projetos.jpg";
 
 const categories = [
-  { title: "Box de Banheiro", image: categoryBox, path: "/box-de-banheiro" },
-  { title: "Portas de Vidro", image: categoryPortas, path: "/portas-de-vidro" },
-  { title: "Espelhos", image: categoryEspelhos, path: "/espelhos" },
-  { title: "Espelhos LED", image: categoryEspelhosLed, path: "/espelhos-led" },
-  { title: "Projetos", image: categoryProjetos, path: "/projetos" },
+  { title: "Box de Banheiro", image: categoryBox, path: "/box-de-banheiro", alt: "Instalação de box de vidro seguro em São Paulo" },
+  { title: "Portas de Vidro", image: categoryPortas, path: "/portas-de-vidro", alt: "Instalação de portas de vidro seguro em São Paulo" },
+  { title: "Espelhos", image: categoryEspelhos, path: "/espelhos", alt: "Instalação de espelhos decorativos em São Paulo" },
+  { title: "Espelhos LED", image: categoryEspelhosLed, path: "/espelhos-led", alt: "Instalação de espelhos LED em São Paulo" },
+  { title: "Projetos", image: categoryProjetos, path: "/projetos", alt: "Projetos de vidro sob medida em São Paulo e Alphaville" },
 ];
 
 const CategoryCards = () => {
