@@ -127,12 +127,37 @@ const BoxSeguro = () => {
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
-            {[boxSeguro1, boxSeguro2, boxSeguro3, boxSeguro4].map((img, i) => (
-              <div key={i} className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3]">
+            {galleryImages.map((img, i) => (
+              <div
+                key={i}
+                className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] cursor-pointer"
+                onClick={() => setLightboxImg(img)}
+              >
                 <img src={img} alt={`Box +Seguro exemplo ${i + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
               </div>
             ))}
           </div>
+
+          {/* Lightbox */}
+          {lightboxImg && (
+            <div
+              className="fixed inset-0 z-[100] bg-black/90 flex items-center justify-center p-4"
+              onClick={() => setLightboxImg(null)}
+            >
+              <button
+                className="absolute top-4 right-4 text-white/80 hover:text-white z-10"
+                onClick={() => setLightboxImg(null)}
+              >
+                <X className="w-8 h-8" />
+              </button>
+              <img
+                src={lightboxImg}
+                alt="Box +Seguro"
+                className="max-w-full max-h-[90vh] object-contain rounded-lg"
+                onClick={(e) => e.stopPropagation()}
+              />
+            </div>
+          )}
         </div>
       </section>
 
