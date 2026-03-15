@@ -44,7 +44,7 @@ const Header = () => {
             <img
               src={logoBoxSeguro}
               alt="Box +Seguro"
-              className="h-14 w-auto"
+              className="h-20 w-auto"
             />
           </Link>
 
