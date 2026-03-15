@@ -1,7 +1,8 @@
+import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
-import { Shield, AlertTriangle, CheckCircle, Sparkles } from "lucide-react";
+import { Shield, AlertTriangle, CheckCircle, Sparkles, X } from "lucide-react";
 import { Link } from "react-router-dom";
 import boxSeguro1 from "@/assets/box-seguro-1.jpg";
 import boxSeguro2 from "@/assets/box-seguro-2.jpg";
