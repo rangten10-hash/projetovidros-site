@@ -9,7 +9,11 @@ import boxSeguro2 from "@/assets/box-seguro-2.jpg";
 import boxSeguro3 from "@/assets/box-seguro-3.jpg";
 import boxSeguro4 from "@/assets/box-seguro-4.jpg";
 
+const galleryImages = [boxSeguro1, boxSeguro2, boxSeguro3, boxSeguro4];
+
 const BoxSeguro = () => {
+  const [lightboxImg, setLightboxImg] = useState<string | null>(null);
+
   return (
     <div className="min-h-screen">
       <Header />
