@@ -61,7 +61,7 @@ const ProductPageLayout = ({ title, subtitle, products }: ProductPageLayoutProps
                     <p className="text-muted-foreground text-sm mb-4">{product.description}</p>
                   )}
                   <a
-                    href="https://wa.me/5511967652289?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança."
+                    href="https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança."
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
@@ -110,7 +110,7 @@ const ProductPageLayout = ({ title, subtitle, products }: ProductPageLayoutProps
                 </div>
               )}
               <a
-                href="https://wa.me/5511967652289?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança."
+                href="https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-6 py-3 rounded-md text-sm font-semibold hover:bg-copper-light transition-colors"
