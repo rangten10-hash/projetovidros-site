@@ -42,9 +42,9 @@ const Footer = () => {
           <div>
             <h4 className="text-copper font-semibold text-sm tracking-widest uppercase mb-4">Contato</h4>
             <div className="space-y-3">
-              <a href="https://wa.me/5511967652289?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança." target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-primary-foreground/50 hover:text-copper-light text-sm transition-colors">
+              <a href="https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança." target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-primary-foreground/50 hover:text-copper-light text-sm transition-colors">
                 <Phone className="w-4 h-4 text-copper" />
-                (11) 96765-2289
+                (11) 91548-5945
               </a>
               <div className="flex items-start gap-3 text-primary-foreground/50 text-sm">
                 <MapPin className="w-4 h-4 text-copper mt-0.5" />
