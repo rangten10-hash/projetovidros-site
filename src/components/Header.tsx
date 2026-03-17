@@ -64,10 +64,13 @@ const Header = () => {
             href="https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança."
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden sm:inline-flex items-center gap-2 bg-accent text-accent-foreground px-5 py-2.5 rounded-md text-sm font-semibold hover:bg-copper-light transition-colors"
+            className="hidden sm:inline-flex flex-col items-start rounded-md bg-accent px-5 py-3 text-accent-foreground shadow-sm transition-colors hover:bg-copper-light"
           >
-            <Phone className="w-4 h-4" />
-            Orçamento
+            <span className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em]">
+              <Phone className="h-4 w-4" />
+              WhatsApp e orçamento
+            </span>
+            <span className="text-base font-bold leading-tight">(11) 91548-5945</span>
           </a>
 
           <button
