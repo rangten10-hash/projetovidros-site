@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 import { Phone, MapPin, Instagram, Youtube } from "lucide-react";
+import { gtagReportConversion } from "@/lib/gtag";
+
+const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 const Footer = () => {
   return (
     <footer className="bg-petrol border-t border-copper/10">
       <div className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-3 gap-12">
-          {/* Brand */}
           <div>
             <div className="mb-4">
               <h3 className="text-primary-foreground font-display text-xl font-semibold">Projeto Vidros</h3>
@@ -16,7 +18,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Links */}
           <div>
             <h4 className="text-copper font-semibold text-sm tracking-widest uppercase mb-4">Produtos</h4>
             <nav className="flex flex-col gap-2">
@@ -27,25 +28,21 @@ const Footer = () => {
                 { label: "Espelhos LED", path: "/espelhos-led" },
                 { label: "Projetos", path: "/projetos" },
               ].map((item) => (
-                <Link
-                  key={item.path}
-                  to={item.path}
-                  className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
-                >
+                <Link key={item.path} to={item.path} className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm">
                   {item.label}
                 </Link>
               ))}
             </nav>
           </div>
 
-          {/* Contact */}
           <div>
             <h4 className="text-copper font-semibold text-sm tracking-widest uppercase mb-4">Contato</h4>
             <div className="space-y-4">
               <a
-                href="https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança."
+                href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={(e) => { e.preventDefault(); gtagReportConversion(WHATSAPP_URL); }}
                 className="group inline-flex flex-col rounded-lg border border-copper/20 bg-primary/10 px-4 py-3 transition-colors hover:border-copper/40 hover:bg-primary/20"
               >
                 <span className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-copper">
@@ -64,7 +61,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Social Media */}
         <div className="border-t border-copper/10 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-4">
             <a href="#" target="_blank" rel="noopener noreferrer" className="flex h-11 w-11 items-center justify-center rounded-full border border-copper/20 text-primary-foreground/60 transition-colors hover:border-copper hover:text-copper" aria-label="Instagram">

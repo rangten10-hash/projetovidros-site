@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import logo from "@/assets/logo-projectovidros.png";
 import logoBoxSeguro from "@/assets/logo-box-seguro.png";
+import { gtagReportConversion } from "@/lib/gtag";
+
+const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 const navItemsLeft = [
   { label: "Box de Banheiro", path: "/box-de-banheiro" },
@@ -14,6 +17,11 @@ const navItemsRight = [
   { label: "Espelhos LED", path: "/espelhos-led" },
   { label: "Projetos", path: "/projetos" },
 ];
+
+const handleWhatsAppClick = (e: React.MouseEvent) => {
+  e.preventDefault();
+  gtagReportConversion(WHATSAPP_URL);
+};
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,33 +35,15 @@ const Header = () => {
 
         <nav className="hidden lg:flex items-center gap-6">
           {navItemsLeft.map((item) => (
-            <Link
-              key={item.path}
-              to={item.path}
-              className="text-foreground/70 hover:text-accent transition-colors text-sm font-medium tracking-wide uppercase"
-            >
+            <Link key={item.path} to={item.path} className="text-foreground/70 hover:text-accent transition-colors text-sm font-medium tracking-wide uppercase">
               {item.label}
             </Link>
           ))}
-
-          {/* Box +Seguro - Destaque central */}
-          <Link
-            to="/box-seguro"
-            className="mx-2 hover:opacity-80 transition-opacity"
-          >
-            <img
-              src={logoBoxSeguro}
-              alt="Box +Seguro"
-              className="h-28 w-auto"
-            />
+          <Link to="/box-seguro" className="mx-2 hover:opacity-80 transition-opacity">
+            <img src={logoBoxSeguro} alt="Box +Seguro" className="h-28 w-auto" />
           </Link>
-
           {navItemsRight.map((item) => (
-            <Link
-              key={item.path}
-              to={item.path}
-              className="text-foreground/70 hover:text-accent transition-colors text-sm font-medium tracking-wide uppercase"
-            >
+            <Link key={item.path} to={item.path} className="text-foreground/70 hover:text-accent transition-colors text-sm font-medium tracking-wide uppercase">
               {item.label}
             </Link>
           ))}
@@ -61,9 +51,10 @@ const Header = () => {
 
         <div className="flex items-center gap-3">
           <a
-            href="https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança."
+            href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
+            onClick={handleWhatsAppClick}
             className="hidden sm:inline-flex flex-col items-start rounded-md bg-accent px-5 py-3 text-accent-foreground shadow-sm transition-colors hover:bg-copper-light"
           >
             <span className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em]">
@@ -73,11 +64,7 @@ const Header = () => {
             <span className="text-base font-bold leading-tight">(11) 91548-5945</span>
           </a>
 
-          <button
-            onClick={() => setIsOpen(!isOpen)}
-            className="lg:hidden text-foreground p-2"
-            aria-label="Menu"
-          >
+          <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden text-foreground p-2" aria-label="Menu">
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
@@ -87,36 +74,23 @@ const Header = () => {
         <div className="lg:hidden bg-white border-t border-border">
           <nav className="container mx-auto px-4 py-4 flex flex-col gap-3">
             {navItemsLeft.map((item) => (
-              <Link
-                key={item.path}
-                to={item.path}
-                onClick={() => setIsOpen(false)}
-                className="text-foreground/70 hover:text-accent transition-colors py-2 text-sm font-medium tracking-wide uppercase"
-              >
+              <Link key={item.path} to={item.path} onClick={() => setIsOpen(false)} className="text-foreground/70 hover:text-accent transition-colors py-2 text-sm font-medium tracking-wide uppercase">
                 {item.label}
               </Link>
             ))}
-            <Link
-              to="/box-seguro"
-              onClick={() => setIsOpen(false)}
-              className="py-2"
-            >
+            <Link to="/box-seguro" onClick={() => setIsOpen(false)} className="py-2">
               <img src={logoBoxSeguro} alt="Box +Seguro" className="h-10 w-auto" />
             </Link>
             {navItemsRight.map((item) => (
-              <Link
-                key={item.path}
-                to={item.path}
-                onClick={() => setIsOpen(false)}
-                className="text-foreground/70 hover:text-accent transition-colors py-2 text-sm font-medium tracking-wide uppercase"
-              >
+              <Link key={item.path} to={item.path} onClick={() => setIsOpen(false)} className="text-foreground/70 hover:text-accent transition-colors py-2 text-sm font-medium tracking-wide uppercase">
                 {item.label}
               </Link>
             ))}
             <a
-              href="https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança."
+              href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={handleWhatsAppClick}
               className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-5 py-2.5 rounded-md text-sm font-semibold w-fit mt-2"
             >
               <Phone className="w-4 h-4" />
