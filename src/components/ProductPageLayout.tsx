@@ -113,9 +113,10 @@ const ProductPageLayout = ({ title, subtitle, products }: ProductPageLayoutProps
                 </div>
               )}
               <a
-                href="https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança."
+                href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
+                onClick={(e) => { e.preventDefault(); gtagReportConversion(WHATSAPP_URL); }}
                 className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-6 py-3 rounded-md text-sm font-semibold hover:bg-copper-light transition-colors"
               >
                 <Phone className="w-4 h-4" />
