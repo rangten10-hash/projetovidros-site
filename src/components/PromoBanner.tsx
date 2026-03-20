@@ -6,31 +6,13 @@ const WHATSAPP_URL =
 
 const PromoBanner = () => {
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative h-screen flex items-end justify-center overflow-hidden">
       <img
         src={bannerBg}
-        alt="Box de vidro incolor 8mm temperado instalado em banheiro"
-        className="absolute inset-0 w-full h-full object-cover"
+        alt="Oferta Box de vidro incolor 8mm temperado - 12x de R$89 instalado"
+        className="absolute inset-0 w-full h-full object-contain bg-black"
       />
-      <div className="absolute inset-0 bg-black/30" />
-
-      <div className="relative z-10 text-center max-w-3xl mx-auto px-4">
-        <p className="text-accent text-sm md:text-base font-semibold uppercase tracking-[0.2em] mb-4">
-          🚿 Oferta Especial
-        </p>
-        <h2 className="font-display text-3xl md:text-5xl lg:text-6xl text-primary-foreground mb-4 leading-tight">
-          Box de Vidro Incolor
-        </h2>
-        <p className="text-primary-foreground/80 text-lg md:text-2xl font-light mb-2">
-          Apenas{" "}
-          <span className="text-accent font-bold text-2xl md:text-4xl">
-            12x de R$ 89,00
-          </span>{" "}
-          já instalado!
-        </p>
-        <p className="text-primary-foreground/60 text-sm md:text-base mb-10">
-          Vidro temperado 8mm com alumínio fosco (medidas até 0,80m × 1,85m)
-        </p>
+      <div className="relative z-10 mb-24 md:mb-32">
         <a
           href={WHATSAPP_URL}
           target="_blank"
