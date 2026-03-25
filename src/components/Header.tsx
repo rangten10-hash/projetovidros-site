@@ -91,7 +91,7 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
               onClick={handleWhatsAppClick}
-              className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-5 py-2.5 rounded-md text-sm font-semibold w-fit mt-2"
+              className="inline-flex items-center gap-2 bg-[#25D366] text-white px-5 py-2.5 rounded-md text-sm font-semibold w-fit mt-2 hover:bg-[#1ebe5a] transition-colors"
             >
               <Phone className="w-4 h-4" />
               Orçamento
