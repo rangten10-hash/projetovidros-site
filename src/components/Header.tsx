@@ -35,7 +35,7 @@ const Header = () => {
 
         <nav className="hidden lg:flex items-center gap-6">
           {navItemsLeft.map((item) => (
-            <Link key={item.path} to={item.path} className="text-foreground/70 hover:text-accent transition-colors text-sm font-medium tracking-wide uppercase">
+            <Link key={item.path} to={item.path} className="text-foreground hover:text-accent transition-colors text-sm font-medium tracking-wide uppercase">
               {item.label}
             </Link>
           ))}
@@ -43,7 +43,7 @@ const Header = () => {
             <img src={logoBoxSeguro} alt="Box +Seguro" className="h-28 w-auto" />
           </Link>
           {navItemsRight.map((item) => (
-            <Link key={item.path} to={item.path} className="text-foreground/70 hover:text-accent transition-colors text-sm font-medium tracking-wide uppercase">
+            <Link key={item.path} to={item.path} className="text-foreground hover:text-accent transition-colors text-sm font-medium tracking-wide uppercase">
               {item.label}
             </Link>
           ))}
@@ -74,7 +74,7 @@ const Header = () => {
         <div className="lg:hidden bg-white border-t border-border">
           <nav className="container mx-auto px-4 py-4 flex flex-col gap-3">
             {navItemsLeft.map((item) => (
-              <Link key={item.path} to={item.path} onClick={() => setIsOpen(false)} className="text-foreground/70 hover:text-accent transition-colors py-2 text-sm font-medium tracking-wide uppercase">
+              <Link key={item.path} to={item.path} onClick={() => setIsOpen(false)} className="text-foreground hover:text-accent transition-colors py-2 text-sm font-medium tracking-wide uppercase">
                 {item.label}
               </Link>
             ))}
@@ -82,7 +82,7 @@ const Header = () => {
               <img src={logoBoxSeguro} alt="Box +Seguro" className="h-10 w-auto" />
             </Link>
             {navItemsRight.map((item) => (
-              <Link key={item.path} to={item.path} onClick={() => setIsOpen(false)} className="text-foreground/70 hover:text-accent transition-colors py-2 text-sm font-medium tracking-wide uppercase">
+              <Link key={item.path} to={item.path} onClick={() => setIsOpen(false)} className="text-foreground hover:text-accent transition-colors py-2 text-sm font-medium tracking-wide uppercase">
                 {item.label}
               </Link>
             ))}

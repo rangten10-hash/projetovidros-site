@@ -21,7 +21,7 @@ const PromoBanner = () => {
             e.preventDefault();
             gtagReportConversion(WHATSAPP_URL);
           }}
-          className="inline-block bg-accent text-accent-foreground px-10 py-4 rounded-md text-sm font-semibold tracking-wide uppercase hover:bg-copper-light transition-colors active:scale-[0.97]"
+          className="inline-block bg-[#25D366] text-white px-10 py-4 rounded-md text-sm font-semibold tracking-wide uppercase hover:bg-[#1ebe5a] transition-colors active:scale-[0.97] shadow-lg"
         >
           Garantir Oferta via WhatsApp
         </a>
