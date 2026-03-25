@@ -68,7 +68,7 @@ const ProductPageLayout = ({ title, subtitle, products }: ProductPageLayoutProps
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => { e.stopPropagation(); e.preventDefault(); gtagReportConversion(WHATSAPP_URL); }}
-                    className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-5 py-2.5 rounded-md text-sm font-semibold hover:bg-copper-light transition-colors"
+                    className="inline-flex items-center gap-2 bg-[#25D366] text-white px-5 py-2.5 rounded-md text-sm font-semibold hover:bg-[#1ebe5a] transition-colors"
                   >
                     <Phone className="w-4 h-4" />
                     Pedir Orçamento
@@ -117,7 +117,7 @@ const ProductPageLayout = ({ title, subtitle, products }: ProductPageLayoutProps
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={(e) => { e.preventDefault(); gtagReportConversion(WHATSAPP_URL); }}
-                className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-6 py-3 rounded-md text-sm font-semibold hover:bg-copper-light transition-colors"
+                className="inline-flex items-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-md text-sm font-semibold hover:bg-[#1ebe5a] transition-colors"
               >
                 <Phone className="w-4 h-4" />
                 Pedir Orçamento
