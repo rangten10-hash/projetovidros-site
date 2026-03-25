@@ -25,7 +25,7 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
             onClick={(e) => { e.preventDefault(); gtagReportConversion(WHATSAPP_URL); }}
-            className="bg-accent text-accent-foreground px-8 py-4 rounded-md text-sm font-semibold tracking-wide uppercase hover:bg-copper-light transition-colors"
+            className="bg-[#25D366] text-white px-8 py-4 rounded-md text-sm font-semibold tracking-wide uppercase hover:bg-[#1ebe5a] transition-colors shadow-lg"
           >
             Solicitar Orçamento
           </a>
