@@ -55,7 +55,7 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleWhatsAppClick}
-            className="hidden sm:inline-flex flex-col items-start rounded-md bg-accent px-5 py-3 text-accent-foreground shadow-sm transition-colors hover:bg-copper-light"
+            className="hidden sm:inline-flex flex-col items-start rounded-md bg-[#25D366] px-5 py-3 text-white shadow-sm transition-colors hover:bg-[#1ebe5a]"
           >
             <span className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em]">
               <Phone className="h-4 w-4" />
