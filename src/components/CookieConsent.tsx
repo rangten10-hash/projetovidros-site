@@ -27,7 +27,7 @@ const CookieConsent = () => {
         <div className="flex items-center gap-2 shrink-0">
           <button
             onClick={handleAccept}
-            className="bg-accent text-accent-foreground px-5 py-2 rounded-md text-sm font-semibold hover:bg-copper-light transition-colors"
+            className="bg-[#25D366] text-white px-5 py-2 rounded-md text-sm font-semibold hover:bg-[#1ebe5a] transition-colors"
           >
             OK, entendi
           </button>

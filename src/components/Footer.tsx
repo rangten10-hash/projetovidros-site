@@ -43,13 +43,13 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 onClick={(e) => { e.preventDefault(); gtagReportConversion(WHATSAPP_URL); }}
-                className="group inline-flex flex-col rounded-lg border border-copper/20 bg-primary/10 px-4 py-3 transition-colors hover:border-copper/40 hover:bg-primary/20"
+                className="group inline-flex flex-col rounded-lg border border-[#25D366]/30 bg-[#25D366]/10 px-4 py-3 transition-colors hover:border-[#25D366]/50 hover:bg-[#25D366]/20"
               >
-                <span className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-copper">
+                <span className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-[#25D366]">
                   <Phone className="h-4 w-4" />
                   WhatsApp e orçamento
                 </span>
-                <span className="mt-1 text-2xl font-semibold text-primary-foreground transition-colors group-hover:text-copper-light">
+                <span className="mt-1 text-2xl font-semibold text-primary-foreground transition-colors group-hover:text-[#25D366]">
                   (11) 91548-5945
                 </span>
               </a>
