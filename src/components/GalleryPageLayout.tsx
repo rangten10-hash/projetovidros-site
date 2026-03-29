@@ -11,9 +11,10 @@ interface GalleryPageLayoutProps {
   image?: string;
   images?: string[];
   comingSoon?: boolean;
+  children?: React.ReactNode;
 }
 
-const GalleryPageLayout = ({ title, subtitle, image, images, comingSoon }: GalleryPageLayoutProps) => {
+const GalleryPageLayout = ({ title, subtitle, image, images, comingSoon, children }: GalleryPageLayoutProps) => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const imageList = images || (image ? Array(8).fill(image) : []);
 
@@ -37,6 +38,14 @@ const GalleryPageLayout = ({ title, subtitle, image, images, comingSoon }: Galle
           <p className="text-primary-foreground/60 max-w-2xl text-lg">{subtitle}</p>
         </div>
       </section>
+
+      {children && (
+        <section className="py-16 bg-muted/20">
+          <div className="container mx-auto px-4 max-w-4xl">
+            {children}
+          </div>
+        </section>
+      )}
 
       <section className="py-16">
         <div className="container mx-auto px-4">
