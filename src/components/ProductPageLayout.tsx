@@ -19,9 +19,10 @@ interface ProductPageLayoutProps {
   title: string;
   subtitle: string;
   products: Product[];
+  children?: React.ReactNode;
 }
 
-const ProductPageLayout = ({ title, subtitle, products }: ProductPageLayoutProps) => {
+const ProductPageLayout = ({ title, subtitle, products, children }: ProductPageLayoutProps) => {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
   return (
@@ -39,6 +40,14 @@ const ProductPageLayout = ({ title, subtitle, products }: ProductPageLayoutProps
           <p className="text-primary-foreground/60 max-w-2xl text-lg">{subtitle}</p>
         </div>
       </section>
+
+      {children && (
+        <section className="py-16 bg-muted/20">
+          <div className="container mx-auto px-4 max-w-4xl">
+            {children}
+          </div>
+        </section>
+      )}
 
       {/* Products Grid */}
       <section className="py-16">

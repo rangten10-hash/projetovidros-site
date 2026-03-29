@@ -7,6 +7,9 @@ import boxNobre from "@/assets/box-nobre.jpg";
 import boxDuo from "@/assets/box-duo.jpg";
 import boxTransfer from "@/assets/box-transfer.jpg";
 import boxTradicional from "@/assets/box-tradicional.jpg";
+import { Phone } from "lucide-react";
+
+const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20box%20de%20banheiro.";
 
 const products = [
   {
@@ -97,10 +100,60 @@ O grande diferencial do Box Nobre é o sistema de amortecimento no fechamento e 
 
 const BoxBanheiro = () => (
   <ProductPageLayout
-    title="Box de Banheiro"
+    title="Box de Banheiro em São Paulo: Segurança e Elegância Sob Medida"
     subtitle="Conheça nossa linha completa de box para banheiro com tecnologia antiestilhaço e design sofisticado."
     products={products}
-  />
+  >
+    <div className="space-y-8 text-muted-foreground leading-relaxed">
+      <p>
+        O banheiro é um dos ambientes mais importantes da casa, e a escolha do box ideal faz toda a diferença no conforto e na valorização do seu imóvel. Na <strong className="text-foreground">Projeto Vidros</strong>, somos especialistas em transformar banheiros comuns em espaços modernos e seguros, oferecendo soluções completas desde o projeto até a instalação final.
+      </p>
+
+      <div>
+        <h2 className="font-display text-2xl text-foreground mb-4">Nosso Diferencial: Box de Vidro com Película Anti-estilhaço</h2>
+        <p className="mb-4">
+          A segurança da sua família é nossa prioridade número um. Por isso, somos referência em box de vidro com película anti-estilhaço. Diferente do vidro temperado comum, que pode se estilhaçar em pequenos pedaços em caso de quebra, nossa tecnologia garante que os fragmentos fiquem presos à película, evitando acidentes graves.
+        </p>
+        <ul className="space-y-2 list-none">
+          <li><strong className="text-foreground">Proteção Total:</strong> Ideal para casas com crianças, idosos e pets.</li>
+          <li><strong className="text-foreground">Durabilidade:</strong> Vidros de alta resistência (8mm e 10mm).</li>
+          <li><strong className="text-foreground">Acabamento Premium:</strong> Roldanas aparentes, perfis coloridos e design moderno.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 className="font-display text-2xl text-foreground mb-4">Modelos de Box para Todos os Espaços</h2>
+        <p className="mb-4">Atendemos todas as necessidades, desde banheiros compactos em apartamentos até suítes de alto padrão:</p>
+        <ul className="space-y-2 list-none">
+          <li><strong className="text-foreground">Box de Canto (L):</strong> Perfeito para otimizar espaços reduzidos.</li>
+          <li><strong className="text-foreground">Box Frontal (Correr):</strong> O clássico que nunca sai de moda, com trilhos deslizantes suaves.</li>
+          <li><strong className="text-foreground">Box de Abrir (Giro):</strong> Elegância clássica para vãos maiores.</li>
+          <li><strong className="text-foreground">Box Elegance e Flex:</strong> Linhas exclusivas para quem busca um toque de luxo e sofisticação.</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 className="font-display text-2xl text-foreground mb-4">Atendimento em Toda a Grande São Paulo</h2>
+        <p>
+          Com sede na Zona Norte, a Projeto Vidros leva qualidade e rapidez para todas as regiões: Zona Sul, Zona Leste, Zona Oeste e Centro. Também atendemos com exclusividade condomínios em Alphaville, Barueri e Santana de Parnaíba.
+        </p>
+      </div>
+
+      <div className="bg-background border border-border rounded-xl p-6 text-center">
+        <p className="text-foreground font-display text-xl mb-4">Não feche seu orçamento sem falar conosco!</p>
+        <p className="mb-6">Garantimos preço de fábrica, instalação limpa e garantia técnica em todos os nossos serviços.</p>
+        <a
+          href={WHATSAPP_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#1ebe5a] transition-colors shadow-lg"
+        >
+          <Phone className="w-4 h-4" />
+          Pedir Orçamento pelo WhatsApp
+        </a>
+      </div>
+    </div>
+  </ProductPageLayout>
 );
 
 export default BoxBanheiro;

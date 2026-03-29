@@ -30,11 +30,11 @@ const BoxSeguro = () => {
             Tecnologia Exclusiva
           </div>
           <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-primary-foreground mb-6 leading-tight">
-            Box <span className="text-copper">+Seguro</span>
+            Box Seguro com Película Anti-estilhaço: <span className="text-copper">Proteção para sua Família</span>
           </h1>
-          <p className="text-primary-foreground/70 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-            A Evolução da Proteção para seu Banheiro
-          </p>
+          <h2 className="text-primary-foreground/70 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
+            Por que a Película Anti-estilhaço é Indispensável?
+          </h2>
         </div>
       </section>
 
@@ -48,11 +48,13 @@ const BoxSeguro = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground leading-relaxed">
                 <p>
-                  O Box +Seguro <strong className="text-foreground">não é um box comum</strong>. É um sistema de proteção avançado onde aplicamos uma película de segurança de alta performance diretamente no vidro temperado.
+                  Segurança não é opcional quando se trata de vidro temperado no banheiro. O Box Seguro da <strong className="text-foreground">Projeto Vidros</strong> utiliza uma tecnologia de película de segurança que impede que o vidro caia em caso de quebra acidental.
                 </p>
-                <p>
-                  Diferente de aplicações comuns, a nossa película é instalada em nossa fábrica antes de chegar à sua casa. Isso é fundamental porque o material exige um <strong className="text-foreground">tempo de cura controlado</strong> e um preparo técnico rigoroso para que a aderência seja total e a eficiência contra impactos seja de 100%.
-                </p>
+                <ul className="space-y-2 list-none">
+                  <li><strong className="text-foreground">Prevenção de Acidentes:</strong> Em caso de impacto, os cacos ficam presos à película, protegendo crianças e idosos.</li>
+                  <li><strong className="text-foreground">Normas Técnicas:</strong> Instalação rigorosa seguindo as normas da ABNT.</li>
+                  <li><strong className="text-foreground">Tranquilidade Total:</strong> Um investimento pequeno que garante a paz de espírito de quem você ama.</li>
+                </ul>
               </div>
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl">
@@ -175,7 +177,7 @@ const BoxSeguro = () => {
             A melhor notícia é que você não precisa abrir mão do design pela segurança. O sistema Box +Seguro pode ser adicionado a todos os modelos que oferecemos.
           </p>
           <p className="text-primary-foreground/80 text-xl font-display italic mb-10">
-            Não arrisque o que você tem de mais precioso. Proteja sua família com quem entende de vidro há mais de 30 anos.
+            Não arrisque! Peça seu orçamento de Box Seguro hoje mesmo.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link
