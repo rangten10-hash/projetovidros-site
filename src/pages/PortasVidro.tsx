@@ -6,6 +6,9 @@ import portaFlex from "@/assets/porta-flex.jpg";
 import portaAbrir from "@/assets/porta-abrir.jpg";
 import portaCorrer from "@/assets/porta-correr.jpg";
 import portaVersatik from "@/assets/porta-versatik.jpg";
+import { Phone } from "lucide-react";
+
+const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20portas%20de%20vidro.";
 
 const products = [
   {
@@ -108,10 +111,30 @@ Destaques:
 
 const PortasVidro = () => (
   <ProductPageLayout
-    title="Portas de Vidro"
-    subtitle="Portas de vidro temperado e laminado com design moderno e alta durabilidade."
+    title="Portas de Vidro Sob Medida: Divisórias Elegantes e Modernas"
+    subtitle="Soluções para Integração de Ambientes em SP"
     products={products}
-  />
+  >
+    <div className="space-y-6 text-muted-foreground leading-relaxed">
+      <p>
+        As portas de vidro são a solução ideal para quem busca integrar ambientes sem perder a luminosidade. Seja para a entrada da casa, divisão de cozinha e lavanderia, ou escritórios, nossas portas oferecem isolamento acústico e térmico com um design minimalista.
+      </p>
+      <ul className="space-y-3 list-none">
+        <li><strong className="text-foreground">Portas de Correr:</strong> Economia de espaço com trilhos de alta performance.</li>
+        <li><strong className="text-foreground">Portas de Abrir (Giro):</strong> Elegância clássica com ferragens em inox ou alumínio.</li>
+        <li><strong className="text-foreground">Vidros Especiais:</strong> Opções em vidro incolor, jateado (privacidade), fumê ou bronze.</li>
+      </ul>
+      <a
+        href={WHATSAPP_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-md font-semibold hover:bg-[#1ebe5a] transition-colors shadow-lg"
+      >
+        <Phone className="w-4 h-4" />
+        Solicite uma visita técnica para seu projeto de portas de vidro!
+      </a>
+    </div>
+  </ProductPageLayout>
 );
 
 export default PortasVidro;
