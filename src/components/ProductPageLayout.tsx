@@ -53,7 +53,7 @@ const ProductPageLayout = ({ title, subtitle, products }: ProductPageLayoutProps
                 <div className="aspect-square overflow-hidden">
                   <img
                     src={product.image}
-                    alt={product.name}
+                    alt={`Instalação de ${product.name} em vidro temperado em São Paulo`}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     loading="lazy"
                   />
@@ -93,7 +93,7 @@ const ProductPageLayout = ({ title, subtitle, products }: ProductPageLayoutProps
             <div className="relative">
               <img
                 src={selectedProduct.image}
-                alt={selectedProduct.name}
+                alt={`Detalhe de ${selectedProduct.name} - Projeto Vidros São Paulo`}
                 className="w-full max-h-[50vh] object-contain bg-muted/30 rounded-t-2xl"
               />
               <button

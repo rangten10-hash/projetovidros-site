@@ -57,7 +57,7 @@ const GalleryPageLayout = ({ title, subtitle, image, images, comingSoon }: Galle
                 >
                   <img
                     src={item.image}
-                    alt={item.label}
+                    alt={`${title} ${item.id} - Projeto Vidros São Paulo`}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     loading="lazy"
                   />
@@ -82,7 +82,7 @@ const GalleryPageLayout = ({ title, subtitle, image, images, comingSoon }: Galle
           <div className="relative max-w-4xl w-full" onClick={(e) => e.stopPropagation()}>
             <img
               src={selectedImage}
-              alt={title}
+              alt={`${title} - Detalhe do projeto Projeto Vidros`}
               className="w-full max-h-[85vh] object-contain rounded-xl"
             />
             <button
