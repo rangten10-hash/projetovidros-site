@@ -12,8 +12,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-petrol/25" />
       <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
         <h1 className="font-display text-4xl md:text-6xl lg:text-7xl text-primary-foreground mb-6 leading-tight">
-          A segurança da sua família{" "}
-          <span className="text-gradient-copper">não é opcional.</span>
+          Projeto Vidros
         </h1>
         <p className="text-primary-foreground/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light leading-relaxed">
           Box com tecnologia antiestilhaço e vidros laminados de alta resistência.

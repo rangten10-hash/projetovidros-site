@@ -55,9 +55,26 @@ const Footer = () => {
               </a>
               <div className="flex items-start gap-3 text-primary-foreground/50 text-sm">
                 <MapPin className="w-4 h-4 text-copper mt-0.5" />
-                São Paulo - SP
+                Imirim, Zona Norte – São Paulo, SP – CEP 02470-000
               </div>
             </div>
+          </div>
+        </div>
+
+        {/* Google Maps Embed */}
+        <div className="mt-12 pt-8 border-t border-copper/10">
+          <h4 className="text-copper font-semibold text-sm tracking-widest uppercase mb-4 text-center">Nossa Localização</h4>
+          <div className="rounded-lg overflow-hidden w-full h-64 md:h-80">
+            <iframe
+              title="Localização Projeto Vidros - Imirim, Zona Norte de São Paulo"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14624.251!2d-46.623!3d-23.4758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef7e4c0b0e5ab%3A0x6a9e9a7c1e8f1b0a!2sImirim%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002470-000!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
           </div>
         </div>
 
