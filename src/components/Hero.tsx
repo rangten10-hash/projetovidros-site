@@ -7,7 +7,7 @@ const WHATSAPP_URL =
 
 const Hero = () => {
   return (
-    <section className="relative h-full w-full overflow-hidden bg-[#0a0a0a]">
+    <section className="relative h-full w-full overflow-hidden bg-[#1a1a1a] lg:pt-24">
       {/* Desktop image */}
       <img
         src={heroDesktop}
@@ -15,7 +15,7 @@ const Hero = () => {
         loading="eager"
         fetchPriority="high"
         decoding="async"
-        className="hidden md:block absolute inset-0 w-full h-full object-cover object-center z-[1]"
+        className="hidden md:block absolute inset-0 lg:top-24 w-full h-[calc(100%-0px)] lg:h-[calc(100%-6rem)] object-contain object-center z-[1]"
       />
       {/* Mobile image */}
       <img
