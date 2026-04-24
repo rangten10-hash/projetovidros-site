@@ -8,14 +8,17 @@ const PromoBanner = () => {
   return (
     <section
       className="relative h-full w-full flex items-end justify-center overflow-hidden px-5 md:px-0"
-      style={{ background: "linear-gradient(90deg, #2a2a2a 0%, #2a2a2a 50%, #5a1414 100%)" }}
+      style={{
+        background:
+          "linear-gradient(90deg, #1f1f1f 0%, #2a2a2a 45%, #4a1414 80%, #5a1414 100%)",
+      }}
     >
       <img
         src={bannerBg}
         alt="Oferta Box de vidro incolor 8mm temperado - 12x de R$89 instalado"
-        className="absolute inset-0 w-full h-full object-contain object-center"
+        className="absolute inset-0 w-full h-full object-contain object-center z-[1]"
       />
-      <div className="relative z-10 mb-24 md:mb-32">
+      <div className="relative z-10 mb-12 md:mb-32">
         <a
           href={WHATSAPP_URL}
           target="_blank"
@@ -24,7 +27,7 @@ const PromoBanner = () => {
             e.preventDefault();
             gtagReportConversion(WHATSAPP_URL);
           }}
-          className="inline-block bg-[#25D366] text-white px-10 py-4 rounded-md text-sm font-semibold tracking-wide uppercase hover:bg-[#1ebe5a] transition-colors active:scale-[0.97] shadow-lg"
+          className="inline-block bg-[#25D366] text-white px-10 py-4 rounded-md text-sm font-semibold tracking-wide uppercase hover:bg-[#1ebe5a] transition-colors active:scale-[0.97] shadow-[0_8px_24px_rgba(0,0,0,0.45)] drop-shadow-lg"
         >
           Garantir Oferta via WhatsApp
         </a>
