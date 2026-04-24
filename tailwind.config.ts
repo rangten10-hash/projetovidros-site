@@ -88,11 +88,16 @@ export default {
           from: { opacity: "0", transform: "translateY(30px)" },
           to: { opacity: "1", transform: "translateY(0)" },
         },
+        "pulse-cta": {
+          "0%, 100%": { transform: "scale(1)", boxShadow: "0 10px 25px -5px hsl(142 70% 40% / 0.5)" },
+          "50%": { transform: "scale(1.05)", boxShadow: "0 15px 35px -5px hsl(142 70% 40% / 0.8)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-in-up": "fade-in-up 0.8s ease-out forwards",
+        "pulse-cta": "pulse-cta 2s ease-in-out infinite",
       },
     },
   },
