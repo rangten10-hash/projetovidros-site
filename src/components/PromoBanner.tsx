@@ -7,7 +7,7 @@ const WHATSAPP_URL =
 const PromoBanner = () => {
   return (
     <section
-      className="relative h-[60vh] md:h-screen flex items-end justify-center overflow-hidden px-5 md:px-0"
+      className="relative h-full w-full flex items-end justify-center overflow-hidden px-5 md:px-0"
       style={{ background: "linear-gradient(90deg, #2a2a2a 0%, #2a2a2a 50%, #5a1414 100%)" }}
     >
       <img
