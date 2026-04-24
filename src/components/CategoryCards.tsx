@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import categoryBox from "@/assets/cat-box-banheiro.jpg";
-import categoryPortas from "@/assets/category-portas.jpg";
-import categoryEspelhos from "@/assets/cat-espelhos.jpg";
-import categoryEspelhosLed from "@/assets/cat-espelhos-led.png";
+import categoryBox from "@/assets/cat-box-banheiro.webp";
+import categoryPortas from "@/assets/category-portas.webp";
+import categoryEspelhos from "@/assets/cat-espelhos.webp";
+import categoryEspelhosLed from "@/assets/cat-espelhos-led.webp";
 import categoryProjetos from "@/assets/category-projetos.jpg";
 
 const categories = [

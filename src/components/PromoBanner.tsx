@@ -1,5 +1,5 @@
-import promoDesktop from "@/assets/banner-desktop-oferta.png";
-import promoMobile from "@/assets/banner-mobile-oferta.png";
+import promoDesktop from "@/assets/banner-desktop-oferta.webp";
+import promoMobile from "@/assets/banner-mobile-oferta.webp";
 import { gtagReportConversion } from "@/lib/gtag";
 
 const WHATSAPP_URL =
