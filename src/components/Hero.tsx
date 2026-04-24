@@ -1,40 +1,35 @@
-import { Link } from "react-router-dom";
 import { gtagReportConversion } from "@/lib/gtag";
+import heroBoxSeguro from "@/assets/hero-box-seguro.webp";
 
-const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
+const WHATSAPP_URL =
+  "https://wa.me/5511915485945?text=Olá!%20Vi%20o%20Box+%20Seguro%20no%20site%20e%20gostaria%20de%20um%20orçamento.";
 
 const Hero = () => {
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover">
-        <source src="/videos/hero-video.mp4" type="video/mp4" />
-      </video>
-      <div className="absolute inset-0 bg-petrol/25" />
-      <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
-        <h1 className="font-display text-4xl md:text-6xl lg:text-7xl text-primary-foreground mb-6 leading-tight">
-          Projeto Vidros
-        </h1>
-        <p className="text-primary-foreground/70 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light leading-relaxed">
-          Box com tecnologia antiestilhaço e vidros laminados de alta resistência.
-          Mais de 30 anos de experiência protegendo lares.
-        </p>
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            onClick={(e) => { e.preventDefault(); gtagReportConversion(WHATSAPP_URL); }}
-            className="bg-[#25D366] text-white px-8 py-4 rounded-md text-sm font-semibold tracking-wide uppercase hover:bg-[#1ebe5a] transition-colors shadow-lg"
-          >
-            Solicitar Orçamento
-          </a>
-          <Link
-            to="/box-de-banheiro"
-            className="border border-copper/40 text-primary-foreground px-8 py-4 rounded-md text-sm font-semibold tracking-wide uppercase hover:bg-primary-foreground/5 transition-colors"
-          >
-            Conheça Nossos Produtos
-          </Link>
-        </div>
+    <section className="relative h-screen w-full overflow-hidden">
+      <img
+        src={heroBoxSeguro}
+        alt="Box+ Seguro: a beleza que você quer e a segurança que sua família precisa"
+        loading="eager"
+        fetchPriority="high"
+        decoding="async"
+        className="absolute inset-0 w-full h-full object-cover object-center"
+      />
+
+      {/* CTA centralizado abaixo do logo BOX+ SEGURO da imagem */}
+      <div className="absolute inset-x-0 bottom-24 md:bottom-28 z-10 flex justify-center px-4">
+        <a
+          href={WHATSAPP_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={(e) => {
+            e.preventDefault();
+            gtagReportConversion(WHATSAPP_URL);
+          }}
+          className="animate-pulse-cta bg-[#25D366] hover:bg-[#1ebe5a] text-white font-bold uppercase tracking-wide text-sm md:text-base px-6 md:px-8 py-3 md:py-4 rounded-full shadow-xl transition-colors text-center"
+        >
+          Quer mais proteção em seu box?
+        </a>
       </div>
     </section>
   );
