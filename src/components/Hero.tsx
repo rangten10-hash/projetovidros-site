@@ -6,7 +6,7 @@ const WHATSAPP_URL =
 
 const Hero = () => {
   return (
-    <section className="relative h-screen w-full overflow-hidden bg-background">
+    <section className="relative h-[60vh] md:h-screen w-full overflow-hidden bg-background">
       <img
         src={heroBoxSeguro}
         alt="Box+ Seguro: a beleza que você quer e a segurança que sua família precisa"
