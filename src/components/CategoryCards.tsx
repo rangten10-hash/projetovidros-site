@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import categoryBox from "@/assets/cat-box-banheiro.webp";
-import categoryPortas from "@/assets/category-portas.jpg";
+import categoryPortas from "@/assets/category-portas.webp";
 import categoryEspelhos from "@/assets/cat-espelhos.webp";
 import categoryEspelhosLed from "@/assets/cat-espelhos-led.webp";
 import categoryProjetos from "@/assets/category-projetos.jpg";
