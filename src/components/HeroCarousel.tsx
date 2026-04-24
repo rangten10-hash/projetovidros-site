@@ -20,7 +20,7 @@ const HeroCarousel = () => {
   }, []);
 
   return (
-    <section className="relative h-[60vh] md:h-screen w-full overflow-hidden">
+    <section className="relative h-[calc(60vh+6rem)] md:h-[calc(100vh+0px)] w-full overflow-hidden pt-24">
       <div
         className="flex h-full transition-transform duration-700 ease-out"
         style={{ transform: `translateX(-${activeSlide * 100}%)` }}

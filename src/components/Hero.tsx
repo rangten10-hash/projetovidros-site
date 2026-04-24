@@ -7,7 +7,7 @@ const WHATSAPP_URL =
 const Hero = () => {
   return (
     <section
-      className="relative h-[60vh] md:h-screen w-full overflow-hidden px-5 md:px-0"
+      className="relative h-full w-full overflow-hidden px-5 md:px-0"
       style={{ background: "linear-gradient(90deg, #2a2a2a 0%, #2a2a2a 50%, #5a1414 100%)" }}
     >
       <img
