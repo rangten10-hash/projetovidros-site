@@ -1,4 +1,5 @@
-import bannerBg from "@/assets/banner-box-incolor.png";
+import promoDesktop from "@/assets/banner-desktop-oferta.png";
+import promoMobile from "@/assets/banner-mobile-oferta.png";
 import { gtagReportConversion } from "@/lib/gtag";
 
 const WHATSAPP_URL =
@@ -6,19 +7,25 @@ const WHATSAPP_URL =
 
 const PromoBanner = () => {
   return (
-    <section
-      className="relative h-full w-full flex items-end justify-center overflow-hidden px-5 md:px-0"
-      style={{
-        background:
-          "linear-gradient(90deg, #1f1f1f 0%, #2a2a2a 45%, #4a1414 80%, #5a1414 100%)",
-      }}
-    >
+    <section className="relative h-full w-full overflow-hidden bg-[#0a0a0a]">
+      {/* Desktop image */}
       <img
-        src={bannerBg}
+        src={promoDesktop}
         alt="Oferta Box de vidro incolor 8mm temperado - 12x de R$89 instalado"
-        className="absolute inset-0 w-full h-full object-contain object-center z-[1]"
+        loading="lazy"
+        decoding="async"
+        className="hidden md:block absolute inset-0 w-full h-full object-cover object-center z-[1]"
       />
-      <div className="relative z-10 mb-12 md:mb-32">
+      {/* Mobile image */}
+      <img
+        src={promoMobile}
+        alt="Oferta Box de vidro incolor 8mm temperado - 12x de R$89 instalado"
+        loading="lazy"
+        decoding="async"
+        className="md:hidden absolute inset-0 w-full h-full object-cover object-center z-[1]"
+      />
+
+      <div className="absolute inset-x-0 bottom-12 md:bottom-32 z-10 flex justify-center px-4">
         <a
           href={WHATSAPP_URL}
           target="_blank"
@@ -27,7 +34,7 @@ const PromoBanner = () => {
             e.preventDefault();
             gtagReportConversion(WHATSAPP_URL);
           }}
-          className="inline-block bg-[#25D366] text-white px-10 py-4 rounded-md text-sm font-semibold tracking-wide uppercase hover:bg-[#1ebe5a] transition-colors active:scale-[0.97] shadow-[0_8px_24px_rgba(0,0,0,0.45)] drop-shadow-lg"
+          className="inline-block bg-[#25D366] text-white px-8 md:px-10 py-3 md:py-4 rounded-md text-sm font-semibold tracking-wide uppercase hover:bg-[#1ebe5a] transition-colors active:scale-[0.97] shadow-[0_8px_24px_rgba(0,0,0,0.45)] drop-shadow-lg"
         >
           Garantir Oferta via WhatsApp
         </a>
