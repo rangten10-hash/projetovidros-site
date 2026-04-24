@@ -6,11 +6,14 @@ const WHATSAPP_URL =
 
 const PromoBanner = () => {
   return (
-    <section className="relative h-[60vh] md:h-screen flex items-end justify-center overflow-hidden bg-background">
+    <section
+      className="relative h-[60vh] md:h-screen flex items-end justify-center overflow-hidden px-5 md:px-0"
+      style={{ background: "linear-gradient(90deg, #2a2a2a 0%, #2a2a2a 50%, #5a1414 100%)" }}
+    >
       <img
         src={bannerBg}
         alt="Oferta Box de vidro incolor 8mm temperado - 12x de R$89 instalado"
-        className="absolute inset-0 w-full h-full object-cover object-center"
+        className="absolute inset-0 w-full h-full object-contain object-center"
       />
       <div className="relative z-10 mb-24 md:mb-32">
         <a

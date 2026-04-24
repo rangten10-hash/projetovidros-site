@@ -6,14 +6,17 @@ const WHATSAPP_URL =
 
 const Hero = () => {
   return (
-    <section className="relative h-[60vh] md:h-screen w-full overflow-hidden bg-background">
+    <section
+      className="relative h-[60vh] md:h-screen w-full overflow-hidden px-5 md:px-0"
+      style={{ background: "linear-gradient(90deg, #2a2a2a 0%, #2a2a2a 50%, #5a1414 100%)" }}
+    >
       <img
         src={heroBoxSeguro}
         alt="Box+ Seguro: a beleza que você quer e a segurança que sua família precisa"
         loading="eager"
         fetchPriority="high"
         decoding="async"
-        className="absolute inset-0 w-full h-full object-cover object-center"
+        className="absolute inset-0 w-full h-full object-contain object-center"
       />
 
       {/* CTA centralizado abaixo do logo BOX+ SEGURO da imagem */}
