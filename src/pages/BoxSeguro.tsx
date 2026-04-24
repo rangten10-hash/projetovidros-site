@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { Shield, AlertTriangle, CheckCircle, Sparkles, X } from "lucide-react";
+import LazyVideo from "@/components/LazyVideo";
 import { Link } from "react-router-dom";
 import boxSeguro1 from "@/assets/box-seguro-1.jpg";
 import boxSeguro2 from "@/assets/box-seguro-2.jpg";
@@ -59,6 +60,37 @@ const BoxSeguro = () => {
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl">
               <img src={boxSeguro1} alt="Vidro temperado com película de segurança" className="w-full h-auto object-cover" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Vídeo demonstrativo PS4 */}
+      <section className="py-16 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto text-center mb-10">
+            <h2 className="font-display text-3xl md:text-4xl text-foreground mb-4">
+              Veja a Tecnologia <span className="text-copper">PS4 em Ação</span>
+            </h2>
+            <p className="text-muted-foreground text-lg">
+              Assista ao teste real da película de segurança PS4 contra impactos.
+            </p>
+          </div>
+          <div className="max-w-4xl mx-auto">
+            <LazyVideo
+              src="/videos/box-seguro-ps4.mp4"
+              className="aspect-video"
+            />
+            <div className="mt-8 flex justify-center">
+              <a
+                href={WHATSAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={(e) => { e.preventDefault(); gtagReportConversion(WHATSAPP_URL); }}
+                className="bg-[#25D366] hover:bg-[#1ebe5a] text-white font-bold uppercase tracking-wide text-sm md:text-base px-8 py-4 rounded-full transition-colors shadow-[0_8px_24px_rgba(0,0,0,0.25)]"
+              >
+                Quero essa proteção no meu box
+              </a>
             </div>
           </div>
         </div>
