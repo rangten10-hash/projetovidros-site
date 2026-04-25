@@ -3,6 +3,7 @@ import HeroCarousel from "@/components/HeroCarousel";
 import CategoryCards from "@/components/CategoryCards";
 import SafetySection from "@/components/SafetySection";
 import SeoSection from "@/components/SeoSection";
+import SocialProof from "@/components/SocialProof";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 
@@ -14,6 +15,7 @@ const Index = () => {
       <CategoryCards />
       <SafetySection />
       <SeoSection />
+      <SocialProof />
       <Footer />
       <WhatsAppButton />
     </div>
