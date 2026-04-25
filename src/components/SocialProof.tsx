@@ -104,7 +104,7 @@ const SocialProof = () => {
           </div>
 
           {/* TikTok Carousel */}
-          <div className="bg-card rounded-2xl p-6 shadow-sm border border-border">
+          <div className="bg-card rounded-2xl p-4 sm:p-6 shadow-sm border border-border min-w-0 overflow-hidden">
             <div className="flex items-center gap-3 mb-5">
               <img src={tiktokLogo} alt="" className="h-8 w-8 object-contain rounded-lg" aria-hidden />
               <div>
