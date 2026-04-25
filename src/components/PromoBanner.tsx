@@ -22,7 +22,7 @@ const PromoBanner = () => {
         alt="Oferta Box de vidro incolor 8mm temperado - 12x de R$89 instalado"
         loading="lazy"
         decoding="async"
-        className="md:hidden absolute inset-0 w-full h-full object-cover object-center z-[1]"
+        className="md:hidden absolute inset-0 w-full h-full object-contain object-center z-[1]"
       />
 
       <div className="absolute inset-x-0 bottom-12 md:bottom-32 z-10 flex justify-center px-4">
