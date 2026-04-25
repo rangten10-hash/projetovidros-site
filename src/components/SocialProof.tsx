@@ -26,8 +26,8 @@ const tiktokVideos = [
 
 const SocialProof = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-secondary to-background">
-      <div className="container mx-auto px-4">
+    <section className="py-20 bg-gradient-to-b from-secondary to-background overflow-x-hidden">
+      <div className="container mx-auto px-4 max-w-full">
         <div className="text-center mb-14 max-w-2xl mx-auto">
           <h2 className="font-display text-3xl md:text-4xl text-foreground mb-4">
             Veja mais de nossos trabalhos em{" "}
