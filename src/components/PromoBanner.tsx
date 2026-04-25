@@ -25,7 +25,7 @@ const PromoBanner = () => {
         className="md:hidden absolute inset-0 w-full h-full object-contain object-center z-[1]"
       />
 
-      <div className="absolute inset-x-0 bottom-12 md:bottom-32 z-10 flex justify-center px-4">
+      <div className="absolute inset-x-0 bottom-4 md:bottom-12 z-10 flex justify-center px-4">
         <a
           href={WHATSAPP_URL}
           target="_blank"
