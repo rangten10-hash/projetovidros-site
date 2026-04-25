@@ -26,8 +26,8 @@ const tiktokVideos = [
 
 const SocialProof = () => {
   return (
-    <section className="py-20 bg-gradient-to-b from-secondary to-background">
-      <div className="container mx-auto px-4">
+    <section className="py-20 bg-gradient-to-b from-secondary to-background overflow-x-hidden">
+      <div className="container mx-auto px-4 max-w-full">
         <div className="text-center mb-14 max-w-2xl mx-auto">
           <h2 className="font-display text-3xl md:text-4xl text-foreground mb-4">
             Veja mais de nossos trabalhos em{" "}
@@ -113,14 +113,14 @@ const SocialProof = () => {
               </div>
             </div>
 
-            <div className="flex gap-3 overflow-x-auto snap-x snap-mandatory pb-2 -mx-1 px-1 scrollbar-hide">
+            <div className="flex gap-3 overflow-x-auto snap-x snap-mandatory pb-2 scrollbar-hide max-w-full">
               {tiktokVideos.map((v, i) => (
                 <a
                   key={i}
                   href={TIKTOK_URL}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group relative flex-shrink-0 w-44 aspect-[9/16] snap-start rounded-xl overflow-hidden bg-petrol border-2 border-foreground/10"
+                  className="group relative flex-shrink-0 w-32 sm:w-40 md:w-44 aspect-[9/16] snap-start rounded-xl overflow-hidden bg-petrol border-2 border-foreground/10"
                 >
                   <img
                     src={v.src}
