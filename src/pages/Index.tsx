@@ -13,9 +13,9 @@ const Index = () => {
       <Header />
       <HeroCarousel />
       <CategoryCards />
+      <SocialProof />
       <SafetySection />
       <SeoSection />
-      <SocialProof />
       <Footer />
       <WhatsAppButton />
     </div>
