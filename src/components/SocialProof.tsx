@@ -4,7 +4,7 @@ import tiktokLogo from "@/assets/social-tiktok.png";
 
 const INSTAGRAM_URL = "https://www.instagram.com/projetovidros.sp?igsh=MjJ3b2hzb3phdTFz&utm_source=qr";
 const TIKTOK_URL = "https://www.tiktok.com/@projeto.vidros?_r=1&_t=ZS-95oOpJcsi9d";
-const GOOGLE_URL = "https://www.google.com/search?q=projeto+vidros+avaliações"; // TODO: substituir pelo link direto do Google Meu Negócio
+const GOOGLE_URL = "https://maps.app.goo.gl/AMCBT3PqQ2bHAiXo9";
 
 // Placeholder Instagram-like grid using existing project images
 import img1 from "@/assets/cat-box-banheiro.webp";
