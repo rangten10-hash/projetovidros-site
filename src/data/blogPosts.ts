@@ -1,4 +1,5 @@
 import bannerBoxSeguro from "@/assets/banner-mobile-seguranca.webp";
+import boxAteTeto from "@/assets/blog-box-ate-teto.jpg";
 
 export interface BlogPost {
   slug: string;
@@ -89,6 +90,52 @@ export const blogPosts: BlogPost[] = [
     ],
     cta: {
       label: "QUERO O BOX MAIS SEGURO – ORÇAMENTO VIA WHATSAPP",
+      href: WHATSAPP_URL,
+    },
+  },
+  {
+    slug: "box-ate-o-teto-efeito-spa",
+    title: "Box até o Teto: Transforme seu Banheiro em um SPA Particular",
+    excerpt:
+      "Descubra como o box até o teto retém o calor, evita o mofo e traz sofisticação absoluta para o seu projeto.",
+    image: boxAteTeto,
+    imageAlt:
+      "Box de banheiro até o teto com ferragens cromadas Kit Reto instalado pela Projeto Vidros em São Paulo",
+    date: "2026-05-02",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Saiba por que o box até o teto é a maior tendência para banheiros de luxo em SP. Conforto térmico e design exclusivo pela Projeto Vidros.",
+    content: [
+      {
+        type: "paragraph",
+        text: "Você já sentiu aquele choque térmico ao sair do banho em um dia frio? O segredo dos projetos de alto padrão no Itaim e em Alphaville para resolver isso é o Box até o Teto.",
+      },
+      { type: "heading", text: "Conforto Térmico e Higiene" },
+      {
+        type: "list",
+        items: [
+          {
+            strong: "Efeito Sauna:",
+            text: "Ao fechar o vão até o teto, o vapor fica retido, mantendo a temperatura agradável durante todo o banho.",
+          },
+          {
+            strong: "Adeus ao Mofo:",
+            text: "O vapor não se espalha pelo banheiro, preservando a pintura e os móveis do ambiente.",
+          },
+        ],
+      },
+      { type: "heading", text: "Estética Minimalista" },
+      {
+        type: "paragraph",
+        text: "Utilizando ferragens modernas como o Kit Reto, o visual fica limpo e sofisticado, ideal para quem busca um design clean e contemporâneo.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, realizamos a medição técnica precisa para que o fechamento seja perfeito, garantindo segurança e beleza em toda a Zona Norte e regiões nobres de São Paulo.",
+      },
+    ],
+    cta: {
+      label: "QUERO MEU BOX ATÉ O TETO – ORÇAMENTO VIA WHATSAPP",
       href: WHATSAPP_URL,
     },
   },
