@@ -1,4 +1,5 @@
 import bannerBoxSeguro from "@/assets/banner-mobile-seguranca.webp";
+import boxAteTeto from "@/assets/blog-box-ate-teto.jpg";
 
 export interface BlogPost {
   slug: string;
