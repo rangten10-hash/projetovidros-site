@@ -3,6 +3,8 @@ import boxAteTeto from "@/assets/blog-box-ate-teto.jpg";
 import kitRetoRose from "@/assets/blog-kit-reto-rose.jpg";
 import divisoriaUniqueAntes from "@/assets/blog-divisoria-unique-antes.jpg";
 import divisoriaUniqueDepois from "@/assets/blog-divisoria-unique-depois.jpg";
+import espelhoHallAntes from "@/assets/blog-espelho-hall-antes.jpg";
+import espelhoHall from "@/assets/blog-espelho-hall-depois.jpg";
 
 export interface BlogPost {
   slug: string;
@@ -249,6 +251,65 @@ export const blogPosts: BlogPost[] = [
     cta: {
       label: "QUERO UMA DIVISÓRIA ASSIM – WHATSAPP",
       href: "https://wa.me/5511915485945?text=Olá,%20vi%20o%20post%20da%20porta%20no%20Unique%20Green%20e%20queria%20um%20orçamento%20parecido.",
+    },
+  },
+  {
+    slug: "espelho-sob-medida-hall-entrada",
+    title: "Espelho no Hall de Entrada: Amplitude e Iluminação Imediata",
+    excerpt:
+      "Veja como um espelho 4mm lapidado sob medida transformou o hall de entrada deste apartamento, trazendo sofisticação e profundidade.",
+    image: espelhoHall,
+    imageAlt: "Espelho 4mm lapidado instalado em hall de entrada sob medida",
+    date: "2026-05-02",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Benefícios do espelho sob medida no hall de entrada. Instalação de espelho 4mm lapidado em São Paulo pela Projeto Vidros.",
+    content: [
+      {
+        type: "paragraph",
+        text: "O hall de entrada é o cartão de visitas da sua casa. Muitas vezes negligenciado, esse espaço pode ganhar vida nova com o uso estratégico de espelhos sob medida.",
+      },
+      {
+        type: "image",
+        src: espelhoHallAntes,
+        alt: "Hall de entrada antes da instalação do espelho sob medida",
+      },
+      { type: "heading", text: "Por que investir em um espelho no Hall?" },
+      {
+        type: "list",
+        items: [
+          {
+            strong: "Sensação de Amplitude:",
+            text: "O espelho 'dobra' o tamanho do ambiente, ideal para corredores e halls estreitos.",
+          },
+          {
+            strong: "Mais Iluminação:",
+            text: "Ele reflete a luz natural e artificial, deixando todo o apartamento mais claro e convidativo.",
+          },
+          {
+            strong: "Funcionalidade:",
+            text: "O famoso 'check-up' visual antes de sair de casa.",
+          },
+        ],
+      },
+      {
+        type: "image",
+        src: espelhoHall,
+        alt: "Hall de entrada depois da instalação do espelho 4mm lapidado sob medida",
+      },
+      { type: "heading", text: "Qualidade Projeto Vidros" },
+      {
+        type: "paragraph",
+        text: "Neste projeto, utilizamos um espelho de 4mm com acabamento lapidado, cortado exatamente de acordo com o vão do cliente. O resultado é um encaixe perfeito que se integra à arquitetura do imóvel.",
+      },
+      {
+        type: "paragraph",
+        text: "Atendemos toda a capital de São Paulo com medição técnica para garantir que o seu projeto saia do papel com a máxima precisão.",
+      },
+    ],
+    cta: {
+      label: "SOLICITAR ORÇAMENTO DE ESPELHO",
+      href: "https://wa.me/5511915485945?text=Olá,%20vi%20o%20post%20do%20espelho%20no%20hall%20e%20gostaria%20de%20um%20orçamento%20sob%20medida.",
     },
   },
 ];
