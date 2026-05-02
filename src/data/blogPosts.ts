@@ -1,6 +1,8 @@
 import bannerBoxSeguro from "@/assets/banner-mobile-seguranca.webp";
 import boxAteTeto from "@/assets/blog-box-ate-teto.jpg";
 import kitRetoRose from "@/assets/blog-kit-reto-rose.jpg";
+import divisoriaUniqueAntes from "@/assets/blog-divisoria-unique-antes.jpg";
+import divisoriaUniqueDepois from "@/assets/blog-divisoria-unique-depois.jpg";
 
 export interface BlogPost {
   slug: string;
