@@ -27,6 +27,7 @@ const Footer = () => {
                 { label: "Espelhos", path: "/espelhos" },
                 { label: "Espelhos LED", path: "/espelhos-led" },
                 { label: "Projetos", path: "/projetos" },
+                { label: "Blog", path: "/blog" },
               ].map((item) => (
                 <Link key={item.path} to={item.path} className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm">
                   {item.label}
