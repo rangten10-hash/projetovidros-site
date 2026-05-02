@@ -1,5 +1,6 @@
 import bannerBoxSeguro from "@/assets/banner-mobile-seguranca.webp";
 import boxAteTeto from "@/assets/blog-box-ate-teto.jpg";
+import kitRetoRose from "@/assets/blog-kit-reto-rose.jpg";
 
 export interface BlogPost {
   slug: string;
@@ -137,6 +138,55 @@ export const blogPosts: BlogPost[] = [
     cta: {
       label: "QUERO MEU BOX ATÉ O TETO – ORÇAMENTO VIA WHATSAPP",
       href: WHATSAPP_URL,
+    },
+  },
+  {
+    slug: "kit-reto-rose-design-exclusivo",
+    title: "Kit Reto Rose: O Design do Futuro para seu Banheiro",
+    excerpt:
+      "Conheça o luxo do acabamento Rose com altura fora de padrão de 2,10m. Elegância e linhas minimalistas que arquitetos amam.",
+    image: kitRetoRose,
+    imageAlt: "Box com Kit Reto Rose e altura personalizada de 2,10m",
+    date: "2026-05-02",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box com Kit Reto Rose em São Paulo. Altura personalizada de 2,10m para um visual clean e elegante. Projetos exclusivos Projeto Vidros.",
+    content: [
+      {
+        type: "paragraph",
+        text: "Se você busca fugir do comum, o Kit Reto Rose é a escolha ideal. Com linhas minimalistas e um acabamento sofisticado, ele transforma o visual do banheiro em um ambiente de revista.",
+      },
+      { type: "heading", text: "Altura fora de padrão: O diferencial de 2,10m" },
+      {
+        type: "paragraph",
+        text: "Diferente dos boxes convencionais, este projeto da Projeto Vidros foi executado com 2,10m de altura. Essa medida personalizada traz uma imponência maior ao espaço e um acabamento muito mais harmônico com o revestimento do banheiro.",
+      },
+      { type: "heading", text: "Por que arquitetos amam o Kit Reto?" },
+      {
+        type: "list",
+        items: [
+          {
+            strong: "Visual Clean:",
+            text: "Ferragens com linhas retas que trazem modernidade absoluta.",
+          },
+          {
+            strong: "Acabamento Premium:",
+            text: "O tom Rose Gold é tendência em decorações de alto padrão em bairros como Itaim Bibi e Moema.",
+          },
+          {
+            strong: "Personalização Técnica:",
+            text: "Executamos projetos sob medida que fogem das medidas padrão de mercado.",
+          },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, somos especialistas em tirar do papel esses projetos que exigem precisão técnica e um olhar atento ao design.",
+      },
+    ],
+    cta: {
+      label: "CONSULTAR MODELOS E PREÇOS",
+      href: "https://wa.me/5511915485945?text=Olá,%20vi%20o%20post%20sobre%20o%20Kit%20Reto%20Rose%20de%202,10m.%20Gostaria%20de%20um%20orçamento.",
     },
   },
 ];
