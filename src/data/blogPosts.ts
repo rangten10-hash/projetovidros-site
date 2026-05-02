@@ -191,6 +191,66 @@ export const blogPosts: BlogPost[] = [
       href: "https://wa.me/5511915485945?text=Olá,%20vi%20o%20post%20sobre%20o%20Kit%20Reto%20Rose%20de%202,10m.%20Gostaria%20de%20um%20orçamento.",
     },
   },
+  {
+    slug: "divisoria-versatik-truck-unique-green",
+    title: "Divisória de Cozinha: 66% de Abertura e Vão Livre no Unique Green",
+    excerpt:
+      "Veja como instalamos uma porta de 3 folhas com sistema Versatik Truck, garantindo passagem livre e design integrado.",
+    image: divisoriaUniqueDepois,
+    imageAlt:
+      "Porta divisória de cozinha em vidro pontilhado no condomínio Unique Green",
+    date: "2026-05-02",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Instalação de divisória Versatik Truck no Unique Green. Vidro pontilhado 8mm, perfil cinza fosco e sistema sem trilho inferior.",
+    content: [
+      {
+        type: "paragraph",
+        text: "Em apartamentos modernos como os do Condomínio Unique Green, otimizar o espaço entre a cozinha e a lavanderia é essencial. Recentemente, entregamos uma solução que une funcionalidade extrema e estética.",
+      },
+      {
+        type: "image",
+        src: divisoriaUniqueAntes,
+        alt: "Cozinha do Unique Green antes da instalação da divisória de vidro",
+      },
+      { type: "heading", text: "O Sistema Versatik Truck Acesso Livre" },
+      {
+        type: "paragraph",
+        text: "O grande diferencial deste projeto é o uso do Kit Versatik Truck. Esse sistema permite dividir o vão em 3 folhas de vidro, onde as portas correm de forma simultânea. Isso proporciona uma abertura de 66% da passagem, ideal para vãos menores.",
+      },
+      {
+        type: "image",
+        src: divisoriaUniqueDepois,
+        alt: "Divisória Versatik Truck em vidro pontilhado instalada no Unique Green",
+      },
+      { type: "heading", text: "Segurança e Estética" },
+      {
+        type: "list",
+        items: [
+          {
+            strong: "Sem trilhos no chão:",
+            text: "O sistema Acesso Livre elimina trilhos inferiores, evitando tropeços e facilitando a limpeza.",
+          },
+          {
+            strong: "Design Integrado:",
+            text: "Utilizamos o acabamento Cinza Fosco para combinar perfeitamente com os móveis planejados do cliente.",
+          },
+          {
+            strong: "Privacidade:",
+            text: "O vidro temperado pontilhado de 8mm garante a divisão visual sem barrar a entrada de luz natural.",
+          },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, focamos em ferragens premium que resolvem problemas de espaço com elegância. Atendemos toda a região de Pirituba e arredores com medição técnica especializada.",
+      },
+    ],
+    cta: {
+      label: "QUERO UMA DIVISÓRIA ASSIM – WHATSAPP",
+      href: "https://wa.me/5511915485945?text=Olá,%20vi%20o%20post%20da%20porta%20no%20Unique%20Green%20e%20queria%20um%20orçamento%20parecido.",
+    },
+  },
 ];
 
 export const getPostBySlug = (slug: string) =>
