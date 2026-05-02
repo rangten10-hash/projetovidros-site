@@ -11,6 +11,8 @@ import Espelhos from "./pages/Espelhos";
 import EspelhosLed from "./pages/EspelhosLed";
 import Projetos from "./pages/Projetos";
 import Simulador from "./pages/Simulador";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 import NotFound from "./pages/NotFound";
 import CookieConsent from "./components/CookieConsent";
 const queryClient = new QueryClient();
@@ -30,6 +32,8 @@ const App = () => (
           <Route path="/espelhos-led" element={<EspelhosLed />} />
           <Route path="/projetos" element={<Projetos />} />
           <Route path="/simulador" element={<Simulador />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <CookieConsent />

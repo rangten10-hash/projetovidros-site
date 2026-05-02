@@ -16,6 +16,7 @@ const navItemsRight = [
   { label: "Espelhos", path: "/espelhos" },
   { label: "Espelhos LED", path: "/espelhos-led" },
   { label: "Projetos", path: "/projetos" },
+  { label: "Blog", path: "/blog" },
 ];
 
 const handleWhatsAppClick = (e: React.MouseEvent) => {
