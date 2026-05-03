@@ -6,9 +6,25 @@
     <link rel="icon" href="/favicon.png" type="image/png" />
     <link rel="canonical" href="https://www.projetovidros.com.br" />
 
-    <!-- Preconnect for fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Critical CSS inlined to prevent render blocking on the above-the-fold area -->
+    <style>
+      /* Reset + base above-the-fold styles to render immediately, before main bundle CSS arrives */
+      *,*::before,*::after{box-sizing:border-box}
+      html,body{margin:0;padding:0}
+      body{
+        background:hsl(200 20% 97%);
+        color:hsl(193 100% 11%);
+        font-family:'Raleway',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+        -webkit-font-smoothing:antialiased;
+        text-rendering:optimizeLegibility;
+      }
+      h1,h2,h3,h4,h5,h6{font-family:'Playfair Display',Georgia,serif;margin:0}
+      img{max-width:100%;height:auto;display:block}
+      /* Reserve header height to avoid CLS before React hydrates */
+      #root{min-height:100vh}
+      .header-spacer{height:6rem}
+      a{color:inherit;text-decoration:none}
+    </style>
 
     <!-- Google tag (gtag.js) - GA4 + Ads — deferred until after load to keep main thread free -->
     <script>
