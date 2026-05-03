@@ -1,12 +1,12 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
-import boxCerto from "@/assets/box-certo.jpg";
-import boxFlex from "@/assets/box-flex.jpg";
-import boxElegance from "@/assets/box-elegance.jpg";
-import boxReto from "@/assets/box-reto.jpg";
-import boxNobre from "@/assets/box-nobre.jpg";
-import boxDuo from "@/assets/box-duo.jpg";
-import boxTransfer from "@/assets/box-transfer.jpg";
-import boxTradicional from "@/assets/box-tradicional.jpg";
+import boxCerto from "@/assets/box-certo.webp";
+import boxFlex from "@/assets/box-flex.webp";
+import boxElegance from "@/assets/box-elegance.webp";
+import boxReto from "@/assets/box-reto.webp";
+import boxNobre from "@/assets/box-nobre.webp";
+import boxDuo from "@/assets/box-duo.webp";
+import boxTransfer from "@/assets/box-transfer.webp";
+import boxTradicional from "@/assets/box-tradicional.webp";
 import { Phone } from "lucide-react";
 
 const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20box%20de%20banheiro.";
