@@ -5,6 +5,13 @@ import divisoriaUniqueAntes from "@/assets/blog-divisoria-unique-antes.webp";
 import divisoriaUniqueDepois from "@/assets/blog-divisoria-unique-depois.webp";
 import espelhoHallAntes from "@/assets/blog-espelho-hall-antes.webp";
 import espelhoHall from "@/assets/blog-espelho-hall-depois.webp";
+import guiaBoxFlex from "@/assets/blog-guia-box-flex.webp";
+import guiaBoxTransfer from "@/assets/blog-guia-box-transfer.webp";
+import guiaBoxAbrir from "@/assets/blog-guia-box-abrir.webp";
+import guiaBoxFrontal from "@/assets/blog-guia-box-frontal.webp";
+import guiaBoxPisoTeto from "@/assets/blog-guia-box-piso-teto.webp";
+import guiaBoxElegance from "@/assets/blog-guia-box-elegance.webp";
+import guiaBoxCanto from "@/assets/blog-guia-box-canto.webp";
 
 export interface BlogPost {
   slug: string;
