@@ -40,8 +40,8 @@ const Header = () => {
               {item.label}
             </Link>
           ))}
-          <Link to="/box-seguro" className="mx-2 hover:opacity-80 transition-opacity">
-            <img src={logoBoxSeguro} alt="Box +Seguro" className="h-28 w-auto" />
+          <Link to="/box-seguro" className="mx-2 hover:opacity-80 transition-opacity" aria-label="Box +Seguro">
+            <img src={logoBoxSeguro} alt="Box +Seguro" width={224} height={112} className="h-28 w-auto" decoding="async" loading="lazy" />
           </Link>
           {navItemsRight.map((item) => (
             <Link key={item.path} to={item.path} className="text-foreground hover:text-accent transition-colors text-sm font-medium tracking-wide uppercase">
