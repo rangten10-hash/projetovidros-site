@@ -8,10 +8,10 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { Shield, AlertTriangle, CheckCircle, Sparkles, X } from "lucide-react";
 import LazyVideo from "@/components/LazyVideo";
 import { Link } from "react-router-dom";
-import boxSeguro1 from "@/assets/box-seguro-1.jpg";
-import boxSeguro2 from "@/assets/box-seguro-2.jpg";
-import boxSeguro3 from "@/assets/box-seguro-3.jpg";
-import boxSeguro4 from "@/assets/box-seguro-4.jpg";
+import boxSeguro1 from "@/assets/box-seguro-1.webp";
+import boxSeguro2 from "@/assets/box-seguro-2.webp";
+import boxSeguro3 from "@/assets/box-seguro-3.webp";
+import boxSeguro4 from "@/assets/box-seguro-4.webp";
 
 const galleryImages = [boxSeguro1, boxSeguro2, boxSeguro3, boxSeguro4];
 

@@ -1,11 +1,11 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
-import portaVision from "@/assets/porta-vision.jpg";
-import portaNobre from "@/assets/porta-nobre.jpg";
-import portaCerto from "@/assets/porta-certo.jpg";
-import portaFlex from "@/assets/porta-flex.jpg";
-import portaAbrir from "@/assets/porta-abrir.jpg";
-import portaCorrer from "@/assets/porta-correr.jpg";
-import portaVersatik from "@/assets/porta-versatik.jpg";
+import portaVision from "@/assets/porta-vision.webp";
+import portaNobre from "@/assets/porta-nobre.webp";
+import portaCerto from "@/assets/porta-certo.webp";
+import portaFlex from "@/assets/porta-flex.webp";
+import portaAbrir from "@/assets/porta-abrir.webp";
+import portaCorrer from "@/assets/porta-correr.webp";
+import portaVersatik from "@/assets/porta-versatik.webp";
 import { Phone } from "lucide-react";
 
 const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20portas%20de%20vidro.";

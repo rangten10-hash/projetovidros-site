@@ -1,10 +1,10 @@
 import bannerBoxSeguro from "@/assets/banner-mobile-seguranca.webp";
-import boxAteTeto from "@/assets/blog-box-ate-teto.jpg";
-import kitRetoRose from "@/assets/blog-kit-reto-rose.jpg";
-import divisoriaUniqueAntes from "@/assets/blog-divisoria-unique-antes.jpg";
-import divisoriaUniqueDepois from "@/assets/blog-divisoria-unique-depois.jpg";
-import espelhoHallAntes from "@/assets/blog-espelho-hall-antes.jpg";
-import espelhoHall from "@/assets/blog-espelho-hall-depois.jpg";
+import boxAteTeto from "@/assets/blog-box-ate-teto.webp";
+import kitRetoRose from "@/assets/blog-kit-reto-rose.webp";
+import divisoriaUniqueAntes from "@/assets/blog-divisoria-unique-antes.webp";
+import divisoriaUniqueDepois from "@/assets/blog-divisoria-unique-depois.webp";
+import espelhoHallAntes from "@/assets/blog-espelho-hall-antes.webp";
+import espelhoHall from "@/assets/blog-espelho-hall-depois.webp";
 
 export interface BlogPost {
   slug: string;

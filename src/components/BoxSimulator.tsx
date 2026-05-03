@@ -1,8 +1,8 @@
 import { useState, useRef, useCallback, useEffect } from "react";
 import { Upload, Move, Maximize2, RotateCcw, ImageIcon } from "lucide-react";
-import simBoxTeto from "@/assets/sim-box-teto.jpg";
-import simBoxElegance from "@/assets/sim-box-elegance.jpg";
-import simBoxCanto from "@/assets/sim-box-canto.jpg";
+import simBoxTeto from "@/assets/sim-box-teto.webp";
+import simBoxElegance from "@/assets/sim-box-elegance.webp";
+import simBoxCanto from "@/assets/sim-box-canto.webp";
 
 interface BoxModel {
   id: string;
