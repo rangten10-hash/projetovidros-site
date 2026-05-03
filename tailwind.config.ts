@@ -89,8 +89,8 @@ export default {
           to: { opacity: "1", transform: "translateY(0)" },
         },
         "pulse-cta": {
-          "0%, 100%": { transform: "scale(1)", boxShadow: "0 10px 25px -5px hsl(142 70% 40% / 0.5)" },
-          "50%": { transform: "scale(1.05)", boxShadow: "0 15px 35px -5px hsl(142 70% 40% / 0.8)" },
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.05)" },
         },
       },
       animation: {
