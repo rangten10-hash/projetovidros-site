@@ -6,18 +6,34 @@
     <link rel="icon" href="/favicon.png" type="image/png" />
     <link rel="canonical" href="https://www.projetovidros.com.br" />
 
-    <!-- Google tag (gtag.js) - GA4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SH3LD2LH6J"></script>
+    <!-- Preconnect for fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Google tag (gtag.js) - GA4 + Ads — deferred until after load to keep main thread free -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-SH3LD2LH6J');
-    </script>
-    <!-- Google Ads conversion snippet -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18016443240"></script>
-    <script>
-      gtag('config', 'AW-18016443240');
+      function loadGtag(){
+        if (window.__gtagLoaded) return;
+        window.__gtagLoaded = true;
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-SH3LD2LH6J';
+        document.head.appendChild(s);
+        gtag('config', 'G-SH3LD2LH6J', { 'transport_type': 'beacon' });
+        gtag('config', 'AW-18016443240');
+      }
+      if (document.readyState === 'complete') {
+        setTimeout(loadGtag, 1500);
+      } else {
+        window.addEventListener('load', function(){ setTimeout(loadGtag, 1500); });
+      }
+      // Also load on first user interaction (whichever comes first)
+      ['scroll','mousemove','touchstart','keydown'].forEach(function(e){
+        window.addEventListener(e, loadGtag, { once: true, passive: true });
+      });
     </script>
     <title>Projeto Vidros - Vidraçaria em SP | Box de Banheiro e Espelhos</title>
     <meta name="description" content="Projeto Vidros - Vidraçaria especializada em box de banheiro com película anti-estilhaço, espelhos decorativos sob medida e portas de vidro em São Paulo e região.">
