@@ -34,18 +34,22 @@ const HeroCarousel = () => {
       </div>
 
       {/* Dots */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-3">
+      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 z-20 flex gap-2">
         {Array.from({ length: totalSlides }).map((_, i) => (
           <button
             key={i}
             onClick={() => goToSlide(i)}
-            className={`w-3 h-3 rounded-full transition-all duration-300 ${
-              activeSlide === i
-                ? "bg-accent scale-125"
-                : "bg-primary-foreground/40 hover:bg-primary-foreground/60"
-            }`}
+            className="p-3 group"
             aria-label={`Ir para slide ${i + 1}`}
-          />
+          >
+            <span
+              className={`block w-3 h-3 rounded-full transition-all duration-300 ${
+                activeSlide === i
+                  ? "bg-accent scale-125"
+                  : "bg-primary-foreground/40 group-hover:bg-primary-foreground/60"
+              }`}
+            />
+          </button>
         ))}
       </div>
     </section>
