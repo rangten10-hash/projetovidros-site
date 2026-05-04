@@ -18,4 +18,22 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    cssCodeSplit: true,
+    rollupOptions: {
+      output: {
+        // Manual chunks reduce unused JS by isolating heavy libs
+        manualChunks: (id) => {
+          if (id.includes("node_modules")) {
+            if (id.includes("react-router")) return "router";
+            if (id.includes("@tanstack")) return "query";
+            if (id.includes("@radix-ui")) return "radix";
+            if (id.includes("lucide-react")) return "icons";
+            if (id.includes("@fontsource")) return "fonts";
+            if (id.includes("react-dom") || id.includes("react/")) return "react";
+          }
+        },
+      },
+    },
+  },
 }));
