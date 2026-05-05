@@ -15,6 +15,12 @@ import guiaBoxCanto from "@/assets/blog-guia-box-canto.webp";
 import flexSemBox from "@/assets/blog-flex-sem-box.webp";
 import flexFechado from "@/assets/blog-flex-fechado.webp";
 import flexAberto from "@/assets/blog-flex-aberto.webp";
+import espelhoCapa from "@/assets/blog-espelho-capa.webp";
+import espelhoPainelSala from "@/assets/blog-espelho-painel-sala.webp";
+import espelhoPainelHall from "@/assets/blog-espelho-painel-hall.webp";
+import espelhoBanheiroLed from "@/assets/blog-espelho-banheiro-led.webp";
+import espelhoLapidado from "@/assets/blog-espelho-lapidado.webp";
+import espelhoBizote from "@/assets/blog-espelho-bizote.webp";
 
 export interface BlogPost {
   slug: string;
