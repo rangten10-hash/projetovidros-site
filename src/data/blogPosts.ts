@@ -50,6 +50,87 @@ const WHATSAPP_URL =
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "espelhos-decorativos-banheiro-amplitude-qualidade",
+    title:
+      "Espelhos Decorativos e para Banheiro: Amplitude e Qualidade Superior em Cada Detalhe",
+    excerpt:
+      "Cristais Guardian e Cebrace nas espessuras 4mm, 5mm e 6mm. Lapidação, bisotê e LED sob medida para banheiros, salas e halls em São Paulo.",
+    image: espelhoCapa,
+    imageAlt:
+      "Espelho decorativo sob medida em sala de jantar com cristal Guardian instalado pela Projeto Vidros",
+    date: "2026-05-05",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Espelhos decorativos e para banheiro sob medida em São Paulo. Cristais Guardian e Cebrace 4mm, 5mm e 6mm com lapidação, bisotê e LED. Projeto Vidros.",
+    content: [
+      {
+        type: "paragraph",
+        text: "Seja para ampliar uma sala de jantar ou para transformar o visual do seu banheiro, a escolha do espelho certo vai muito além da estética. Na Projeto Vidros, acreditamos que a durabilidade e a nitidez do reflexo dependem diretamente da procedência do cristal.",
+      },
+      { type: "heading", text: "As Melhores Marcas do Mercado" },
+      {
+        type: "paragraph",
+        text: "Para garantir que seu espelho não apresente manchas ou distorções com o passar do tempo, trabalhamos exclusivamente com as marcas líderes mundiais: Guardian e Cebrace. Esses fabricantes são referência em resistência à oxidação, o que é fundamental, especialmente para espelhos de banheiro que ficam expostos à umidade constante.",
+      },
+      {
+        type: "image",
+        src: espelhoPainelSala,
+        alt: "Painel de espelhos decorativos em hall de entrada com acabamento bisotê",
+      },
+      { type: "heading", text: "Espessuras para Cada Projeto" },
+      {
+        type: "paragraph",
+        text: "Cada ambiente exige uma resistência específica para garantir a segurança e o alinhamento perfeito da peça:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "4mm:", text: "Ideal para espelhos menores ou colados diretamente em painéis de madeira." },
+          { strong: "5mm:", text: "A espessura mais versátil, oferecendo excelente equilíbrio entre peso e resistência para a maioria dos projetos residenciais." },
+          { strong: "6mm:", text: "Recomendada para espelhos de grandes dimensões ou fixados com botões, garantindo uma planicidade impecável e maior segurança estrutural." },
+        ],
+      },
+      {
+        type: "image",
+        src: espelhoPainelHall,
+        alt: "Painel de espelhos em hall de elevador com cristal de alta qualidade",
+      },
+      { type: "heading", text: "Transforme seu Banheiro e sua Casa" },
+      {
+        type: "paragraph",
+        text: "Nossos espelhos para banheiro podem ser personalizados com lapidação, bisotê ou iluminação LED, sempre respeitando as medidas exatas do seu espaço. Já para as áreas decorativas, como salas e halls, projetamos painéis que levam sofisticação e claridade para todo o imóvel.",
+      },
+      {
+        type: "image",
+        src: espelhoBanheiroLed,
+        alt: "Espelho de banheiro com iluminação LED retroiluminada instalado pela Projeto Vidros",
+      },
+      {
+        type: "image",
+        src: espelhoLapidado,
+        alt: "Espelho de banheiro com acabamento em lapidação reta",
+      },
+      {
+        type: "image",
+        src: espelhoBizote,
+        alt: "Espelho de banheiro com acabamento bisotê e bordas chanfradas",
+      },
+      { type: "heading", text: "Por que escolher a Projeto Vidros em São Paulo?" },
+      {
+        type: "paragraph",
+        text: "Combinamos a experiência de quem domina o mercado técnico com a utilização de materiais premium. Além da instalação especializada, oferecemos consultoria para definir qual a melhor marca e espessura para a sua necessidade específica.",
+      },
+      {
+        type: "paragraph",
+        text: "Quer valorizar seu ambiente com o melhor espelho de São Paulo? Entre em contato agora pelo WhatsApp: (11) 91548-5945 e solicite seu orçamento com a equipe da Projeto Vidros!",
+      },
+    ],
+    cta: {
+      label: "FALAR COM UM PROJETISTA NO WHATSAPP",
+      href: "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20espelhos%20sob%20medida.",
+    },
+  },
+  {
     slug: "box-flex-articulado-banheiros-pequenos-sao-paulo",
     title:
       "Box Flex Articulado: A Solução Inteligente para Banheiros Pequenos em São Paulo",
