@@ -1,4 +1,4 @@
-import { Instagram, Star } from "lucide-react";
+import { Instagram, Star, User } from "lucide-react";
 import instagramLogo from "@/assets/social-instagram.png";
 import tiktokLogo from "@/assets/social-tiktok.png";
 
