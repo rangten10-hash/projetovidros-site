@@ -196,6 +196,28 @@ const SocialProof = () => {
                 <p className="text-4xl font-bold text-foreground">5.0</p>
                 <p className="text-sm text-muted-foreground mt-1">Nota 5.0 baseada em avaliações de clientes</p>
               </div>
+
+              <figure className="mt-4 w-full bg-secondary/50 border border-border rounded-xl p-4 text-left">
+                <div className="flex items-center gap-3 mb-2">
+                  <div className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center text-primary">
+                    <User className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <figcaption className="text-sm font-semibold text-foreground">Adriana S.</figcaption>
+                    <div className="flex items-center gap-0.5">
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="w-3 h-3 fill-yellow-400 text-yellow-400" />
+                      ))}
+                    </div>
+                  </div>
+                </div>
+                <blockquote className="text-sm text-muted-foreground leading-relaxed italic">
+                  “Gostaria de elogiar o excelente trabalho da Projeto Vidros! Comprei 3 BOX em formatos e cores diferentes e fiquei extremamente satisfeita com todos. Os produtos ficaram maravilhosos, exatamente como esperado. Além da qualidade impecável, a entrega foi realizada dentro do prazo e o atendimento também foi excelente do início ao fim.”
+                </blockquote>
+                <p className="mt-3 text-[11px] uppercase tracking-wide text-muted-foreground/80 border-t border-border pt-2">
+                  Produtos instalados: Box Flex Articulado, Versatik 3 folhas e Kit Reto com Película Box+Seguro
+                </p>
+              </figure>
             </div>
 
             <a
