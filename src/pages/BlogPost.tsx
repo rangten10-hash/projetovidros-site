@@ -6,21 +6,44 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { getPostBySlug } from "@/data/blogPosts";
 import { ArrowLeft, MessageCircle } from "lucide-react";
 import { gtagReportConversion } from "@/lib/gtag";
+import { useSeo, SITE_URL } from "@/lib/seo";
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
   const post = slug ? getPostBySlug(slug) : undefined;
 
+  const cleanTitle = post
+    ? post.title.replace(/[^\p{L}\p{N}\s:–\-+]/gu, "").trim()
+    : "";
+
+  useSeo({
+    title: post ? `${cleanTitle} | Projeto Vidros` : "Blog | Projeto Vidros",
+    description: post?.metaDescription ?? "",
+    path: post ? `/blog/${post.slug}` : "/blog",
+    image: post ? `${SITE_URL}${post.image}` : undefined,
+    jsonLd: post
+      ? {
+          "@context": "https://schema.org",
+          "@type": "Article",
+          headline: cleanTitle,
+          datePublished: post.date,
+          author: { "@type": "Person", name: post.author },
+          image: `${SITE_URL}${post.image}`,
+          mainEntityOfPage: `${SITE_URL}/blog/${post.slug}`,
+          publisher: {
+            "@type": "Organization",
+            name: "Projeto Vidros",
+            logo: {
+              "@type": "ImageObject",
+              url: `${SITE_URL}/icon-512.png`,
+            },
+          },
+        }
+      : undefined,
+  });
+
   useEffect(() => {
-    if (!post) return;
-    document.title = `${post.title.replace(/[^\p{L}\p{N}\s:–\-+]/gu, "").trim()} | Projeto Vidros`;
-    const meta =
-      document.querySelector('meta[name="description"]') ??
-      document.head.appendChild(
-        Object.assign(document.createElement("meta"), { name: "description" }),
-      );
-    meta.setAttribute("content", post.metaDescription);
-    window.scrollTo(0, 0);
+    if (post) window.scrollTo(0, 0);
   }, [post]);
 
   if (!post) return <Navigate to="/blog" replace />;

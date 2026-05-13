@@ -7,6 +7,7 @@ import portaAbrir from "@/assets/porta-abrir.webp";
 import portaCorrer from "@/assets/porta-correr.webp";
 import portaVersatik from "@/assets/porta-versatik.webp";
 import { Phone } from "lucide-react";
+import { useSeo } from "@/lib/seo";
 
 const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20portas%20de%20vidro.";
 
@@ -109,7 +110,22 @@ Destaques:
   },
 ];
 
-const PortasVidro = () => (
+const PortasVidro = () => {
+  useSeo({
+    title: "Portas de Vidro Sob Medida em São Paulo | Projeto Vidros",
+    description:
+      "Portas de vidro sob medida para residências e escritórios em SP. Modelos Vision, Nobre, Certo, Flex, Versatik e mais. Peça orçamento.",
+    path: "/portas-de-vidro",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      name: "Portas de Vidro Projeto Vidros",
+      description: "Portas de vidro sob medida com sistemas Vision, Nobre, Certo, Flex e Versatik.",
+      brand: { "@type": "Brand", name: "Projeto Vidros" },
+      category: "Portas de Vidro",
+    },
+  });
+  return (
   <ProductPageLayout
     title="Portas de Vidro Sob Medida: Divisórias Elegantes e Modernas"
     subtitle="Soluções para Integração de Ambientes em SP"
@@ -135,6 +151,7 @@ const PortasVidro = () => (
       </a>
     </div>
   </ProductPageLayout>
-);
+  );
+};
 
 export default PortasVidro;

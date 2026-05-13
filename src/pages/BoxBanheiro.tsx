@@ -8,6 +8,7 @@ import boxDuo from "@/assets/box-duo.webp";
 import boxTransfer from "@/assets/box-transfer.webp";
 import boxTradicional from "@/assets/box-tradicional.webp";
 import { Phone } from "lucide-react";
+import { useSeo } from "@/lib/seo";
 
 const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20box%20de%20banheiro.";
 
@@ -98,7 +99,23 @@ O grande diferencial do Box Nobre é o sistema de amortecimento no fechamento e 
   },
 ];
 
-const BoxBanheiro = () => (
+const BoxBanheiro = () => {
+  useSeo({
+    title: "Box de Banheiro em São Paulo | Projeto Vidros",
+    description:
+      "Box de banheiro sob medida em SP com película anti-estilhaço, vidro temperado e instalação profissional. Conheça nossa linha completa.",
+    path: "/box-de-banheiro",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      name: "Box de Banheiro Projeto Vidros",
+      description:
+        "Linha completa de box de banheiro em vidro temperado com película anti-estilhaço.",
+      brand: { "@type": "Brand", name: "Projeto Vidros" },
+      category: "Box de Banheiro",
+    },
+  });
+  return (
   <ProductPageLayout
     title="Box de Banheiro em São Paulo: Segurança e Elegância Sob Medida"
     subtitle="Conheça nossa linha completa de box para banheiro com tecnologia antiestilhaço e design sofisticado."
@@ -154,6 +171,7 @@ const BoxBanheiro = () => (
       </div>
     </div>
   </ProductPageLayout>
-);
+  );
+};
 
 export default BoxBanheiro;

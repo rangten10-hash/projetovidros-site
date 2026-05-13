@@ -1,24 +1,18 @@
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { blogPosts } from "@/data/blogPosts";
 import { ArrowRight } from "lucide-react";
+import { useSeo } from "@/lib/seo";
 
 const Blog = () => {
-  useEffect(() => {
-    document.title = "Blog | Projeto Vidros – Box de Banheiro e Segurança em SP";
-    const meta =
-      document.querySelector('meta[name="description"]') ??
-      document.head.appendChild(
-        Object.assign(document.createElement("meta"), { name: "description" }),
-      );
-    meta.setAttribute(
-      "content",
-      "Conteúdo sobre box de banheiro, portas de vidro, espelhos e a tecnologia BOX + SEGURO. Dicas e novidades da Projeto Vidros em São Paulo.",
-    );
-  }, []);
+  useSeo({
+    title: "Blog | Projeto Vidros — Box, Espelhos e Vidraçaria em SP",
+    description:
+      "Conteúdo sobre box de banheiro, portas de vidro, espelhos e a tecnologia BOX +Seguro. Dicas e novidades da Projeto Vidros em São Paulo.",
+    path: "/blog",
+  });
 
   return (
     <div className="min-h-screen bg-background">
