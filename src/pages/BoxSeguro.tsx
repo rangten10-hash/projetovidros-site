@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { gtagReportConversion } from "@/lib/gtag";
+import { useSeo } from "@/lib/seo";
 
 const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 import Header from "@/components/Header";
@@ -16,6 +17,12 @@ import boxSeguro4 from "@/assets/box-seguro-4.webp";
 const galleryImages = [boxSeguro1, boxSeguro2, boxSeguro3, boxSeguro4];
 
 const BoxSeguro = () => {
+  useSeo({
+    title: "Box Seguro com Película Anti-estilhaço | Projeto Vidros",
+    description:
+      "Box +Seguro: tecnologia exclusiva com película anti-estilhaço para proteger sua família contra acidentes com vidro temperado em São Paulo.",
+    path: "/box-seguro",
+  });
   const [lightboxImg, setLightboxImg] = useState<string | null>(null);
 
   return (
