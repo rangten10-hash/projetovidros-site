@@ -1,9 +1,17 @@
 import GalleryPageLayout from "@/components/GalleryPageLayout";
 import { Phone } from "lucide-react";
+import { useSeo } from "@/lib/seo";
 
 const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20espelho%20LED.";
 
-const EspelhosLed = () => (
+const EspelhosLed = () => {
+  useSeo({
+    title: "Espelhos com LED em São Paulo | Projeto Vidros",
+    description:
+      "Espelhos com LED sob medida em SP: iluminação frontal ou retroiluminada, acionamento touch e baixo consumo. Ideal para banheiro e camarim.",
+    path: "/espelhos-led",
+  });
+  return (
   <GalleryPageLayout
     title="Espelhos com LED em São Paulo: Tecnologia e Sofisticação"
     subtitle="A Iluminação Perfeita para seu Banheiro ou Camarim"

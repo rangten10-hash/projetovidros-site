@@ -55,6 +55,7 @@ const Espelhos = () => {
       </a>
     </div>
   </GalleryPageLayout>
-);
+  );
+};
 
 export default Espelhos;
