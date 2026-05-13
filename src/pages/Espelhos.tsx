@@ -8,12 +8,28 @@ import espelho6 from "@/assets/espelho-6.webp";
 import espelho7 from "@/assets/espelho-7.webp";
 import espelho8 from "@/assets/espelho-8.webp";
 import { Phone } from "lucide-react";
+import { useSeo } from "@/lib/seo";
 
 const espelhoImages = [espelho1, espelho2, espelho3, espelho4, espelho5, espelho6, espelho7, espelho8];
 
 const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20espelhos%20sob%20medida.";
 
-const Espelhos = () => (
+const Espelhos = () => {
+  useSeo({
+    title: "Espelhos Decorativos Sob Medida em São Paulo | Projeto Vidros",
+    description:
+      "Espelhos decorativos sob medida em SP: bisotê, lapidados, para banheiro e parede inteira. Cristais Guardian e Cebrace com instalação especializada.",
+    path: "/espelhos",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      name: "Espelhos Decorativos Sob Medida",
+      description: "Espelhos sob medida com cristais Guardian e Cebrace, acabamento lapidado ou bisotê.",
+      brand: { "@type": "Brand", name: "Projeto Vidros" },
+      category: "Espelhos",
+    },
+  });
+  return (
   <GalleryPageLayout
     title="Espelhos Decorativos Sob Medida em São Paulo"
     subtitle="Transforme seu Ambiente com Amplitude e Elegância"
