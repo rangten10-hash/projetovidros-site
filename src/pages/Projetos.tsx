@@ -54,6 +54,7 @@ const Projetos = () => {
       </a>
     </div>
   </GalleryPageLayout>
-);
+  );
+};
 
 export default Projetos;
