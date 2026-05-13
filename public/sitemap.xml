@@ -40,4 +40,49 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
+  <url>
+    <loc>https://www.projetovidros.com.br/blog</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.projetovidros.com.br/blog/espelhos-decorativos-banheiro-amplitude-qualidade</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.projetovidros.com.br/blog/box-flex-articulado-banheiros-pequenos-sao-paulo</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.projetovidros.com.br/blog/box-banheiro-beleza-seguranca-familia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.projetovidros.com.br/blog/box-ate-o-teto-efeito-spa</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.projetovidros.com.br/blog/kit-reto-rose-design-exclusivo</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.projetovidros.com.br/blog/divisoria-versatik-truck-unique-green</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.projetovidros.com.br/blog/espelho-sob-medida-hall-entrada</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.projetovidros.com.br/blog/guia-completo-box-banheiro-ideal</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>

@@ -1,0 +1,21 @@
+# Projeto Vidros
+
+> Vidraçaria especializada em São Paulo: box de banheiro com película anti-estilhaço (BOX +Seguro), espelhos decorativos sob medida e portas de vidro. 30 anos de mercado, atendimento em toda Grande SP e Alphaville.
+
+## Pages
+
+- [Home](/): Visão geral da Projeto Vidros, categorias e tecnologia BOX +Seguro.
+- [Box de Banheiro](/box-de-banheiro): Linha completa de modelos de box (Flex, Elegance, Nobre, Reto, Transfer e mais).
+- [Box +Seguro](/box-seguro): Tecnologia exclusiva de película anti-estilhaço para vidro temperado.
+- [Portas de Vidro](/portas-de-vidro): Portas Vision, Nobre, Certo, Flex, Versatik e sistemas sob medida.
+- [Espelhos](/espelhos): Espelhos decorativos sob medida com lapidação e bisotê.
+- [Espelhos com LED](/espelhos-led): Espelhos retroiluminados e com LED frontal para banheiro e camarim.
+- [Projetos](/projetos): Portfólio de instalações residenciais e comerciais.
+- [Simulador de Box](/simulador): Configure modelo, cor de perfil e acabamento para receber orçamento.
+- [Blog](/blog): Guias e novidades sobre vidros, box, espelhos e portas.
+
+## Optional
+
+- [Guia Completo do Box de Banheiro](/blog/guia-completo-box-banheiro-ideal)
+- [Box Flex Articulado para Banheiros Pequenos](/blog/box-flex-articulado-banheiros-pequenos-sao-paulo)
+- [Espelhos Decorativos: Amplitude e Qualidade](/blog/espelhos-decorativos-banheiro-amplitude-qualidade)
