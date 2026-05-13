@@ -151,6 +151,7 @@ const PortasVidro = () => {
       </a>
     </div>
   </ProductPageLayout>
-);
+  );
+};
 
 export default PortasVidro;
