@@ -8,6 +8,7 @@ import boxDuo from "@/assets/box-duo.webp";
 import boxTransfer from "@/assets/box-transfer.webp";
 import boxTradicional from "@/assets/box-tradicional.webp";
 import { Phone } from "lucide-react";
+import { useSeo } from "@/lib/seo";
 
 const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20box%20de%20banheiro.";
 
