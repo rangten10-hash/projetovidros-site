@@ -37,6 +37,7 @@ const EspelhosLed = () => {
       </a>
     </div>
   </GalleryPageLayout>
-);
+  );
+};
 
 export default EspelhosLed;

@@ -8,12 +8,27 @@ import projeto6 from "@/assets/projeto-6.webp";
 import projeto7 from "@/assets/projeto-7.webp";
 import projeto8 from "@/assets/projeto-8.webp";
 import { Phone } from "lucide-react";
+import { useSeo } from "@/lib/seo";
 
 const projetoImages = [projeto1, projeto2, projeto3, projeto4, projeto5, projeto6, projeto7, projeto8];
 
 const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20vi%20o%20portfólio%20e%20gostaria%20de%20um%20orçamento.";
 
-const Projetos = () => (
+const Projetos = () => {
+  useSeo({
+    title: "Projetos e Portfólio | Projeto Vidros São Paulo",
+    description:
+      "Portfólio da Projeto Vidros: instalações de box de banheiro, espelhos e fechamento de sacadas em condomínios de alto padrão de São Paulo.",
+    path: "/projetos",
+    jsonLd: {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      name: "Projetos Projeto Vidros",
+      description: "Portfólio de instalações residenciais e comerciais em vidro.",
+      url: "https://www.projetovidros.com.br/projetos",
+    },
+  });
+  return (
   <GalleryPageLayout
     title="Nossos Projetos: Referência em Vidraçaria em São Paulo"
     subtitle="Portfólio de Instalações Residenciais e Comerciais"
