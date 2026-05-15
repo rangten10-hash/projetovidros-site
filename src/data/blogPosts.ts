@@ -49,7 +49,78 @@ export type BlogBlock =
 const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
-export const blogPosts: BlogPost[] = [
+  {
+    slug: "vidracaria-zona-norte-sao-paulo-atendimento-completo",
+    title: "Vidraçaria na Zona Norte: Atendimento Completo em Todos os Bairros",
+    excerpt:
+      "Sediada no Imirim, a Projeto Vidros atende toda a Zona Norte de São Paulo com box, espelhos, portas, divisórias e fachadas sob medida.",
+    image: vidracariaZonaNorte,
+    imageAlt:
+      "Vidraçaria na Zona Norte de São Paulo - Projeto Vidros com atendimento em todos os bairros",
+    date: "2026-05-15",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Vidraçaria na Zona Norte de SP: box de vidro, espelhos, portas, divisórias e fachadas sob medida. Atendimento em Santana, Tucuruvi, Imirim, Freguesia do Ó e mais.",
+    content: [
+      {
+        type: "paragraph",
+        text: "Se você está buscando uma vidraçaria que combine precisão técnica, materiais de primeira linha e um atendimento que realmente entende a dinâmica de São Paulo, a Projeto Vidros é a sua parceira ideal.",
+      },
+      {
+        type: "paragraph",
+        text: "Com sede estrategicamente localizada no Imirim, nossa equipe circula diariamente por toda a Zona Norte, levando soluções sob medida para residências, condomínios e comércios.",
+      },
+      {
+        type: "image",
+        src: vidracariaZonaNorte,
+        alt: "Vidraçaria na Zona Norte com atendimento completo em todos os bairros",
+      },
+      { type: "heading", text: "Onde Atendemos na Zona Norte?" },
+      {
+        type: "paragraph",
+        text: "Não importa se você está em um apartamento moderno ou em uma casa tradicional, nós chegamos com agilidade aos principais bairros da região, como:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Santana e Jardim São Paulo:", text: "atendimento ágil em prédios residenciais e comerciais." },
+          { strong: "Tucuruvi e Parada Inglesa:", text: "instalações em casas e apartamentos de médio e alto padrão." },
+          { strong: "Vila Guilherme e Vila Maria:", text: "soluções para residências e comércios da região." },
+          { strong: "City América e Parque Toronto:", text: "especialistas em condomínios como o Unique Green." },
+          { strong: "Freguesia do Ó e Limão:", text: "box, espelhos e portas sob medida." },
+          { strong: "Lauzane Paulista e Mandaqui:", text: "projetos residenciais com acabamento premium." },
+        ],
+      },
+      { type: "heading", text: "O que a Projeto Vidros faz por você?" },
+      {
+        type: "paragraph",
+        text: "Nossa especialidade é transformar o vidro em um elemento de segurança, design e funcionalidade. Confira nossa linha completa de serviços:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box de Vidro para Banheiro:", text: "do padrão ao luxo, incluindo os sistemas Elegance, Versatik e o prático Box Flex (articulado) para otimização de espaço." },
+          { strong: "Espelhos sob Medida:", text: "cristais de alta qualidade (Guardian e Cebrace) com lapidação de precisão, acabamento bisotê e os modernos Espelhos com LED." },
+          { strong: "Portas e Janelas de Vidro:", text: "projetos em vidro temperado ou laminado que garantem isolamento e elegância." },
+          { strong: "Divisórias de Ambiente:", text: "ideais para separar Cozinha x Lavanderia ou criar Divisórias para Escritório com um visual clean." },
+          { strong: "Comercial e Fachadas:", text: "projetamos e instalamos Fachadas de Loja e Portas de Vidro de alta resistência para o seu negócio." },
+        ],
+      },
+      { type: "heading", text: "Por que nos escolher?" },
+      {
+        type: "paragraph",
+        text: "Diferente das lojas que estão paradas no tempo, a Projeto Vidros investe em tecnologia — desde a medição a laser até o nosso site (que possui nota máxima de performance no Google). Isso se traduz em um serviço mais rápido, limpo e com a confiança de quem tem 5 estrelas de avaliação pelos próprios vizinhos da Zona Norte.",
+      },
+      {
+        type: "paragraph",
+        text: "Precisa de um orçamento para o seu projeto? Não importa o bairro, nossa equipe técnica está pronta para te atender.",
+      },
+    ],
+    cta: {
+      label: "Falar com Especialista no WhatsApp",
+      href: "https://wa.me/5511915485945?text=Olá,%20vi%20o%20post%20sobre%20a%20vidraçaria%20na%20Zona%20Norte%20e%20gostaria%20de%20um%20orçamento.",
+    },
+  },
   {
     slug: "espelhos-decorativos-banheiro-amplitude-qualidade",
     title:
