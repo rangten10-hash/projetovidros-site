@@ -23,6 +23,7 @@ import espelhoLapidado from "@/assets/blog-espelho-lapidado.webp";
 import espelhoBizote from "@/assets/blog-espelho-bizote.webp";
 import vidracariaZonaNorte from "@/assets/blog-vidracaria-zona-norte.webp";
 import vidracariaZonaOeste from "@/assets/blog-vidracaria-zona-oeste.webp";
+import vidracariaZonaLeste from "@/assets/blog-vidracaria-zona-leste.webp";
 
 export interface BlogPost {
   slug: string;
@@ -51,6 +52,73 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "vidracaria-zona-leste-sao-paulo-box-vidro-sob-medida",
+    title: "Vidraçaria na Zona Leste: Box de Banheiro e Projetos em Vidro sob Medida",
+    excerpt:
+      "Box de banheiro, espelhos, portas e divisórias de vidro sob medida no Tatuapé, Mooca, Penha, Vila Formosa e toda a Zona Leste de São Paulo.",
+    image: vidracariaZonaLeste,
+    imageAlt:
+      "Box de vidro instalado pela Projeto Vidros em banheiro de alto padrão na Zona Leste de São Paulo",
+    date: "2026-05-15",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Vidraçaria na Zona Leste de SP: box de vidro, espelhos LED, portas, janelas e divisórias sob medida no Tatuapé, Mooca, Penha, Vila Formosa e mais.",
+    content: [
+      {
+        type: "paragraph",
+        text: "Qualidade, design e segurança para quem busca o melhor na Zona Leste de São Paulo. A Projeto Vidros, referência em vidraçaria técnica com sede no Imirim, traz para a Zona Leste toda a sua expertise em instalações de alto padrão. Se você está reformando seu apartamento no Tatuapé ou construindo sua casa no Jardim Anália Franco, nossa equipe está pronta para entregar soluções que unem estética e durabilidade.",
+      },
+      {
+        type: "image",
+        src: vidracariaZonaLeste,
+        alt: "Box de vidro premium instalado em banheiro moderno na Zona Leste de São Paulo",
+      },
+      { type: "heading", text: "Atendimento Completo na Zona Leste" },
+      {
+        type: "paragraph",
+        text: "Nossa logística eficiente permite atender com agilidade os principais bairros da região, garantindo prazos curtos e instalação profissional:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Tatuapé e Jardim Anália Franco:", text: "soluções de alto padrão para apartamentos e casas." },
+          { strong: "Mooca e Belém:", text: "projetos residenciais e comerciais com acabamento impecável." },
+          { strong: "Vila Prudente e Vila Formosa:", text: "atendimento ágil para reformas e novas obras." },
+          { strong: "Carrão e Penha:", text: "box, espelhos e divisórias sob medida com instalação limpa." },
+        ],
+      },
+      { type: "heading", text: "Especialistas em Box de Vidro e Muito Mais" },
+      {
+        type: "paragraph",
+        text: "O box de banheiro é o cartão de visitas do seu projeto. Trabalhamos com o que há de mais moderno para transformar seu banheiro em um verdadeiro spa:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box de Vidro Premium:", text: "sistemas Elegance (roldanas aparentes), Versatik (vãos amplos) e o prático Box Flex para otimização de espaços reduzidos." },
+          { strong: "Espelhos de Alta Qualidade:", text: "cristais Guardian e Cebrace com acabamento bisotê e opções de Espelho com LED para iluminação perfeita." },
+          { strong: "Portas e Janelas de Vidro:", text: "máxima segurança com vidro temperado ou laminado sob medida." },
+          { strong: "Divisórias de Ambiente:", text: "ideal para separar cozinha e lavanderia ou criar salas privativas em escritórios." },
+          { strong: "Soluções para Lojas:", text: "fachadas em vidro, vitrines e portas de loja com resistência superior." },
+        ],
+      },
+      { type: "heading", text: "Por que escolher a Projeto Vidros?" },
+      {
+        type: "paragraph",
+        text: "Além de sermos especialistas em vidro, investimos em tecnologia para facilitar sua vida. Nosso site possui nota máxima em SEO, garantindo que você nos encontre sempre que precisar de qualidade. Com medição técnica precisa e atendimento personalizado, cuidamos de cada detalhe do seu projeto na Zona Leste.",
+      },
+      { type: "heading", text: "Agende seu Orçamento na Zona Leste" },
+      {
+        type: "paragraph",
+        text: "Transforme seu ambiente hoje mesmo com a Projeto Vidros. Clique no botão do WhatsApp e fale com nosso especialista!",
+      },
+    ],
+    cta: {
+      label: "Falar com Especialista na Zona Leste via WhatsApp",
+      href: "https://wa.me/5511915485945?text=Olá,%20vi%20o%20post%20sobre%20a%20vidraçaria%20na%20Zona%20Leste%20e%20gostaria%20de%20um%20orçamento.",
+    },
+  },
   {
     slug: "vidracaria-zona-oeste-sao-paulo-projetos-vidro-design",
     title: "Vidraçaria na Zona Oeste: Projetos de Vidro e Design em Todos os Bairros",
