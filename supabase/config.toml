@@ -1,0 +1,4 @@
+project_id = "wkyxpuagzspyuvwbtngh"
+
+[functions.seo-daily-monitor]
+verify_jwt = false
