@@ -21,6 +21,7 @@ import espelhoPainelHall from "@/assets/blog-espelho-painel-hall.webp";
 import espelhoBanheiroLed from "@/assets/blog-espelho-banheiro-led.webp";
 import espelhoLapidado from "@/assets/blog-espelho-lapidado.webp";
 import espelhoBizote from "@/assets/blog-espelho-bizote.webp";
+import vidracariaZonaNorte from "@/assets/blog-vidracaria-zona-norte.webp";
 
 export interface BlogPost {
   slug: string;
