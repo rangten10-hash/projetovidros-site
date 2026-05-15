@@ -24,6 +24,7 @@ import espelhoBizote from "@/assets/blog-espelho-bizote.webp";
 import vidracariaZonaNorte from "@/assets/blog-vidracaria-zona-norte.webp";
 import vidracariaZonaOeste from "@/assets/blog-vidracaria-zona-oeste.webp";
 import vidracariaZonaLeste from "@/assets/blog-vidracaria-zona-leste.webp";
+import vidracariaZonaSul from "@/assets/blog-vidracaria-zona-sul.webp";
 
 export interface BlogPost {
   slug: string;
@@ -52,6 +53,72 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "vidracaria-zona-sul-sao-paulo-design-luxo-sob-medida",
+    title: "Vidraçaria na Zona Sul: Design de Luxo e Projetos sob Medida",
+    excerpt:
+      "Box, espelhos LED, portas e divisórias de vidro sob medida em Itaim Bibi, Moema, Vila Nova Conceição, Brooklin e toda a Zona Sul de São Paulo.",
+    image: vidracariaZonaSul,
+    imageAlt:
+      "Porta de vidro temperado instalada pela Projeto Vidros em residência de alto padrão na Zona Sul de São Paulo",
+    date: "2026-05-15",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Vidraçaria na Zona Sul de SP: box premium, espelhos LED, portas e divisórias de vidro sob medida em Itaim Bibi, Moema, Vila Nova Conceição, Brooklin e mais.",
+    content: [
+      {
+        type: "paragraph",
+        text: "A Zona Sul de São Paulo é o epicentro do design, da arquitetura moderna e dos grandes centros corporativos. Para acompanhar o padrão de bairros como Moema, Itaim Bibi e Vila Nova Conceição, a Projeto Vidros oferece um atendimento exclusivo, focado em detalhes impecáveis e na máxima qualidade técnica.",
+      },
+      {
+        type: "image",
+        src: vidracariaZonaSul,
+        alt: "Porta de vidro temperado em ambiente sofisticado na Zona Sul de São Paulo",
+      },
+      {
+        type: "paragraph",
+        text: "Com sede no Imirim e uma logística otimizada, nossa equipe atende prontamente todas as subdivisões da Zona Sul, levando o que há de mais moderno em vidros e espelhos.",
+      },
+      { type: "heading", text: "Atendimento Premium por Região" },
+      {
+        type: "list",
+        items: [
+          { strong: "Eixo de Luxo e Negócios:", text: "atendemos com exclusividade o Itaim Bibi, Vila Olímpia, Brooklin e Vila Nova Conceição. Projetos ideais para apartamentos de alto padrão e divisórias de vidro para escritórios corporativos." },
+          { strong: "Áreas Nobres e Residenciais:", text: "soluções personalizadas para Moema, Jardim Paulista, Campo Belo, Panamby e Chácara Flora. Foco em espelhos decorativos e box de alto padrão." },
+          { strong: "Região Central e Tradicional:", text: "atendimento ágil na Vila Mariana, Paraíso, Chácara Klabin, Saúde e Vila Clementino, unindo tradição e modernidade." },
+          { strong: "Eixo Histórico e em Expansão:", text: "projetos sob medida para o Ipiranga, Sacomã, Jabaquara e arredores, com foco em renovação de ambientes e segurança." },
+        ],
+      },
+      { type: "heading", text: "Soluções que Valorizam seu Imóvel na Zona Sul" },
+      {
+        type: "paragraph",
+        text: "Nosso catálogo foi pensado para clientes exigentes que buscam durabilidade e estética:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box de Banheiro de Alto Padrão:", text: "sistemas como o Elegance e o Versatik, que transformam o banheiro em um ambiente de spa." },
+          { strong: "Espelhos com LED e Cristais Premium:", text: "utilizamos apenas espelhos Guardian e Cebrace, com lapidação de precisão para closets e salas de jantar." },
+          { strong: "Divisórias de Vidro para Escritórios:", text: "instalações limpas e modernas para o dinâmico mercado corporativo da Vila Olímpia e Santo Amaro." },
+          { strong: "Portas e Janelas sob Medida:", text: "vidros temperados e laminados que oferecem isolamento acústico e visual clean." },
+          { strong: "Divisórias Cozinha x Lavanderia:", text: "a solução perfeita para otimizar apartamentos modernos no Brooklin e Vila Mariana." },
+        ],
+      },
+      { type: "heading", text: "A Diferença Técnica da Projeto Vidros" },
+      {
+        type: "paragraph",
+        text: "Em uma região que não aceita erros, a nossa tecnologia de medição a laser e nossa nota 100 de SEO garantem que você está contratando uma empresa que preza pela eficiência digital e pela perfeição na obra. Com 5.0 estrelas no Google, somos a escolha de quem não abre mão da qualidade na Zona Sul.",
+      },
+      {
+        type: "paragraph",
+        text: "Precisa de um orçamento exclusivo para o seu endereço na Zona Sul? Nossa equipe técnica está pronta para transformar seu ambiente com a sofisticação que ele merece.",
+      },
+    ],
+    cta: {
+      label: "Falar com Especialista na Zona Sul via WhatsApp",
+      href: "https://wa.me/5511915485945?text=Olá,%20vi%20o%20post%20sobre%20a%20vidraçaria%20na%20Zona%20Sul%20e%20gostaria%20de%20um%20orçamento.",
+    },
+  },
   {
     slug: "vidracaria-zona-leste-sao-paulo-box-vidro-sob-medida",
     title: "Vidraçaria na Zona Leste: Box de Banheiro e Projetos em Vidro sob Medida",
