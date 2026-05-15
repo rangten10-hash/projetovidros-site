@@ -14,7 +14,108 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      seo_alerts: {
+        Row: {
+          alert_type: string
+          created_at: string
+          details: Json | null
+          id: string
+          message: string
+          resolved: boolean
+          severity: string
+          url: string
+        }
+        Insert: {
+          alert_type: string
+          created_at?: string
+          details?: Json | null
+          id?: string
+          message: string
+          resolved?: boolean
+          severity?: string
+          url: string
+        }
+        Update: {
+          alert_type?: string
+          created_at?: string
+          details?: Json | null
+          id?: string
+          message?: string
+          resolved?: boolean
+          severity?: string
+          url?: string
+        }
+        Relationships: []
+      }
+      seo_daily_snapshots: {
+        Row: {
+          clicks: number
+          coverage_state: string | null
+          created_at: string
+          ctr: number
+          id: string
+          impressions: number
+          index_status: string | null
+          last_crawl_time: string | null
+          position: number
+          raw: Json | null
+          snapshot_date: string
+          url: string
+        }
+        Insert: {
+          clicks?: number
+          coverage_state?: string | null
+          created_at?: string
+          ctr?: number
+          id?: string
+          impressions?: number
+          index_status?: string | null
+          last_crawl_time?: string | null
+          position?: number
+          raw?: Json | null
+          snapshot_date: string
+          url: string
+        }
+        Update: {
+          clicks?: number
+          coverage_state?: string | null
+          created_at?: string
+          ctr?: number
+          id?: string
+          impressions?: number
+          index_status?: string | null
+          last_crawl_time?: string | null
+          position?: number
+          raw?: Json | null
+          snapshot_date?: string
+          url?: string
+        }
+        Relationships: []
+      }
+      seo_tracked_pages: {
+        Row: {
+          active: boolean
+          created_at: string
+          id: string
+          label: string
+          url: string
+        }
+        Insert: {
+          active?: boolean
+          created_at?: string
+          id?: string
+          label: string
+          url: string
+        }
+        Update: {
+          active?: boolean
+          created_at?: string
+          id?: string
+          label?: string
+          url?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
