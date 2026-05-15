@@ -22,6 +22,7 @@ import espelhoBanheiroLed from "@/assets/blog-espelho-banheiro-led.webp";
 import espelhoLapidado from "@/assets/blog-espelho-lapidado.webp";
 import espelhoBizote from "@/assets/blog-espelho-bizote.webp";
 import vidracariaZonaNorte from "@/assets/blog-vidracaria-zona-norte.webp";
+import vidracariaZonaOeste from "@/assets/blog-vidracaria-zona-oeste.webp";
 
 export interface BlogPost {
   slug: string;
@@ -50,6 +51,73 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "vidracaria-zona-oeste-sao-paulo-projetos-vidro-design",
+    title: "Vidraçaria na Zona Oeste: Projetos de Vidro e Design em Todos os Bairros",
+    excerpt:
+      "Divisórias para escritório, box, espelhos e portas de vidro sob medida em Pinheiros, Perdizes, Lapa, Morumbi e toda a Zona Oeste de São Paulo.",
+    image: vidracariaZonaOeste,
+    imageAlt:
+      "Divisórias de vidro para escritório instaladas pela Projeto Vidros na Zona Oeste de São Paulo",
+    date: "2026-05-15",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Vidraçaria na Zona Oeste de SP: divisórias para escritório, box, espelhos, portas e fachadas sob medida em Pinheiros, Perdizes, Lapa, Morumbi e mais.",
+    content: [
+      {
+        type: "paragraph",
+        text: "Se você está na Zona Oeste de São Paulo, sabe que a região é um dos principais eixos de inovação e sofisticação da cidade. Seja para um apartamento moderno em Perdizes, uma casa em Alto de Pinheiros ou um escritório em Pinheiros, a Projeto Vidros oferece a agilidade e a qualidade técnica que o seu projeto exige.",
+      },
+      {
+        type: "image",
+        src: vidracariaZonaOeste,
+        alt: "Divisórias para escritório em vidro temperado instaladas na Zona Oeste de São Paulo",
+      },
+      { type: "heading", text: "Atendimento Especializado na Zona Oeste" },
+      {
+        type: "paragraph",
+        text: "Nossa equipe atende com prontidão todos os bairros da região, garantindo medição técnica precisa e instalação limpa:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Pinheiros, Itaim Bibi e Jardim Paulista:", text: "foco em design moderno e soluções corporativas." },
+          { strong: "Perdizes, Vila Leopoldina e Lapa:", text: "ideal para quem busca renovar o lar com segurança e elegância." },
+          { strong: "Butantã, Jaguaré e Rio Pequeno:", text: "atendimento ágil para residências e novos condomínios." },
+          { strong: "Morumbi, Alto de Pinheiros e Barra Funda:", text: "projetos de grande porte e acabamentos premium." },
+        ],
+      },
+      { type: "heading", text: "O que a Projeto Vidros oferece para a sua região?" },
+      {
+        type: "paragraph",
+        text: "Levamos nosso catálogo completo de soluções em vidro temperado e laminado para toda a Zona Oeste:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Divisórias para Escritório:", text: "a solução inteligente para dividir ambientes com elegância, garantindo isolamento acústico e um visual sofisticado." },
+          { strong: "Box de Vidro para Banheiro:", text: "modelos Elegance, Versatik e o sistema Flex (articulado), perfeito para otimizar banheiros em bairros com alta densidade imobiliária." },
+          { strong: "Espelhos sob Medida e LED:", text: "valorize seu ambiente com cristais de alta qualidade (Guardian e Cebrace) e iluminação integrada." },
+          { strong: "Portas e Janelas de Vidro:", text: "projetos personalizados que unem segurança e estética para casas e apartamentos." },
+          { strong: "Divisórias Cozinha x Lavanderia:", text: "design funcional para manter a integração dos espaços com organização." },
+          { strong: "Fachadas e Portas de Loja:", text: "soluções resistentes para o comércio pulsante da Zona Oeste." },
+        ],
+      },
+      { type: "heading", text: "Por que somos a sua melhor escolha?" },
+      {
+        type: "paragraph",
+        text: "Diferente das lojas tradicionais, a Projeto Vidros utiliza tecnologia de ponta para garantir que seu projeto seja entregue com perfeição.",
+      },
+      {
+        type: "paragraph",
+        text: "Precisa de um orçamento para o seu imóvel na Zona Oeste? Nossos especialistas estão prontos para transformar sua ideia em realidade.",
+      },
+    ],
+    cta: {
+      label: "Falar com Especialista na Zona Oeste via WhatsApp",
+      href: "https://wa.me/5511915485945?text=Olá,%20vi%20o%20post%20sobre%20a%20vidraçaria%20na%20Zona%20Oeste%20e%20gostaria%20de%20um%20orçamento.",
+    },
+  },
   {
     slug: "vidracaria-zona-norte-sao-paulo-atendimento-completo",
     title: "Vidraçaria na Zona Norte: Atendimento Completo em Todos os Bairros",
