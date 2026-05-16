@@ -128,6 +128,22 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
+        type: "heading",
+        text: "Segurança em Primeiro Lugar: Tecnologia Box+Seguro",
+      },
+      {
+        type: "paragraph",
+        text: "Mais do que design e aproveitamento de espaço, o nosso compromisso é com a integridade da sua casa. Por isso, neste projeto do Versatik 3 Folhas, aplicamos a exclusiva Película Box+Seguro.",
+      },
+      {
+        type: "paragraph",
+        text: "Sabemos que a segurança da sua família está sempre em primeiro lugar. Com essa tecnologia, caso ocorra qualquer impacto forte e o vidro venha a se quebrar, os fragmentos ficam presos à película, evitando que se espalhem pelo banheiro e causem acidentes. É a tranquilidade de ter um banheiro sofisticado com a proteção que seus filhos e familiares merecem.",
+      },
+      {
+        type: "paragraph",
+        text: '"Lindo por fora, ultra seguro por dentro. Película Box+Seguro aplicada! ✅"',
+      },
+      {
         type: "paragraph",
         text: "Tem um banheiro com layout desafiador? Nossa equipe técnica avalia o seu vão e indica a melhor solução sob medida.",
       },
