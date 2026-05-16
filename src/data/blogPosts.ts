@@ -32,6 +32,8 @@ import eleganceFlexGoldFechado from "@/assets/blog-elegance-flex-gold-fechado.we
 import eleganceFlexGoldAberto from "@/assets/blog-elegance-flex-gold-aberto.webp";
 import boxCantoKitRetoCapa from "@/assets/blog-box-canto-kit-reto-capa.webp";
 import boxCantoKitRetoMateria from "@/assets/blog-box-canto-kit-reto-materia.webp";
+import kitRetoGoldCapa from "@/assets/blog-kit-reto-gold-capa.webp";
+import kitRetoGoldMateria from "@/assets/blog-kit-reto-gold-materia.webp";
 
 export interface BlogPost {
   slug: string;
@@ -60,6 +62,86 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-kit-reto-gold-piso-teto-sofisticacao",
+    title: "Box Kit Reto Gold Piso a Teto: O Padrão Ouro de Sofisticação para seu Banheiro",
+    excerpt:
+      "Box Kit Reto Gold piso a teto com puxador duplo dourado: luxo, conforto térmico e Película Box+Seguro para um banheiro digno de spa.",
+    image: kitRetoGoldCapa,
+    imageAlt: "Box Kit Reto Gold piso a teto instalado pela Projeto Vidros em São Paulo",
+    date: "2026-05-19",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box Kit Reto Gold Piso a Teto: acabamento dourado, puxador duplo de 20cm, conforto térmico e Película Box+Seguro. Projeto sob medida da Projeto Vidros.",
+    cta: {
+      label: "Falar com Especialista no WhatsApp",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Se você busca transformar seu banheiro em um verdadeiro refúgio de luxo, o Box Kit Reto Gold com fechamento Piso a Teto é a escolha definitiva. Este projeto une a estética imponente do acabamento dourado com a funcionalidade avançada do fechamento total, criando um ambiente digno de um spa particular.",
+      },
+      {
+        type: "image",
+        src: kitRetoGoldMateria,
+        alt: "Vista frontal do Box Kit Reto Gold piso a teto com puxador duplo dourado",
+      },
+      { type: "heading", text: "O Brilho do Acabamento Gold e o Puxador Duplo" },
+      {
+        type: "paragraph",
+        text: "O diferencial deste modelo está nos detalhes que saltam aos olhos e transmitem exclusividade:",
+      },
+      {
+        type: "list",
+        items: [
+          {
+            strong: "Acabamento Gold (Dourado):",
+            text: "Uma tendência forte no design de interiores de alto padrão em São Paulo, que traz calor e sofisticação ao ambiente.",
+          },
+          {
+            strong: "Puxador Duplo de 20cm:",
+            text: "Além de facilitar a abertura com ergonomia, o puxador robusto em metal dourado funciona como uma joia na peça de vidro.",
+          },
+          {
+            strong: "Kit Reto Minimalista:",
+            text: "Linhas retas e modernas que garantem um visual clean, sem excesso de ferragens à vista.",
+          },
+        ],
+      },
+      { type: "heading", text: "Funcionalidade Inteligente: Fechamento Piso a Teto" },
+      {
+        type: "paragraph",
+        text: "Levar o box até o teto vai muito além da estética. É uma solução técnica para a preservação do seu imóvel:",
+      },
+      {
+        type: "list",
+        items: [
+          {
+            strong: "Proteção do Mobiliário:",
+            text: "Ao confinar o vapor dentro da área de banho, você protege os armários de madeira, gabinetes e espelhos contra o estufamento e o mofo causados pela umidade constante.",
+          },
+          {
+            strong: "Conforto Térmico:",
+            text: "O fechamento total retém o calor, proporcionando um banho muito mais relaxante e agradável, especialmente nos dias frios.",
+          },
+          {
+            strong: "Banheiro Seco:",
+            text: "O vapor condensa dentro do box, evitando que o restante do banheiro fique \"ensopado\" ou com as paredes escorrendo água.",
+          },
+        ],
+      },
+      { type: "heading", text: "Segurança Total com Película Box+Seguro" },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, a segurança da sua família está sempre em primeiro lugar. Por isso, este projeto inclui a aplicação da nossa Película de Segurança Box+Seguro.",
+      },
+      {
+        type: "paragraph",
+        text: "Este reforço invisível garante que, em caso de quebra acidental, os fragmentos de vidro permaneçam colados à película, evitando ferimentos e garantindo total tranquilidade para quem utiliza o espaço.",
+      },
+    ],
+  },
   {
     slug: "box-canto-kit-reto-cromado-piso-teto",
     title: "Box de Canto Kit Reto Cromado: Elegância Piso a Teto e Abertura Ampla",
