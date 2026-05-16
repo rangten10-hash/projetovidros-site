@@ -30,6 +30,8 @@ import versatik3Aberto from "@/assets/blog-versatik-3-folhas-aberto.webp";
 import eleganceFlexGoldCapa from "@/assets/blog-elegance-flex-gold-capa.webp";
 import eleganceFlexGoldFechado from "@/assets/blog-elegance-flex-gold-fechado.webp";
 import eleganceFlexGoldAberto from "@/assets/blog-elegance-flex-gold-aberto.webp";
+import boxCantoKitRetoCapa from "@/assets/blog-box-canto-kit-reto-capa.webp";
+import boxCantoKitRetoMateria from "@/assets/blog-box-canto-kit-reto-materia.webp";
 
 export interface BlogPost {
   slug: string;
@@ -58,6 +60,83 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-canto-kit-reto-cromado-piso-teto",
+    title: "Box de Canto Kit Reto Cromado: Elegância Piso a Teto e Abertura Ampla",
+    excerpt:
+      "Box de canto com Kit Reto Cromado e fechamento piso a teto: sofisticação, abertura central ampla e Película Box+Seguro para banheiros em L.",
+    image: boxCantoKitRetoCapa,
+    imageAlt:
+      "Box de canto com Kit Reto Cromado piso a teto instalado pela Projeto Vidros",
+    date: "2026-05-18",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box de Canto Kit Reto Cromado piso a teto: design minimalista, abertura central, conforto térmico e Película Box+Seguro. Projeto sob medida da Projeto Vidros.",
+    cta: {
+      label: "Falar com Especialista no WhatsApp",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Se você possui um banheiro com disposição em L e busca uma solução que una sofisticação visual e aproveitamento inteligente de espaço, o Box de Canto com Kit Reto Cromado e fechamento Piso a Teto é a escolha ideal. Este projeto transforma o canto do seu banheiro em uma cabine de banho moderna, clean e extremamente segura.",
+      },
+      {
+        type: "image",
+        src: boxCantoKitRetoMateria,
+        alt: "Box de canto com Kit Reto Cromado piso a teto em banheiro com disposição em L",
+      },
+      { type: "heading", text: "O Charme do Acabamento Cromado e Design Reto" },
+      {
+        type: "paragraph",
+        text: "O Kit Reto Cromado é um dos favoritos para projetos de alto padrão devido ao seu brilho e linhas minimalistas:",
+      },
+      {
+        type: "list",
+        items: [
+          {
+            strong: "Estética Contemporânea:",
+            text: "O acabamento cromado traz luminosidade ao ambiente, combinando perfeitamente com metais sanitários modernos.",
+          },
+          {
+            strong: "Abertura Central (Ângulo):",
+            text: "O sistema de duas portas de correr que se encontram no centro proporciona uma entrada ampla e confortável, ideal para banheiros onde a circulação lateral é limitada.",
+          },
+        ],
+      },
+      { type: "heading", text: "Vantagens do Fechamento Piso a Teto" },
+      {
+        type: "paragraph",
+        text: "Ao optar por levar o vidro até o gesso, você eleva o nível de funcionalidade do seu projeto:",
+      },
+      {
+        type: "list",
+        items: [
+          {
+            strong: "Preservação do Mobiliário:",
+            text: "O vapor fica confinado na área do banho, protegendo seus armários de madeira e espelhos da umidade excessiva e do mofo.",
+          },
+          {
+            strong: "Banheiro Sempre Organizado:",
+            text: "Esqueça o banheiro todo molhado ou embaçado após o uso. A condensação ocorre dentro do box, mantendo a área externa seca.",
+          },
+          {
+            strong: "Conforto Térmico:",
+            text: "Desfrute de um banho muito mais relaxante, com a temperatura interna preservada, criando um efeito de spa particular.",
+          },
+        ],
+      },
+      { type: "heading", text: "Segurança Total: Tecnologia Box+Seguro" },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, a estética nunca caminha sozinha. Este projeto conta com a aplicação da nossa exclusiva Película de Segurança Box+Seguro.",
+      },
+      {
+        type: "paragraph",
+        text: "A segurança da sua família está sempre em primeiro lugar. Com este reforço, mesmo em caso de um impacto extremo que leve à quebra do vidro temperado, todos os fragmentos permanecem colados à película. Isso evita ferimentos e garante a tranquilidade necessária para o dia a dia, especialmente em casas com crianças ou idosos.",
+      },
+    ],
+  },
   {
     slug: "box-elegance-flex-piso-teto-gold-luxo-protecao",
     title: "Box Elegance Flex Piso a Teto Gold: O ápice do Luxo, Espaço e Proteção",
