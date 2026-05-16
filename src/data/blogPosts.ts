@@ -34,6 +34,11 @@ import boxCantoKitRetoCapa from "@/assets/blog-box-canto-kit-reto-capa.webp";
 import boxCantoKitRetoMateria from "@/assets/blog-box-canto-kit-reto-materia.webp";
 import kitRetoGoldCapa from "@/assets/blog-kit-reto-gold-capa.webp";
 import kitRetoGoldMateria from "@/assets/blog-kit-reto-gold-materia.webp";
+import espelhosOrganicosCapa from "@/assets/blog-espelhos-organicos-capa.webp";
+import espelhosOrganicos1 from "@/assets/blog-espelhos-organicos-1.webp";
+import espelhosOrganicos2 from "@/assets/blog-espelhos-organicos-2.webp";
+import espelhosOrganicos3 from "@/assets/blog-espelhos-organicos-3.webp";
+import espelhosOrganicos4 from "@/assets/blog-espelhos-organicos-4.webp";
 
 export interface BlogPost {
   slug: string;
@@ -62,6 +67,83 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "espelhos-organicos-tendencia-decoracao-banheiro",
+    title: "Espelhos Orgânicos: A Tendência que Transforma a Decoração do seu Banheiro",
+    excerpt:
+      "Espelhos orgânicos sob medida: formas fluídas, design moderno e cristais de primeira linha para banheiros e lavabos sofisticados em São Paulo.",
+    image: espelhosOrganicosCapa,
+    imageAlt: "Espelho orgânico sob medida instalado em banheiro pela Projeto Vidros",
+    date: "2026-05-20",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Espelhos orgânicos sob medida: design fluído, cristais Guardian/Cebrace e instalação segura. Tendência em decoração de banheiros e lavabos pela Projeto Vidros.",
+    cta: {
+      label: "Falar com Especialista no WhatsApp",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Se você busca sair do óbvio e trazer mais personalidade para a sua casa, os espelhos orgânicos são a escolha perfeita. Diferente dos modelos tradicionais com linhas retas, o design orgânico prioriza formas fluídas e naturais, inspiradas na natureza, conferindo leveza e um toque de arte a qualquer ambiente.",
+      },
+      {
+        type: "image",
+        src: espelhosOrganicos1,
+        alt: "Espelho orgânico de formato fluído instalado sobre bancada com cuba e metais dourados",
+      },
+      { type: "heading", text: "Por que apostar no Design Orgânico?" },
+      {
+        type: "paragraph",
+        text: "O espelho orgânico deixou de ser apenas um item funcional para se tornar o protagonista da decoração. No banheiro ou lavabo, ele quebra a rigidez dos revestimentos e traz uma sensação de movimento:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Exclusividade:", text: "Cada peça possui contornos únicos que se adaptam ao espaço de forma harmônica." },
+          { strong: "Amplitude Visual:", text: "Assim como os espelhos convencionais, eles ajudam a ampliar o ambiente, mas com um apelo estético muito mais moderno." },
+          { strong: "Versatilidade:", text: "Combinam perfeitamente com diferentes estilos, desde o rústico/natural até o luxo contemporâneo com metais em dourado ou cobre." },
+        ],
+      },
+      {
+        type: "image",
+        src: espelhosOrganicos2,
+        alt: "Espelho orgânico redondo sobre revestimento de mármore em banheiro de alto padrão",
+      },
+      { type: "heading", text: "Destaque em Projetos de Alto Padrão" },
+      {
+        type: "paragraph",
+        text: "Como vemos em nossas instalações recentes, o espelho orgânico valoriza imensamente a bancada:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Com Metais Gold:", text: "O contraste da forma fluída do espelho com torneiras e acessórios em dourado cria um visual sofisticado e atemporal." },
+          { strong: "Sobre Revestimentos Nobres:", text: "Instalado sobre mármores ou pedras naturais, o espelho orgânico realça a textura do material, criando um ponto de foco elegante." },
+        ],
+      },
+      {
+        type: "image",
+        src: espelhosOrganicos3,
+        alt: "Espelho orgânico com iluminação LED retroiluminada ao lado de box de banheiro preto",
+      },
+      { type: "heading", text: "Qualidade e Precisão Técnica" },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, produzimos espelhos orgânicos sob medida com corte de alta precisão e acabamento impecável. Utilizamos cristais de primeira linha (Guardian ou Cebrace) para garantir um reflexo perfeito, sem distorções, e com durabilidade superior contra a umidade do banheiro.",
+      },
+      {
+        type: "image",
+        src: espelhosOrganicos4,
+        alt: "Espelho orgânico de corpo inteiro em formato arco instalado no hall do banheiro",
+      },
+      { type: "heading", text: "Segurança para sua Casa" },
+      {
+        type: "paragraph",
+        text: "Além do design, oferecemos a opção de instalação com suporte seguro e discreto, mantendo a peça firme e bem fixada, independentemente do formato escolhido.",
+      },
+    ],
+  },
   {
     slug: "box-kit-reto-gold-piso-teto-sofisticacao",
     title: "Box Kit Reto Gold Piso a Teto: O Padrão Ouro de Sofisticação para seu Banheiro",
