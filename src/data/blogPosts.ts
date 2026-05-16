@@ -25,6 +25,8 @@ import vidracariaZonaNorte from "@/assets/blog-vidracaria-zona-norte.webp";
 import vidracariaZonaOeste from "@/assets/blog-vidracaria-zona-oeste.webp";
 import vidracariaZonaLeste from "@/assets/blog-vidracaria-zona-leste.webp";
 import vidracariaZonaSul from "@/assets/blog-vidracaria-zona-sul.webp";
+import versatik3Fechado from "@/assets/blog-versatik-3-folhas-fechado.webp";
+import versatik3Aberto from "@/assets/blog-versatik-3-folhas-aberto.webp";
 
 export interface BlogPost {
   slug: string;
@@ -53,6 +55,84 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-versatik-3-folhas-banheiros-pequenos",
+    title: "Box Versatik 3 Folhas: A Solução Inteligente para Banheiros Pequenos e Apertados",
+    excerpt:
+      "Sistema Versatik de 3 folhas (1 fixa e 2 móveis) abre 66% do vão e resolve banheiros onde pia ou vaso ficam próximos do box.",
+    image: versatik3Fechado,
+    imageAlt:
+      "Box Versatik de 3 folhas com perfil preto fechado em banheiro compacto instalado pela Projeto Vidros",
+    date: "2026-05-16",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box Versatik 3 folhas: 66% de abertura para banheiros pequenos com pia ou vaso próximo ao box. Solução sob medida da Projeto Vidros em São Paulo.",
+    cta: {
+      label: "Falar com Especialista no WhatsApp",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "heading",
+        text: "O desafio do projeto",
+      },
+      {
+        type: "paragraph",
+        text: "Muitos clientes enfrentam o mesmo dilema: um banheiro onde a pia ou o vaso sanitário ficam muito próximos da entrada do box. Nesses casos, um box de abrir (de giro) bateria na louça, e um box de correr comum de 2 folhas deixa a passagem muito estreita, dificultando o uso no dia a dia.",
+      },
+      {
+        type: "image",
+        src: versatik3Fechado,
+        alt: "Box Versatik 3 folhas fechado em banheiro compacto com perfil preto",
+      },
+      {
+        type: "heading",
+        text: "A Solução Personalizada Projeto Vidros",
+      },
+      {
+        type: "paragraph",
+        text: "Nesta semana, identificamos exatamente esse problema na casa de uma cliente. A solução foi a instalação do Sistema Versatik de 3 Folhas (1 fixa e 2 móveis).",
+      },
+      {
+        type: "paragraph",
+        text: "Como funciona? Diferente do padrão, onde metade do espaço fica fechado, o Versatik de 3 folhas permite que as duas portas corram para trás da folha fixa.",
+      },
+      {
+        type: "paragraph",
+        text: "Resultado: Você ganha 66% de abertura do vão, contra os 45% de um box comum.",
+      },
+      {
+        type: "image",
+        src: versatik3Aberto,
+        alt: "Box Versatik 3 folhas aberto mostrando a passagem ampla conquistada com o sistema",
+      },
+      {
+        type: "heading",
+        text: "Vantagens Técnicas Identificadas",
+      },
+      {
+        type: "list",
+        items: [
+          {
+            strong: "Livre de Obstáculos:",
+            text: "Ideal para banheiros onde a porta não pode abrir para fora ou para dentro por causa da proximidade da pia ou vaso.",
+          },
+          {
+            strong: "Passagem Ampla:",
+            text: "Perfeito para quem busca conforto e acessibilidade, mesmo em metragens reduzidas.",
+          },
+          {
+            strong: "Estética Moderna:",
+            text: "Trilhos finos e deslizamento suave que valorizam o acabamento do banheiro.",
+          },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Tem um banheiro com layout desafiador? Nossa equipe técnica avalia o seu vão e indica a melhor solução sob medida.",
+      },
+    ],
+  },
   {
     slug: "vidracaria-zona-sul-sao-paulo-design-luxo-sob-medida",
     title: "Vidraçaria na Zona Sul: Design de Luxo e Projetos sob Medida",
