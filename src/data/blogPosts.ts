@@ -27,6 +27,9 @@ import vidracariaZonaLeste from "@/assets/blog-vidracaria-zona-leste.webp";
 import vidracariaZonaSul from "@/assets/blog-vidracaria-zona-sul.webp";
 import versatik3Fechado from "@/assets/blog-versatik-3-folhas-fechado.webp";
 import versatik3Aberto from "@/assets/blog-versatik-3-folhas-aberto.webp";
+import eleganceFlexGoldCapa from "@/assets/blog-elegance-flex-gold-capa.webp";
+import eleganceFlexGoldFechado from "@/assets/blog-elegance-flex-gold-fechado.webp";
+import eleganceFlexGoldAberto from "@/assets/blog-elegance-flex-gold-aberto.webp";
 
 export interface BlogPost {
   slug: string;
@@ -55,6 +58,109 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-elegance-flex-piso-teto-gold-luxo-protecao",
+    title: "Box Elegance Flex Piso a Teto Gold: O ápice do Luxo, Espaço e Proteção",
+    excerpt:
+      "Box articulado Elegance Flex com fechamento piso a teto e acabamento ouro: até 90% de abertura, design minimalista e Película Box+Seguro.",
+    image: eleganceFlexGoldCapa,
+    imageAlt:
+      "Box Elegance Flex piso a teto com acabamento dourado instalado pela Projeto Vidros",
+    date: "2026-05-17",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box Elegance Flex Piso a Teto Gold: sistema articulado com 90% de abertura, acabamento ouro e Película Box+Seguro. Projeto sob medida da Projeto Vidros.",
+    cta: {
+      label: "Falar com Especialista no WhatsApp",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Se você busca o que há de mais sofisticado e moderno no mercado de vidraçaria, o Box Elegance Flex com fechamento Piso a Teto na cor Ouro (Dourado) é a escolha definitiva. Este projeto foi desenvolvido para quem não abre mão do design minimalista e da funcionalidade inteligente, transformando o banheiro em um ambiente digno de revista.",
+      },
+      {
+        type: "image",
+        src: eleganceFlexGoldFechado,
+        alt: "Box Elegance Flex piso a teto fechado com perfis e ferragens em acabamento ouro",
+      },
+      {
+        type: "heading",
+        text: "Design Minimalista: Sem Roldanas ou Trilhos e na Cor Ouro",
+      },
+      {
+        type: "paragraph",
+        text: "Diferente dos sistemas tradicionais, este modelo se destaca pelo visual clean e sofisticado:",
+      },
+      {
+        type: "list",
+        items: [
+          {
+            strong: "Sem Roldanas Aparentes e Trilhos:",
+            text: "O mecanismo articulado é discreto, focado na fluidez do movimento e na limpeza visual do vidro.",
+          },
+          {
+            strong: "Acabamento Ouro (Dourado):",
+            text: "A cor dourada traz um ar de exclusividade e elegância, combinando perfeitamente com metais de alto padrão e projetos de iluminação modernos.",
+          },
+        ],
+      },
+      {
+        type: "heading",
+        text: "Máxima Abertura: Até 90% de Aproveitamento do Vão",
+      },
+      {
+        type: "paragraph",
+        text: "A grande vantagem técnica do sistema Flex é a sua capacidade de articulação. Enquanto um box de correr comum libera apenas 50% do espaço, o sistema Flex permite uma abertura de até 90%.",
+      },
+      {
+        type: "paragraph",
+        text: "Isso o torna a solução perfeita para vãos pequenos, garantindo uma passagem ampla, confortável e acessível, onde cada centímetro é aproveitado.",
+      },
+      {
+        type: "image",
+        src: eleganceFlexGoldAberto,
+        alt: "Box Elegance Flex aberto mostrando a articulação e o aproveitamento de até 90% do vão",
+      },
+      {
+        type: "heading",
+        text: "Benefícios do Fechamento Piso a Teto",
+      },
+      {
+        type: "paragraph",
+        text: "O fechamento total até o gesso não é apenas uma escolha estética, é uma decisão inteligente para a preservação do seu imóvel:",
+      },
+      {
+        type: "list",
+        items: [
+          {
+            strong: "Preservação dos Móveis:",
+            text: "Ao confinar o vapor dentro da área de banho, você evita que a umidade atinja diretamente os gabinetes de madeira e armários, impedindo que estufem ou criem mofo.",
+          },
+          {
+            strong: "Banheiro Seco e Organizado:",
+            text: "O vapor condensa dentro do box e escorre pela parede interna, mantendo o restante do banheiro livre de umidade, com espelhos limpos e sem a sensação de \"névoa\".",
+          },
+          {
+            strong: "Efeito Sauna e Conforto:",
+            text: "Mantém a temperatura interna muito mais agradável, proporcionando um banho relaxante e terapêutico.",
+          },
+        ],
+      },
+      {
+        type: "heading",
+        text: "Segurança Inegociável: Película Box+Seguro",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, o cuidado com quem você ama vem em primeiro lugar. Por isso, este projeto conta com a aplicação da Película de Segurança Box+Seguro.",
+      },
+      {
+        type: "paragraph",
+        text: "Em caso de quebra acidental, a película mantém todos os fragmentos de vidro unidos, evitando que se espalhem pelo chão e causem acidentes. É a união perfeita entre a beleza do acabamento dourado e a proteção real que sua família merece.",
+      },
+    ],
+  },
   {
     slug: "box-versatik-3-folhas-banheiros-pequenos",
     title: "Box Versatik 3 Folhas: A Solução Inteligente para Banheiros Pequenos e Apertados",
