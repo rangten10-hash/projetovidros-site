@@ -1,6 +1,7 @@
 import { gtagReportConversion } from "@/lib/gtag";
-import heroDesktop from "@/assets/banner-desktop-seguranca.webp";
-import heroMobile from "@/assets/banner-mobile-seguranca.webp";
+
+const heroDesktop = "/hero/desktop.webp";
+const heroMobile = "/hero/mobile.webp";
 
 const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá!%20Vi%20o%20Box+%20Seguro%20no%20site%20e%20gostaria%20de%20um%20orçamento.";
