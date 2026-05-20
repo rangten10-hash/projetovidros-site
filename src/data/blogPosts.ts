@@ -1933,51 +1933,109 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "kit-reto-rose-design-exclusivo",
-    title: "Kit Reto Rose: O Design do Futuro para seu Banheiro",
+    title: "Box Tradicional Kit Reto Rose: Sofisticação e Design de Revista para o Seu Banheiro",
     excerpt:
-      "Conheça o luxo do acabamento Rose com altura fora de padrão de 2,10m. Elegância e linhas minimalistas que arquitetos amam.",
+      "Box Kit Reto Rose Gold com altura personalizada de 2,10m, vidro temperado 8mm Guardian/Cebrace e Película Box+Seguro para banheiros de alto padrão em SP.",
     image: kitRetoRose,
-    imageAlt: "Box com Kit Reto Rose e altura personalizada de 2,10m",
+    imageAlt:
+      "Box de banheiro Kit Reto Rose Gold com altura personalizada de 2,10m instalado pela Projeto Vidros em São Paulo",
     date: "2026-05-02",
     author: "Projeto Vidros",
     metaDescription:
-      "Box com Kit Reto Rose em São Paulo. Altura personalizada de 2,10m para um visual clean e elegante. Projetos exclusivos Projeto Vidros.",
+      "Box Kit Reto Rose em São Paulo: altura sob medida de 2,10m, ferragens Rose Gold, vidro temperado 8mm e Película Box+Seguro pela Projeto Vidros.",
     content: [
       {
         type: "paragraph",
-        text: "Se você busca fugir do comum, o Kit Reto Rose é a escolha ideal. Com linhas minimalistas e um acabamento sofisticado, ele transforma o visual do banheiro em um ambiente de revista.",
+        text: "Se você está planejando a reforma ou decoração do seu banheiro em São Paulo e deseja fugir completamente do óbvio, o Box Tradicional Kit Reto Rose (Rose Gold) é a escolha ideal. Nos últimos anos, os banheiros deixaram de ser apenas cômodos utilitários e ganharam o status de protagonistas em projetos de arquitetura de interiores. A escolha de metais e ferragens coloridas virou a assinatura principal de ambientes que buscam transmitir luxo, personalidade e acolhimento.",
       },
-      { type: "heading", text: "Altura fora de padrão: O diferencial de 2,10m" },
       {
         type: "paragraph",
-        text: "Diferente dos boxes convencionais, este projeto da Projeto Vidros foi executado com 2,10m de altura. Essa medida personalizada traz uma imponência maior ao espaço e um acabamento muito mais harmônico com o revestimento do banheiro.",
+        text: "Combinando perfis de alumínio com linhas estritamente retas e minimalistas a um acabamento metalizado de altíssimo padrão, esse modelo transforma o visual de qualquer banheiro ou suíte em um verdadeiro ambiente de revista.",
       },
-      { type: "heading", text: "Por que arquitetos amam o Kit Reto?" },
+      { type: "heading", text: "Altura Fora de Padrão: O Diferencial Exclusivo de 2,10m de Altura" },
+      {
+        type: "paragraph",
+        text: "Diferente dos boxes convencionais de mercado — que geralmente são vendidos em magazines com a altura padrão engessada de 1,90m —, este projeto assinado pela Projeto Vidros foi desenvolvido com 2,10 metros de altura. Essa personalização técnica não é por acaso e traz dois grandes benefícios para o seu espaço.",
+      },
       {
         type: "list",
         items: [
-          {
-            strong: "Visual Clean:",
-            text: "Ferragens com linhas retas que trazem modernidade absoluta.",
-          },
-          {
-            strong: "Acabamento Premium:",
-            text: "O tom Rose Gold é tendência em decorações de alto padrão em bairros como Itaim Bibi e Moema.",
-          },
-          {
-            strong: "Personalização Técnica:",
-            text: "Executamos projetos sob medida que fogem das medidas padrão de mercado.",
-          },
+          { strong: "Imponência e Amplitude Visual:", text: "a linha do box acompanha de forma muito mais harmônica o alinhamento dos revestimentos cerâmicos, porcelanatos e nichos modernos, eliminando a quebra visual do box baixo e dando a sensação de pé-direito mais alto." },
+          { strong: "Barreira Térmica Eficiente:", text: "com 2,10m de altura, o box fica muito mais próximo do teto, criando uma barreira física excelente que retém grande parte do vapor do chuveiro, diminui o choque térmico e reduz a umidade nos móveis do lavabo." },
         ],
       },
       {
         type: "paragraph",
-        text: "Na Projeto Vidros, somos especialistas em tirar do papel esses projetos que exigem precisão técnica e um olhar atento ao design.",
+        text: "Se o seu objetivo é o confinamento total do vapor para proteger 100% dos seus armários planejados, vale a pena conhecer também a engenharia do nosso Box Kit Reto Gold Piso a Teto.",
+      },
+      { type: "heading", text: "Por Que os Arquitetos Amam o Sistema Kit Reto?" },
+      {
+        type: "paragraph",
+        text: "O Kit Reto é o sistema de correr preferido pelos profissionais de arquitetura e decoração de bairros nobres de São Paulo, como Itaim Bibi, Moema, Jardins, Pinheiros e Vila Nova Conceição. Os motivos para esse sucesso são puramente técnicos e estéticos.",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Visual Totalmente Clean:", text: "o sistema substitui os antigos perfis arredondados e grossos por molduras retilíneas e discretas, com roldanas e componentes mecânicos completamente embutidos dentro do trilho superior de formato quadrado." },
+          { strong: "Tom Rose Gold como Tendência de Luxo:", text: "equilíbrio perfeito entre o calor do dourado e a modernidade do cobre. Foge do tradicional cromado sem pesar no ambiente, combinando com paletas neutras, cinzas, brancos ou revestimentos que imitam mármore calacatta." },
+          { strong: "Alta Engenharia sob Medida:", text: "cada peça de vidro temperado de 8mm (Guardian e Cebrace) é cortada e lapidada milimetricamente para se ajustar ao seu vão, respeitando o prumo das suas paredes." },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Para espaços extremamente reduzidos onde o sistema tradicional de correr não possui vão suficiente, os arquitetos costumam migrar o projeto para o sistema articulado premium, detalhado em nosso guia sobre o Box Elegance Flex Piso a Teto Gold.",
+      },
+      { type: "heading", text: "Segurança Familiar com o Sistema Box+Seguro" },
+      {
+        type: "paragraph",
+        text: "Mais do que entregar um banheiro digno de capa de revista, o compromisso inegociável da Projeto Vidros está na segurança física da sua casa. Por trabalhar com vãos mais altos de 2,10m, a estabilidade e a proteção do vidro precisam ser impecáveis. Por isso, este projeto recebe de fábrica a aplicação da nossa exclusiva Película de Segurança Box+Seguro.",
+      },
+      {
+        type: "paragraph",
+        text: "Essa película de engenharia (tecnologia PS4 estrutural) é aplicada nas lâminas de vidro antes de irmos até a sua casa para a montagem definitiva. Isso garante que as bordas da película fiquem totalmente presas por dentro dos perfis do Kit Reto Rose. Caso ocorra uma quebra rara por impacto extremo, os fragmentos de vidro ficam 100% colados na estrutura, mantendo o painel em pé e impedindo que os cacos desabem no chão ou causem acidentes cortantes. É a sofisticação que você quer com a proteção que sua família precisa.",
+      },
+      { type: "heading", text: "Medição a Laser e Atendimento em Toda São Paulo" },
+      {
+        type: "paragraph",
+        text: "Executar um box com altura personalizada de 2,10m e ferragens de alto padrão exige precisão cirúrgica. Qualquer desnível milimétrico no piso ou fora de esquadro na parede pode fazer a porta de correr arrastar ou apresentar frestas. Para garantir vazamento zero e um deslize incrivelmente macio, a nossa equipe utiliza ferramentas de medição computadorizada a laser diretamente na sua obra antes do corte do vidro.",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Zona Norte:", text: "Santana, Tucuruvi, Mandaqui, Lauzane Paulista e Freguesia do Ó." },
+          { strong: "Zona Sul e Zona Oeste:", text: "Moema, Brooklin, Vila Olímpia, Perdizes, Pinheiros e Alphaville." },
+          { strong: "Zona Leste:", text: "Tatuapé, Jardim Anália Franco e Mooca." },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Orgulhamo-nos de manter a nota máxima de 5.0 estrelas no Google, sendo o reflexo de um atendimento digital rápido, limpo e focado na total satisfação do cliente.",
+      },
+      { type: "heading", text: "Perguntas Frequentes sobre o Box Kit Reto Rose (FAQ)" },
+      { type: "heading", text: "O acabamento Rose Gold do Kit Reto pode descascar ou manchar com o tempo?" },
+      {
+        type: "paragraph",
+        text: "Não, desde que seja de boa procedência e bem cuidado. O Kit Reto Rose com o qual trabalhamos passa por um processo industrial rigoroso de anodização ou pintura eletrostática de alta fixação. Isso blinda o alumínio contra a umidade, o vapor do chuveiro e evita descascamentos.",
+      },
+      { type: "heading", text: "Como deve ser feita a limpeza das ferragens Rose do box?" },
+      {
+        type: "paragraph",
+        text: "Para preservar o brilho e a tonalidade Rose Gold por muitos anos, nunca utilize produtos abrasivos, palhas de aço, cloro, água sanitária ou limpa-vidros ácidos nas ferragens. A limpeza deve ser feita exclusivamente com um pano de microfibra macio, água morna e sabão neutro, secando logo em seguida.",
+      },
+      { type: "heading", text: "Posso combinar o Box Rose com espelhos decorativos modernos?" },
+      {
+        type: "paragraph",
+        text: "Com certeza! A harmonização perfeita acontece quando você associa as ferragens Rose do box com um espelho de alta fidelidade no lavabo. Formas fluidas e modernas trazem o equilíbrio ideal para o ambiente.",
+      },
+      { type: "heading", text: "Tire Seu Projeto do Papel com a Projeto Vidros" },
+      {
+        type: "paragraph",
+        text: "Tem um projeto desafiador, quer uma cor exclusiva ou uma altura personalizada para valorizar o seu imóvel em São Paulo? Deixe que a nossa equipe técnica cuide de cada detalhe com a precisão e o olhar estético que você procura. Envie as fotos do seu banheiro ou as medidas do seu vão e receba uma consultoria técnica completa com o seu orçamento personalizado direto de fábrica.",
       },
     ],
     cta: {
-      label: "CONSULTAR MODELOS E PREÇOS",
-      href: "https://wa.me/5511915485945?text=Olá,%20vi%20o%20post%20sobre%20o%20Kit%20Reto%20Rose%20de%202,10m.%20Gostaria%20de%20um%20orçamento.",
+      label: "Falar com Especialista em Kit Reto Rose via WhatsApp",
+      href: WHATSAPP_URL,
     },
   },
   {
