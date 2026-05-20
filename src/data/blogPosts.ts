@@ -15,6 +15,7 @@ import guiaBoxCanto from "@/assets/blog-guia-box-canto.webp";
 import flexSemBox from "@/assets/blog-flex-sem-box.webp";
 import flexFechado from "@/assets/blog-flex-fechado.webp";
 import flexAberto from "@/assets/blog-flex-aberto.webp";
+import blogBoxFlexCapa from "@/assets/blog-box-flex-capa.png";
 import espelhoCapa from "@/assets/blog-espelho-capa.webp";
 import espelhoPainelSala from "@/assets/blog-espelho-painel-sala.webp";
 import espelhoPainelHall from "@/assets/blog-espelho-painel-hall.webp";
@@ -1441,31 +1442,60 @@ export const blogPosts: BlogPost[] = [
       "Box Flex Articulado: A Solução Inteligente para Banheiros Pequenos em São Paulo",
     excerpt:
       "Vão estreito? O Box Flex Articulado abre até 90% do espaço com vidro temperado 8mm e película de segurança. Ideal para apartamentos compactos.",
-    image: flexFechado,
+    image: blogBoxFlexCapa,
     imageAlt:
-      "Box Flex Articulado com vidro temperado e ferragens pretas instalado pela Projeto Vidros em São Paulo",
-    date: "2026-05-04",
+      "Box Flex Articulado: A Solução Inteligente para Banheiros Pequenos em São Paulo - Projeto Vidros",
+    date: "2026-05-20",
     author: "Projeto Vidros",
     metaDescription:
-      "Box Flex Articulado da Projeto Vidros: solução para banheiros pequenos em São Paulo. Abertura de até 90% do vão, vidro 8mm e película de segurança.",
+      "Box Flex Articulado em São Paulo: até 90% de abertura do vão, vidro temperado 8mm e película de segurança PS4. Ideal para banheiros compactos. Consulte valores.",
     content: [
       {
         type: "paragraph",
-        text: "Você já desistiu de ter um box de vidro porque o vão do seu banheiro é muito estreito? Se o espaço para entrada é menor que 1 metro, o box de correr tradicional acaba roubando metade da passagem, tornando o banho desconfortável.",
+        text: 'Você já ouviu falar que "banheiro de apartamento compacto não aceita box de vidro"? Se você mora na capital paulista, sabe bem que os novos empreendimentos imobiliários em bairros como Santana, Tatuapé, Moema, Pinheiros ou Perdizes estão vindo com banheiros cada vez menores e vãos de passagem extremamente estreitos.',
       },
       {
         type: "paragraph",
-        text: "Para resolver esse problema, a Projeto Vidros traz o Box Flex (ou Box Articulado), a tecnologia que está revolucionando os apartamentos compactos e reformas inteligentes.",
+        text: "Se o espaço total de entrada da sua área de banho é menor que 1 metro, tentar instalar um box de correr tradicional (com roldanas ou trilho convencional) é um erro grave. Esse modelo exige que uma folha de vidro fique fixa, o que significa que ele vai roubar exatamente metade da sua passagem. O resultado? Uma entrada apertada, desconfortável e que desvaloriza a estética do ambiente.",
+      },
+      {
+        type: "paragraph",
+        text: "Para resolver definitivamente esse gargalo de espaço sem abrir mão do design sofisticado, a Projeto Vidros — vidraçaria técnica localizada no Imirim, Zona Norte de SP — traz para o mercado o Box Flex Articulado. Essa tecnologia de engenharia de vidros é a solução mais inteligente do mercado para reformas e otimização de banheiros compactos.",
       },
       {
         type: "image",
         src: flexSemBox,
         alt: "Banheiro compacto antes da instalação do Box Flex, com vão estreito e área de banho aberta",
       },
-      { type: "heading", text: "O que é o Box Flex?" },
+      { type: "heading", text: "O que é o Box Flex e Como Ele Funciona?" },
       {
         type: "paragraph",
-        text: "Diferente dos modelos de correr, o Box Flex funciona com um sistema de dobradiças centrais. Isso permite que as folhas de vidro se dobrem uma sobre a outra, garantindo uma abertura de até 90% do vão. Se você tem um espaço de 80cm, terá quase 80cm livres para passar!",
+        text: "Diferente dos modelos tradicionais de correr ou de abrir (que exigem um ângulo de giro enorme para fora), o Box Flex Articulado funciona através de um sistema inteligente de dobradiças centrais e laterais de alta precisão.",
+      },
+      {
+        type: "paragraph",
+        text: "Esse mecanismo faz com que as folhas de vidro temperado se dobrem perfeitamente uma sobre a outra no momento da abertura, correndo de forma suave por um trilho inferior discreto. Com isso, o sistema garante uma abertura de até 90% do vão total.",
+      },
+      {
+        type: "paragraph",
+        text: "Na prática, a matemática do espaço funciona assim:",
+      },
+      {
+        type: "list",
+        items: [
+          {
+            strong: "Box de correr tradicional:",
+            text: "em um vão de 80 cm, deixa apenas cerca de 35 cm livres para a entrada.",
+          },
+          {
+            strong: "Box Flex Articulado Projeto Vidros:",
+            text: "no mesmo vão de 80 cm, você ganha quase 75 cm livres de área de passagem.",
+          },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "É a máxima eficiência de espaço aplicada à arquitetura do seu lar.",
       },
       {
         type: "image",
@@ -1474,26 +1504,30 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "heading",
-        text: "Por que escolher o Box Articulado da Projeto Vidros?",
+        text: "Por que Escolher o Box Articulado da Projeto Vidros?",
+      },
+      {
+        type: "paragraph",
+        text: "Como pioneiros e especialistas em vidros de segurança em São Paulo, nós não entregamos apenas uma instalação; nós entregamos um projeto de engenharia sob medida. Conheça os diferenciais técnicos do nosso Box Flex:",
       },
       {
         type: "list",
         items: [
           {
-            strong: "Ganho de Espaço Real:",
-            text: "Ideal para vãos a partir de 60cm, onde nenhum outro box funciona com eficiência.",
+            strong: "1. Ganho de Espaço Real em Vãos Reduzidos:",
+            text: "modelo recomendado para vãos a partir de 60 cm até 1,20 m. É o único sistema capaz de transformar um banheiro minúsculo em um ambiente confortável e 100% funcional.",
           },
           {
-            strong: "Segurança em Primeiro Lugar:",
-            text: "Utilizamos vidro temperado de 8mm e, como padrão da nossa empresa, aplicamos a película de segurança anti-estilhaço.",
+            strong: "2. Selo Box + Seguro:",
+            text: "vidro temperado premium de 8 mm e Película de Segurança PS4 Anti-estilhaço aplicada de fábrica. Em caso de impacto, os fragmentos ficam colados na película, eliminando o risco de cortes.",
           },
           {
-            strong: "Design Sem Trilho Superior:",
-            text: "O visual é extremamente moderno e clean, pois não utiliza aquela barra de alumínio no topo, deixando o banheiro com aspecto mais amplo.",
+            strong: "3. Design Clean Sem Trilho Superior:",
+            text: "sem aquela barra horizontal pesada de alumínio no topo. O visual fica minimalista, limpo e moderno, gerando sensação imediata de amplitude vertical.",
           },
           {
-            strong: "Suavidade no Uso:",
-            text: "As dobradiças de metal nobre garantem que o abrir e fechar seja silencioso e leve.",
+            strong: "4. Ferragens de Metal Nobre:",
+            text: "perfis de alumínio estrutural de alta densidade e dobradiças com acabamento Cromado, Alumínio Fosco, Preto Fosco, Branco ou Gold. Rolamentos blindados garantem deslize ultra silencioso e leve.",
           },
         ],
       },
@@ -1502,23 +1536,120 @@ export const blogPosts: BlogPost[] = [
         src: flexAberto,
         alt: "Box Flex Articulado aberto, com as folhas de vidro dobradas liberando até 90% do vão",
       },
-      { type: "heading", text: "Banheiro SPA e Conforto" },
       {
-        type: "paragraph",
-        text: "O Box Flex não é apenas funcional; ele é elegante. Ao eliminar os trilhos pesados, você ganha um ambiente com estética minimalista. Além disso, a vedação técnica da Projeto Vidros garante que a água fique exatamente onde deve: dentro da área de banho.",
-      },
-      { type: "heading", text: "Atendimento em São Paulo" },
-      {
-        type: "paragraph",
-        text: "Se você mora na capital ou região metropolitana e precisa otimizar o espaço do seu banheiro com qualidade técnica e segurança, a Projeto Vidros é especialista na instalação de modelos articulados.",
+        type: "heading",
+        text: "Box de Correr Tradicional vs. Box Flex Articulado",
       },
       {
+        type: "list",
+        items: [
+          {
+            strong: "Abertura livre do vão:",
+            text: "Box de correr deixa apenas ~50% do espaço; Box Flex libera até 90% de passagem.",
+          },
+          {
+            strong: "Vão mínimo recomendado:",
+            text: "Box de correr funciona acima de 1,20 m; Box Flex é perfeito para vãos curtos de 60 cm a 1 m.",
+          },
+          {
+            strong: "Trilho superior metálico:",
+            text: "Box de correr usa barra de alumínio grossa e visível; Box Flex não utiliza, mantendo visual 100% clean.",
+          },
+          {
+            strong: "Indicado para apartamentos compactos:",
+            text: "Box de correr não atende lavabos e banheiros pequenos; Box Flex é a solução padrão ouro para plantas compactas.",
+          },
+        ],
+      },
+      { type: "heading", text: "Transforme seu Banheiro em um Verdadeiro SPA" },
+      {
         type: "paragraph",
-        text: "Deseja um orçamento para o seu Box Flex? Fale agora com nossa equipe pelo WhatsApp (11) 91548-5945 ou visite nosso portfólio no site!",
+        text: "O Box Flex não é apenas um resolvedor de problemas de espaço; ele eleva o padrão de design da sua casa. Ao eliminar barreiras visuais e trilhos pesados, você cria uma atmosfera de hotel de luxo ou SPA residencial.",
+      },
+      {
+        type: "paragraph",
+        text: "Nossa equipe aplica uma técnica exclusiva de vedação com silicone neutro antifungo e guarnições de borracha especiais nas junções articuladas. Isso blinda o seu banheiro contra vazamentos, garantindo que toda a água do banho fique estritamente guardada dentro da área técnica de escoamento.",
+      },
+      {
+        type: "paragraph",
+        text: "Para um ciclo completo de decoração e luxo, você pode harmonizar o box com nossos espelhos sob medida de alta fidelidade das marcas Guardian e Cebrace.",
+      },
+      {
+        type: "heading",
+        text: "Instalação Especializada em Toda a Grande São Paulo",
+      },
+      {
+        type: "paragraph",
+        text: "Instalar um Box Flex exige precisão milimétrica. Como as folhas de vidro dobram entre si, qualquer parede fora de esquadro ou desnível no piso pode travar o sistema. Por isso, a Projeto Vidros realiza a medição com ferramentas a laser de alta tecnologia.",
+      },
+      {
+        type: "list",
+        items: [
+          {
+            strong: "Zona Norte:",
+            text: "Sede no Imirim, atendendo Santana, Casa Verde, Tucuruvi e Mandaqui com rapidez.",
+          },
+          {
+            strong: "Zona Sul e Zona Oeste:",
+            text: "Projetos frequentes em Moema, Perdizes, Pinheiros, Itaim Bibi e Vila Mariana.",
+          },
+          {
+            strong: "Zona Leste:",
+            text: "Tatuapé, Anália Franco e Mooca.",
+          },
+          {
+            strong: "Condomínios de Luxo:",
+            text: "Atendimento exclusivo em Alphaville, Barueri e Santana de Parnaíba.",
+          },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Com Nota 5.0 no Google e centenas de avaliações de clientes satisfeitos, garantimos uma instalação limpa, ágil e com nota fiscal e garantia técnica estendida.",
+      },
+      {
+        type: "heading",
+        text: "Perguntas Frequentes sobre o Box Flex (FAQ)",
+      },
+      {
+        type: "heading",
+        text: "Qual o preço médio de um box Flex já instalado?",
+      },
+      {
+        type: "paragraph",
+        text: "Cada medida tem um valor diferente, pois o box é fabricado sob medida conforme o vão do seu banheiro, a espessura do vidro e o acabamento das ferragens escolhidas. Consulte valores diretamente com a nossa equipe técnica pelo WhatsApp e receba um orçamento personalizado e gratuito para o seu projeto.",
+      },
+      {
+        type: "heading",
+        text: "O Box Flex dá muita manutenção por causa das dobradiças?",
+      },
+      {
+        type: "paragraph",
+        text: "Não, desde que as ferragens sejam de alta qualidade. As marcas com as quais trabalhamos utilizam componentes internos anti-desgaste. A única recomendação é fazer a limpeza correta e evitar puxões violentos na hora de dobrar os vidros.",
+      },
+      {
+        type: "heading",
+        text: "Posso instalar o Box Flex em banheiros com teto rebaixado de gesso?",
+      },
+      {
+        type: "paragraph",
+        text: "Sim! Como o Box Flex não descarrega o peso das folhas de vidro em um trilho superior (o peso é distribuído nas fixações laterais de parede e no trilho inferior do piso), ele é perfeito e super seguro para banheiros que possuem forro ou sanca de gesso.",
+      },
+      {
+        type: "heading",
+        text: "Solicite seu Orçamento de Box Flex Hoje Mesmo!",
+      },
+      {
+        type: "paragraph",
+        text: "Não sofra mais com um banheiro apertado e desconfortável. Valorize o metro quadrado do seu apartamento em São Paulo com a modernidade e a segurança do Box Flex Articulado da Projeto Vidros.",
+      },
+      {
+        type: "paragraph",
+        text: "Clique no botão abaixo para falar com um Especialista no WhatsApp ou chame direto pelo número (11) 91548-5945. Envie uma foto do seu banheiro ou as medidas aproximadas do seu vão e nossa equipe técnica desenhará a melhor paginação para o seu espaço. Cada medida é um valor — consulte condições com a nossa equipe.",
       },
     ],
     cta: {
-      label: "FALAR COM UM PROJETISTA NO WHATSAPP",
+      label: "Falar com Especialista em Box Flex via WhatsApp",
       href: WHATSAPP_URL,
     },
   },
