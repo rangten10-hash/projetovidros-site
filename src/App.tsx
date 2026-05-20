@@ -6,6 +6,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import CookieConsent from "./components/CookieConsent";
+import VersionChecker from "./components/VersionChecker";
 
 // Code-split secondary routes to reduce initial JS bundle
 const BoxBanheiro = lazy(() => import("./pages/BoxBanheiro"));
@@ -49,6 +50,7 @@ const App = () => (
           </Routes>
         </Suspense>
         <CookieConsent />
+        <VersionChecker />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
