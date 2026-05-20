@@ -2102,61 +2102,132 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "espelho-sob-medida-hall-entrada",
-    title: "Espelho no Hall de Entrada: Amplitude e Iluminação Imediata",
+    title: "Espelho no Hall de Entrada: Amplitude, Luxo e Iluminação Imediata",
     excerpt:
-      "Veja como um espelho 4mm lapidado sob medida transformou o hall de entrada deste apartamento, trazendo sofisticação e profundidade.",
+      "Espelhos sob medida 4mm/5mm Guardian e Cebrace, com lapidação, bisotê ou tons bronze/fumê, para transformar o hall de entrada do seu imóvel em SP.",
     image: espelhoHall,
-    imageAlt: "Espelho 4mm lapidado instalado em hall de entrada sob medida",
+    imageAlt:
+      "Espelho lapidado sob medida instalado em hall de entrada de apartamento em São Paulo pela Projeto Vidros",
     date: "2026-05-02",
     author: "Projeto Vidros",
     metaDescription:
-      "Benefícios do espelho sob medida no hall de entrada. Instalação de espelho 4mm lapidado em São Paulo pela Projeto Vidros.",
+      "Espelho no hall de entrada em São Paulo: cristais Guardian e Cebrace, lapidação, bisotê, tons bronze e fumê e medição a laser pela Projeto Vidros.",
     content: [
       {
         type: "paragraph",
-        text: "O hall de entrada é o cartão de visitas da sua casa. Muitas vezes negligenciado, esse espaço pode ganhar vida nova com o uso estratégico de espelhos sob medida.",
+        text: "O hall de entrada é o verdadeiro cartão de visitas da sua casa ou apartamento. Ele é o responsável por causar a primeira impressão nos seus convidados e por dar as boas-vindas a você e sua família após um longo dia de rotina na capital paulista. Muitas vezes negligenciado ou tratado apenas como uma área de passagem, esse espaço possui um potencial gigantesco de decoração e pode ganhar vida nova com o uso estratégico e planejado de espelhos sob medida.",
+      },
+      {
+        type: "paragraph",
+        text: "Se você mora em apartamentos modernos em bairros com forte verticalização em São Paulo — como Santana, Tatuapé, Perdizes ou Moema —, sabe que os halls privativos ou integrados costumam ser compactos e lineares. É exatamente nesse cenário que a engenharia de interiores da Projeto Vidros entra, transformando um corredor simples em uma entrada monumental e sofisticada.",
       },
       {
         type: "image",
         src: espelhoHallAntes,
         alt: "Hall de entrada antes da instalação do espelho sob medida",
       },
-      { type: "heading", text: "Por que investir em um espelho no Hall?" },
+      { type: "heading", text: "Por Que Investir em um Espelho sob Medida no Hall?" },
       {
-        type: "list",
-        items: [
-          {
-            strong: "Sensação de Amplitude:",
-            text: "O espelho 'dobra' o tamanho do ambiente, ideal para corredores e halls estreitos.",
-          },
-          {
-            strong: "Mais Iluminação:",
-            text: "Ele reflete a luz natural e artificial, deixando todo o apartamento mais claro e convidativo.",
-          },
-          {
-            strong: "Funcionalidade:",
-            text: "O famoso 'check-up' visual antes de sair de casa.",
-          },
-        ],
+        type: "paragraph",
+        text: "A escolha de revestir o hall com cristais de alta qualidade vai muito além do capricho estético. Ela resolve problemas estruturais de iluminação e espaço de forma imediata.",
+      },
+      { type: "heading", text: "1. Sensação de Amplitude e Multiplicação do Espaço" },
+      {
+        type: "paragraph",
+        text: "O espelho tem a propriedade física de \"dobrar\" visualmente o tamanho do ambiente. Em corredores estreitos ou halls com pouca profundidade, instalar um painel espelhado que cubra a parede de ponta a ponta quebra a sensação de confinamento, trazendo leveza e uma atmosfera muito mais arejada para a entrada do imóvel.",
+      },
+      { type: "heading", text: "2. Ganho Massivo de Iluminação Natural e Artificial" },
+      {
+        type: "paragraph",
+        text: "Geralmente, os halls de entrada não possuem janelas diretas, tornando-se os pontos mais escuros da planta residencial. Ao posicionar um espelho de forma estratégica, ele passa a captar e refletir a luz vinda da sala de estar ou as luminárias e spots de LED do teto. Isso clareia o ambiente de forma natural, tornando toda a entrada incrivelmente convidativa.",
+      },
+      { type: "heading", text: "3. Funcionalidade Prática (O Último \"Check-up\")" },
+      {
+        type: "paragraph",
+        text: "Não podemos esquecer o fator utilitário: o hall é o local perfeito para aquele famoso e indispensável \"check-up\" visual rápido na roupa, no cabelo e nos acessórios antes de você abrir a porta para sair de casa para o trabalho ou para um evento.",
       },
       {
         type: "image",
-        src: espelhoHall,
-        alt: "Hall de entrada depois da instalação do espelho 4mm lapidado sob medida",
+        src: espelhoHallFoto,
+        alt: "Hall de entrada depois da instalação do espelho lapidado sob medida pela Projeto Vidros",
       },
-      { type: "heading", text: "Qualidade Projeto Vidros" },
+      { type: "heading", text: "Dicas de Design: Formas, Acabamentos e Tonalidades" },
       {
         type: "paragraph",
-        text: "Neste projeto, utilizamos um espelho de 4mm com acabamento lapidado, cortado exatamente de acordo com o vão do cliente. O resultado é um encaixe perfeito que se integra à arquitetura do imóvel.",
+        text: "Na Projeto Vidros, nós não trabalhamos com espelhos prontos de tamanho padrão. Cada projeto é desenhado do zero para se integrar perfeitamente ao estilo da sua decoração.",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Espelhos Orgânicos com LED:", text: "uma das maiores tendências em São Paulo. Formas fluidas sem linhas retas trazem um ar artístico incomparável, e a iluminação traseira em LED embutida funciona como luz de presença aconchegante para a noite." },
+          { strong: "Painéis Quadriculados com Bisotê:", text: "para propostas clássicas e luxuosas (estilo parisiense), painéis compostos por quadrados ou losangos com acabamento chanfrado em bisotê trazem brilho lapidado magnífico para a parede." },
+          { strong: "Tonalidades Exclusivas (Bronze e Fumê):", text: "ideais para halls com muita luz direta e conceito intimista. O Bronze aquece o ambiente e o Fumê traz um visual ultra moderno e minimalista." },
+        ],
       },
       {
         type: "paragraph",
-        text: "Atendemos toda a capital de São Paulo com medição técnica para garantir que o seu projeto saia do papel com a máxima precisão.",
+        text: "Se você deseja estender essa mesma sofisticação de cristais e vidros de segurança para as áreas íntimas da casa, não deixe de ler o nosso guia completo sobre o Box Flex Articulado e veja como otimizar o espaço das suas suítes.",
+      },
+      { type: "heading", text: "A Qualidade Superior da Projeto Vidros: Espessura e Procedência" },
+      {
+        type: "paragraph",
+        text: "Para este tipo de projeto decorativo fixado diretamente na alvenaria ou em painéis de madeira (MDF), nós especificamos o uso do espelho de 4mm ou 5mm com acabamento lapidado de alta precisão. As bordas recebem um polimento completo em maquinário industrial, eliminando qualquer imperfeição ou corte, garantindo um encaixe perfeito com junta seca (alinhamento milimétrico entre as peças).",
+      },
+      {
+        type: "paragraph",
+        text: "Além do acabamento, a procedência do cristal é o que define o sucesso do projeto a longo prazo. Trabalhamos estritamente com as marcas líderes mundiais: Guardian e Cebrace. Esses espelhos são fabricados com camadas protetoras de alta tecnologia que impedem o aparecimento daquelas manchas pretas de oxidação nas bordas e garantem um reflexo 100% plano, sem distorcer a sua imagem.",
+      },
+      {
+        type: "paragraph",
+        text: "Entenda as diferenças técnicas de aplicação de cada espessura em nosso artigo exclusivo sobre Espelhos Decorativos e para Banheiro.",
+      },
+      { type: "heading", text: "Medição Técnica a Laser: O Fim das Frestas na Instalação" },
+      {
+        type: "paragraph",
+        text: "Instalar um espelho decorativo em paredes inteiras exige cuidados extremos. Em São Paulo, é muito comum encontrar paredes residenciais com pequenas ondulações no reboco, desníveis no rodapé ou fora de prumo nos cantos. Se você compra um espelho comum e tenta colar, essas imperfeições forçam o vidro, causando distorções na imagem e risco de trincas.",
+      },
+      {
+        type: "paragraph",
+        text: "Para abolir qualquer chance de erro, a nossa equipe técnica realiza a medição computadorizada a laser diretamente no local antes de enviar o projeto para a têmpera e corte de fábrica. Isso garante que o espelho seja cortado com as exatas compensações milimétricas das suas paredes, resultando em uma instalação limpa, segura e com encaixe cirúrgico.",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Zona Norte:", text: "Santana, Tucuruvi, Mandaqui, Jardim São Paulo e Lauzane Paulista." },
+          { strong: "Zona Sul e Zona Oeste:", text: "Itaim Bibi, Moema, Brooklin, Pinheiros, Perdizes e Vila Olímpia." },
+          { strong: "Zona Leste:", text: "Tatuapé, Jardim Anália Franco e Mooca." },
+          { strong: "Grande SP:", text: "projetos executados com exclusividade em grandes residências de Alphaville, Tamboré e Barueri." },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Ostentamos com muito orgulho a avaliação máxima de 5.0 estrelas no Google, fruto do nosso compromisso em alinhar o rigor da engenharia com o refinamento estético que o seu imóvel merece.",
+      },
+      { type: "heading", text: "Perguntas Frequentes sobre Espelhos de Hall (FAQ)" },
+      { type: "heading", text: "O espelho do hall deve cobrir a parede inteira ou usar moldura?" },
+      {
+        type: "paragraph",
+        text: "Depende do objetivo do projeto. Se você precisa de máxima amplitude porque o hall é muito estreito, revestir a parede inteira do chão ao teto (com painéis de junta seca) é a melhor solução técnica. Se o espaço já for amplo e você busca um elemento focado em design, um espelho centralizado (seja redondo, orgânico ou com moldura imponente) funciona melhor como peça decorativa sobre um aparador.",
+      },
+      { type: "heading", text: "Como é feita a colagem segura do espelho na parede?" },
+      {
+        type: "paragraph",
+        text: "Nós utilizamos exclusivamente silicone neutro específico para espelhos e fitas dupla-face estruturais de alta aderência. Esse tipo de adesivo químico não agride o espelho por trás, garantindo que a película protetora de prata da Guardian ou Cebrace permaneça intacta, sem risco de descolamento ou manchas.",
+      },
+      { type: "heading", text: "Dá para instalar o espelho em paredes de Drywall (gesso acartonado)?" },
+      {
+        type: "paragraph",
+        text: "Sim! Nossas equipes são altamente treinadas para instalações em Drywall. Analisamos o peso total da peça de cristal e, se necessário, fazemos a distribuição de carga utilizando fixadores químicos ou buchas especiais de expansão, garantindo estabilidade absoluta e segurança para sua família.",
+      },
+      { type: "heading", text: "Dê as Boas-Vindas ao Luxo na Sua Entrada" },
+      {
+        type: "paragraph",
+        text: "Não deixe a entrada do seu lar passar despercebida. Valorize o metro quadrado do seu imóvel em São Paulo, transformando o seu hall em um ambiente iluminado, amplo e sofisticado com a assinatura de acabamento da Projeto Vidros. Envie as fotos do seu hall de entrada ou as medidas da sua parede e receba uma consultoria de design gratuita com o seu orçamento personalizado sob medida.",
       },
     ],
     cta: {
-      label: "SOLICITAR ORÇAMENTO DE ESPELHO",
-      href: "https://wa.me/5511915485945?text=Olá,%20vi%20o%20post%20do%20espelho%20no%20hall%20e%20gostaria%20de%20um%20orçamento%20sob%20medida.",
+      label: "Falar com Especialista em Espelhos via WhatsApp",
+      href: WHATSAPP_URL,
     },
   },
   {
