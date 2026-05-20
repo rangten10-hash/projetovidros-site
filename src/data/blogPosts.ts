@@ -69,15 +69,15 @@ const WHATSAPP_URL =
 export const blogPosts: BlogPost[] = [
   {
     slug: "espelhos-organicos-tendencia-decoracao-banheiro",
-    title: "Espelhos Orgânicos: A Tendência que Transforma a Decoração do seu Banheiro",
+    title: "Espelhos Orgânicos: A Tendência de Design que Transforma Banheiros e Lavabos em São Paulo",
     excerpt:
-      "Espelhos orgânicos sob medida: formas fluídas, design moderno e cristais de primeira linha para banheiros e lavabos sofisticados em São Paulo.",
+      "Espelhos orgânicos sob medida em São Paulo: formas fluídas, cristais Guardian/Cebrace e instalação segura para banheiros e lavabos de alto padrão.",
     image: espelhosOrganicosCapa,
-    imageAlt: "Espelho orgânico sob medida instalado em banheiro pela Projeto Vidros",
+    imageAlt: "Espelho orgânico sob medida instalado em lavabo pela Projeto Vidros em São Paulo",
     date: "2026-05-20",
     author: "Projeto Vidros",
     metaDescription:
-      "Espelhos orgânicos sob medida: design fluído, cristais Guardian/Cebrace e instalação segura. Tendência em decoração de banheiros e lavabos pela Projeto Vidros.",
+      "Espelhos orgânicos sob medida em SP: design fluído, cristais Guardian/Cebrace, lapidação curva e instalação segura. Tendência em banheiros e lavabos de alto padrão pela Projeto Vidros.",
     cta: {
       label: "Falar com Especialista no WhatsApp",
       href: WHATSAPP_URL,
@@ -85,62 +85,110 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "Se você busca sair do óbvio e trazer mais personalidade para a sua casa, os espelhos orgânicos são a escolha perfeita. Diferente dos modelos tradicionais com linhas retas, o design orgânico prioriza formas fluídas e naturais, inspiradas na natureza, conferindo leveza e um toque de arte a qualquer ambiente.",
+        text: "Se você está planejando uma reforma ou redecorando a sua casa e busca sair do óbvio para trazer mais personalidade, os espelhos orgânicos são a escolha perfeita. Rompendo totalmente com a rigidez dos modelos tradicionais quadrados ou redondos com linhas retas, o design orgânico prioriza formas fluídas, assimétricas e naturais. Inspiradas em elementos da natureza, como rios e pedras lapidadas, essas peças conferem leveza, sofisticação e um verdadeiro toque de arte a qualquer ambiente.",
+      },
+      {
+        type: "paragraph",
+        text: "Nos principais projetos de arquitetura de interiores em São Paulo, especialmente em condomínios e apartamentos de alto padrão, o espelho com formato orgânico deixou de ser apenas um item funcional de higiene para se tornar o grande protagonista da decoração.",
       },
       {
         type: "image",
         src: espelhosOrganicos1,
-        alt: "Espelho orgânico de formato fluído instalado sobre bancada com cuba e metais dourados",
+        alt: "Espelho orgânico sob medida instalado em lavabo moderno com torneira dourada",
       },
-      { type: "heading", text: "Por que apostar no Design Orgânico?" },
+      { type: "heading", text: "Por que Apostar no Design Orgânico no Banheiro ou Lavabo?" },
       {
         type: "paragraph",
-        text: "O espelho orgânico deixou de ser apenas um item funcional para se tornar o protagonista da decoração. No banheiro ou lavabo, ele quebra a rigidez dos revestimentos e traz uma sensação de movimento:",
+        text: "A inserção de formas curvas em banheiros e lavabos é um recurso técnico inteligente de design. Como os banheiros costumam ser repletos de linhas retas e materiais rígidos — como os azulejos, porcelanatos, nichos e bancadas de pedra —, o espelho orgânico entra como um elemento de quebra. Ele suaviza a estética do espaço e traz uma sensação única de movimento e fluidez.",
+      },
+      {
+        type: "paragraph",
+        text: "Apostar nessa tendência oferece vantagens claras para o seu projeto:",
       },
       {
         type: "list",
         items: [
-          { strong: "Exclusividade:", text: "Cada peça possui contornos únicos que se adaptam ao espaço de forma harmônica." },
-          { strong: "Amplitude Visual:", text: "Assim como os espelhos convencionais, eles ajudam a ampliar o ambiente, mas com um apelo estético muito mais moderno." },
-          { strong: "Versatilidade:", text: "Combinam perfeitamente com diferentes estilos, desde o rústico/natural até o luxo contemporâneo com metais em dourado ou cobre." },
+          { strong: "Exclusividade Sob Medida:", text: "Cada peça possui contornos e curvas únicas. Ao optar por um modelo sob medida, o corte do vidro se adapta perfeitamente ao tamanho da sua bancada e à altura do seu gesso de forma harmônica." },
+          { strong: "Sensação de Amplitude Visual:", text: "Assim como os espelhos convencionais de marcas renomadas (como Guardian e Cebrace), os modelos orgânicos refletem a luz e ajudam a ampliar banheiros pequenos ou lavabos estreitos. A diferença é que eles fazem isso com um apelo estético muito mais moderno e convidativo." },
+          { strong: "Versatilidade de Estilos:", text: "Eles são extremamente democráticos. Combinam perfeitamente com propostas que vão desde o estilo rústico e natural (com revestimentos amadeirados ou cimento queimado) até o luxo contemporâneo e minimalista." },
         ],
+      },
+      {
+        type: "paragraph",
+        text: "Se você quer estender essa sensação de modernidade e sofisticação para a sua área de banho, vale a pena conhecer também o nosso guia sobre o Box Kit Reto Gold Piso a Teto, uma solução de fechamento total que une elegância com alta proteção para o seu mobiliário.",
       },
       {
         type: "image",
         src: espelhosOrganicos2,
         alt: "Espelho orgânico redondo sobre revestimento de mármore em banheiro de alto padrão",
       },
-      { type: "heading", text: "Destaque em Projetos de Alto Padrão" },
+      { type: "heading", text: "Destaque em Projetos de Alto Padrão e Combinações de Luxo" },
       {
         type: "paragraph",
-        text: "Como vemos em nossas instalações recentes, o espelho orgânico valoriza imensamente a bancada:",
+        text: "Como observamos em nossas instalações mais recentes em bairros como Moema, Perdizes, Tatuapé e Jardim Anália Franco, o espelho orgânico tem o poder de valorizar imensamente o investimento feito na bancada do banheiro. Existem duas combinações que estão no topo das escolhas dos designers:",
       },
+      { type: "heading", text: "1. Harmonização com Metais Gold e Rose Gold" },
       {
-        type: "list",
-        items: [
-          { strong: "Com Metais Gold:", text: "O contraste da forma fluída do espelho com torneiras e acessórios em dourado cria um visual sofisticado e atemporal." },
-          { strong: "Sobre Revestimentos Nobres:", text: "Instalado sobre mármores ou pedras naturais, o espelho orgânico realça a textura do material, criando um ponto de foco elegante." },
-        ],
+        type: "paragraph",
+        text: "O contraste da forma fluída e livre do espelho com a precisão geométrica de torneiras e acessórios em dourado (Gold) ou cobre cria um visual digno de hotel cinco estrelas. O brilho do metal nobre destaca o contorno lapidado do cristal.",
+      },
+      { type: "heading", text: "2. Sobreposição em Revestimentos Nobres" },
+      {
+        type: "paragraph",
+        text: "Instalado sobre painéis de madeira ripada, mármores esculpidos (como o Carrara ou Nero Marquina) ou pedras naturais quartzito, o espelho orgânico atua como uma moldura de luz. Ele realça a textura do material de fundo, criando um ponto de foco elegante e sofisticado que impressiona qualquer visita.",
       },
       {
         type: "image",
         src: espelhosOrganicos3,
-        alt: "Espelho orgânico com iluminação LED retroiluminada ao lado de box de banheiro preto",
+        alt: "Espelho orgânico com iluminação LED retroiluminada em banheiro contemporâneo",
       },
-      { type: "heading", text: "Qualidade e Precisão Técnica" },
+      { type: "heading", text: "Qualidade, Precisão Técnica e Processo de Lapidação" },
       {
         type: "paragraph",
-        text: "Na Projeto Vidros, produzimos espelhos orgânicos sob medida com corte de alta precisão e acabamento impecável. Utilizamos cristais de primeira linha (Guardian ou Cebrace) para garantir um reflexo perfeito, sem distorções, e com durabilidade superior contra a umidade do banheiro.",
+        text: "Na Projeto Vidros, entendemos que um design arrojado exige uma execução técnica impecável. Produzir um espelho assimétrico e curvo requer maquinário de alta precisão e mão de obra especializada em cristais de primeira linha.",
+      },
+      {
+        type: "paragraph",
+        text: "Trabalhamos exclusivamente com espelhos das marcas Guardian e Cebrace, referências mundiais em durabilidade. Nossas peças passam por um processo rigoroso de lapidação nas bordas, o que elimina qualquer aresta cortante e garante um toque suave. Além disso, os espelhos recebem uma camada de proteção extra na parte traseira que impede a oxidação precoce (aquelas terríveis manchas pretas) causada pela umidade constante do banheiro. O resultado é um reflexo 100% perfeito, plano e sem distorções na imagem.",
       },
       {
         type: "image",
         src: espelhosOrganicos4,
         alt: "Espelho orgânico de corpo inteiro em formato arco instalado no hall do banheiro",
       },
-      { type: "heading", text: "Segurança para sua Casa" },
+      { type: "heading", text: "Segurança Inegociável para sua Casa" },
       {
         type: "paragraph",
-        text: "Além do design, oferecemos a opção de instalação com suporte seguro e discreto, mantendo a peça firme e bem fixada, independentemente do formato escolhido.",
+        text: "Além da beleza estética, a segurança na fixação é uma das nossas maiores prioridades técnicas. Espelhos orgânicos costumam ser peças pesadas e com centros de gravidade diferentes dos modelos tradicionais.",
+      },
+      {
+        type: "paragraph",
+        text: "Por isso, desenvolvemos um sistema de instalação com suporte invisível, seguro e discreto. A peça fica totalmente firme, rente e bem fixada à parede, independentemente da ousadia do formato escolhido. E para quem deseja um visual ainda mais cênico, nossa equipe técnica está preparada para integrar sistemas de fita de LED embutida atrás do espelho, criando uma iluminação difusa que valoriza os contornos da peça.",
+      },
+      {
+        type: "paragraph",
+        text: "Para fechamentos de vãos de banheiro onde a segurança também é o fator principal, não deixe de conferir nossa tecnologia de películas protetoras aplicada diretamente na nossa linha de Box de Banheiro com Película Box+Seguro.",
+      },
+      { type: "heading", text: "Perguntas Frequentes sobre Espelhos Orgânicos (FAQ)" },
+      { type: "heading", text: "Como escolher o tamanho ideal do espelho orgânico para o banheiro?" },
+      {
+        type: "paragraph",
+        text: "O espelho orgânico não precisa seguir estritamente a largura da bancada da pia. O ideal é que ele ocupe cerca de 60% a 80% do espaço horizontal da bancada, permitindo que as suas curvas \"respirem\" e apareçam contra a parede de fundo. Na Projeto Vidros, nós auxiliamos na definição técnica do melhor formato para o seu espaço.",
+      },
+      { type: "heading", text: "Qual é o preço de um espelho orgânico sob medida em SP?" },
+      {
+        type: "paragraph",
+        text: "O valor depende das dimensões da peça (altura e largura máxima) e do tipo de acabamento (se terá iluminação em LED ou se será colado direto na parede). Por se tratar de um corte especial e lapidação curva, ele possui um valor agregado ligeiramente maior que o espelho comum retangular, mas o ganho estético compensa o investimento.",
+      },
+      { type: "heading", text: "Onde comprar espelho orgânico com instalação em São Paulo?" },
+      {
+        type: "paragraph",
+        text: "A Projeto Vidros é especializada na fabricação, corte e instalação de espelhos orgânicos sob medida. Atendemos toda a capital paulista, incluindo a Zona Norte (Imirim, Santana), Zona Sul (Vila Mariana, Morumbi), Zona Oeste (Pinheiros, Vila Madalena) e também a região metropolitana, como os residenciais de alto padrão em Alphaville, Barueri e Santana de Parnaíba.",
+      },
+      { type: "heading", text: "Traga Seu Projeto para a Projeto Vidros" },
+      {
+        type: "paragraph",
+        text: "Se você busca transformar o seu banheiro ou lavabo com a elegância atemporal de um espelho orgânico sob medida, conte com a experiência técnica e a medição a laser da Projeto Vidros. Fale agora mesmo com um especialista no WhatsApp, envie uma foto do seu ambiente ou as medidas da sua bancada e receba uma consultoria de design gratuita com o seu orçamento personalizado.",
       },
     ],
   },
