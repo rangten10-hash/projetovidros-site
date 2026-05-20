@@ -1,5 +1,5 @@
 import bannerBoxSeguro from "@/assets/banner-mobile-seguranca.webp";
-import boxAteTeto from "@/assets/blog-box-ate-teto.webp";
+import boxAteTeto from "@/assets/blog-box-ate-teto-capa.png";
 import kitRetoRose from "@/assets/blog-kit-reto-rose.webp";
 import divisoriaUniqueAntes from "@/assets/blog-divisoria-unique-antes.webp";
 import divisoriaUniqueDepois from "@/assets/blog-divisoria-unique-depois.webp";
@@ -1818,47 +1818,116 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "box-ate-o-teto-efeito-spa",
-    title: "Box até o Teto: Transforme seu Banheiro em um SPA Particular",
+    title: "Box até o Teto: Transforme seu Banheiro em um SPA Particular de Luxo",
     excerpt:
-      "Descubra como o box até o teto retém o calor, evita o mofo e traz sofisticação absoluta para o seu projeto.",
+      "Box Piso a Teto em vidro temperado 8mm com Película Box+Seguro: conforto térmico, fim do mofo e estética minimalista para banheiros de alto padrão em SP.",
     image: boxAteTeto,
     imageAlt:
-      "Box de banheiro até o teto com ferragens cromadas Kit Reto instalado pela Projeto Vidros em São Paulo",
+      "Box até o teto em vidro temperado com ferragens Kit Reto instalado pela Projeto Vidros em banheiro de alto padrão em São Paulo",
     date: "2026-05-02",
     author: "Projeto Vidros",
     metaDescription:
-      "Saiba por que o box até o teto é a maior tendência para banheiros de luxo em SP. Conforto térmico e design exclusivo pela Projeto Vidros.",
+      "Box até o Teto em São Paulo: conforto térmico, fim do mofo, ferragens Kit Reto em preto, dourado ou cromado e Película Box+Seguro pela Projeto Vidros.",
     content: [
       {
         type: "paragraph",
-        text: "Você já sentiu aquele choque térmico ao sair do banho em um dia frio? O segredo dos projetos de alto padrão no Itaim e em Alphaville para resolver isso é o Box até o Teto.",
+        text: "Você já sentiu aquele choque térmico desconfortável ao abrir a porta do box após um banho quente em um dia frio em São Paulo? Esse problema, muito comum em layouts residenciais tradicionais, virou passado nos projetos de arquitetura contemporânea de alto padrão em bairros como Itaim Bibi, Moema, Vila Nova Conceição e Alphaville.",
       },
-      { type: "heading", text: "Conforto Térmico e Higiene" },
+      {
+        type: "paragraph",
+        text: "O grande segredo dos arquitetos para criar um ambiente de relaxamento profundo e sofisticação visual é o Box até o Teto (ou Box Piso a Teto). Muito além de uma escolha estética imponente, essa solução de engenharia transforma o banheiro ou lavabo em uma cabine de banho hermética, elevando o conceito de bem-estar dentro de casa.",
+      },
+      { type: "heading", text: "Os Benefícios Funcionais: Conforto Térmico e Higiene Absoluta" },
+      {
+        type: "paragraph",
+        text: "Optar por estender os painéis de vidro temperado desde o piso até o gesso rebaixado traz vantagens práticas que impactam diretamente a saúde da sua família e a durabilidade do seu patrimônio.",
+      },
+      { type: "heading", text: "1. Efeito Sauna e Conforto Térmico Único" },
+      {
+        type: "paragraph",
+        text: "Ao confinar o vão de ponta a ponta, o vapor gerado pelo chuveiro elétrico ou a gás fica totalmente retido dentro da área de banho. Isso cria um microclima aquecido, mantendo a temperatura interna extremamente agradável e constante. É o cenário perfeito para um banho terapêutico e relaxante após um longo dia de trabalho na capital paulista.",
+      },
+      { type: "heading", text: "2. Preservação dos Móveis Planejados e Adeus ao Mofo" },
+      {
+        type: "paragraph",
+        text: "Nos banheiros convencionais, o vapor se espalha livremente por todo o ambiente, condensando-se nos espelhos, nas paredes e, principalmente, no mobiliário. A umidade constante é a principal vilã que causa o estufamento de gabinetes em MDF, o descolamento de fitas de borda e a proliferação de mofo e bolor no teto. Com o Box até o Teto, o vapor vira água na parede interna do azulejo e escorre direto para o ralo, mantendo o restante do banheiro seco, organizado e livre de umidade.",
+      },
+      { type: "heading", text: "Estética Minimalista com Engenharia de Alta Performance" },
+      {
+        type: "paragraph",
+        text: "Visualmente, o fechamento total provoca um efeito de amplitude monumental. Ele integra o teto ao piso, dando a nítida sensação de que o pé-direito do banheiro é mais alto e o espaço, mais amplo.",
+      },
+      {
+        type: "paragraph",
+        text: "Para alcançar esse visual limpo e sofisticado, a Projeto Vidros utiliza sistemas de ferragens modernas, como o aclamado Kit Reto. Esse sistema elimina perfis de alumínio grossos e pesados, trabalhando com linhas retas, discretas e contemporâneas.",
+      },
       {
         type: "list",
         items: [
-          {
-            strong: "Efeito Sauna:",
-            text: "Ao fechar o vão até o teto, o vapor fica retido, mantendo a temperatura agradável durante todo o banho.",
-          },
-          {
-            strong: "Adeus ao Mofo:",
-            text: "O vapor não se espalha pelo banheiro, preservando a pintura e os móveis do ambiente.",
-          },
+          { strong: "Preto Fosco (Black Matte):", text: "para banheiros com pegada industrial ou moderna." },
+          { strong: "Ouro Dourado (Gold):", text: "trazendo o ápice do luxo e exclusividade, combinando perfeitamente com o Box Elegance Flex Piso a Teto Gold." },
+          { strong: "Cromado Clássico e Inox:", text: "para um visual atemporal e de alto brilho." },
         ],
       },
-      { type: "heading", text: "Estética Minimalista" },
+      { type: "heading", text: "Segurança Inegociável com o Selo Box+Seguro" },
       {
         type: "paragraph",
-        text: "Utilizando ferragens modernas como o Kit Reto, o visual fica limpo e sofisticado, ideal para quem busca um design clean e contemporâneo.",
+        text: "Na Projeto Vidros, nós sabemos que um projeto só é verdadeiramente luxuoso se for 100% seguro para quem você ama. Por isso, todos os nossos vidros são cristais temperados de 8mm de alta resistência, produzidos pelas melhores marcas mundiais, como Guardian e Cebrace.",
       },
       {
         type: "paragraph",
-        text: "Na Projeto Vidros, realizamos a medição técnica precisa para que o fechamento seja perfeito, garantindo segurança e beleza em toda a Zona Norte e regiões nobres de São Paulo.",
+        text: "Como diferencial essencial, o nosso projeto Piso a Teto conta com a aplicação da exclusiva Película de Segurança Box+Seguro. Essa película invisível de alta aderência (tecnologia PS4 estrutural) é aplicada nas lâminas de vidro antes da montagem final do box.",
+      },
+      {
+        type: "paragraph",
+        text: "⚠️ Diferencial Técnico Importante: aplicar a película de segurança antes da instalação é o único método eficaz. Isso garante que as bordas da película fiquem embutidas e presas por dentro dos perfis e ferragens. Caso ocorra uma quebra por impacto extremo, os cacos de vidro ficam firmemente colados e ancorados na estrutura metálica, impedindo que desabem no chão como um \"cobertor de vidro\". É a tranquilidade que sua família merece, protegendo contra cortes e acidentes graves.",
+      },
+      {
+        type: "paragraph",
+        text: "Para banheiros que possuem banheiras de canto ou layouts em formato de \"L\", nossa engenharia desenvolve essa mesma proteção total através do Box de Canto Kit Reto Cromado.",
+      },
+      { type: "heading", text: "Medição Técnica a Laser e Logística em Toda São Paulo" },
+      {
+        type: "paragraph",
+        text: "A instalação de um Box até o Teto não aceita margens para improviso. Como o vidro vai encostar no teto de gesso, qualquer milímetro de desalinhamento ou fora de prumo nas paredes pode impedir o fechamento correto ou forçar o vidro de forma perigosa. Por isso, a equipe técnica da Projeto Vidros utiliza medição computadorizada a laser, garantindo um corte de fábrica milimétrico e um ajuste perfeito na sua obra.",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Zona Norte:", text: "atendimento recorde em Santana, Tucuruvi, Mandaqui, Jardim São Paulo e Freguesia do Ó." },
+          { strong: "Zona Sul e Zona Oeste:", text: "presença constante em Moema, Itaim Bibi, Pinheiros, Perdizes, Vila Olímpia e Brooklin." },
+          { strong: "Zona Leste:", text: "condomínios verticais de alto padrão do Tatuapé, Jardim Anália Franco e Mooca." },
+          { strong: "Grande SP:", text: "projetos sob medida em residências de luxo em Alphaville, Tamboré e Santana de Parnaíba." },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Com Nota 5.0 estrelas no Google, somos a vidraçaria técnica escolhida por arquitetos e clientes exigentes em toda a capital paulista.",
+      },
+      { type: "heading", text: "Perguntas Frequentes sobre o Box até o Teto (FAQ)" },
+      { type: "heading", text: "O banheiro com Box até o Teto precisa de janela interna?" },
+      {
+        type: "paragraph",
+        text: "Sim, ou de um sistema de exaustão mecânica (como os coolers de teto). Como o box veda completamente a área de banho, o vapor precisa ser liberado após o uso. Se a sua janela do banheiro fica dentro da área do chuveiro, o sistema funciona perfeitamente, pois basta abrir a janela para o vapor sair direto para o exterior, sem passar pelo restante do banheiro.",
+      },
+      { type: "heading", text: "O vidro do box pode rachar o teto de gesso?" },
+      {
+        type: "paragraph",
+        text: "Não, desde que instalado por profissionais. A Projeto Vidros não fixa o vidro sob pressão contra o gesso. Deixamos uma folga milimétrica técnica preenchida com guarnições de vedação em silicone neutro. Isso absorve a vibração natural do abrir e fechar da porta, protegendo a estrutura do seu teto contra trincas.",
+      },
+      { type: "heading", text: "Como harmonizar o box com o restante do banheiro?" },
+      {
+        type: "paragraph",
+        text: "Para criar uma identidade visual fluida e moderna, o ideal é combinar o acabamento das ferragens do box (como o preto ou dourado) com os metais da bancada e os puxadores dos armários. Além disso, usar espelhos que ampliem o espaço fora do box cria o equilíbrio perfeito.",
+      },
+      { type: "heading", text: "Agende Sua Visita Técnica com a Projeto Vidros" },
+      {
+        type: "paragraph",
+        text: "Quer parar de passar frio no banho e dar ao seu imóvel o visual sofisticado e higiênico que ele merece? Traga o seu projeto para quem é especialista em engenharia de vidros de alto padrão em São Paulo. Envie as fotos do seu banheiro ou as medidas do seu vão e receba uma consultoria gratuita com o seu orçamento personalizado sob medida.",
       },
     ],
     cta: {
-      label: "QUERO MEU BOX ATÉ O TETO – ORÇAMENTO VIA WHATSAPP",
+      label: "Falar com Especialista em Box até o Teto via WhatsApp",
       href: WHATSAPP_URL,
     },
   },
