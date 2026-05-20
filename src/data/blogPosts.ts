@@ -2,7 +2,8 @@ import bannerBoxSeguro from "@/assets/banner-mobile-seguranca.webp";
 import boxAteTeto from "@/assets/blog-box-ate-teto-capa.png";
 import kitRetoRose from "@/assets/blog-kit-reto-rose.webp";
 import divisoriaUniqueAntes from "@/assets/blog-divisoria-unique-antes.webp";
-import divisoriaUniqueDepois from "@/assets/blog-divisoria-unique-depois.webp";
+import divisoriaUniqueDepois from "@/assets/blog-divisoria-unique-capa.png";
+import divisoriaUniqueFoto from "@/assets/blog-divisoria-unique-depois.webp";
 import espelhoHallAntes from "@/assets/blog-espelho-hall-antes.webp";
 import espelhoHall from "@/assets/blog-espelho-hall-depois.webp";
 import guiaBoxFlex from "@/assets/blog-guia-box-flex.webp";
@@ -2067,7 +2068,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: divisoriaUniqueDepois,
+        src: divisoriaUniqueFoto,
         alt: "Divisória Versatik Truck em vidro pontilhado instalada no Unique Green",
       },
       { type: "heading", text: "Segurança e Estética" },
@@ -2094,8 +2095,8 @@ export const blogPosts: BlogPost[] = [
       },
     ],
     cta: {
-      label: "QUERO UMA DIVISÓRIA ASSIM – WHATSAPP",
-      href: "https://wa.me/5511915485945?text=Olá,%20vi%20o%20post%20da%20porta%20no%20Unique%20Green%20e%20queria%20um%20orçamento%20parecido.",
+      label: "Falar com Especialista em Divisória de Vidro via WhatsApp",
+      href: WHATSAPP_URL,
     },
   },
   {
