@@ -59,7 +59,12 @@ export function gtagReportConversion(
   url: string,
   userData?: EnhancedConversionUserData,
 ) {
-  const openUrl = () => window.open(url, "_blank");
+  let opened = false;
+  const openUrl = () => {
+    if (opened) return;
+    opened = true;
+    window.open(url, "_blank");
+  };
 
   if (typeof window === "undefined" || typeof window.gtag === "undefined") {
     openUrl();
@@ -68,8 +73,6 @@ export function gtagReportConversion(
 
   const enhanced = buildUserData(userData);
 
-  // Set user-provided data at the page level so the tag can attach it to
-  // subsequent conversion events (required for Enhanced Conversions).
   if (enhanced) {
     window.gtag("set", "user_data", enhanced);
   }
