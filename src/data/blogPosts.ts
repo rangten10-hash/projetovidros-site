@@ -987,17 +987,20 @@ export const blogPosts: BlogPost[] = [
         text: "Com uma reputação consolidada no mercado e avaliação de 5.0 estrelas no Google, nos orgulhamos de ser a empresa de confiança escolhida por dezenas de arquitetos e famílias na Zona Leste que buscam transformar ambientes com responsabilidade e excelência técnica.",
       },
       { type: "heading", text: "Perguntas Frequentes sobre Serviços de Vidraçaria na Zona Leste (FAQ)" },
+      { type: "heading", text: "Como funciona a medição a laser e o orçamento para a Zona Leste?" },
       {
         type: "paragraph",
-        text: "Como funciona a medição a laser e o orçamento para a Zona Leste? Você pode dar o primeiro passo enviando as fotos do seu banheiro ou as medidas aproximadas pelo nosso canal de atendimento no WhatsApp. Elaboramos uma proposta comercial inicial e, após a aprovação do valor, agendamos a ida de um técnico especializado até o seu endereço na Zona Leste para coletar as medidas definitivas a laser.",
+        text: "Você pode dar o primeiro passo enviando as fotos do seu banheiro ou as medidas aproximadas pelo nosso canal de atendimento no WhatsApp. Elaboramos uma proposta comercial inicial e, após a aprovação do valor, agendamos a ida de um técnico especializado até o seu endereço na Zona Leste para coletar as medidas definitivas a laser.",
       },
+      { type: "heading", text: "Qual é o melhor modelo de box para apartamentos novos na Zona Leste?" },
       {
         type: "paragraph",
-        text: "Qual é o melhor modelo de box para apartamentos novos na Zona Leste? Para os novos apartamentos que costumam ter vãos mais estreitos no banheiro, os sistemas articulados como o Box Elegance Flex ou sistemas de portas paralelas como o Versatik de 3 Folhas são altamente recomendados, pois ampliam de forma inteligente a área de passagem livre.",
+        text: "Para os novos apartamentos que costumam ter vãos mais estreitos no banheiro, os sistemas articulados como o Box Elegance Flex ou sistemas de portas paralelas como o Versatik de 3 Folhas são altamente recomendados, pois ampliam de forma inteligente a área de passagem livre.",
       },
+      { type: "heading", text: "Os espelhos da Projeto Vidros mancham com o tempo?" },
       {
         type: "paragraph",
-        text: "Os espelhos da Projeto Vidros mancham com o tempo? Não! Como utilizamos exclusivamente cristais de primeira linha das marcas Guardian e Cebrace, nossas peças recebem uma blindagem protetora especial na parte traseira que impede o processo de oxidação precoce (aquelas manchas pretas nas bordas) causado pela umidade constante do banheiro.",
+        text: "Não! Como utilizamos exclusivamente cristais de primeira linha das marcas Guardian e Cebrace, nossas peças recebem uma blindagem protetora especial na parte traseira que impede o processo de oxidação precoce (aquelas manchas pretas nas bordas) causado pela umidade constante do banheiro.",
       },
       { type: "heading", text: "Fale com Nossos Especialistas na Projeto Vidros" },
       {
