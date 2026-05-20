@@ -422,16 +422,16 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "box-elegance-flex-piso-teto-gold-luxo-protecao",
-    title: "Box Elegance Flex Piso a Teto Gold: O ápice do Luxo, Espaço e Proteção",
+    title: "Box Elegance Flex Piso a Teto Gold: O Ápice do Luxo, Espaço e Proteção para seu Banheiro",
     excerpt:
-      "Box articulado Elegance Flex com fechamento piso a teto e acabamento ouro: até 90% de abertura, design minimalista e Película Box+Seguro.",
+      "Box Elegance Flex Piso a Teto Gold: design articulado minimalista, até 90% de abertura, acabamento ouro e Película Box+Seguro em São Paulo.",
     image: eleganceFlexGoldCapa,
     imageAlt:
-      "Box Elegance Flex piso a teto com acabamento dourado instalado pela Projeto Vidros",
+      "Box Elegance Flex piso a teto com acabamento dourado instalado pela Projeto Vidros em São Paulo",
     date: "2026-05-17",
     author: "Projeto Vidros",
     metaDescription:
-      "Box Elegance Flex Piso a Teto Gold: sistema articulado com 90% de abertura, acabamento ouro e Película Box+Seguro. Projeto sob medida da Projeto Vidros.",
+      "Box Elegance Flex Piso a Teto Gold em São Paulo: sistema articulado com até 90% de abertura, acabamento ouro premium e Película Box+Seguro pela Projeto Vidros.",
     cta: {
       label: "Falar com Especialista no WhatsApp",
       href: WHATSAPP_URL,
@@ -439,7 +439,15 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "Se você busca o que há de mais sofisticado e moderno no mercado de vidraçaria, o Box Elegance Flex com fechamento Piso a Teto na cor Ouro (Dourado) é a escolha definitiva. Este projeto foi desenvolvido para quem não abre mão do design minimalista e da funcionalidade inteligente, transformando o banheiro em um ambiente digno de revista.",
+        text: "Se você está projetando uma reforma residencial e busca o que há de mais sofisticado, tecnológico e moderno no mercado de vidraçaria de alto padrão, o Box Elegance Flex com fechamento Piso a Teto na cor Ouro (Dourado) é a escolha definitiva.",
+      },
+      {
+        type: "paragraph",
+        text: "Este projeto foi milimetricamente desenvolvido para proprietários de imóveis e arquitetos que não abrem mão de um design minimalista e de uma funcionalidade inteligente. Ele tem o poder de transformar qualquer banheiro comum ou lavabo em uma verdadeira sala de banho digna de revista de decoração.",
+      },
+      {
+        type: "paragraph",
+        text: "Em grandes centros urbanos como São Paulo, onde os novos apartamentos premium exigem soluções inteligentes para otimização de espaço sem perder o glamour, o sistema Elegance Flex Piso a Teto se consolidou como a maior referência de luxo contemporâneo.",
       },
       {
         type: "image",
@@ -448,36 +456,40 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "heading",
-        text: "Design Minimalista: Sem Roldanas ou Trilhos e na Cor Ouro",
+        text: "Design Minimalista: A Tecnologia Articulada na Cor Ouro (Gold)",
       },
       {
         type: "paragraph",
-        text: "Diferente dos sistemas tradicionais, este modelo se destaca pelo visual clean e sofisticado:",
+        text: "Diferente de absolutamente todos os sistemas tradicionais de correr ou de abrir disponíveis no mercado, este modelo se destaca pelo visual extraordinariamente clean, leve e sofisticado:",
       },
       {
         type: "list",
         items: [
           {
-            strong: "Sem Roldanas Aparentes e Trilhos:",
-            text: "O mecanismo articulado é discreto, focado na fluidez do movimento e na limpeza visual do vidro.",
+            strong: "Mecanismo Flex sem Roldanas Aparentes ou Trilhos Pesados:",
+            text: "O grande trunfo visual deste box é a ausência de barras horizontais grossas ou roldanas chamativas na parte superior. O mecanismo de articulação lateral é extremamente discreto, embutido nas próprias dobradiças técnicas, mantendo o foco 100% na transparência, na fluidez do movimento e na limpeza visual do vidro temperado.",
           },
           {
-            strong: "Acabamento Ouro (Dourado):",
-            text: "A cor dourada traz um ar de exclusividade e elegância, combinando perfeitamente com metais de alto padrão e projetos de iluminação modernos.",
+            strong: "Acabamento Ouro (Dourado Premium):",
+            text: "A tonalidade dourada aplicada nos perfis e ferragens traz um ar imediato de exclusividade, aquecendo o ambiente. É o acabamento perfeito para harmonizar com projetos de iluminação modernos (sancas e perfis embutidos de LED) e metais sanitários de luxo instalados em bairros nobres paulistas como Pinheiros, Vila Olímpia, Higienópolis e Moema.",
           },
         ],
       },
       {
+        type: "paragraph",
+        text: "Se você deseja criar um conceito integrado de design fluido por todo o banheiro, combinando os tons dourados dos metais, vale a pena conhecer também a nossa linha de Espelhos Orgânicos Lapidados Sob Medida, que trazem formas curvas naturais para valorizar a sua bancada de mármore.",
+      },
+      {
         type: "heading",
-        text: "Máxima Abertura: Até 90% de Aproveitamento do Vão",
+        text: "Máxima Abertura: Até 90% de Aproveitamento Real do Vão",
       },
       {
         type: "paragraph",
-        text: "A grande vantagem técnica do sistema Flex é a sua capacidade de articulação. Enquanto um box de correr comum libera apenas 50% do espaço, o sistema Flex permite uma abertura de até 90%.",
+        text: "A grande vantagem de engenharia do sistema Flex é a sua impressionante capacidade de articulação em estilo \"sanfona\" ou \"camarão\". Um box de correr convencional de duas folhas consome, obrigatoriamente, 50% do vão com o vidro fixo — se o seu vão for estreito, a passagem fica apertada e desconfortável.",
       },
       {
         type: "paragraph",
-        text: "Isso o torna a solução perfeita para vãos pequenos, garantindo uma passagem ampla, confortável e acessível, onde cada centímetro é aproveitado.",
+        text: "Já no sistema Flex, as folhas de vidro se dobram perfeitamente sobre as laterais, liberando até 90% de área útil de passagem. Essa característica técnica o torna a solução perfeita e obrigatória para banheiros com vãos pequenos ou compactos, garantindo uma entrada ampla, confortável e totalmente acessível, onde cada centímetro quadrado do ambiente é aproveitado com inteligência e elegância.",
       },
       {
         type: "image",
@@ -486,40 +498,84 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "heading",
-        text: "Benefícios do Fechamento Piso a Teto",
+        text: "Os Benefícios Estruturais do Fechamento Total do Piso ao Teto",
       },
       {
         type: "paragraph",
-        text: "O fechamento total até o gesso não é apenas uma escolha estética, é uma decisão inteligente para a preservação do seu imóvel:",
+        text: "Optar por estender o vidro do box desde o chão até o gesso rebaixado do teto não é apenas uma escolha estética monumental que alonga o pé-direito do ambiente. Trata-se de uma decisão técnica inteligente para a valorização patrimonial e preservação do seu imóvel contra os efeitos nocivos do clima úmido de São Paulo:",
       },
       {
         type: "list",
         items: [
           {
-            strong: "Preservação dos Móveis:",
-            text: "Ao confinar o vapor dentro da área de banho, você evita que a umidade atinja diretamente os gabinetes de madeira e armários, impedindo que estufem ou criem mofo.",
+            strong: "1. Preservação Absoluta dos Móveis Planejados:",
+            text: "O vapor gerado pelo chuveiro elétrico ou a gás é o principal causador do estufamento de gabinetes de madeira, descascamento de fitas de borda em MDF e oxidação de puxadores. Ao confinar o vapor de forma hermética dentro da área de banho, o Box Piso a Teto impede que a umidade atinja diretamente os armários, estendendo drasticamente a durabilidade do mobiliário.",
           },
           {
-            strong: "Banheiro Seco e Organizado:",
-            text: "O vapor condensa dentro do box e escorre pela parede interna, mantendo o restante do banheiro livre de umidade, com espelhos limpos e sem a sensação de \"névoa\".",
+            strong: "2. Banheiro Seco, Organizado e Sem Névoa:",
+            text: "O vapor quente, ao encontrar a barreira total do vidro, se condensa na parede interna do azulejo e escorre diretamente para o ralo. O restante do banheiro permanece completamente seco, livre daquela sensação de \"sauna\" abafada. Seus espelhos decorativos ficam limpos e sem embaçar, permitindo o uso imediato da bancada após o banho.",
           },
           {
-            strong: "Efeito Sauna e Conforto:",
-            text: "Mantém a temperatura interna muito mais agradável, proporcionando um banho relaxante e terapêutico.",
+            strong: "3. Conforto Térmico Incomparável:",
+            text: "Para os dias frios de inverno na capital paulista ou em regiões como a Zona Norte e Zona Sul, o isolamento térmico oferecido por este box mantém a temperatura interna da área de banho aquecida e extremamente agradável, proporcionando um relaxamento terapêutico único.",
           },
         ],
       },
       {
+        type: "paragraph",
+        text: "Para vãos de canto onde as paredes formam um ângulo reto em banheiros amplos, nós também desenvolvemos engenharia sob medida através do Box de Canto Kit Reto Cromado, oferecendo fechamento total e abertura centralizada.",
+      },
+      {
         type: "heading",
-        text: "Segurança Inegociável: Película Box+Seguro",
+        text: "Segurança Inegociável para Sua Família com a Película Box+Seguro",
       },
       {
         type: "paragraph",
-        text: "Na Projeto Vidros, o cuidado com quem você ama vem em primeiro lugar. Por isso, este projeto conta com a aplicação da Película de Segurança Box+Seguro.",
+        text: "Na Projeto Vidros, nós acreditamos piamente que a beleza de um acabamento de luxo nunca deve caminhar sozinha; ela precisa estar ancorada em uma proteção física real. Por isso, todos os nossos vidros são cristais temperados de alta resistência (trabalhando com marcas líderes como Guardian e Cebrace), instalados com medição técnica a laser para um ajuste milimétrico.",
       },
       {
         type: "paragraph",
-        text: "Em caso de quebra acidental, a película mantém todos os fragmentos de vidro unidos, evitando que se espalhem pelo chão e causem acidentes. É a união perfeita entre a beleza do acabamento dourado e a proteção real que sua família merece.",
+        text: "Como diferencial exclusivo, este projeto conta com a aplicação da nossa Película de Segurança Box+Seguro. Essa tecnologia consiste em uma camada protetora invisível de alta aderência aplicada na face externa do vidro.",
+      },
+      {
+        type: "paragraph",
+        text: "Caso ocorra um impacto mecânico ou choque térmico extremo que cause a quebra estrutural do vidro temperado, os fragmentos não estilhaçam e não caem no chão. Todos os pedaços permanecem firmemente colados à película protetora, evitando cortes e acidentes graves. É a união definitiva entre o design do ouro e a segurança que sua família merece, ideal para lares com crianças ou idosos.",
+      },
+      {
+        type: "heading",
+        text: "Perguntas Frequentes sobre o Box Elegance Flex Piso a Teto (FAQ)",
+      },
+      {
+        type: "heading",
+        text: "O sistema de box Flex articulado quebra com facilidade?",
+      },
+      {
+        type: "paragraph",
+        text: "Não. O sistema Elegance Flex instalado pela Projeto Vidros utiliza dobradiças e eixos de alta resistência. Quando fabricado com vidros de espessura correta (geralmente 8mm) e instalado por equipes técnicas qualificadas, o sistema oferece um deslizar suave, firme e altamente durável por muitos anos.",
+      },
+      {
+        type: "heading",
+        text: "Qual o espaço mínimo necessário para instalar um Box Flex?",
+      },
+      {
+        type: "paragraph",
+        text: "A grande vantagem do sistema articulado é justamente funcionar em vãos extremamente pequenos, onde um box tradicional de correr seria inviável. Vãos a partir de 60cm a 70cm de largura já podem receber o sistema Flex com total eficiência técnica, garantindo uma passagem confortável de entrada.",
+      },
+      {
+        type: "heading",
+        text: "Qual é a área de atendimento da Projeto Vidros para instalação?",
+      },
+      {
+        type: "paragraph",
+        text: "Nossa fábrica e equipes técnicas atendem toda a cidade de São Paulo, com atendimento diário em bairros da Zona Norte (Imirim, Santana), Zona Sul (Vila Mariana, Morumbi, Santo Amaro), Zona Leste (Anália Franco, Tatuapé) e Zona Oeste. Também estendemos nosso atendimento para condomínios residenciais em Alphaville, Barueri e Santana de Parnaíba.",
+      },
+      {
+        type: "heading",
+        text: "Agende uma Consultoria Técnica na Projeto Vidros",
+      },
+      {
+        type: "paragraph",
+        text: "Se você valoriza o acabamento impecável, pontualidade na entrega e a segurança de contar com profissionais especialistas em engenharia de vidros de alto padrão, a Projeto Vidros é a sua escolha certa em São Paulo. Quer o ápice do luxo e aproveitamento de espaço no seu banheiro? Fale agora com um Especialista no WhatsApp, envie as fotos ou medidas do seu vão e receba uma consultoria gratuita com o seu orçamento personalizado sob medida.",
       },
     ],
   },
