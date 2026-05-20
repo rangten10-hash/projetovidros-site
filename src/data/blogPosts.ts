@@ -987,17 +987,20 @@ export const blogPosts: BlogPost[] = [
         text: "Com uma reputação consolidada no mercado e avaliação de 5.0 estrelas no Google, nos orgulhamos de ser a empresa de confiança escolhida por dezenas de arquitetos e famílias na Zona Leste que buscam transformar ambientes com responsabilidade e excelência técnica.",
       },
       { type: "heading", text: "Perguntas Frequentes sobre Serviços de Vidraçaria na Zona Leste (FAQ)" },
+      { type: "heading", text: "Como funciona a medição a laser e o orçamento para a Zona Leste?" },
       {
         type: "paragraph",
-        text: "Como funciona a medição a laser e o orçamento para a Zona Leste? Você pode dar o primeiro passo enviando as fotos do seu banheiro ou as medidas aproximadas pelo nosso canal de atendimento no WhatsApp. Elaboramos uma proposta comercial inicial e, após a aprovação do valor, agendamos a ida de um técnico especializado até o seu endereço na Zona Leste para coletar as medidas definitivas a laser.",
+        text: "Você pode dar o primeiro passo enviando as fotos do seu banheiro ou as medidas aproximadas pelo nosso canal de atendimento no WhatsApp. Elaboramos uma proposta comercial inicial e, após a aprovação do valor, agendamos a ida de um técnico especializado até o seu endereço na Zona Leste para coletar as medidas definitivas a laser.",
       },
+      { type: "heading", text: "Qual é o melhor modelo de box para apartamentos novos na Zona Leste?" },
       {
         type: "paragraph",
-        text: "Qual é o melhor modelo de box para apartamentos novos na Zona Leste? Para os novos apartamentos que costumam ter vãos mais estreitos no banheiro, os sistemas articulados como o Box Elegance Flex ou sistemas de portas paralelas como o Versatik de 3 Folhas são altamente recomendados, pois ampliam de forma inteligente a área de passagem livre.",
+        text: "Para os novos apartamentos que costumam ter vãos mais estreitos no banheiro, os sistemas articulados como o Box Elegance Flex ou sistemas de portas paralelas como o Versatik de 3 Folhas são altamente recomendados, pois ampliam de forma inteligente a área de passagem livre.",
       },
+      { type: "heading", text: "Os espelhos da Projeto Vidros mancham com o tempo?" },
       {
         type: "paragraph",
-        text: "Os espelhos da Projeto Vidros mancham com o tempo? Não! Como utilizamos exclusivamente cristais de primeira linha das marcas Guardian e Cebrace, nossas peças recebem uma blindagem protetora especial na parte traseira que impede o processo de oxidação precoce (aquelas manchas pretas nas bordas) causado pela umidade constante do banheiro.",
+        text: "Não! Como utilizamos exclusivamente cristais de primeira linha das marcas Guardian e Cebrace, nossas peças recebem uma blindagem protetora especial na parte traseira que impede o processo de oxidação precoce (aquelas manchas pretas nas bordas) causado pela umidade constante do banheiro.",
       },
       { type: "heading", text: "Fale com Nossos Especialistas na Projeto Vidros" },
       {
@@ -1012,7 +1015,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "vidracaria-zona-oeste-sao-paulo-projetos-vidro-design",
-    title: "Vidraçaria na Zona Oeste: Projetos de Vidro e Design em Todos os Bairros",
+    title: "Vidraçaria na Zona Oeste: Projetos de Vidro de Luxo e Espelhos sob Medida",
     excerpt:
       "Divisórias para escritório, box, espelhos e portas de vidro sob medida em Pinheiros, Perdizes, Lapa, Morumbi e toda a Zona Oeste de São Paulo.",
     image: vidracariaZonaOeste,
@@ -1025,51 +1028,125 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "Se você está na Zona Oeste de São Paulo, sabe que a região é um dos principais eixos de inovação e sofisticação da cidade. Seja para um apartamento moderno em Perdizes, uma casa em Alto de Pinheiros ou um escritório em Pinheiros, a Projeto Vidros oferece a agilidade e a qualidade técnica que o seu projeto exige.",
+        text: "A Zona Oeste de São Paulo é um dos principais eixos de inovação, efervescência cultural e sofisticação arquitetônica da capital paulista. Seja para decorar um apartamento de alto padrão em Perdizes, planejar uma residência monumental em Alto de Pinheiros ou modernizar um escritório dinâmico em Pinheiros, a Projeto Vidros oferece a agilidade logística e a excelência técnica que o seu projeto exige.",
+      },
+      {
+        type: "paragraph",
+        text: "Com nossa sede posicionada de forma estratégica no Imirim, na Zona Norte, desenhamos uma operação de atendimento rápido e frotas de instalação diárias que cruzam as principais artérias viárias de São Paulo (como a Marginal Pinheiros, Rebouças e a Avenida Sumaré). Isso nos permite atender prontamente todos os bairros da Zona Oeste, levando o que há de mais moderno em cristais premium, vidros temperados e engenharia de esquadrias com acabamento impecável.",
       },
       {
         type: "image",
         src: vidracariaZonaOeste,
         alt: "Divisórias para escritório em vidro temperado instaladas na Zona Oeste de São Paulo",
       },
-      { type: "heading", text: "Atendimento Especializado na Zona Oeste" },
+      { type: "heading", text: "Atendimento Especializado por Regiões e Bairros na Zona Oeste" },
       {
         type: "paragraph",
-        text: "Nossa equipe atende com prontidão todos os bairros da região, garantindo medição técnica precisa e instalação limpa:",
+        text: "A Zona Oeste possui uma mistura única de bairros residenciais arborizados e polos comerciais altamente tecnológicos. Nossa equipe técnica atua de forma personalizada para atender às demandas específicas de cada perfil de imóvel:",
       },
       {
         type: "list",
         items: [
-          { strong: "Pinheiros, Itaim Bibi e Jardim Paulista:", text: "foco em design moderno e soluções corporativas." },
-          { strong: "Perdizes, Vila Leopoldina e Lapa:", text: "ideal para quem busca renovar o lar com segurança e elegância." },
-          { strong: "Butantã, Jaguaré e Rio Pequeno:", text: "atendimento ágil para residências e novos condomínios." },
-          { strong: "Morumbi, Alto de Pinheiros e Barra Funda:", text: "projetos de grande porte e acabamentos premium." },
+          { strong: "Eixo de Design, Tendência e Negócios:", text: "atendimento focado e exclusivo nos bairros de Pinheiros, Vila Madalena, Itaim Bibi e Jardim Paulista. Desenvolvemos projetos focados em design contemporâneo, espelhos cênicos para lavabos e soluções corporativas elegantes." },
+          { strong: "Áreas Residenciais Nobres e Tradicionais:", text: "soluções sob medida para Perdizes, Alto de Pinheiros, Pacaembu, Pompeia e Sumaré. O foco nestas regiões está na renovação de lares com elegância, aplicação de box até o teto e fechamentos de sacada seguros." },
+          { strong: "Vetor de Expansão Vertical e Logística:", text: "atendimento ágil em bairros como Vila Leopoldina, Lapa, Barra Funda, Água Branca e Jaguaré, ideal para quem acabou de receber as chaves de um apartamento novo e busca otimizar a planta." },
+          { strong: "Eixo de Grandes Condomínios e Residências:", text: "projetos personalizados para o Butantã, Morumbi, Rio Pequeno, Raposo Tavares, Vila Sônia e arredores, cobrindo desde grandes fechamentos de vidro temperado até espelhos sob medida para closets e salas de jantar." },
         ],
       },
-      { type: "heading", text: "O que a Projeto Vidros oferece para a sua região?" },
+      { type: "heading", text: "Nosso Catálogo Completo de Produtos e Serviços" },
       {
         type: "paragraph",
-        text: "Levamos nosso catálogo completo de soluções em vidro temperado e laminado para toda a Zona Oeste:",
+        text: "Para garantir resultados que impressionam e duram por décadas, a Projeto Vidros trabalha exclusivamente com cristais de primeira linha fornecidos pelas marcas líderes globais, como Guardian e Cebrace. Veja tudo o que nossas equipes podem executar na sua obra:",
+      },
+      { type: "heading", text: "1. Box de Banheiro de Alto Padrão" },
+      {
+        type: "paragraph",
+        text: "A área de banho merece o status de um spa residencial. Desenvolvemos soluções com vidro temperado certificado e ferragens robustas com os melhores sistemas de engenharia:",
       },
       {
         type: "list",
         items: [
-          { strong: "Divisórias para Escritório:", text: "a solução inteligente para dividir ambientes com elegância, garantindo isolamento acústico e um visual sofisticado." },
-          { strong: "Box de Vidro para Banheiro:", text: "modelos Elegance, Versatik e o sistema Flex (articulado), perfeito para otimizar banheiros em bairros com alta densidade imobiliária." },
-          { strong: "Espelhos sob Medida e LED:", text: "valorize seu ambiente com cristais de alta qualidade (Guardian e Cebrace) e iluminação integrada." },
-          { strong: "Portas e Janelas de Vidro:", text: "projetos personalizados que unem segurança e estética para casas e apartamentos." },
-          { strong: "Divisórias Cozinha x Lavanderia:", text: "design funcional para manter a integração dos espaços com organização." },
-          { strong: "Fachadas e Portas de Loja:", text: "soluções resistentes para o comércio pulsante da Zona Oeste." },
+          { strong: "Box Piso a Teto:", text: "confinamento total do vapor que protege o mobiliário e oferece conforto térmico único." },
+          { strong: "Sistemas Articulados (Flex):", text: "dobradiças discretas que eliminam trilhos pesados e roldanas, garantindo até 90% de abertura livre para vãos compactos." },
+          { strong: "Sistemas Modernos de Correr e Canto:", text: "modelos lineares ou em \"L\" de alta performance para layouts desafiadores, como o Box de Canto Kit Reto Cromado e o inovador Box Versatik 3 Folhas." },
         ],
       },
-      { type: "heading", text: "Por que somos a sua melhor escolha?" },
+      { type: "heading", text: "2. Espelhos Decorativos e Inteligentes sob Medida" },
       {
         type: "paragraph",
-        text: "Diferente das lojas tradicionais, a Projeto Vidros utiliza tecnologia de ponta para garantir que seu projeto seja entregue com perfeição.",
+        text: "O espelho é a ferramenta perfeita de arquitetos para multiplicar a luz natural e dar amplitude. Criamos peças exclusivas com lapidação milimétrica:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Espelhos Orgânicos:", text: "peças com contornos fluidos e assimétricos inspirados na natureza, funcionando como verdadeiras obras de arte na parede." },
+          { strong: "Espelhos com LED Integrado:", text: "iluminação difusa perfeita para maquiagem, closets e lavabos, com sistema elétrico totalmente oculto e seguro." },
+          { strong: "Painéis de Espelho:", text: "revestimento de paredes inteiras para salas de estar, halls de entrada e estúdios, utilizando espelho prata clássico ou tons sofisticados de bronze e fumê." },
+        ],
+      },
+      { type: "heading", text: "3. Divisórias de Vidro Residenciais e Corporativas" },
+      {
+        type: "list",
+        items: [
+          { strong: "Divisórias Cozinha x Lavanderia:", text: "solução inteligente e muito procurada em apartamentos compactos em Perdizes ou na Lapa, isolando ruídos e odores sem bloquear a passagem de luz." },
+          { strong: "Divisórias para Escritório:", text: "painéis de vidro laminado que organizam salas de reunião e estações de trabalho em Pinheiros, oferecendo isolamento acústico superior e visual limpo." },
+        ],
+      },
+      { type: "heading", text: "4. Portas, Janelas e Fachadas Comerciais" },
+      {
+        type: "list",
+        items: [
+          { strong: "Portas de Vidro sob Medida:", text: "sistemas de correr ou giro para divisão de ambientes, despensas ou integração de varandas gourmet." },
+          { strong: "Fachadas e Vitrines de Lojas:", text: "estruturas seguras em vidro temperado pesado que garantem máxima visibilidade ao comércio pulsante da Zona Oeste e segurança contra impactos." },
+        ],
+      },
+      { type: "heading", text: "Logística Abrangente e Áreas de Cobertura" },
+      {
+        type: "paragraph",
+        text: "Nossas frotas estão totalmente estruturadas para atender com precisão e rapidez toda a região metropolitana e demais zonas de São Paulo:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Zona Norte:", text: "nossa base principal e centro de distribuição, atendendo Imirim, Santana, Casa Verde, Tucuruvi e Freguesia do Ó." },
+          { strong: "Zona Sul:", text: "atendimento nos eixos residenciais e comerciais de Moema, Itaim Bibi, Vila Olímpia e Brooklin." },
+          { strong: "Zona Leste:", text: "projetos instalados em bairros de forte verticalização como Tatuapé, Jardim Anália Franco e Mooca." },
+          { strong: "Cidades Metropolitanas de Luxo:", text: "equipes dedicadas exclusivamente para residências de grande porte e condomínios fechados em Alphaville, Tamboré, Barueri e Santana de Parnaíba." },
+        ],
+      },
+      { type: "heading", text: "O Diferencial Técnico e a Garantia de Segurança Projeto Vidros" },
+      {
+        type: "paragraph",
+        text: "Para atender a Zona Oeste, abolimos completamente o improviso. Todas as nossas obras começam com uma medição técnica a laser minuciosa. Esse processo corrige imperfeições milimétricas de prumo ou esquadro nas paredes antes do vidro ir para o corte, o que elimina frestas, estalos ou vazamentos após a instalação.",
       },
       {
         type: "paragraph",
-        text: "Precisa de um orçamento para o seu imóvel na Zona Oeste? Nossos especialistas estão prontos para transformar sua ideia em realidade.",
+        text: "Além disso, todas as nossas instalações de box recebem a aplicação da nossa exclusiva Película de Segurança Box+Seguro. Essa película invisível de alta aderência impede que o vidro estilhace ou se espalhe pelo chão em caso de uma quebra por impacto extremo. Todos os fragmentos ficam presos à estrutura da película, garantindo a proteção física necessária para lares com crianças, pets ou idosos.",
+      },
+      {
+        type: "paragraph",
+        text: "Com uma reputação sólida no mercado e avaliação máxima de 5.0 estrelas no Google, somos a escolha de confiança para quem não abre mão de qualidade, acabamento refinado e responsabilidade técnica na Zona Oeste.",
+      },
+      { type: "heading", text: "Perguntas Frequentes sobre Serviços de Vidraçaria na Zona Oeste (FAQ)" },
+      { type: "heading", text: "Como faço para solicitar um orçamento para o meu endereço na Zona Oeste?" },
+      {
+        type: "paragraph",
+        text: "É muito simples e rápido. Você pode entrar em contato conosco pelo WhatsApp e nos enviar fotos do local ou as medidas aproximadas do vão. Nossa equipe comercial gera uma proposta inicial e, com o valor aprovado, nosso técnico vai até o seu imóvel na Zona Oeste para realizar a medição definitiva a laser.",
+      },
+      { type: "heading", text: "O espelho orgânico sob medida combina com qualquer bancada?" },
+      {
+        type: "paragraph",
+        text: "Sim! Por possuir formas fluidas e livres, o espelho orgânico se adapta perfeitamente. O segredo técnico está em dimensionar a peça para ocupar entre 60% e 80% do espaço horizontal da bancada, permitindo que as curvas \"respirem\" e ganhem o destaque que merecem contra a parede.",
+      },
+      { type: "heading", text: "Por que escolher o fechamento de box até o teto em apartamentos na Lapa ou Perdizes?" },
+      {
+        type: "paragraph",
+        text: "Os novos apartamentos nessas regiões costumam contar com móveis planejados de alto valor no banheiro. O fechamento até o teto confina o vapor do chuveiro e evita que a umidade constante estufe o MDF dos armários ou oxide os puxadores, garantindo a durabilidade do seu mobiliário.",
+      },
+      { type: "heading", text: "Fale com os Especialistas da Projeto Vidros" },
+      {
+        type: "paragraph",
+        text: "Se o seu imóvel na Zona Oeste exige precisão cirúrgica, materiais certificados de primeira linha e um atendimento focado na sua satisfação, conte com a experiência técnica da Projeto Vidros. Clique no botão do WhatsApp agora mesmo, tire suas dúvidas de design, envie sua ideia ou projeto e receba uma consultoria gratuita com o seu orçamento personalizado sob medida!",
       },
     ],
     cta: {
