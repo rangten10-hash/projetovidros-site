@@ -18,6 +18,7 @@ import flexSemBox from "@/assets/blog-flex-sem-box.webp";
 import flexFechado from "@/assets/blog-flex-fechado.webp";
 import flexAberto from "@/assets/blog-flex-aberto.webp";
 import blogBoxFlexCapa from "@/assets/blog-box-flex-capa.png";
+import blogGuiaBoxCapa from "@/assets/blog-guia-box-capa.png";
 import espelhoCapa from "@/assets/blog-espelho-capa.webp";
 import espelhoPainelSala from "@/assets/blog-espelho-painel-sala.webp";
 import espelhoPainelHall from "@/assets/blog-espelho-painel-hall.webp";
@@ -2234,23 +2235,27 @@ export const blogPosts: BlogPost[] = [
     slug: "guia-completo-box-banheiro-ideal",
     title: "Guia Completo: Como Escolher o Box de Banheiro Ideal para sua Casa",
     excerpt:
-      "Espaço, funcionalidade e segurança: veja como escolher o box certo para o seu banheiro com 30 anos de experiência da Projeto Vidros.",
-    image: guiaBoxPisoTeto,
+      "Engenharia, design e segurança: veja como escolher o box ideal para o seu banheiro com mais de 35 anos de experiência da Projeto Vidros em São Paulo.",
+    image: blogGuiaBoxCapa,
     imageAlt:
-      "Box de banheiro do piso ao teto com perfil preto instalado pela Projeto Vidros",
+      "Guia completo de como escolher o box de banheiro ideal para sua casa - Projeto Vidros",
     date: "2026-05-03",
     author: "Projeto Vidros",
     metaDescription:
-      "Guia completo para escolher o box de banheiro ideal: Flex, Transfer, Abrir, Correr, Piso ao Teto, Elegance e Canto. Consultoria Projeto Vidros em SP.",
+      "Guia definitivo para escolher o box de banheiro ideal: Flex, Versatik, Abrir, Correr, Piso ao Teto, Elegance e Canto. Consultoria técnica Projeto Vidros em SP.",
     content: [
       {
         type: "paragraph",
-        text: "Escolher o box de banheiro vai muito além da estética. É uma decisão que envolve aproveitamento de espaço, funcionalidade e, acima de tudo, a segurança da sua família. Com 30 anos de experiência no mercado, nós da Projeto Vidros preparamos este guia para ajudar você a entender qual modelo se adapta melhor ao seu projeto.",
+        text: "Escolher o box de banheiro ideal vai muito além de uma simples decisão estética. Trata-se de um projeto de engenharia de interiores que envolve diretamente o aproveitamento inteligente do metro quadrado, a funcionalidade no uso diário, o conforto térmico e, acima de tudo, a segurança real da sua família.",
       },
-      { type: "heading", text: "1. Pequenos Vãos (até 1,00m de largura)" },
       {
         type: "paragraph",
-        text: "Para banheiros compactos, cada centímetro conta. Se o seu espaço é limitado, estas são as melhores opções:",
+        text: "Com mais de 35 anos de tradição e experiência técnica no mercado de São Paulo, nós da Projeto Vidros preparamos este guia definitivo. Aqui, você vai entender como cada modelo se comporta na prática, quais as larguras de vão recomendadas e como alinhar design de luxo com alta performance técnica para valorizar o seu imóvel.",
+      },
+      { type: "heading", text: "1. Banheiros Compactos: Pequenos Vãos (Até 1,00m de largura)" },
+      {
+        type: "paragraph",
+        text: "Nos apartamentos modernos e novos empreendimentos de São Paulo, o espaço do banheiro passou a ser milimétrico. Se o vão de entrada do seu chuveiro é estreito, cada centímetro livre dita o conforto do seu banho. Esqueça os sistemas de correr tradicionais de duas folhas para essas medidas, pois eles deixariam menos de 45 cm de passagem. As soluções inteligentes para vãos curtos são:",
       },
       {
         type: "image",
@@ -2261,8 +2266,8 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           {
-            strong: "Box Flex (Articulado):",
-            text: "É o campeão de abertura, proporcionando até 90% de passagem livre no vão. Ideal para quem precisa de acessibilidade e conforto em espaços reduzidos.",
+            strong: "Box Flex Articulado:",
+            text: "É o campeão absoluto em ganho de espaço, proporcionando até 90% de abertura livre no vão. Graças ao seu sistema de dobradiças centrais de metal nobre, as folhas de vidro dobram-se uma sobre a outra de forma suave e compacta. É o modelo padrão ouro para lavabos, suítes compactas e para quem busca acessibilidade e conforto. Conheça todos os detalhes no nosso artigo exclusivo sobre o Box Flex Articulado.",
           },
         ],
       },
@@ -2276,51 +2281,51 @@ export const blogPosts: BlogPost[] = [
         items: [
           {
             strong: "Box Versatik Transfer (3 Folhas):",
-            text: "Uma excelente alternativa para quem não gosta do modelo articulado. Com 1 folha fixa e 2 de correr simultâneas, ele oferece 66% de abertura, unindo modernidade e praticidade.",
+            text: "Uma excelente e inovadora alternativa para quem quer máxima abertura mas não gosta do modelo articulado. Esse sistema trabalha com 1 folha de vidro fixa e 2 folhas de correr simultâneas. Quando você puxa a porta, as duas folhas móveis se recolhem juntas atrás do vidro fixo, oferecendo 66% de vão livre de passagem. É pura modernidade e engenharia a favor do espaço.",
           },
         ],
       },
       {
         type: "image",
         src: guiaBoxAbrir,
-        alt: "Box de abrir tradicional com porta de 55cm",
+        alt: "Box de abrir tradicional com porta de giro",
       },
       {
         type: "list",
         items: [
           {
-            strong: "Box de Abrir Tradicional:",
-            text: "Composto por uma parte fixa e uma porta de abrir de 55 cm, é uma das opções mais tradicionais e escolhidas pelo excelente custo-benefício.",
+            strong: "Box de Abrir Tradicional (Porta de Giro):",
+            text: "Composto por uma lâmina de vidro fixa e uma porta de giro em dobradiças. Geralmente projetado com uma porta de 55 cm a 60 cm, é uma das opções mais tradicionais do mercado. Apresenta um excelente custo-benefício, exigindo apenas que você tenha espaço livre na área externa do box para o ângulo de abertura da porta sem bater na bacia sanitária ou gabinete.",
           },
         ],
       },
-      { type: "heading", text: "2. Vãos Frontais (acima de 0,90m de largura)" },
+      { type: "heading", text: "2. Vãos Frontais Padrão (Acima de 0,90m até vãos amplos)" },
       {
         type: "paragraph",
-        text: "Para vãos padrão, o modelo de correr é o mais indicado pela sua durabilidade e facilidade de uso.",
+        text: "Para banheiros que possuem um vão frontal generoso, o modelo linear de correr é o mais indicado pela sua simplicidade, alta durabilidade e facilidade de manutenção.",
       },
       {
         type: "image",
         src: guiaBoxFrontal,
-        alt: "Box frontal de correr com Kit Reto branco instalado pela Projeto Vidros",
+        alt: "Box frontal de correr com Kit Reto instalado pela Projeto Vidros",
       },
       {
         type: "list",
         items: [
           {
-            strong: "Box Tradicional de Correr:",
-            text: "O modelo mais utilizado nos lares brasileiros, com 1 folha fixa e 1 de correr.",
+            strong: "Box Tradicional de Correr (Linha Flit):",
+            text: "O layout mais consagrado nos lares brasileiros, composto por 1 folha fixa e 1 folha de correr que desliza suavemente sobre trilhos horizontais de alumínio estrutural.",
           },
           {
-            strong: "Design do Kit:",
-            text: "Você pode optar pelo Kit Redondo (estilo clássico) ou pelo atual Kit Reto, que traz linhas minimalistas e modernas para o ambiente.",
+            strong: "A Escolha do Design do Kit (Redondo vs. Reto):",
+            text: "O segredo do acabamento está no design dos perfis. Enquanto o Kit Redondo atende a uma linha clássica e convencional, o atual Kit Reto é o preferido dos arquitetos contemporâneos. Com linhas quadradas, minimalistas e roldanas embutidas ocultas, o Kit Reto traz uma estética limpa, moderna e sofisticada para o ambiente.",
           },
         ],
       },
-      { type: "heading", text: "3. Soluções específicas e design premium" },
+      { type: "heading", text: "3. Engenharia de Alto Padrão e Soluções de Design Premium" },
       {
         type: "paragraph",
-        text: "Se você busca um diferencial estético ou funcional, considere estes modelos:",
+        text: "Se você está desenvolvendo um projeto de alto padrão e busca transformar o banheiro em uma verdadeira sala de banho ou SPA particular, o mercado oferece soluções monumentais:",
       },
       {
         type: "image",
@@ -2331,53 +2336,91 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           {
-            strong: "Box do Piso ao Teto:",
-            text: "O queridinho dos arquitetos. Indicado para banheiros com janela dentro da área de banho, ele retém o vapor, evita a umidade no restante do banheiro e protege seus móveis e teto, criando uma verdadeira experiência de SPA.",
+            strong: "Box até o Teto (Piso a Teto):",
+            text: "O queridinho absoluto das mostras de arquitetura em bairros como Itaim Bibi, Moema e Alphaville. Ele estende o vidro temperado até o gesso, vedando completamente o espaço. É altamente indicado para banheiros que possuem a janela (basculante) localizada dentro da área do chuveiro. Ele retém 100% do vapor, criando um efeito sauna relaxante, mantém o calor nos dias frios e protege os armários de MDF e o teto do banheiro contra o mofo e estufamento causados pela umidade.",
           },
         ],
       },
       {
         type: "image",
         src: guiaBoxElegance,
-        alt: "Box Elegance com roldanas aparentes em acabamento preto",
+        alt: "Box Elegance com roldanas aparentes em inox",
       },
       {
         type: "list",
         items: [
           {
-            strong: "Box Elegance:",
-            text: "Para quem busca sofisticação, o modelo com roldanas aparentes é uma escolha robusta e muito elegante.",
+            strong: "Box Elegance (Roldanas Aparentes):",
+            text: "Para quem deseja que o sistema de correr seja o centro das atenções. Esse modelo substitui os perfis de alumínio tradicionais por um varão robusto de aço inox escovado ou polido, onde roldanas maciças aparentes deslizam com suavidade e elegância incomparáveis.",
           },
         ],
       },
       {
         type: "image",
         src: guiaBoxCanto,
-        alt: "Box de canto em L com perfil preto e Kit Reto",
+        alt: "Box de canto em L com Kit Reto",
       },
       {
         type: "list",
         items: [
           {
-            strong: "Box de Canto (ou em L):",
-            text: "A solução inteligente para banheiros menores que exigem o aproveitamento máximo da área disponível.",
+            strong: "Box de Canto (Formato em L):",
+            text: "A solução geométrica inteligente para banheiros onde o chuveiro fica posicionado em um canto de parede com duas faces abertas. Trabalha com duas folhas fixas e duas portas de correr que se encontram no centro em um ângulo perfeito de 90 graus, otimizando ao máximo a área útil disponível.",
           },
         ],
       },
-      { type: "heading", text: "4. O diferencial de segurança Projeto Vidros" },
+      { type: "heading", text: "Matriz Técnica: Qual Modelo se Adapta ao seu Vão?" },
       {
-        type: "paragraph",
-        text: "Independente do modelo escolhido, a segurança não é opcional. Na Projeto Vidros, somos referência no uso da película anti-estilhaço. Em caso de quebra, os fragmentos de vidro ficam presos à película, evitando acidentes e garantindo a tranquilidade da sua casa.",
+        type: "list",
+        items: [
+          { strong: "60 cm a 90 cm:", text: "Box Flex Articulado — cerca de 90% de passagem livre. Dobradiças Gold, Black ou Cromadas." },
+          { strong: "90 cm a 1,20 m:", text: "Versatik 3 Folhas (66% de abertura) ou Kit Reto (50%). Perfis retilíneos minimalistas." },
+          { strong: "Acima de 1,20 m:", text: "Tradicional de Correr ou Elegance — cerca de 50% de passagem livre. Roldanas aparentes em inox." },
+          { strong: "Cantos de Parede (em L):", text: "Box de Canto 90° com abertura central angular. Kit Reto Cromado ou Preto." },
+        ],
       },
-      { type: "heading", text: "Dúvidas na escolha?" },
+      { type: "heading", text: "4. O Diferencial Crítico de Segurança: Selo Box+Seguro" },
       {
         type: "paragraph",
-        text: "Aqui na Projeto Vidros, nossos projetistas estão prontos para oferecer uma consultoria técnica e orientar você na melhor escolha para o seu espaço.",
+        text: "Independentemente de você escolher um box flex para um apartamento compacto no Lauzane Paulista ou um box monumental até o teto em uma cobertura no Jardim Anália Franco, a segurança física da sua família não é opcional.",
+      },
+      {
+        type: "paragraph",
+        text: "A Projeto Vidros trabalha estritamente com vidros temperados de 8mm de alta resistência fornecidos pelas marcas globais de referência Guardian e Cebrace. Porém, o grande diferencial que nos confere nota máxima de satisfação no mercado é o nosso exclusivo sistema Box+Seguro.",
+      },
+      {
+        type: "paragraph",
+        text: "🛑 Critério de Engenharia Obrigatório: Para garantir a eficácia total de proteção, a nossa Película de Segurança Estrutural PS4 é aplicada nas lâminas de vidro em nossa fábrica, antes de realizar a montagem final do box no seu banheiro.",
+      },
+      {
+        type: "paragraph",
+        text: "Esse cuidado técnico é essencial porque permite que as bordas da película invisível fiquem embutidas e presas sob pressão por dentro dos perfis de alumínio e das ferragens do kit. Caso ocorra uma quebra rara por impacto extremo, a película impede que o vidro estilhace ou se espalhe pelo chão. O painel trinca por inteiro, mas permanece em pé, ancorado de forma firme na estrutura metálica, evitando o perigoso efeito de \"cobertor de vidro\" e eliminando qualquer risco de acidentes graves com crianças, idosos ou animais de estimação.",
+      },
+      { type: "heading", text: "Dicas de Ouro para Complementar o Design do Seu Banheiro" },
+      {
+        type: "paragraph",
+        text: "Para atingir o padrão estético de capas de revista, a harmonização dos elementos é fundamental:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Combine os Metais:", text: "Alinhe o acabamento do seu kit de box (seja Cromado, Rose Gold, Gold ou Preto Matte) com os tons da torneira da bancada, do chuveiro e dos puxadores dos armários." },
+          { strong: "Amplie com Espelhos de Alta Fidelidade:", text: "Use espelhos sob medida com cortes precisos (orgânicos ou lapidados) nas paredes externas do box para dobrar a iluminação do ambiente." },
+        ],
+      },
+      { type: "heading", text: "Agende uma Consultoria Técnica Conosco" },
+      {
+        type: "paragraph",
+        text: "Ainda está em dúvida sobre qual a largura exata do seu vão, se suas paredes possuem fora de prumo ou qual modelo trará o melhor custo-benefício para a sua reforma? Deixe que os projetistas e técnicos da Projeto Vidros cuidem de tudo através da nossa medição computadorizada de precisão a laser diretamente no seu imóvel.",
+      },
+      {
+        type: "paragraph",
+        text: "Nossa estrutura logística atende com rapidez máxima todas as zonas de São Paulo (Norte, Sul, Leste, Oeste) e Alphaville. Envie a foto do seu ambiente ou seu projeto técnico e receba um orçamento personalizado direto de fábrica com a garantia de quem é Avaliação 5.0 Estrelas no Google.",
       },
     ],
     cta: {
-      label: "FALAR COM UM PROJETISTA NO WHATSAPP",
-      href: "https://wa.me/5511915485945?text=Olá,%20li%20o%20guia%20de%20box%20de%20banheiro%20e%20gostaria%20de%20uma%20consultoria%20com%20um%20projetista.",
+      label: "Falar com Especialista no WhatsApp",
+      href: WHATSAPP_URL,
     },
   },
 ];
