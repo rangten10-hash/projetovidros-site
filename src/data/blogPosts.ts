@@ -1156,7 +1156,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "vidracaria-zona-norte-sao-paulo-atendimento-completo",
-    title: "Vidraçaria na Zona Norte: Atendimento Completo em Todos os Bairros",
+    title: "Vidraçaria na Zona Norte: Box de Banheiro, Espelhos e Projetos de Vidro sob Medida",
     excerpt:
       "Sediada no Imirim, a Projeto Vidros atende toda a Zona Norte de São Paulo com box, espelhos, portas, divisórias e fachadas sob medida.",
     image: vidracariaZonaNorte,
@@ -1169,60 +1169,129 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "Se você está buscando uma vidraçaria que combine precisão técnica, materiais de primeira linha e um atendimento que realmente entende a dinâmica de São Paulo, a Projeto Vidros é a sua parceira ideal.",
+        text: "Se você está buscando uma vidraçaria de confiança que combine precisão de engenharia, materiais certificados de primeira linha e um atendimento que realmente entende a dinâmica e o padrão de exigência de São Paulo, a Projeto Vidros é a sua parceira ideal.",
       },
       {
         type: "paragraph",
-        text: "Com sede estrategicamente localizada no Imirim, nossa equipe circula diariamente por toda a Zona Norte, levando soluções sob medida para residências, condomínios e comércios.",
+        text: "Com nossa sede e centro de distribuição estrategicamente localizados no bairro do Imirim, na Zona Norte, estruturamos uma operação logística hiperlocal altamente eficiente. Nossa equipe técnica e de montagem circula diariamente por todas as principais avenidas da região (como a Engenheiro Caetano Álvares, Cruzeiro do Sul, Bráz Leme e Nova Cantareira), levando soluções sob medida de alto padrão para residências, apartamentos recém-entregues, condomínios fechados e comércios tradicionais.",
       },
       {
         type: "image",
         src: vidracariaZonaNorte,
         alt: "Vidraçaria na Zona Norte com atendimento completo em todos os bairros",
       },
-      { type: "heading", text: "Onde Atendemos na Zona Norte?" },
+      { type: "heading", text: "Onde Atendemos na Zona Norte? Presença em Todos os Bairros" },
       {
         type: "paragraph",
-        text: "Não importa se você está em um apartamento moderno ou em uma casa tradicional, nós chegamos com agilidade aos principais bairros da região, como:",
+        text: "Por estarmos inseridos no coração da Zona Norte, nosso tempo de resposta para visitas técnicas e instalações é o mais rápido do mercado. Não importa a complexidade do seu layout ou o padrão do seu imóvel, nós chegamos com agilidade cirúrgica aos principais bairros da região:",
       },
       {
         type: "list",
         items: [
-          { strong: "Santana e Jardim São Paulo:", text: "atendimento ágil em prédios residenciais e comerciais." },
-          { strong: "Tucuruvi e Parada Inglesa:", text: "instalações em casas e apartamentos de médio e alto padrão." },
-          { strong: "Vila Guilherme e Vila Maria:", text: "soluções para residências e comércios da região." },
-          { strong: "City América e Parque Toronto:", text: "especialistas em condomínios como o Unique Green." },
-          { strong: "Freguesia do Ó e Limão:", text: "box, espelhos e portas sob medida." },
-          { strong: "Lauzane Paulista e Mandaqui:", text: "projetos residenciais com acabamento premium." },
+          { strong: "Eixo Nobre e Verticalizado:", text: "atendimento diário e exclusivo em prédios residenciais e comerciais de Santana, Jardim São Paulo, Alto de Santana e Chora Menino. Projetos focados em luxo, espelhos monumentais e fechamentos integrados." },
+          { strong: "Região da Cantareira e Áreas Residenciais:", text: "instalações sob medida em casas, coberturas e apartamentos de médio e alto padrão no Mandaqui, Lauzane Paulista, Tucuruvi, Parada Inglesa, Jardim França e Água Fria." },
+          { strong: "Eixo de Condomínios Fechados e Conexões:", text: "somos especialistas em grandes projetos residenciais localizados no City América, Parque Toronto e Pirituba, atendendo com frequência condomínios de prestígio como o Unique Green, além de bairros tradicionais como a Freguesia do Ó, Limão, Casa Verde e Cachoeirinha." },
+          { strong: "Vetor Comercial e Industrial:", text: "soluções robustas e ágeis para comércios, galpões e residências na Vila Guilherme, Vila Maria, Carandiru e Jaçanã, unindo durabilidade e isolamento acústico." },
         ],
       },
-      { type: "heading", text: "O que a Projeto Vidros faz por você?" },
+      { type: "heading", text: "Nosso Catálogo Completo de Produtos e Serviços na Zona Norte" },
       {
         type: "paragraph",
-        text: "Nossa especialidade é transformar o vidro em um elemento de segurança, design e funcionalidade. Confira nossa linha completa de serviços:",
+        text: "Para atender com excelência aos moradores e empresários da nossa região, a Projeto Vidros não trabalha com materiais genéricos. Todo o nosso estoque é composto por cristais premium das marcas líderes mundiais, como Guardian e Cebrace, garantindo um reflexo perfeito e vidros temperados com certificação de segurança. Conheça as soluções que podemos executar na sua obra hoje:",
+      },
+      { type: "heading", text: "1. Box de Banheiro de Alto Padrão" },
+      {
+        type: "paragraph",
+        text: "Transformamos a sua área de banho em um ambiente sofisticado, seguro e com conceito de spa residencial. Desenvolvemos projetos milimétricos com fechamento total e sistemas modernos:",
       },
       {
         type: "list",
         items: [
-          { strong: "Box de Vidro para Banheiro:", text: "do padrão ao luxo, incluindo os sistemas Elegance, Versatik e o prático Box Flex (articulado) para otimização de espaço." },
-          { strong: "Espelhos sob Medida:", text: "cristais de alta qualidade (Guardian e Cebrace) com lapidação de precisão, acabamento bisotê e os modernos Espelhos com LED." },
-          { strong: "Portas e Janelas de Vidro:", text: "projetos em vidro temperado ou laminado que garantem isolamento e elegância." },
-          { strong: "Divisórias de Ambiente:", text: "ideais para separar Cozinha x Lavanderia ou criar Divisórias para Escritório com um visual clean." },
-          { strong: "Comercial e Fachadas:", text: "projetamos e instalamos Fachadas de Loja e Portas de Vidro de alta resistência para o seu negócio." },
+          { strong: "Box Piso a Teto:", text: "o fechamento até o teto confina 100% do vapor, garantindo um aquecimento maravilhoso para os dias frios de São Paulo e protegendo o MDF dos seus móveis planejados contra o estufamento." },
+          { strong: "Sistemas Articulados (Flex):", text: "a engenharia perfeita para apartamentos com banheiros compactos ou vãos estreitos no Lauzane ou Santana. Dobradiças discretas que liberam até 90% de abertura útil." },
+          { strong: "Sistemas Modernos de Correr e Canto:", text: "modelos lineares paralelos ou em ângulo de 90° para layouts desafiadores, como o Box de Canto Kit Reto Cromado e o versátil Box Versatik 3 Folhas." },
         ],
       },
-      { type: "heading", text: "Por que nos escolher?" },
+      { type: "heading", text: "2. Espelhos Decorativos e Inteligentes sob Medida" },
       {
         type: "paragraph",
-        text: "Diferente das lojas que estão paradas no tempo, a Projeto Vidros investe em tecnologia — desde a medição a laser até o nosso site (que possui nota máxima de performance no Google). Isso se traduz em um serviço mais rápido, limpo e com a confiança de quem tem 5 estrelas de avaliação pelos próprios vizinhos da Zona Norte.",
+        text: "O espelho é a ferramenta mais poderosa para ampliar espaços e distribuir a iluminação. Fabricamos sob medida com acabamento lapidado ou bisotê de alta precisão:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Espelhos Orgânicos:", text: "tendência máxima em arquitetura. Formas fluidas, assimétricas e naturais que transformam qualquer lavabo ou sala de jantar em uma galeria de arte." },
+          { strong: "Espelhos com LED Integrado:", text: "perfeitos para closets, suítes e camarins, entregando uma iluminação difusa ideal para maquiagem, com fiação oculta e segura." },
+          { strong: "Painéis de Espelho Inteiros:", text: "cobertura de paredes completas em salas de estar, halls de entrada e academias residenciais, utilizando cristais nas opções prata, bronze ou fumê." },
+        ],
+      },
+      { type: "heading", text: "3. Divisórias de Vidro Residenciais e Corporativas" },
+      {
+        type: "list",
+        items: [
+          { strong: "Divisórias Cozinha x Lavanderia:", text: "uma das soluções mais instaladas pela nossa equipe técnica em novos apartamentos no Tucuruvi e Santana. Isola perfeitamente o cheiro de fritura e o ruído da área de serviço, mantendo a luz natural e um visual limpo." },
+          { strong: "Divisórias para Escritório:", text: "painéis em vidro temperado ou laminado que organizam salas de reunião e ambientes corporativos com elegância e excelente atenuação acústica." },
+        ],
+      },
+      { type: "heading", text: "4. Esquadrias, Portas, Janelas e Fachadas" },
+      {
+        type: "list",
+        items: [
+          { strong: "Portas de Vidro sob Medida:", text: "sistemas de correr ou giro com puxadores robustos em metal para fechamento de despensas, cozinhas ou integração de varandas gourmet." },
+          { strong: "Fachadas e Portas de Loja:", text: "estruturas pesadas de alta resistência que garantem máxima segurança ao comércio pulsante da Zona Norte e excelente vitrinismo para exposição de produtos." },
+        ],
+      },
+      { type: "heading", text: "Toda a Nossa Área de Cobertura e Logística" },
+      {
+        type: "paragraph",
+        text: "Embora a Zona Norte seja a nossa base operacional e casa principal, a estrutura da Projeto Vidros atende com o mesmo padrão de excelência digital e rapidez toda a Grande São Paulo:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Zona Sul:", text: "atendimento diário nos eixos nobres de Moema, Itaim Bibi, Vila Olímpia, Brooklin e Morumbi." },
+          { strong: "Zona Leste:", text: "projetos de alto padrão executados no Tatuapé, Jardim Anália Franco e Mooca." },
+          { strong: "Zona Oeste:", text: "atendimento rápido em bairros de forte verticalização como Perdizes, Pinheiros, Lapa e Alto de Pinheiros." },
+          { strong: "Cidades Metropolitanas de Luxo:", text: "equipes dedicadas exclusivamente para residências de grande porte e condomínios fechados em Alphaville, Tamboré, Barueri e Santana de Parnaíba." },
+        ],
+      },
+      { type: "heading", text: "A Diferença Técnica e a Garantia de Segurança Projeto Vidros" },
+      {
+        type: "paragraph",
+        text: "Diferente das vidraçarias tradicionais que ainda trabalham de forma improvisada, a Projeto Vidros investe pesado em inovação para facilitar a sua vida e garantir obras sem dor de cabeça. Todas as nossas instalações começam com uma medição técnica a laser rigorosa. Esse processo corrige imperfeições milimétricas de prumo ou esquadro nas paredes do seu imóvel antes do vidro ir para o corte, o que zera a incidência de frestas, estalos ou vazamentos após a montagem.",
       },
       {
         type: "paragraph",
-        text: "Precisa de um orçamento para o seu projeto? Não importa o bairro, nossa equipe técnica está pronta para te atender.",
+        text: "Além disso, para garantir proteção total dentro do seu lar, todas as nossas instalações de box recebem a aplicação da nossa exclusiva Película de Segurança Box+Seguro. Essa película invisível de alta aderência impede que o vidro estilhace ou se espalhe pelo chão em caso de uma quebra por impacto extremo. Todos os fragmentos ficam presos à estrutura da película, garantindo a proteção física necessária para lares com crianças, idosos ou animais de estimação.",
+      },
+      {
+        type: "paragraph",
+        text: "Com um atendimento transparente, site moderno de alta performance e uma reputação impecável consolidada em avaliação máxima de 5.0 estrelas no Google, somos a escolha de confiança dos seus próprios vizinhos na Zona Norte para transformar ambientes com elegância e responsabilidade técnica.",
+      },
+      { type: "heading", text: "Perguntas Frequentes sobre Serviços de Vidraçaria na Zona Norte (FAQ)" },
+      { type: "heading", text: "Como funciona o agendamento de orçamento na Zona Norte de SP?" },
+      {
+        type: "paragraph",
+        text: "Por estarmos localizados no Imirim, o processo é extremamente ágil. Você pode entrar em contato conosco pelo WhatsApp, enviar fotos do seu ambiente ou as medidas aproximadas do vão para receber um pré-orçamento. Com o valor aprovado, nosso técnico vai rapidamente até o seu endereço para coletar as medidas definitivas a laser.",
+      },
+      { type: "heading", text: "Qual o benefício de comprar com uma vidraçaria com sede na própria região?" },
+      {
+        type: "paragraph",
+        text: "Os principais benefícios são a velocidade de entrega, a facilidade de assistência técnica pós-venda e o custo logístico otimizado. Como nossas equipes já circulam pelos bairros da Zona Norte todos os dias, conseguimos encaixar visitas técnicas e instalações com muito mais flexibilidade para a sua agenda.",
+      },
+      { type: "heading", text: "Os espelhos da Projeto Vidros possuem garantia contra manchas?" },
+      {
+        type: "paragraph",
+        text: "Sim! Por utilizarmos exclusivamente cristais de primeira linha das marcas Guardian e Cebrace, nossos espelhos possuem uma camada de proteção traseira de alta tecnologia que impede a oxidação precoce (aquelas terríveis manchas pretas nas bordas) provocada pela umidade natural do banheiro, garantindo um espelho límpido por muito mais tempo.",
+      },
+      { type: "heading", text: "Traga seu Projeto para a Projeto Vidros" },
+      {
+        type: "paragraph",
+        text: "Se você mora ou trabalha na Zona Norte e não abre mão de um acabamento refinado, materiais com procedência certificada e uma equipe atenciosa que cuida de cada detalhe da sua obra, o seu lugar é aqui. Clique no botão do WhatsApp agora mesmo, tire suas dúvidas de design, envie sua ideia ou projeto e receba uma consultoria gratuita com o seu orçamento personalizado sob medida!",
       },
     ],
     cta: {
-      label: "Falar com Especialista no WhatsApp",
+      label: "Falar com Especialista na Zona Norte via WhatsApp",
       href: "https://wa.me/5511915485945?text=Olá,%20vi%20o%20post%20sobre%20a%20vidraçaria%20na%20Zona%20Norte%20e%20gostaria%20de%20um%20orçamento.",
     },
   },
