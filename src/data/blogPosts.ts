@@ -874,7 +874,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "vidracaria-zona-leste-sao-paulo-box-vidro-sob-medida",
-    title: "Vidraçaria na Zona Leste: Box de Banheiro e Projetos em Vidro sob Medida",
+    title: "Vidraçaria na Zona Leste: Box de Banheiro, Espelhos e Projetos em Vidro sob Medida",
     excerpt:
       "Box de banheiro, espelhos, portas e divisórias de vidro sob medida no Tatuapé, Mooca, Penha, Vila Formosa e toda a Zona Leste de São Paulo.",
     image: vidracariaZonaLeste,
@@ -887,51 +887,122 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "Qualidade, design e segurança para quem busca o melhor na Zona Leste de São Paulo. A Projeto Vidros, referência em vidraçaria técnica com sede no Imirim, traz para a Zona Leste toda a sua expertise em instalações de alto padrão. Se você está reformando seu apartamento no Tatuapé ou construindo sua casa no Jardim Anália Franco, nossa equipe está pronta para entregar soluções que unem estética e durabilidade.",
+        text: "A Zona Leste de São Paulo é uma das regiões mais vibrantes, populosas e em constante expansão imobiliária da capital paulista. Bairros tradicionais e em franco crescimento vertical exigem o que há de melhor em engenharia de vidros e decoração de interiores. Para acompanhar o padrão construtivo exigido em coberturas, apartamentos e casas, a Projeto Vidros oferece soluções exclusivas com foco em alta performance técnica, acabamentos impecáveis e design de luxo.",
+      },
+      {
+        type: "paragraph",
+        text: "Embora nossa sede principal esteja localizada estrategicamente no Imirim, na Zona Norte, estruturamos uma operação logística robusta e inteligente. Nossas equipes de instalação cruzam diariamente as principais vias da cidade para atender com total agilidade, precisão e pontualidade britânica todas as subdivisões e bairros da Zona Leste, levando o que há de mais moderno em cristais, espelhos decorativos e fechamentos em vidro temperado.",
       },
       {
         type: "image",
         src: vidracariaZonaLeste,
         alt: "Box de vidro premium instalado em banheiro moderno na Zona Leste de São Paulo",
       },
-      { type: "heading", text: "Atendimento Completo na Zona Leste" },
+      { type: "heading", text: "Atendimento Premium por Regiões e Bairros na Zona Leste" },
       {
         type: "paragraph",
-        text: "Nossa logística eficiente permite atender com agilidade os principais bairros da região, garantindo prazos curtos e instalação profissional:",
+        text: "Sabemos que a Zona Leste possui características muito diversas, desde apartamentos compactos que exigem o máximo aproveitamento de espaço até projetos corporativos de alto padrão e reformas residenciais completas. Por isso, organizamos nossa atuação de forma focada para garantir eficiência e rapidez:",
       },
       {
         type: "list",
         items: [
-          { strong: "Tatuapé e Jardim Anália Franco:", text: "soluções de alto padrão para apartamentos e casas." },
-          { strong: "Mooca e Belém:", text: "projetos residenciais e comerciais com acabamento impecável." },
-          { strong: "Vila Prudente e Vila Formosa:", text: "atendimento ágil para reformas e novas obras." },
-          { strong: "Carrão e Penha:", text: "box, espelhos e divisórias sob medida com instalação limpa." },
+          { strong: "Eixo de Luxo e Alto Padrão Residencial:", text: "atendemos com máxima exclusividade os bairros do Tatuapé, Jardim Anália Franco e Mooca. Desenvolvemos projetos sob medida para apartamentos de alto padrão, coberturas monumentais, mansões e áreas gourmet integradas." },
+          { strong: "Regiões Tradicionais e Comerciais:", text: "soluções personalizadas e instalação ágil nos bairros do Belém, Brás, Pari, Água Rasa, Belenzinho e Carrão, unindo tradição, modernidade e soluções duráveis para imóveis residenciais e fachadas comerciais." },
+          { strong: "Áreas em Forte Expansão Imobiliária:", text: "atendimento rápido para novas obras e reformas em bairros como Vila Prudente, Vila Formosa, Penha, Vila Alpina, Vila Matilde e Artur Alvim, com foco em otimização de ambientes e segurança familiar." },
+          { strong: "Eixo de Grande Densidade Residencial:", text: "projetos sob medida para o Itaquera, São Miguel Paulista, Guaianases, Cidade Tiradentes, Penha de França e arredores, garantindo preços competitivos, vidros certificados e alto padrão técnico." },
         ],
       },
-      { type: "heading", text: "Especialistas em Box de Vidro e Muito Mais" },
+      { type: "heading", text: "Nosso Catálogo Completo de Produtos e Serviços" },
       {
         type: "paragraph",
-        text: "O box de banheiro é o cartão de visitas do seu projeto. Trabalhamos com o que há de mais moderno para transformar seu banheiro em um verdadeiro spa:",
+        text: "Para atender com máxima excelência um público exigente que não abre mão de durabilidade, a Projeto Vidros trabalha exclusivamente com matérias-primas de primeira linha, fornecidas pelas marcas globais mais consagradas do mercado, como Guardian e Cebrace. Conheça tudo o que nossa equipe pode executar na sua obra:",
+      },
+      { type: "heading", text: "1. Box de Banheiro de Alto Padrão" },
+      {
+        type: "paragraph",
+        text: "Somos especialistas em transformar o banheiro comum em uma cabine de banho monumental com efeito de spa. Criamos projetos milimétricos com engenharia avançada de fechamento:",
       },
       {
         type: "list",
         items: [
-          { strong: "Box de Vidro Premium:", text: "sistemas Elegance (roldanas aparentes), Versatik (vãos amplos) e o prático Box Flex para otimização de espaços reduzidos." },
-          { strong: "Espelhos de Alta Qualidade:", text: "cristais Guardian e Cebrace com acabamento bisotê e opções de Espelho com LED para iluminação perfeita." },
-          { strong: "Portas e Janelas de Vidro:", text: "máxima segurança com vidro temperado ou laminado sob medida." },
-          { strong: "Divisórias de Ambiente:", text: "ideal para separar cozinha e lavanderia ou criar salas privativas em escritórios." },
-          { strong: "Soluções para Lojas:", text: "fachadas em vidro, vitrines e portas de loja com resistência superior." },
+          { strong: "Box Piso a Teto:", text: "isolamento completo do vapor, garantindo total conforto térmico nos dias frios e proteção absoluta para os seus móveis planejados." },
+          { strong: "Sistemas Articulados (Flex):", text: "a engenharia perfeita para banheiros compactos ou vãos pequenos, garantindo até 90% de abertura livre do vão." },
+          { strong: "Sistemas Modernos de Correr e Canto:", text: "ideal para banheiros com disposição em \"L\" ou layouts desafiadores, como o Box de Canto Kit Reto Cromado e o inovador Box Versatik 3 Folhas." },
         ],
       },
-      { type: "heading", text: "Por que escolher a Projeto Vidros?" },
+      { type: "heading", text: "2. Espelhos Decorativos sob Medida e Iluminados" },
       {
         type: "paragraph",
-        text: "Além de sermos especialistas em vidro, investimos em tecnologia para facilitar sua vida. Nosso site possui nota máxima em SEO, garantindo que você nos encontre sempre que precisar de qualidade. Com medição técnica precisa e atendimento personalizado, cuidamos de cada detalhe do seu projeto na Zona Leste.",
+        text: "O espelho é um elemento indispensável na arquitetura para ampliar espaços e distribuir a luz natural. Produzimos peças sob medida com maquinário de alta precisão e lapidação impecável:",
       },
-      { type: "heading", text: "Agende seu Orçamento na Zona Leste" },
+      {
+        type: "list",
+        items: [
+          { strong: "Espelhos Orgânicos:", text: "tendência absoluta em decoração, com formas fluidas, assimétricas e naturais que se tornam o centro das atenções em qualquer parede ou lavabo." },
+          { strong: "Espelhos com LED Embutido:", text: "perfeitos para banheiros, closets e camarins, entregando uma iluminação difusa cênica com fiação totalmente embutida e segura." },
+          { strong: "Painéis e Revestimentos em Espelho:", text: "cobertura de paredes inteiras em salas de jantar, salas de estar, halls de entrada e estúdios de dança, com acabamentos clássicos em prata ou sofisticados em bronze e fumê." },
+        ],
+      },
+      { type: "heading", text: "3. Divisórias de Vidro Comerciais e Residenciais" },
+      {
+        type: "list",
+        items: [
+          { strong: "Divisórias Cozinha x Lavanderia:", text: "uma das maiores necessidades nos apartamentos modernos do Tatuapé e da Vila Prudente. Isola completamente os odores da cozinha e o ruído da máquina de lavar, mantendo a iluminação e um visual integrado limpo." },
+          { strong: "Divisórias de Escritório:", text: "soluções corporativas com vidros temperados ou laminados de alta resistência, criando salas de reunião privativas sem perder a sensação de amplitude do escritório." },
+        ],
+      },
+      { type: "heading", text: "4. Portas, Janelas e Esquadrias sob Medida" },
+      {
+        type: "list",
+        items: [
+          { strong: "Portas de Vidro de Correr ou Giro:", text: "desenvolvidas sob medida com puxadores robustos em metal para divisão de cozinhas, dispensas ou integração de varandas gourmet." },
+          { strong: "Vitrines e Fachadas para Lojas:", text: "projetos comerciais resistentes e seguros com vidros temperados pesados que valorizam a exposição de produtos e garantem segurança contra impactos." },
+        ],
+      },
+      { type: "heading", text: "Área Abrangente de Cobertura e Logística" },
       {
         type: "paragraph",
-        text: "Transforme seu ambiente hoje mesmo com a Projeto Vidros. Clique no botão do WhatsApp e fale com nosso especialista!",
+        text: "Embora a Zona Leste seja uma das nossas principais regiões de atendimento diário, a estrutura da Projeto Vidros está preparada para atender com precisão digital e rapidez toda a Grande São Paulo:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Zona Norte:", text: "nossa sede e fábrica de distribuição, atendendo bairros como Imirim, Santana, Casa Verde, Mandaqui, Tucuruvi e Freguesia do Ó." },
+          { strong: "Zona Sul:", text: "atendimento diário nos eixos de luxo de Moema, Itaim Bibi, Vila Olímpia, Brooklin e Morumbi." },
+          { strong: "Zona Oeste:", text: "projetos e instalações executados em Pinheiros, Perdizes, Lapa, Vila Madalena e Butantã." },
+          { strong: "Cidades Metropolitanas de Alto Padrão:", text: "equipes dedicadas exclusivamente para grandes residências e condomínios fechados em Alphaville, Tamboré, Barueri e Santana de Parnaíba." },
+        ],
+      },
+      { type: "heading", text: "O Diferencial Técnico e a Garantia de Segurança Projeto Vidros" },
+      {
+        type: "paragraph",
+        text: "Trabalhar com vidraçaria de alto padrão exige o fim do improviso em obras. É por isso que a nossa equipe executa a medição técnica a laser antes do corte de qualquer vidro. Esse processo garante um ajuste milimétrico, corrigindo pequenas imperfeições de esquadro ou prumo nas paredes do seu imóvel, eliminando frestas e vazamentos.",
+      },
+      {
+        type: "paragraph",
+        text: "Para trazer total tranquilidade para a sua casa, todas as nossas instalações de box incluem a tecnologia da Película de Segurança Box+Seguro. Essa película invisível de alta aderência impede que o vidro estilhace ou espalhe fragmentos cortantes pelo chão caso ocorra uma quebra por impacto extremo. É a proteção definitiva para resguardar a integridade de crianças, idosos e animais de estimação.",
+      },
+      {
+        type: "paragraph",
+        text: "Com uma reputação consolidada no mercado e avaliação de 5.0 estrelas no Google, nos orgulhamos de ser a empresa de confiança escolhida por dezenas de arquitetos e famílias na Zona Leste que buscam transformar ambientes com responsabilidade e excelência técnica.",
+      },
+      { type: "heading", text: "Perguntas Frequentes sobre Serviços de Vidraçaria na Zona Leste (FAQ)" },
+      {
+        type: "paragraph",
+        text: "Como funciona a medição a laser e o orçamento para a Zona Leste? Você pode dar o primeiro passo enviando as fotos do seu banheiro ou as medidas aproximadas pelo nosso canal de atendimento no WhatsApp. Elaboramos uma proposta comercial inicial e, após a aprovação do valor, agendamos a ida de um técnico especializado até o seu endereço na Zona Leste para coletar as medidas definitivas a laser.",
+      },
+      {
+        type: "paragraph",
+        text: "Qual é o melhor modelo de box para apartamentos novos na Zona Leste? Para os novos apartamentos que costumam ter vãos mais estreitos no banheiro, os sistemas articulados como o Box Elegance Flex ou sistemas de portas paralelas como o Versatik de 3 Folhas são altamente recomendados, pois ampliam de forma inteligente a área de passagem livre.",
+      },
+      {
+        type: "paragraph",
+        text: "Os espelhos da Projeto Vidros mancham com o tempo? Não! Como utilizamos exclusivamente cristais de primeira linha das marcas Guardian e Cebrace, nossas peças recebem uma blindagem protetora especial na parte traseira que impede o processo de oxidação precoce (aquelas manchas pretas nas bordas) causado pela umidade constante do banheiro.",
+      },
+      { type: "heading", text: "Fale com Nossos Especialistas na Projeto Vidros" },
+      {
+        type: "paragraph",
+        text: "Se você quer transformar o seu ambiente com a sofisticação, precisão milimétrica e a segurança que o seu imóvel na Zona Leste merece, a Projeto Vidros é a sua escolha certa. Clique no botão do WhatsApp agora mesmo, tire suas dúvidas de design, envie seu projeto ou medidas e receba uma consultoria técnica gratuita com o seu orçamento personalizado sob medida!",
       },
     ],
     cta: {
