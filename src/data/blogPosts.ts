@@ -2095,8 +2095,8 @@ export const blogPosts: BlogPost[] = [
       },
     ],
     cta: {
-      label: "QUERO UMA DIVISÓRIA ASSIM – WHATSAPP",
-      href: "https://wa.me/5511915485945?text=Olá,%20vi%20o%20post%20da%20porta%20no%20Unique%20Green%20e%20queria%20um%20orçamento%20parecido.",
+      label: "Falar com Especialista em Divisória de Vidro via WhatsApp",
+      href: WHATSAPP_URL,
     },
   },
   {
