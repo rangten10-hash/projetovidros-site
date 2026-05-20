@@ -42,7 +42,8 @@
         s.src = 'https://www.googletagmanager.com/gtag/js?id=G-SH3LD2LH6J';
         document.head.appendChild(s);
         gtag('config', 'G-SH3LD2LH6J', { 'transport_type': 'beacon' });
-        gtag('config', 'AW-18016443240');
+        gtag('config', 'AW-18016443240', { 'allow_enhanced_conversions': true });
+        gtag('set', 'allow_enhanced_conversions', true);
       }
       if (document.readyState === 'complete') {
         setTimeout(loadGtag, 1500);
