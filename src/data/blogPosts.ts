@@ -302,16 +302,16 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "box-canto-kit-reto-cromado-piso-teto",
-    title: "Box de Canto Kit Reto Cromado: Elegância Piso a Teto e Abertura Ampla",
+    title: "Box de Canto Kit Reto Cromado: Elegância Piso a Teto e Alta Performance em São Paulo",
     excerpt:
-      "Box de canto com Kit Reto Cromado e fechamento piso a teto: sofisticação, abertura central ampla e Película Box+Seguro para banheiros em L.",
+      "Box de canto Kit Reto Cromado piso a teto: design minimalista, abertura central ampla, conforto térmico e Película Box+Seguro em São Paulo.",
     image: boxCantoKitRetoCapa,
     imageAlt:
       "Box de canto com Kit Reto Cromado piso a teto instalado pela Projeto Vidros",
     date: "2026-05-18",
     author: "Projeto Vidros",
     metaDescription:
-      "Box de Canto Kit Reto Cromado piso a teto: design minimalista, abertura central, conforto térmico e Película Box+Seguro. Projeto sob medida da Projeto Vidros.",
+      "Box de Canto Kit Reto Cromado piso a teto em SP: design minimalista, abertura central de 90°, conforto térmico e Película Box+Seguro. Medição a laser Projeto Vidros.",
     cta: {
       label: "Falar com Especialista no WhatsApp",
       href: WHATSAPP_URL,
@@ -319,61 +319,104 @@ export const blogPosts: BlogPost[] = [
     content: [
       {
         type: "paragraph",
-        text: "Se você possui um banheiro com disposição em L e busca uma solução que una sofisticação visual e aproveitamento inteligente de espaço, o Box de Canto com Kit Reto Cromado e fechamento Piso a Teto é a escolha ideal. Este projeto transforma o canto do seu banheiro em uma cabine de banho moderna, clean e extremamente segura.",
+        text: "Se o seu projeto de banheiro possui uma disposição em \"L\" (com as paredes formando um ângulo de 90 graus) e você busca uma solução que una sofisticação visual impactante com o aproveitamento inteligente de cada centímetro quadrado, o Box de Canto com Kit Reto Cromado e fechamento Piso a Teto é a escolha definitiva.",
       },
       {
         type: "image",
         src: boxCantoKitRetoMateria,
         alt: "Box de canto com Kit Reto Cromado piso a teto em banheiro com disposição em L",
       },
-      { type: "heading", text: "O Charme do Acabamento Cromado e Design Reto" },
       {
         type: "paragraph",
-        text: "O Kit Reto Cromado é um dos favoritos para projetos de alto padrão devido ao seu brilho e linhas minimalistas:",
+        text: "Esse projeto foi desenvolvido sob medida para transformar o canto do seu banheiro em uma cabine de banho monumental, moderna, com linhas minimalistas e totalmente vedada contra o vapor. Trata-se de uma verdadeira tendência nos novos empreendimentos residenciais de São Paulo, onde a otimização de espaço precisa caminhar lado a lado com a estética de alto padrão.",
+      },
+      { type: "heading", text: "O Charme do Acabamento Cromado e o Design de Engenharia Reto" },
+      {
+        type: "paragraph",
+        text: "O Kit Reto Cromado se destaca como um dos sistemas favoritos de arquitetos e decoradores devido ao seu brilho espelhado impecável e ao design estrutural limpo. Diferente dos sistemas antigos de box convencionais, que contavam com perfis de alumínio grossos e pesados aos olhos, o Kit Reto prioriza o minimalismo:",
       },
       {
         type: "list",
         items: [
           {
-            strong: "Estética Contemporânea:",
-            text: "O acabamento cromado traz luminosidade ao ambiente, combinando perfeitamente com metais sanitários modernos.",
+            strong: "Estética Contemporânea e Brilho:",
+            text: "O acabamento cromado de alta qualidade traz luminosidade natural ao ambiente. Ele reflete as cores do revestimento e cria um casamento perfeito com os metais sanitários tradicionais da sua bancada, como torneiras, duchas e porta-toalhas.",
           },
           {
-            strong: "Abertura Central (Ângulo):",
-            text: "O sistema de duas portas de correr que se encontram no centro proporciona uma entrada ampla e confortável, ideal para banheiros onde a circulação lateral é limitada.",
+            strong: "Abertura Central Ampla (Ângulo de 90°):",
+            text: "A engenharia de um box de canto em \"L\" trabalha com duas portas de correr que se encontram perfeitamente no centro. Ao abrir as duas folhas de vidro, você obtém um vão de passagem livre muito mais amplo e confortável. Essa solução é ideal para banheiros onde a circulação lateral ou a abertura de uma porta de abrir (bater) ficaria limitada pelo vaso sanitário ou pelo gabinete da pia.",
+          },
+          {
+            strong: "Linhas Limpas:",
+            text: "Os perfis superiores retos atuam escondendo as roldanas e guias internas. O resultado visual é uma parede de vidro contínua, limpa e extremamente sofisticada.",
           },
         ],
       },
-      { type: "heading", text: "Vantagens do Fechamento Piso a Teto" },
       {
         type: "paragraph",
-        text: "Ao optar por levar o vidro até o gesso, você eleva o nível de funcionalidade do seu projeto:",
+        text: "Para quem deseja um contraste ainda mais ousado com o ambiente e busca uma paleta de cores mais quente, nós também executamos projetos personalizados com o luxuoso Box Kit Reto Gold Piso a Teto, que substitui o cromado pelo tom dourado premium.",
       },
-      {
-        type: "list",
-        items: [
-          {
-            strong: "Preservação do Mobiliário:",
-            text: "O vapor fica confinado na área do banho, protegendo seus armários de madeira e espelhos da umidade excessiva e do mofo.",
-          },
-          {
-            strong: "Banheiro Sempre Organizado:",
-            text: "Esqueça o banheiro todo molhado ou embaçado após o uso. A condensação ocorre dentro do box, mantendo a área externa seca.",
-          },
-          {
-            strong: "Conforto Térmico:",
-            text: "Desfrute de um banho muito mais relaxante, com a temperatura interna preservada, criando um efeito de spa particular.",
-          },
-        ],
-      },
-      { type: "heading", text: "Segurança Total: Tecnologia Box+Seguro" },
+      { type: "heading", text: "Vantagens Técnicas do Fechamento Total do Piso ao Teto" },
       {
         type: "paragraph",
-        text: "Na Projeto Vidros, a estética nunca caminha sozinha. Este projeto conta com a aplicação da nossa exclusiva Película de Segurança Box+Seguro.",
+        text: "Levar as peças de cristal temperado até o gesso do teto vai muito além de criar um visual imponente de hotel ou spa. Trata-se de uma decisão de engenharia residencial que traz benefícios práticos imediatos para a estrutura do seu imóvel na grande São Paulo, onde as variações de temperatura são frequentes.",
+      },
+      { type: "heading", text: "1. Preservação Absoluta do Mobiliário de Luxo" },
+      {
+        type: "paragraph",
+        text: "O maior inimigo dos armários planejados, gabinetes de MDF e molduras de espelhos é o vapor quente do chuveiro. Quando o vapor se espalha livremente, ele penetra nas frestas dos móveis, gerando estufamento, mofo e descascamento em poucos meses. Com o fechamento Piso a Teto, 100% do vapor fica confinado de forma hermética dentro da área técnica do banho, blindando seus móveis contra a umidade excessiva.",
+      },
+      { type: "heading", text: "2. Banheiro Sempre Organizado e Seco" },
+      {
+        type: "paragraph",
+        text: "Diga adeus àquela rotina incômoda de ter que secar o chão do banheiro inteiro ou limpar as paredes que ficam \"chorando\" de água após um banho demorado. No box até o teto, o vapor condensa nas paredes internas e no próprio vidro, escorrendo direto para o ralo. A área externa da bancada permanece seca, limpa e pronta para uso.",
+      },
+      { type: "heading", text: "3. Conforto Térmico e Efeito Spa Particular" },
+      {
+        type: "paragraph",
+        text: "O isolamento térmico gerado pelas chapas de vidro retém o calor do chuveiro internamente. Isso cria um microclima aquecido maravilhoso, perfeito para os dias frios de inverno em São Paulo. Você desfruta de um banho terapêutico e relaxante, sem sofrer com correntes de ar frio externas.",
+      },
+      { type: "heading", text: "Segurança Total para sua Família com a Tecnologia Box+Seguro" },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, nós sabemos que a segurança é o pilar mais importante de qualquer instalação com cristais. Por essa razão, todos os nossos projetos de box em \"L\" utilizam vidro temperado de alta resistência, fornecido pelas marcas líderes de mercado (Guardian e Cebrace). No entanto, fomos além e integramos a aplicação da nossa exclusiva Película de Segurança Box+Seguro.",
       },
       {
         type: "paragraph",
-        text: "A segurança da sua família está sempre em primeiro lugar. Com este reforço, mesmo em caso de um impacto extremo que leve à quebra do vidro temperado, todos os fragmentos permanecem colados à película. Isso evita ferimentos e garante a tranquilidade necessária para o dia a dia, especialmente em casas com crianças ou idosos.",
+        text: "A segurança de quem você ama vem sempre em primeiro lugar. Esse reforço tecnológico consiste em uma película invisível de alta aderência aplicada diretamente na face externa do vidro. Caso ocorra um acidente com impacto térmico ou mecânico extremo que cause a quebra do vidro temperado, os fragmentos não estilhaçam e não caem no chão.",
+      },
+      {
+        type: "paragraph",
+        text: "Todos os pedacinhos de vidro permanecem firmemente colados à película, mantendo a estrutura de pé até a chegada da assistência técnica. É o investimento definitivo em tranquilidade para lares com crianças, pets ou idosos.",
+      },
+      {
+        type: "paragraph",
+        text: "Se você também quer levar essa segurança e design fluído para a área da pia, conheça nossa fabricação sob medida de Espelhos Orgânicos de Alta Precisão.",
+      },
+      { type: "heading", text: "Perguntas Frequentes sobre Box de Canto Piso a Teto (FAQ)" },
+      { type: "heading", text: "Como funciona a limpeza de um box piso a teto cromado?" },
+      {
+        type: "paragraph",
+        text: "O acabamento cromado e os vidros de marcas de primeira linha facilitam muito a manutenção. Recomendamos o uso de sabão neutro e pano macio, evitando esponjas de aço ou produtos químicos abrasivos que possam riscar o cromo. Como o vapor fica preso por dentro, a limpeza externa se torna muito menos frequente.",
+      },
+      { type: "heading", text: "Qual a espessura de vidro indicada para o box de canto em L?" },
+      {
+        type: "paragraph",
+        text: "Para garantir a estabilidade das portas de correr que se encontram no ângulo de 90 graus, o padrão técnico recomendado é o uso de vidros temperados de 8mm ou 10mm, dependendo da altura total do pé-direito do seu imóvel. Nossa equipe realiza a avaliação e o cálculo exato durante a medição a laser.",
+      },
+      { type: "heading", text: "A Projeto Vidros faz instalação em quais regiões de SP?" },
+      {
+        type: "paragraph",
+        text: "Nossa fábrica atende toda a região metropolitana e capital de São Paulo. Temos equipes de instalação diárias na Zona Norte (Imirim, Santana), Zona Sul (Moema, Brooklin, Morumbi), Zona Leste (Anália Franco, Tatuapé) e Zona Oeste (Pinheiros, Alphaville, Tamboré, Barueri e Santana de Parnaíba).",
+      },
+      { type: "heading", text: "Agende sua Medição a Laser na Projeto Vidros" },
+      {
+        type: "paragraph",
+        text: "Se você busca uma execução técnica sem erros, instalação limpa e atendimento feito por especialistas que entendem de vidraçaria de alto padrão, a Projeto Vidros é a sua melhor escolha em São Paulo.",
+      },
+      {
+        type: "paragraph",
+        text: "Quer modernizar o canto do seu banheiro com o Box Kit Reto Cromado? Clique no botão abaixo para falar com um Especialista no WhatsApp e envie uma foto ou as medidas prévias do seu banheiro para receber um atendimento personalizado e uma estimativa de orçamento gratuita!",
       },
     ],
   },
