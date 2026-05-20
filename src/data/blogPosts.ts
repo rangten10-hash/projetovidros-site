@@ -1298,53 +1298,68 @@ export const blogPosts: BlogPost[] = [
   {
     slug: "espelhos-decorativos-banheiro-amplitude-qualidade",
     title:
-      "Espelhos Decorativos e para Banheiro: Amplitude e Qualidade Superior em Cada Detalhe",
+      "Espelhos Decorativos e para Banheiro: Amplitude, Luxo e Qualidade Superior em São Paulo",
     excerpt:
-      "Cristais Guardian e Cebrace nas espessuras 4mm, 5mm e 6mm. Lapidação, bisotê e LED sob medida para banheiros, salas e halls em São Paulo.",
+      "Espelhos sob medida Guardian e Cebrace em 4mm, 5mm e 6mm com lapidação, bisotê e LED. Atendimento técnico em Santana, Moema, Tatuapé, Perdizes e Alphaville.",
     image: espelhoCapa,
     imageAlt:
       "Espelho decorativo sob medida em sala de jantar com cristal Guardian instalado pela Projeto Vidros",
     date: "2026-05-05",
     author: "Projeto Vidros",
     metaDescription:
-      "Espelhos decorativos e para banheiro sob medida em São Paulo. Cristais Guardian e Cebrace 4mm, 5mm e 6mm com lapidação, bisotê e LED. Projeto Vidros.",
+      "Espelhos decorativos e de banheiro sob medida em SP: Guardian e Cebrace 4mm, 5mm e 6mm, lapidação, bisotê e LED. Medição a laser e instalação técnica.",
     content: [
       {
         type: "paragraph",
-        text: "Seja para ampliar uma sala de jantar ou para transformar o visual do seu banheiro, a escolha do espelho certo vai muito além da estética. Na Projeto Vidros, acreditamos que a durabilidade e a nitidez do reflexo dependem diretamente da procedência do cristal.",
+        text: "Seja para ampliar visualmente uma sala de jantar contemporânea, criar um ponto focal impactante no hall de entrada ou transformar completamente o visual do seu banheiro, a escolha do espelho certo vai muito além da simples estética. Um projeto de espelho lapidado de alto padrão exige o perfeito equilíbrio entre design sofisticado, segurança na instalação e engenharia de materiais.",
       },
-      { type: "heading", text: "As Melhores Marcas do Mercado" },
       {
         type: "paragraph",
-        text: "Para garantir que seu espelho não apresente manchas ou distorções com o passar do tempo, trabalhamos exclusivamente com as marcas líderes mundiais: Guardian e Cebrace. Esses fabricantes são referência em resistência à oxidação, o que é fundamental, especialmente para espelhos de banheiro que ficam expostos à umidade constante.",
+        text: "Na Projeto Vidros, referência em vidraçaria técnica com sede no Imirim, Zona Norte de SP, acreditamos piamente que a durabilidade, a segurança estrutural e a nitidez cristalina do reflexo dependem diretamente da procedência do cristal utilizado. Se você está reformando ou construindo em bairros exigentes como Santana, Moema, Tatuapé, Perdizes ou em condomínios de luxo em Alphaville, entender os critérios técnicos de marcas e espessuras é o primeiro passo para valorizar o seu imóvel.",
+      },
+      { type: "heading", text: "As Melhores Marcas do Mercado Mundial: Guardian e Cebrace" },
+      {
+        type: "paragraph",
+        text: "Para garantir que seu espelho decorativo não apresente manchas pretas nas bordas (oxidação precoce) ou distorções na imagem (efeito onda) com o passar do tempo, abolimos o uso de cristais genéricos. A Projeto Vidros trabalha exclusivamente com as duas marcas líderes mundiais:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Espelhos Guardian:", text: "Reconhecidos internacionalmente pela fórmula de proteção traseira de alta tecnologia, livre de cobre e chumbo. Oferecem reflexo de altíssima fidelidade e brilho superior." },
+          { strong: "Espelhos Cebrace:", text: "Referência nacional e global em vidros planos. Excelente resistência a riscos e camada protetora robusta que blinda a prata contra agentes químicos e umidade." },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Essa seleção rigorosa é fundamental, especialmente para espelhos de banheiro e lavabos, expostos à umidade constante, vapor quente do chuveiro e produtos de higiene. Com a selagem técnica aplicada pela nossa equipe, o seu investimento permanece límpido e perfeito por muitos anos.",
       },
       {
         type: "image",
         src: espelhoPainelSala,
         alt: "Painel de espelhos decorativos em hall de entrada com acabamento bisotê",
       },
-      { type: "heading", text: "Espessuras para Cada Projeto" },
+      { type: "heading", text: "Guia Técnico de Espessuras: 4mm, 5mm e 6mm" },
       {
         type: "paragraph",
-        text: "Cada ambiente exige uma resistência específica para garantir a segurança e o alinhamento perfeito da peça:",
+        text: "Cada tipo de paginação, tamanho e método de fixação exige uma espessura específica para neutralizar distorções e garantir o alinhamento plano perfeito da peça:",
       },
       {
         type: "list",
         items: [
-          { strong: "4mm:", text: "Ideal para espelhos menores ou colados diretamente em painéis de madeira." },
-          { strong: "5mm:", text: "A espessura mais versátil, oferecendo excelente equilíbrio entre peso e resistência para a maioria dos projetos residenciais." },
-          { strong: "6mm:", text: "Recomendada para espelhos de grandes dimensões ou fixados com botões, garantindo uma planicidade impecável e maior segurança estrutural." },
+          { strong: "4mm:", text: "Espelhos de pequenos formatos, peças emolduradas ou coladas diretamente em painéis de madeira (MDF/MDP). Leveza estrutural, ideal para composições decorativas e revestimento de portas de closets." },
+          { strong: "5mm:", text: "A espessura mais versátil e recomendada para a maioria dos projetos residenciais e comerciais de médio a grande porte. Excelente equilíbrio entre peso e rigidez, evitando distorções em peças verticais de banheiros." },
+          { strong: "6mm:", text: "Recomendada obrigatoriamente para espelhos de grandes dimensões (painéis de parede inteira) ou fixados com botões e prolongadores. Rigidez máxima, planicidade impecável e altíssima segurança contra impactos." },
         ],
       },
-      {
-        type: "image",
-        src: espelhoPainelHall,
-        alt: "Painel de espelhos em hall de elevador com cristal de alta qualidade",
-      },
-      { type: "heading", text: "Transforme seu Banheiro e sua Casa" },
+      { type: "heading", text: "Customização de Luxo: Transforme seu Banheiro e sua Casa" },
       {
         type: "paragraph",
-        text: "Nossos espelhos para banheiro podem ser personalizados com lapidação, bisotê ou iluminação LED, sempre respeitando as medidas exatas do seu espaço. Já para as áreas decorativas, como salas e halls, projetamos painéis que levam sofisticação e claridade para todo o imóvel.",
+        text: "Na Projeto Vidros, cada peça é tratada de forma única através de cortes computadorizados e processos de acabamento refinados.",
+      },
+      { type: "heading", text: "Espelhos para Banheiros e Lavabos" },
+      {
+        type: "paragraph",
+        text: "Nossos projetos são totalmente personalizados para se ajustarem milimetricamente à sua bancada de mármore ou granito. Oferecemos lapidação reta polida, o clássico bisotê (moldura chanfrada de puro brilho no próprio cristal) e os modernos Espelhos com LED Integrado. A iluminação embutida cria um efeito cênico difuso, perfeito para maquiagem e cuidados pessoais, mantendo toda a fiação elétrica oculta e segura.",
       },
       {
         type: "image",
@@ -1361,19 +1376,63 @@ export const blogPosts: BlogPost[] = [
         src: espelhoBizote,
         alt: "Espelho de banheiro com acabamento bisotê e bordas chanfradas",
       },
+      { type: "heading", text: "Painéis Decorativos para Salas e Halls" },
+      {
+        type: "paragraph",
+        text: "Para áreas sociais, projetamos e instalamos grandes painéis de espelho que transformam a percepção de espaço do imóvel. Seja através de uma parede inteira espelhada ou de paginações geométricas com juntas secas (estilo mosaico), trabalhamos com as tonalidades Prata Tradicional, Bronze (tom quente e aconchegante) e Fumê (altamente sofisticado e minimalista).",
+      },
+      {
+        type: "image",
+        src: espelhoPainelHall,
+        alt: "Painel de espelhos em hall de elevador com cristal de alta qualidade",
+      },
       { type: "heading", text: "Por que escolher a Projeto Vidros em São Paulo?" },
       {
         type: "paragraph",
-        text: "Combinamos a experiência de quem domina o mercado técnico com a utilização de materiais premium. Além da instalação especializada, oferecemos consultoria para definir qual a melhor marca e espessura para a sua necessidade específica.",
+        text: "Diferente de vidraçarias antigas ou de bairro que trabalham com processos manuais e informais, a Projeto Vidros traz a tecnologia para o centro da sua obra. Realizamos a medição técnica a laser nos cômodos do seu imóvel — esse processo digital detecta qualquer irregularidade ou fora de esquadro nas paredes antes do espelho ser cortado na fábrica, garantindo uma instalação limpa, precisa e milimétrica.",
       },
       {
         type: "paragraph",
-        text: "Quer valorizar seu ambiente com o melhor espelho de São Paulo? Entre em contato agora pelo WhatsApp: (11) 91548-5945 e solicite seu orçamento com a equipe da Projeto Vidros!",
+        text: "Nossa equipe logística atende com agilidade e frotas diárias todas as regiões da capital paulista:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Zona Norte:", text: "Nossa sede no Imirim garante atendimento recorde em Santana, Tucuruvi e Mandaqui." },
+          { strong: "Zona Sul / Zona Oeste:", text: "Projetos frequentes em Moema, Brooklin, Pinheiros, Perdizes e Itaim Bibi." },
+          { strong: "Zona Leste:", text: "Atendimento focado no Tatuapé, Jardim Anália Franco e Mooca." },
+          { strong: "Grande SP:", text: "Condomínios de alto padrão em Alphaville, Barueri e Santana de Parnaíba." },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Com nota máxima 5.0 estrelas no Google, oferecemos consultoria especializada completa para definir a marca e a espessura ideais para a sua necessidade estrutural, aliando o design do vidro com a segurança real da sua família.",
+      },
+      { type: "heading", text: "Perguntas Frequentes sobre Espelhos sob Medida (FAQ)" },
+      { type: "heading", text: "Qual a diferença entre espelho lapidado e espelho com bisotê?" },
+      {
+        type: "paragraph",
+        text: "O espelho lapidado possui as bordas retas, lisas e polidas, eliminando qualquer aresta cortante — é o visual mais limpo e minimalista para painéis e espelhos com LED. Já o acabamento em bisotê consiste em um corte chanfrado angular nas bordas da peça, criando uma espécie de moldura de vidro delicada e brilhante, muito utilizada em decorações clássicas e salas de jantar.",
+      },
+      { type: "heading", text: "O que fazer para o espelho do banheiro não manchar ou oxidar?" },
+      {
+        type: "paragraph",
+        text: "O segredo está em comprar cristais de primeira linha (como Guardian e Cebrace) e garantir uma instalação correta. Na Projeto Vidros, utilizamos fixadores e silicones neutros específicos para espelhos (que não agridem a camada protetora de prata traseira) e deixamos um espaçamento milimétrico de ventilação entre o espelho e a parede de alvenaria.",
+      },
+      { type: "heading", text: "Como limpar corretamente um espelho decorativo?" },
+      {
+        type: "paragraph",
+        text: "Para espelhos premium, evite o uso de produtos químicos agressivos, limpa-vidros ácidos ou vinagre, pois eles podem infiltrar e corroer a prata nas bordas. O ideal é utilizar apenas um pano de microfibra limpo levemente umedecido em água morna e, em seguida, passar um pano seco para polir.",
+      },
+      { type: "heading", text: "Valorize Seu Ambiente com Quem Entende do Assunto" },
+      {
+        type: "paragraph",
+        text: "Quer transformar a sua casa ou apartamento com o reflexo perfeito e a elegância atemporal dos melhores espelhos de São Paulo? Deixe a equipe técnica da Projeto Vidros cuidar de cada detalhe do seu projeto, desde o desenho das curvas até a colagem segura. Fale com um Especialista no WhatsApp pelo número (11) 91548-5945, envie as fotos do seu espaço ou as medidas aproximadas e receba uma consultoria de design gratuita e o seu orçamento personalizado sob medida!",
       },
     ],
     cta: {
-      label: "FALAR COM UM PROJETISTA NO WHATSAPP",
-      href: "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20espelhos%20sob%20medida.",
+      label: "Falar com Especialista em Espelhos via WhatsApp",
+      href: WHATSAPP_URL,
     },
   },
   {
