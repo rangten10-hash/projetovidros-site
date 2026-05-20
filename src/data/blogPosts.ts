@@ -2068,7 +2068,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "image",
-        src: divisoriaUniqueDepois,
+        src: divisoriaUniqueFoto,
         alt: "Divisória Versatik Truck em vidro pontilhado instalada no Unique Green",
       },
       { type: "heading", text: "Segurança e Estética" },
