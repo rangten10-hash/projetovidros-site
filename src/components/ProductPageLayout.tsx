@@ -57,6 +57,7 @@ const ProductPageLayout = ({ title, subtitle, products, children }: ProductPageL
                     alt={`Instalação de ${product.name} em vidro temperado em São Paulo`}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     loading="lazy"
+                    decoding="async"
                   />
                 </div>
                 <div className="p-6">
@@ -103,6 +104,8 @@ const ProductPageLayout = ({ title, subtitle, products, children }: ProductPageL
               <img
                 src={selectedProduct.image}
                 alt={`Detalhe de ${selectedProduct.name} - Projeto Vidros São Paulo`}
+                loading="lazy"
+                decoding="async"
                 className="w-full max-h-[50vh] object-contain bg-muted/30 rounded-t-2xl"
               />
               <button

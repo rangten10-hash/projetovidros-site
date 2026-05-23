@@ -69,6 +69,7 @@ const GalleryPageLayout = ({ title, subtitle, image, images, comingSoon, childre
                     alt={`${title} ${item.id} - Projeto Vidros São Paulo`}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     loading="lazy"
+                    decoding="async"
                   />
                   <div className="absolute inset-0 bg-petrol/0 group-hover:bg-petrol/40 transition-colors duration-500 flex items-end p-4">
                     <span className="text-primary-foreground opacity-0 group-hover:opacity-100 transition-opacity font-display text-sm">
@@ -92,6 +93,8 @@ const GalleryPageLayout = ({ title, subtitle, image, images, comingSoon, childre
             <img
               src={selectedImage}
               alt={`${title} - Detalhe do projeto Projeto Vidros`}
+              loading="lazy"
+              decoding="async"
               className="w-full max-h-[85vh] object-contain rounded-xl"
             />
             <button

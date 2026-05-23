@@ -46,7 +46,7 @@ const SocialProof = () => {
               aria-label="Instagram Projeto Vidros"
               className="transition-transform duration-300 hover:scale-125 hover:animate-pulse"
             >
-              <img src={instagramLogo} alt="Instagram" className="h-16 w-16 md:h-20 md:w-20 object-contain" />
+              <img src={instagramLogo} alt="Instagram" loading="lazy" decoding="async" className="h-16 w-16 md:h-20 md:w-20 object-contain" />
             </a>
             <a
               href={TIKTOK_URL}
@@ -55,7 +55,7 @@ const SocialProof = () => {
               aria-label="TikTok Projeto Vidros"
               className="transition-transform duration-300 hover:scale-125 hover:animate-pulse"
             >
-              <img src={tiktokLogo} alt="TikTok" className="h-16 w-16 md:h-20 md:w-20 object-contain rounded-2xl" />
+              <img src={tiktokLogo} alt="TikTok" loading="lazy" decoding="async" className="h-16 w-16 md:h-20 md:w-20 object-contain rounded-2xl" />
             </a>
             <a
               href={GOOGLE_URL}
@@ -78,7 +78,7 @@ const SocialProof = () => {
           {/* Instagram Feed */}
           <div className="bg-card rounded-2xl p-4 sm:p-6 shadow-sm border border-border min-w-0 overflow-hidden">
             <div className="flex items-center gap-3 mb-5">
-              <img src={instagramLogo} alt="" className="h-8 w-8 object-contain" aria-hidden />
+              <img src={instagramLogo} alt="" loading="lazy" decoding="async" className="h-8 w-8 object-contain" aria-hidden />
               <div>
                 <h3 className="font-display text-lg text-foreground">@projetovidros.sp</h3>
                 <p className="text-xs text-muted-foreground">Nosso feed no Instagram</p>
@@ -121,7 +121,7 @@ const SocialProof = () => {
           {/* TikTok Carousel */}
           <div className="bg-card rounded-2xl p-4 sm:p-6 shadow-sm border border-border min-w-0 overflow-hidden">
             <div className="flex items-center gap-3 mb-5">
-              <img src={tiktokLogo} alt="" className="h-8 w-8 object-contain rounded-lg" aria-hidden />
+              <img src={tiktokLogo} alt="" loading="lazy" decoding="async" className="h-8 w-8 object-contain rounded-lg" aria-hidden />
               <div>
                 <h3 className="font-display text-lg text-foreground">@projeto.vidros</h3>
                 <p className="text-xs text-muted-foreground">Vídeos no TikTok</p>

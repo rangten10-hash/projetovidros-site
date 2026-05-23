@@ -85,6 +85,8 @@ const BlogPost = () => {
               <img
                 src={post.image}
                 alt={post.imageAlt}
+                fetchPriority="high"
+                decoding="async"
                 className="w-full h-auto object-cover"
               />
             </div>
@@ -126,6 +128,8 @@ const BlogPost = () => {
                       key={i}
                       src={block.src}
                       alt={block.alt}
+                      loading="lazy"
+                      decoding="async"
                       className="rounded-xl w-full h-auto my-6"
                     />
                   );

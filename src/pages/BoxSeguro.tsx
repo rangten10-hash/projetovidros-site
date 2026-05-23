@@ -66,7 +66,7 @@ const BoxSeguro = () => {
               </div>
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl">
-              <img src={boxSeguro1} alt="Vidro temperado com película de segurança" className="w-full h-auto object-cover" />
+              <img src={boxSeguro1} alt="Vidro temperado com película de segurança" loading="lazy" decoding="async" className="w-full h-auto object-cover" />
             </div>
           </div>
         </div>
@@ -177,7 +177,7 @@ const BoxSeguro = () => {
                 className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] cursor-pointer"
                 onClick={() => setLightboxImg(img)}
               >
-                <img src={img} alt={`Box +Seguro exemplo ${i + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                <img src={img} alt={`Box +Seguro exemplo ${i + 1}`} loading="lazy" decoding="async" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
               </div>
             ))}
           </div>
@@ -197,6 +197,8 @@ const BoxSeguro = () => {
               <img
                 src={lightboxImg}
                 alt="Box +Seguro"
+                loading="lazy"
+                decoding="async"
                 className="max-w-full max-h-[90vh] object-contain rounded-lg"
                 onClick={(e) => e.stopPropagation()}
               />
