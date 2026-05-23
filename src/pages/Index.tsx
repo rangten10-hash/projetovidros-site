@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import HeroCarousel from "@/components/HeroCarousel";
 import CategoryCards from "@/components/CategoryCards";
@@ -7,6 +8,9 @@ import SocialProof from "@/components/SocialProof";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { useSeo } from "@/lib/seo";
+import { schedulePrefetch } from "@/lib/routePrefetch";
+import promoDesktop from "@/assets/banner-desktop-oferta.webp";
+import promoMobile from "@/assets/banner-mobile-oferta.webp";
 
 const Index = () => {
   useSeo({
@@ -15,6 +19,22 @@ const Index = () => {
       "Vidraçaria especializada em box de banheiro com película anti-estilhaço, espelhos sob medida e portas de vidro em São Paulo e região.",
     path: "/",
   });
+
+  // After the page is idle (post-LCP), warm the most-likely next-route
+  // chunks and the promo carousel images so navigation feels instant
+  // without competing with the hero for bandwidth.
+  useEffect(() => {
+    schedulePrefetch(
+      [
+        "/box-de-banheiro",
+        "/portas-de-vidro",
+        "/espelhos",
+        "/projetos",
+        "/box-seguro",
+      ],
+      [promoDesktop, promoMobile]
+    );
+  }, []);
   return (
     <div className="min-h-screen">
       <Header />
