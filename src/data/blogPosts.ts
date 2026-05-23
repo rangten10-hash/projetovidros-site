@@ -46,6 +46,13 @@ import espelhosOrganicos4 from "@/assets/blog-espelhos-organicos-4.webp";
 import boxApertadoFlexCapa from "@/assets/blog-box-apertado-flex-capa.webp";
 import boxApertadoFlexFechado from "@/assets/blog-box-flex-fechado.webp";
 import boxApertadoFlexAberto from "@/assets/blog-box-flex-aberto.webp";
+import guardaCorpoCapa from "@/assets/blog-guarda-corpo-capa.webp";
+import guardaCorpoLaminadoTecnico from "@/assets/blog-guarda-corpo-laminado-tecnico.webp";
+import guardaCorpoImpacto from "@/assets/blog-guarda-corpo-impacto.webp";
+import guardaCorpoEscadaInterna from "@/assets/blog-guarda-corpo-escada-interna.webp";
+import guardaCorpoEscada2 from "@/assets/blog-guarda-corpo-escada-2.webp";
+import guardaCorpoCobertura from "@/assets/blog-guarda-corpo-cobertura.webp";
+import guardaCorpoTorres from "@/assets/blog-guarda-corpo-torres.webp";
 
 export interface BlogPost {
   slug: string;
