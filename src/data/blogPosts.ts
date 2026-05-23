@@ -1,11 +1,11 @@
 import bannerBoxSeguro from "@/assets/banner-mobile-seguranca.webp";
-import boxAteTeto from "@/assets/blog-box-ate-teto-capa.png";
+import boxAteTeto from "@/assets/blog-box-ate-teto-capa.webp";
 import kitRetoRose from "@/assets/blog-kit-reto-rose.webp";
 import divisoriaUniqueAntes from "@/assets/blog-divisoria-unique-antes.webp";
-import divisoriaUniqueDepois from "@/assets/blog-divisoria-unique-capa.png";
+import divisoriaUniqueDepois from "@/assets/blog-divisoria-unique-capa.webp";
 import divisoriaUniqueFoto from "@/assets/blog-divisoria-unique-depois.webp";
 import espelhoHallAntes from "@/assets/blog-espelho-hall-antes.webp";
-import espelhoHall from "@/assets/blog-espelho-hall-capa.png";
+import espelhoHall from "@/assets/blog-espelho-hall-capa.webp";
 import espelhoHallFoto from "@/assets/blog-espelho-hall-depois.webp";
 import guiaBoxFlex from "@/assets/blog-guia-box-flex.webp";
 import guiaBoxTransfer from "@/assets/blog-guia-box-transfer.webp";
@@ -17,8 +17,8 @@ import guiaBoxCanto from "@/assets/blog-guia-box-canto.webp";
 import flexSemBox from "@/assets/blog-flex-sem-box.webp";
 import flexFechado from "@/assets/blog-flex-fechado.webp";
 import flexAberto from "@/assets/blog-flex-aberto.webp";
-import blogBoxFlexCapa from "@/assets/blog-box-flex-capa.png";
-import blogGuiaBoxCapa from "@/assets/blog-guia-box-capa.png";
+import blogBoxFlexCapa from "@/assets/blog-box-flex-capa.webp";
+import blogGuiaBoxCapa from "@/assets/blog-guia-box-capa.webp";
 import espelhoCapa from "@/assets/blog-espelho-capa.webp";
 import espelhoPainelSala from "@/assets/blog-espelho-painel-sala.webp";
 import espelhoPainelHall from "@/assets/blog-espelho-painel-hall.webp";
@@ -43,9 +43,9 @@ import espelhosOrganicos1 from "@/assets/blog-espelhos-organicos-1.webp";
 import espelhosOrganicos2 from "@/assets/blog-espelhos-organicos-2.webp";
 import espelhosOrganicos3 from "@/assets/blog-espelhos-organicos-3.webp";
 import espelhosOrganicos4 from "@/assets/blog-espelhos-organicos-4.webp";
-import boxApertadoFlexCapa from "@/assets/blog-box-apertado-flex-capa.png";
-import boxApertadoFlexFechado from "@/assets/blog-box-flex-fechado.png";
-import boxApertadoFlexAberto from "@/assets/blog-box-flex-aberto.png";
+import boxApertadoFlexCapa from "@/assets/blog-box-apertado-flex-capa.webp";
+import boxApertadoFlexFechado from "@/assets/blog-box-flex-fechado.webp";
+import boxApertadoFlexAberto from "@/assets/blog-box-flex-aberto.webp";
 
 export interface BlogPost {
   slug: string;
