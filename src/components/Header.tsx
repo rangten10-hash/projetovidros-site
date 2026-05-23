@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import SmartLink from "./SmartLink";
 import { Menu, X, Phone } from "lucide-react";
 import logo from "@/assets/logo-projectovidros.webp";
 import logoBoxSeguro from "@/assets/logo-box-seguro.webp";
