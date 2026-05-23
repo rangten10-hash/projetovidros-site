@@ -50,7 +50,7 @@ import guardaCorpoCapa from "@/assets/blog-guarda-corpo-capa.webp";
 import guardaCorpoLaminadoTecnico from "@/assets/blog-guarda-corpo-laminado-tecnico.webp";
 import guardaCorpoImpacto from "@/assets/blog-guarda-corpo-impacto.webp";
 import guardaCorpoEscadaInterna from "@/assets/blog-guarda-corpo-escada-interna.webp";
-import guardaCorpoEscada2 from "@/assets/blog-guarda-corpo-escada-2.webp";
+
 import guardaCorpoCobertura from "@/assets/blog-guarda-corpo-cobertura.webp";
 import guardaCorpoTorres from "@/assets/blog-guarda-corpo-torres.webp";
 
@@ -192,11 +192,6 @@ export const blogPosts: BlogPost[] = [
         type: "image",
         src: guardaCorpoEscadaInterna,
         alt: "Guarda-corpo de vidro temperado laminado em mezanino interno com fixação por botões de aço inox",
-      },
-      {
-        type: "image",
-        src: guardaCorpoEscada2,
-        alt: "Escada residencial com guarda-corpo de Vidro Temperado Laminado fixado por botões de inox",
       },
       {
         type: "paragraph",
