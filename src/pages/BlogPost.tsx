@@ -128,6 +128,8 @@ const BlogPost = () => {
                       key={i}
                       src={block.src}
                       alt={block.alt}
+                      loading="lazy"
+                      decoding="async"
                       className="rounded-xl w-full h-auto my-6"
                     />
                   );
