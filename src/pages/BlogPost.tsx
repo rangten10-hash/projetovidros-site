@@ -85,6 +85,8 @@ const BlogPost = () => {
               <img
                 src={post.image}
                 alt={post.imageAlt}
+                fetchPriority="high"
+                decoding="async"
                 className="w-full h-auto object-cover"
               />
             </div>
