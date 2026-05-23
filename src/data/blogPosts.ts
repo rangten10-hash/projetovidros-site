@@ -43,6 +43,9 @@ import espelhosOrganicos1 from "@/assets/blog-espelhos-organicos-1.webp";
 import espelhosOrganicos2 from "@/assets/blog-espelhos-organicos-2.webp";
 import espelhosOrganicos3 from "@/assets/blog-espelhos-organicos-3.webp";
 import espelhosOrganicos4 from "@/assets/blog-espelhos-organicos-4.webp";
+import boxApertadoFlexCapa from "@/assets/blog-box-apertado-flex-capa.png";
+import boxApertadoFlexFechado from "@/assets/blog-box-flex-fechado.png";
+import boxApertadoFlexAberto from "@/assets/blog-box-flex-aberto.png";
 
 export interface BlogPost {
   slug: string;
@@ -71,6 +74,165 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-apertado-nunca-mais-elegance-flex-piso-teto",
+    title: "Box Apertado Nunca Mais: Conheça o Box Elegance Flex Piso a Teto",
+    excerpt:
+      "Banheiro pequeno em São Paulo? O Box Elegance Flex articulado Piso a Teto abre até 90% do vão e transforma o ambiente em um SPA moderno e luxuoso.",
+    image: boxApertadoFlexCapa,
+    imageAlt:
+      "Box Elegance Flex Piso a Teto com acabamento dourado em banheiro compacto - Projeto Vidros",
+    date: "2026-05-23",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box Elegance Flex Piso a Teto em SP: sistema articulado Ideia Glass com até 90% de abertura, vidro 8mm, Película Box+Seguro PS4 e medição a laser. Ideal para banheiros pequenos.",
+    cta: {
+      label: "Falar com Especialista no WhatsApp",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Se você mora em um apartamento ou casa em São Paulo e sofre toda vez que vai tomar banho porque o seu banheiro é compacto, você não está sozinho. A grande dúvida de quem está reformando espaços reduzidos é: está precisando de mais espaço no seu banheiro? O seu box é pequeno? Tem um banheiro pequeno ou quer deixar o ambiente com uma sensação de amplitude real?",
+      },
+      {
+        type: "paragraph",
+        text: "A resposta para todas essas perguntas se resume a um projeto que é o verdadeiro campeão em salvar banheiros pequenos: o Box Elegance Flex (Articulado) desenhado do Piso ao Teto. Essa solução exclusiva da Projeto Vidros une a maior abertura de vão do mercado com a estética imponente e minimalista do fechamento total até o gesso, transformando um banheiro apertado em um SPA moderno, tecnológico e luxuoso.",
+      },
+      {
+        type: "heading",
+        text: "Como Funciona o Box Flex? A Engenharia que Salva Banheiros Pequenos",
+      },
+      {
+        type: "paragraph",
+        text: "O Box Flex, desenvolvido com a tecnologia e patentes da renomada marca Ideia Glass, é um sistema de box articulado — também popularmente conhecido no mercado de arquitetura como box camarão. Ele foi projetado especificamente para resolver o problema de vãos frontais estreitos (geralmente abaixo de 1,00m de largura), onde um box tradicional de correr se torna inviável por deixar uma passagem livre menor que 45 cm.",
+      },
+      {
+        type: "image",
+        src: boxApertadoFlexFechado,
+        alt: "Box Elegance Flex Piso a Teto fechado em banheiro compacto com acabamento dourado",
+      },
+      {
+        type: "heading",
+        text: "Até 90% de Abertura Livre e Passagem Desimpedida",
+      },
+      {
+        type: "paragraph",
+        text: "O grande diferencial mecânico do Box Flex é que a sua abertura atinge até 90% do vão total do banheiro. Graças ao seu sistema de dobradiças centrais integradas, as lâminas de vidro de 8mm dobram-se suavemente uma sobre a outra, recolhendo-se rente à parede. Isso deixa a passagem completamente livre para você entrar, sair e tomar o seu banho com muito mais conforto, liberdade e espaço.",
+      },
+      {
+        type: "heading",
+        text: "Versatilidade de Montagem e Acessibilidade Nota 10",
+      },
+      {
+        type: "paragraph",
+        text: "Uma das grandes vantagens que fazem os arquitetos de São Paulo amarem o sistema Flex da Ideia Glass é a sua incrível versatilidade de adaptação a qualquer desenho de alvenaria:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Montagem em Linha Tradicional:", text: "ideal para vãos de parede a parede em banheiros lineares." },
+          { strong: "Montagem em Canto (Formato em L):", text: "perfeito para aproveitar os cantos mortos do banheiro com abertura angular." },
+          { strong: "Montagem com Lateral de Vidro Fixa:", text: "quando o chuveiro fica isolado e exige um painel de fechamento fixo lateral." },
+        ],
+      },
+      {
+        type: "image",
+        src: boxApertadoFlexAberto,
+        alt: "Box Elegance Flex aberto mostrando a articulação camarão e a passagem livre ampliada",
+      },
+      {
+        type: "heading",
+        text: "Inovação: Sistema com Trilho no Teto para Acessibilidade Total",
+      },
+      {
+        type: "paragraph",
+        text: "O Box Flex também possui uma configuração técnica altamente recomendada por engenheiros: ele pode ser montado como uma porta suspensa, colocando o trilho guia diretamente fixado no teto.",
+      },
+      {
+        type: "paragraph",
+        text: "Essa aplicação elimina a necessidade de trilhos ou perfis metálicos colados no chão do banheiro, criando um piso totalmente plano e sem barreiras físicas. Por conta disso, torna-se o produto perfeito para garantir acessibilidade total, facilitando a locomoção e o manuseio seguro para idosos, cadeirantes ou pessoas com mobilidade reduzida. As dobradiças são feitas de metais nobres de alta resistência, exigindo o mínimo de esforço físico para abrir ou fechar o box.",
+      },
+      {
+        type: "heading",
+        text: "O Diferencial Premium: O Charme e Modernidade do Piso ao Teto",
+      },
+      {
+        type: "paragraph",
+        text: "Agora, imagine juntar toda essa funcionalidade do sistema articulado com o visual monumental do fechamento até o teto. Quando desenhamos o Box Flex estendendo as lâminas de vidro até o gesso rebaixado, o banheiro ganha três benefícios imediatos de alto padrão:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Efeito Sauna de Luxo:", text: "o vapor quente do chuveiro fica totalmente confinado na área de banho, mantendo a temperatura interna deliciosamente aquecida e eliminando o choque térmico nos dias frios de São Paulo." },
+          { strong: "Proteção Total dos Móveis:", text: "como o vapor não se espalha pelo restante do ambiente, seus móveis planejados em MDF, as pinturas das paredes e o teto de gesso ficam 100% protegidos contra o estufamento, mofo e bolor." },
+          { strong: "Amplitude Visual Monumental:", text: "o fechamento vertical integrado de ponta a ponta elimina linhas horizontais divisórias, dando a nítida sensação de que o pé-direito do seu banheiro é muito mais alto e espaçoso." },
+        ],
+      },
+      {
+        type: "heading",
+        text: "Sua Paleta de Cores: Personalização Sem Limites",
+      },
+      {
+        type: "paragraph",
+        text: "Quer saber quais cores de acabamento você pode escolher para combinar com os metais da sua bancada? O Box Flex da Ideia Glass é fabricado com metais de altíssimo padrão, contando com uma garantia de fábrica exclusiva da marca, e está disponível na Projeto Vidros nas seguintes opções:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box Flex Cromado:", text: "o clássico de alto brilho e atemporalidade." },
+          { strong: "Box Flex Preto (Black Matte):", text: "perfeito para conceitos modernos e industriais." },
+          { strong: "Box Flex Branco:", text: "trazendo total neutralidade e discrição para o ambiente." },
+          { strong: "Box Flex Rose (Rose Gold):", text: "o tom que é a maior tendência de luxo em Moema e no Itaim Bibi." },
+          { strong: "Box Flex Dourado (Gold):", text: "o ápice do requinte, sofisticação e imponência." },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "Qual a cor do Box Flex você mais gosta para combinar com o revestimento do seu projeto?",
+      },
+      {
+        type: "heading",
+        text: "Tecnologia Exclusiva: Película Box+Seguro Garantida",
+      },
+      {
+        type: "paragraph",
+        text: "Um projeto com vidro articulado e que se estende até o teto exige o nível máximo de segurança disponível no mercado. E é aqui que a Projeto Vidros se destaca: a verdadeira e legítima película de proteção de alta performance BOX+SEGURO você só encontra aqui!",
+      },
+      {
+        type: "paragraph",
+        text: "Nós não trabalhamos com películas automotivas comuns de controle solar que rasgam facilmente. Nós aplicamos a autêntica película estrutural de segurança PS4.",
+      },
+      {
+        type: "paragraph",
+        text: "Nosso rigor técnico: para garantir a sua eficácia, a película Box+Seguro é aplicada nas lâminas de vidro temperado de 8mm dentro da nossa fábrica, antes do box ser montado na sua casa. Isso faz com que as bordas da película fiquem totalmente embutidas e prensadas por dentro das dobradiças e perfis da Ideia Glass. Se ocorrer uma quebra rara por impacto extremo, os cacos de vidro ficam 100% colados e presos na estrutura metálica, impedindo que desabem no chão como um cobertor de vidro. É segurança real e inegociável para quem você ama.",
+      },
+      {
+        type: "heading",
+        text: "Medição a Laser na Zona Norte e Regiões Nobres de SP",
+      },
+      {
+        type: "paragraph",
+        text: "Como o Box Flex Piso a Teto encosta milimetricamente no gesso e trabalha com eixos articulados, a instalação requer precisão cirúrgica de engenharia. Nossa equipe técnica utiliza medição computadorizada a laser diretamente na sua obra para garantir vazamento zero e um deslize extremamente macio.",
+      },
+      {
+        type: "paragraph",
+        text: "Com sede estratégica no Imirim, na Zona Norte, nossas frotas atendem diariamente a toda a capital paulista, acumulando a nota máxima de 5.0 estrelas no Google por nossa limpeza, pontualidade e acabamento premium.",
+      },
+      {
+        type: "heading",
+        text: "Diga Adeus ao Box Apertado Hoje Mesmo!",
+      },
+      {
+        type: "paragraph",
+        text: "Não se contente com um banheiro desconfortável. Valorize o seu imóvel associando a tecnologia de ganho de espaço da Ideia Glass com o requinte do design Piso a Teto da Projeto Vidros.",
+      },
+      {
+        type: "paragraph",
+        text: "Fale com um especialista no WhatsApp ou ligue direto para a nossa central de atendimento pelo número (11) 91548-5945. Envie as fotos do seu banheiro ou as medidas do seu vão e receba uma consultoria técnica gratuita com o seu orçamento personalizado direto de fábrica!",
+      },
+    ],
+  },
   {
     slug: "espelhos-organicos-tendencia-decoracao-banheiro",
     title: "Espelhos Orgânicos: A Tendência de Design que Transforma Banheiros e Lavabos em São Paulo",
