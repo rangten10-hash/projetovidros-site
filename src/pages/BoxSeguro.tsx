@@ -177,7 +177,7 @@ const BoxSeguro = () => {
                 className="rounded-2xl overflow-hidden shadow-lg aspect-[4/3] cursor-pointer"
                 onClick={() => setLightboxImg(img)}
               >
-                <img src={img} alt={`Box +Seguro exemplo ${i + 1}`} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                <img src={img} alt={`Box +Seguro exemplo ${i + 1}`} loading="lazy" decoding="async" className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
               </div>
             ))}
           </div>
