@@ -46,6 +46,13 @@ import espelhosOrganicos4 from "@/assets/blog-espelhos-organicos-4.webp";
 import boxApertadoFlexCapa from "@/assets/blog-box-apertado-flex-capa.webp";
 import boxApertadoFlexFechado from "@/assets/blog-box-flex-fechado.webp";
 import boxApertadoFlexAberto from "@/assets/blog-box-flex-aberto.webp";
+import guardaCorpoCapa from "@/assets/blog-guarda-corpo-capa.webp";
+import guardaCorpoLaminadoTecnico from "@/assets/blog-guarda-corpo-laminado-tecnico.webp";
+import guardaCorpoImpacto from "@/assets/blog-guarda-corpo-impacto.webp";
+import guardaCorpoEscadaInterna from "@/assets/blog-guarda-corpo-escada-interna.webp";
+import guardaCorpoEscada2 from "@/assets/blog-guarda-corpo-escada-2.webp";
+import guardaCorpoCobertura from "@/assets/blog-guarda-corpo-cobertura.webp";
+import guardaCorpoTorres from "@/assets/blog-guarda-corpo-torres.webp";
 
 export interface BlogPost {
   slug: string;
@@ -74,6 +81,211 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "guarda-corpo-de-vidro-seguranca-normas-abnt",
+    title: "Guarda-Corpo de Vidro: Por que a Escolha do Material Errado pode ser Fatal (e Ilegal)",
+    excerpt:
+      "Entenda por que vidro temperado comum em guarda-corpos com botões ou torres é proibido pela ABNT NBR 14718 e como o Vidro Temperado Laminado protege a sua família.",
+    image: guardaCorpoCapa,
+    imageAlt:
+      "Guarda-corpo de vidro com escolha errada de material pode ser fatal e ilegal - Projeto Vidros",
+    date: "2026-05-24",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Guarda-corpo de vidro em SP: ABNT NBR 14718 exige Vidro Temperado Laminado em fixação por botões e torres de inox. Veja os riscos do vidro errado e projetos reais Projeto Vidros.",
+    cta: {
+      label: "Falar com Especialista no WhatsApp",
+      href: "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20guarda-corpo%20de%20vidro.",
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Se você está construindo ou reformando uma escada, mezanino, sacada ou cobertura em São Paulo, certamente já se encantou com a beleza, transparência e leveza do guarda-corpo de vidro. Essa estrutura valoriza o imóvel, amplia os ambientes e traz um ar de sofisticação incomparável. No entanto, o que muitos proprietários de imóveis, construtores e até profissionais do vidro não sabem é que existe uma linha muito tênue entre um design de luxo e uma estrutura extremamente perigosa.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, seguimos rigorosamente as normas de segurança brasileiras (ABNT NBR 14718 e NBR 7199). Hoje, vamos explicar detalhadamente por que o uso de vidros comuns ou apenas temperados monolíticos em guarda-corpos com fixação por botões ou torres de aço inox é ilegal e coloca vidas em risco. Entenda de uma vez por todas o que diz a lei e por que o barato sai extremamente caro quando o assunto é a proteção da sua família.",
+      },
+      {
+        type: "heading",
+        text: "O que diz a Lei? Conheça as Normas ABNT NBR 14718 e NBR 7199",
+      },
+      {
+        type: "paragraph",
+        text: "No Brasil, a instalação de um guarda-corpo em edificações não é uma questão de preferência estética, é uma questão de engenharia civil e cumprimento da legislação vigente. A norma regulamentadora máxima para o segmento é a ABNT NBR 14718 (Guarda-corpos para edificações), que atua em conjunto com a ABNT NBR 7199 (Projeto, execução e aplicações de vidros na construção civil).",
+      },
+      {
+        type: "paragraph",
+        text: "Quando optamos por designs modernos que utilizam ferragens de fixação pontual — como os botões de aço inox ou as torres de aço inox de piso —, a norma é categórica: é terminantemente proibido utilizar vidro temperado comum (monolítico) sozinho ou vidro laminado comum sozinho.",
+      },
+      {
+        type: "heading",
+        text: "O Perigo do Vidro Temperado Monolítico (Solteiro)",
+      },
+      {
+        type: "paragraph",
+        text: "O vidro temperado é fantástico por sua alta resistência mecânica e térmica. Porém, ele tem uma característica que o torna fatal se usado sozinho em guarda-corpos: se ele sofrer um impacto severo na borda ou quebrar por fadiga, ele se estilhaça por inteiro em milhares de pequenos fragmentos e desaba imediatamente no chão.",
+      },
+      {
+        type: "paragraph",
+        text: "Se uma criança, um idoso ou você mesmo estiver apoiado no guarda-corpo no momento da quebra, o vão fica 100% aberto e nada impede uma queda direto no vazio. Por esse motivo, usá-lo sozinho fixado apenas por botões ou torres é uma infração grave.",
+      },
+      {
+        type: "heading",
+        text: "O Perigo do Vidro Laminado Comum (Float)",
+      },
+      {
+        type: "paragraph",
+        text: "O vidro laminado comum (composto por duas chapas de vidro comum coladas por uma película) não possui a dureza mecânica necessária para suportar a pressão dos parafusos. Quando as torres ou os botões de inox recebem o torque do aperto na instalação, ou quando o vidro sofre a pressão de uma pessoa se apoiando, o vidro laminado comum trinca e racha nas furações com extrema facilidade, inutilizando a peça.",
+      },
+      {
+        type: "heading",
+        text: "A Única Solução Permitida por Lei: Vidro Temperado Laminado",
+      },
+      {
+        type: "paragraph",
+        text: "Para garantir uma segurança real e inegociável, o projeto precisa unir o melhor dos dois mundos. O único material que atende perfeitamente à lei e protege a sua família é o Vidro Temperado Laminado.",
+      },
+      {
+        type: "paragraph",
+        text: "Como funciona essa engenharia? Ele é um \"sanduíche\" de alta tecnologia composto por duas chapas de vidro que passaram pelo processo de têmpera (tornando-as 5 vezes mais fortes que o vidro comum) e foram unidas através de uma película interna de PVB (Polivinil Butiral) de alta aderência, exatamente como mostra o infográfico técnico abaixo:",
+      },
+      {
+        type: "image",
+        src: guardaCorpoLaminadoTecnico,
+        alt: "Infográfico técnico do Vidro Laminado de Segurança: vidro temperado + película PVB + vidro temperado",
+      },
+      {
+        type: "heading",
+        text: "O Vidro Quebrado é Seguro: Veja a Engenharia em Ação",
+      },
+      {
+        type: "paragraph",
+        text: "Para que você entenda visualmente o poder dessa tecnologia, veja o teste de impacto real em uma de nossas estruturas. Mesmo que o vidro sofra um impacto extremo e chegue a se quebrar, o vidro quebrado é seguro porque ele é segurado pelo outro que continua inteiro:",
+      },
+      {
+        type: "image",
+        src: guardaCorpoImpacto,
+        alt: "Teste de impacto em guarda-corpo de Vidro Temperado Laminado mostrando a chapa craquelada mas íntegra",
+      },
+      {
+        type: "paragraph",
+        text: "Repare que a chapa de vidro externa sofreu um forte impacto e ficou completamente craquelada (o comportamento padrão do vidro temperado), mas o guarda-corpo permaneceu 100% em pé, firme e estruturado no lugar. A película interna de PVB colou todos os fragmentos e manteve a barreira física intacta. Isso impede que o vão fique aberto e evita acidentes graves, garantindo o tempo necessário para que a nossa equipe técnica faça a substituição da peça com total tranquilidade.",
+      },
+      {
+        type: "heading",
+        text: "Projetos Reais Projeto Vidros: Segurança e Elegância na Prática",
+      },
+      {
+        type: "paragraph",
+        text: "Para ilustrar como essa teoria se aplica à arquitetura moderna, separamos alguns projetos reais executados pela nossa equipe em São Paulo dentro das normas vigentes.",
+      },
+      {
+        type: "heading",
+        text: "1. Guarda-Corpo Interno com Botões de Aço Inox (Escadas e Mezaninos)",
+      },
+      {
+        type: "paragraph",
+        text: "Em ambientes internos, o uso de botões de aço inox fixados na lateral dos degraus é uma das soluções mais pedidas por arquitetos. Esse sistema elimina perfis de alumínio pesados e deixa os degraus totalmente livres, ampliando a área útil de passagem da escada.",
+      },
+      {
+        type: "image",
+        src: guardaCorpoEscadaInterna,
+        alt: "Guarda-corpo de vidro temperado laminado em mezanino interno com fixação por botões de aço inox",
+      },
+      {
+        type: "image",
+        src: guardaCorpoEscada2,
+        alt: "Escada residencial com guarda-corpo de Vidro Temperado Laminado fixado por botões de inox",
+      },
+      {
+        type: "paragraph",
+        text: "Como esse tipo de projeto protege o fluxo diário de crianças, familiares e animais de estimação dentro de casa, o uso do Vidro Temperado Laminado fixado por botões de inox maciços garante que a estrutura suporte pressões de apoio e impactos sem folgas ou riscos de estilhaçamento.",
+      },
+      {
+        type: "heading",
+        text: "2. Guarda-Corpo Externo com Botões de Inox (Sacadas e Coberturas)",
+      },
+      {
+        type: "paragraph",
+        text: "Nas áreas externas, o desafio de engenharia é ainda maior. Uma cobertura ou sacada residencial fica exposta diretamente às variações de temperatura da capital paulista e, principalmente, à força constante do vento (pressão de vento).",
+      },
+      {
+        type: "image",
+        src: guardaCorpoCobertura,
+        alt: "Guarda-corpo de vidro em cobertura externa em São Paulo com fixação por botões de aço inox",
+      },
+      {
+        type: "paragraph",
+        text: "Abaixo da linha desse guarda-corpo da cobertura, existe um vão livre para o vazio que exige responsabilidade máxima do instalador. Aqui, o Vidro Temperado Laminado preso por botões de aço inox é obrigatório para resistir às intempéries climáticas e garantir que a área de lazer seja um espaço de total descontração e zero perigo.",
+      },
+      {
+        type: "heading",
+        text: "3. Guarda-Corpo Interno com Torres de Aço Inox (Fixação sobre o Piso)",
+      },
+      {
+        type: "paragraph",
+        text: "Outra tendência fortíssima em sobrados de alto padrão e apartamentos duplex é a fixação sobre o piso utilizando torres de aço inox. As torres funcionam como mini-postes verticais de alta pressão que elevam ligeiramente o vidro em relação ao chão, criando um visual flutuante magnífico e facilitando muito a limpeza diária do ambiente.",
+      },
+      {
+        type: "image",
+        src: guardaCorpoTorres,
+        alt: "Guarda-corpo de Vidro Temperado Laminado fixado por torres de aço inox sobre o piso em mezanino",
+      },
+      {
+        type: "paragraph",
+        text: "Nesse tipo de montagem clean, o Vidro Temperado Laminado trabalha sob pressão constante na base das torres. Por isso, o alinhamento precisa ser perfeito para que a rigidez do vidro distribua o peso uniformemente, oferecendo um apoio firme e imponente para quem transita pelo mezanino.",
+      },
+      {
+        type: "heading",
+        text: "Cuidado com o \"Barato que Sai Caro\" (E a Responsabilidade Criminal)",
+      },
+      {
+        type: "paragraph",
+        text: "Se você está pesquisando fornecedores e recebeu um orçamento de guarda-corpo de vidro que está com um preço excessivamente abaixo da média do mercado, ligue o sinal de alerta imediatamente. No segmento de vidraçaria, diminuir drasticamente o preço de um guarda-corpo geralmente significa apenas uma coisa: o instalador está usando vidro temperado comum monolítico para baratear o custo dos materiais e ganhar o serviço de forma desonesta.",
+      },
+      {
+        type: "paragraph",
+        text: "Optar por uma empresa que ignora as normas técnicas da ABNT traz consequências severas para você:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Risco de Vida Absurdo:", text: "a integridade física da sua família, dos seus convidados e dos seus pets fica completamente vulnerável." },
+          { strong: "Responsabilidade Civil e Criminal:", text: "em caso de acidentes com quebra e queda, o proprietário do imóvel responde judicialmente por negligência, juntamente com o vidraceiro que executou a obra fora da lei." },
+          { strong: "Reprovação no Habite-se:", text: "engenheiros, arquitetos e fiscais de obras não aprovam o Habite-se ou laudos de vistoria técnica de imóveis que possuam guarda-corpos fora das especificações da NBR 14718." },
+        ],
+      },
+      {
+        type: "heading",
+        text: "A Legítima Película BOX+SEGURO você só encontra aqui!",
+      },
+      {
+        type: "paragraph",
+        text: "Além de utilizarmos estritamente o Vidro Temperado Laminado exigido por lei para guarda-corpos com botões e torres, nós da Projeto Vidros elevamos o nível de proteção com a nossa tecnologia exclusiva: a película de alta performance BOX+SEGURO.",
+      },
+      {
+        type: "paragraph",
+        text: "Nossa película estrutural não é uma aplicação automotiva comum aplicada na obra após o vidro pronto. A película BOX+SEGURO é integrada às lâminas de vidro de segurança diretamente dentro da nossa fábrica, antes de o guarda-corpo ser montado no seu imóvel. Isso faz com que as bordas fiquem totalmente embutidas e prensadas sob alta pressão pelas ferragens de aço inox. É a blindagem máxima contra acidentes que o mercado residencial de alto padrão exige.",
+      },
+      {
+        type: "heading",
+        text: "Exija Qualidade Milimétrica. Exija Projeto Vidros.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, nós não fazemos apenas instalações de vidros; nós entregamos projetos de engenharia residencial. Todas as nossas medições são executadas com tecnologia computadorizada a laser, garantindo que as furações dos vidros fiquem milimetricamente alinhadas com os botões e torres de aço inox, eliminando qualquer vibração, folga ou ruído estrutural.",
+      },
+      {
+        type: "paragraph",
+        text: "Com sede estratégica no bairro do Imirim, na Zona Norte, nossas equipes atendem diariamente a toda a capital de São Paulo, Alphaville e regiões metropolitanas, acumulando a nota máxima de 5.0 estrelas no Google por nosso acabamento premium, limpeza fina na obra e respeito total à vida.",
+      },
+      {
+        type: "paragraph",
+        text: "Seja para a escada interna da sua casa ou para a sacada da sua cobertura, exija segurança real. Fale agora com um especialista no WhatsApp ou ligue diretamente para a nossa central técnica pelo telefone (11) 91548-5945. Envie as fotos do seu espaço ou o seu projeto arquitetônico e receba uma consultoria técnica de verdade com o seu orçamento direto de fábrica.",
+      },
+    ],
+  },
   {
     slug: "box-apertado-nunca-mais-elegance-flex-piso-teto",
     title: "Box Apertado Nunca Mais: Conheça o Box Elegance Flex Piso a Teto",
