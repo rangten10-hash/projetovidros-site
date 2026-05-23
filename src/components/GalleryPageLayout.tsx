@@ -93,6 +93,8 @@ const GalleryPageLayout = ({ title, subtitle, image, images, comingSoon, childre
             <img
               src={selectedImage}
               alt={`${title} - Detalhe do projeto Projeto Vidros`}
+              loading="lazy"
+              decoding="async"
               className="w-full max-h-[85vh] object-contain rounded-xl"
             />
             <button
