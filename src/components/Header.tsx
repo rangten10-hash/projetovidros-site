@@ -37,17 +37,17 @@ const Header = () => {
 
         <nav className="hidden lg:flex items-center gap-6">
           {navItemsLeft.map((item) => (
-            <Link key={item.path} to={item.path} className="text-foreground hover:text-accent transition-colors text-sm font-medium tracking-wide uppercase">
+            <SmartLink key={item.path} to={item.path} className="text-foreground hover:text-accent transition-colors text-sm font-medium tracking-wide uppercase">
               {item.label}
-            </Link>
+            </SmartLink>
           ))}
-          <Link to="/box-seguro" className="mx-2 hover:opacity-80 transition-opacity" aria-label="Box +Seguro">
+          <SmartLink to="/box-seguro" className="mx-2 hover:opacity-80 transition-opacity" aria-label="Box +Seguro">
             <img src={logoBoxSeguro} alt="Box +Seguro" width={224} height={112} className="h-28 w-auto" decoding="async" loading="lazy" />
-          </Link>
+          </SmartLink>
           {navItemsRight.map((item) => (
-            <Link key={item.path} to={item.path} className="text-foreground hover:text-accent transition-colors text-sm font-medium tracking-wide uppercase">
+            <SmartLink key={item.path} to={item.path} className="text-foreground hover:text-accent transition-colors text-sm font-medium tracking-wide uppercase">
               {item.label}
-            </Link>
+            </SmartLink>
           ))}
         </nav>
 
@@ -76,17 +76,17 @@ const Header = () => {
         <div className="lg:hidden bg-white border-t border-border">
           <nav className="container mx-auto px-4 py-4 flex flex-col gap-3">
             {navItemsLeft.map((item) => (
-              <Link key={item.path} to={item.path} onClick={() => setIsOpen(false)} className="text-foreground hover:text-accent transition-colors py-2 text-sm font-medium tracking-wide uppercase">
+              <SmartLink key={item.path} to={item.path} onClick={() => setIsOpen(false)} className="text-foreground hover:text-accent transition-colors py-2 text-sm font-medium tracking-wide uppercase">
                 {item.label}
-              </Link>
+              </SmartLink>
             ))}
-            <Link to="/box-seguro" onClick={() => setIsOpen(false)} className="py-2">
+            <SmartLink to="/box-seguro" onClick={() => setIsOpen(false)} className="py-2">
               <img src={logoBoxSeguro} alt="Box +Seguro" className="h-10 w-auto" />
-            </Link>
+            </SmartLink>
             {navItemsRight.map((item) => (
-              <Link key={item.path} to={item.path} onClick={() => setIsOpen(false)} className="text-foreground hover:text-accent transition-colors py-2 text-sm font-medium tracking-wide uppercase">
+              <SmartLink key={item.path} to={item.path} onClick={() => setIsOpen(false)} className="text-foreground hover:text-accent transition-colors py-2 text-sm font-medium tracking-wide uppercase">
                 {item.label}
-              </Link>
+              </SmartLink>
             ))}
             <a
               href={WHATSAPP_URL}

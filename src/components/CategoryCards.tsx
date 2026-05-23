@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import SmartLink from "./SmartLink";
 import categoryBox from "@/assets/cat-box-banheiro-800.webp";
 import categoryBox400 from "@/assets/cat-box-banheiro-400.webp";
 import categoryPortas from "@/assets/category-portas-800.webp";
@@ -33,7 +33,7 @@ const CategoryCards = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 md:gap-6">
           {categories.map((cat) => (
-            <Link
+            <SmartLink
               key={cat.path}
               to={cat.path}
               className="group relative aspect-[3/4] rounded-lg overflow-hidden focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-copper"
@@ -56,7 +56,7 @@ const CategoryCards = () => {
                 </h3>
                 <div className="h-0.5 w-8 bg-copper mt-2 group-hover:w-16 transition-all duration-500" />
               </div>
-            </Link>
+            </SmartLink>
           ))}
         </div>
       </div>

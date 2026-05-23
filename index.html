@@ -13,6 +13,12 @@
     <link rel="preload" as="image" href="/hero/mobile.webp" media="(max-width: 767px)" fetchpriority="high" />
     <link rel="preload" as="image" href="/hero/desktop.webp" media="(min-width: 768px)" fetchpriority="high" />
 
+    <!-- Preconnect to third-party origins used after LCP (analytics + WhatsApp click-through) -->
+    <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+    <link rel="dns-prefetch" href="https://wa.me" />
+    <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+
     <!-- Critical CSS inlined to prevent render blocking on the above-the-fold area -->
     <style>
       /* Reset + base above-the-fold styles to render immediately, before main bundle CSS arrives */
