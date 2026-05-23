@@ -66,7 +66,7 @@ const BoxSeguro = () => {
               </div>
             </div>
             <div className="rounded-2xl overflow-hidden shadow-xl">
-              <img src={boxSeguro1} alt="Vidro temperado com película de segurança" className="w-full h-auto object-cover" />
+              <img src={boxSeguro1} alt="Vidro temperado com película de segurança" loading="lazy" decoding="async" className="w-full h-auto object-cover" />
             </div>
           </div>
         </div>
