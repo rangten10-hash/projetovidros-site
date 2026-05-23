@@ -23,5 +23,10 @@ if (typeof window !== "undefined") {
 }
 
 import "./index.css";
+import { initWebVitals } from "./lib/webVitals";
 
 createRoot(document.getElementById("root")!).render(<App />);
+
+// Start Core Web Vitals monitoring (LCP, CLS, INP, FCP, TTFB)
+initWebVitals();
+
