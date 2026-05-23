@@ -2,7 +2,6 @@ import { onCLS, onINP, onLCP, onFCP, onTTFB, type Metric } from "web-vitals";
 
 declare global {
   interface Window {
-    gtag?: (...args: unknown[]) => void;
     __webVitals?: Record<string, Metric>;
   }
 }
