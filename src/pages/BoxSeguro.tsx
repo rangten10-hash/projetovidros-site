@@ -197,6 +197,8 @@ const BoxSeguro = () => {
               <img
                 src={lightboxImg}
                 alt="Box +Seguro"
+                loading="lazy"
+                decoding="async"
                 className="max-w-full max-h-[90vh] object-contain rounded-lg"
                 onClick={(e) => e.stopPropagation()}
               />
