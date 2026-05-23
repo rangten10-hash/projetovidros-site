@@ -104,6 +104,8 @@ const ProductPageLayout = ({ title, subtitle, products, children }: ProductPageL
               <img
                 src={selectedProduct.image}
                 alt={`Detalhe de ${selectedProduct.name} - Projeto Vidros São Paulo`}
+                loading="lazy"
+                decoding="async"
                 className="w-full max-h-[50vh] object-contain bg-muted/30 rounded-t-2xl"
               />
               <button
