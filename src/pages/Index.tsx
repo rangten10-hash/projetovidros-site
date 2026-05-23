@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Header from "@/components/Header";
 import HeroCarousel from "@/components/HeroCarousel";
 import CategoryCards from "@/components/CategoryCards";
@@ -7,6 +8,9 @@ import SocialProof from "@/components/SocialProof";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { useSeo } from "@/lib/seo";
+import { schedulePrefetch } from "@/lib/routePrefetch";
+import promoDesktop from "@/assets/banner-desktop-oferta.webp";
+import promoMobile from "@/assets/banner-mobile-oferta.webp";
 
 const Index = () => {
   useSeo({

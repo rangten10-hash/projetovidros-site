@@ -8,7 +8,9 @@ import Index from "./pages/Index";
 import CookieConsent from "./components/CookieConsent";
 import VersionChecker from "./components/VersionChecker";
 
-// Code-split secondary routes to reduce initial JS bundle
+// Code-split secondary routes to reduce initial JS bundle.
+// Loaders are shared with the prefetch helper so hover/idle warming hits the
+// exact same chunk that React.lazy will request on navigation.
 const BoxBanheiro = lazy(() => import("./pages/BoxBanheiro"));
 const BoxSeguro = lazy(() => import("./pages/BoxSeguro"));
 const PortasVidro = lazy(() => import("./pages/PortasVidro"));
