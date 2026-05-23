@@ -20,20 +20,28 @@ export default defineConfig(({ mode }) => ({
   },
   build: {
     cssCodeSplit: true,
+    target: "es2020",
+    cssTarget: "chrome90",
+    chunkSizeWarningLimit: 800,
     rollupOptions: {
       output: {
-        // Manual chunks reduce unused JS by isolating heavy libs
+        // Manual chunks isolate heavy libs so the home route ships minimal JS
+        // and shared vendors stay cacheable across route navigations.
         manualChunks: (id) => {
-          if (id.includes("node_modules")) {
-            if (id.includes("react-router")) return "router";
-            if (id.includes("@tanstack")) return "query";
-            if (id.includes("@radix-ui")) return "radix";
-            if (id.includes("lucide-react")) return "icons";
-            if (id.includes("@fontsource")) return "fonts";
-            if (id.includes("react-dom") || id.includes("react/")) return "react";
-          }
+          if (!id.includes("node_modules")) return;
+          if (id.includes("react-router")) return "router";
+          if (id.includes("@tanstack")) return "query";
+          if (id.includes("@radix-ui")) return "radix";
+          if (id.includes("lucide-react")) return "icons";
+          if (id.includes("@fontsource")) return "fonts";
+          if (id.includes("sonner") || id.includes("next-themes")) return "toast";
+          if (id.includes("web-vitals")) return "vitals";
+          if (id.includes("@supabase")) return "supabase";
+          if (id.includes("react-dom") || id.includes("/react/") || id.includes("scheduler"))
+            return "react";
         },
       },
     },
   },
 }));
+
