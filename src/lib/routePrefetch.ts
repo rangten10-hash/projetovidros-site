@@ -6,6 +6,7 @@ type Loader = () => Promise<unknown>;
 
 export const routeLoaders: Record<string, Loader> = {
   "/box-de-banheiro": () => import("@/pages/BoxBanheiro"),
+  "/box-flex": () => import("@/pages/BoxFlex"),
   "/box-seguro": () => import("@/pages/BoxSeguro"),
   "/portas-de-vidro": () => import("@/pages/PortasVidro"),
   "/espelhos": () => import("@/pages/Espelhos"),
