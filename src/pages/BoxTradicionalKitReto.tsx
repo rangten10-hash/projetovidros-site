@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import {
   ArrowLeft,
@@ -7,6 +8,8 @@ import {
   Ruler,
   ArrowUpDown,
   ChevronRight,
+  ChevronLeft,
+  X,
 } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -15,6 +18,8 @@ import { useSeo } from "@/lib/seo";
 import { gtagReportConversion } from "@/lib/gtag";
 
 import cardCover from "@/assets/box-tradicional-kit-reto/card-cover.png";
+import cantoPreto from "@/assets/box-tradicional-kit-reto/canto-preto.jpg";
+import branco from "@/assets/box-tradicional-kit-reto/branco.jpg";
 
 const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20o%20Box%20Tradicional%20Kit%20Reto.";
@@ -24,14 +29,26 @@ const handleWhatsappClick = (e: React.MouseEvent) => {
   gtagReportConversion(WHATSAPP_URL);
 };
 
+const gallery = [
+  { src: cardCover, tag: "Cromado / Inox", caption: "Box Tradicional Kit Reto — perfil cromado em vidro temperado 8mm" },
+  { src: cantoPreto, tag: "Preto Fosco", caption: "Box Canto Kit Reto Preto Fosco — versão em L com acabamento minimalista" },
+  { src: branco, tag: "Branco Puro", caption: "Box Tradicional Kit Reto Branco — visual clean e atemporal" },
+];
+
 const colors = [
   { name: "Preto Fosco", hex: "#1a1a1a" },
   { name: "Branco Puro", hex: "#fafafa" },
-  { name: "Cromado / Inox", hex: "linear-gradient(135deg,#e8e8e8,#a8a8a8)" },
+  { name: "Cromado", hex: "linear-gradient(135deg,#e8e8e8,#a8a8a8)" },
   { name: "Bronze / Champagne", hex: "linear-gradient(135deg,#d8b78a,#9a7544)" },
+  { name: "Ouro Brilhante", hex: "linear-gradient(135deg,#f3d77a,#b8860b)" },
+  { name: "Natural Fosco", hex: "linear-gradient(135deg,#bcbcbc,#7d7d7d)" },
 ];
 
 const BoxTradicionalKitReto = () => {
+  const [lightbox, setLightbox] = useState<number | null>(null);
+  const next = () => setLightbox((i) => (i === null ? null : (i + 1) % gallery.length));
+  const prev = () => setLightbox((i) => (i === null ? null : (i - 1 + gallery.length) % gallery.length));
+
   useSeo({
     title: "Box Tradicional Kit Reto em São Paulo | Projeto Vidros",
     description:
@@ -102,8 +119,47 @@ const BoxTradicionalKitReto = () => {
         </div>
       </section>
 
+      {/* Galeria */}
+      <section className="py-16 md:py-20">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-2xl mx-auto mb-10">
+            <h2 className="font-display text-3xl md:text-4xl text-foreground mb-3">
+              Galeria — Box Tradicional Kit Reto
+            </h2>
+            <p className="text-muted-foreground">
+              Variações de cor e configuração instaladas pela Projeto Vidros. Toque nas fotos para ampliar.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            {gallery.map((g, i) => (
+              <button
+                key={i}
+                onClick={() => setLightbox(i)}
+                className="group relative rounded-xl overflow-hidden border border-border bg-muted/40 shadow-sm hover:shadow-lg transition-all"
+              >
+                <div className="aspect-[3/4] overflow-hidden flex items-center justify-center bg-muted/30">
+                  <img
+                    src={g.src}
+                    alt={g.caption}
+                    loading="lazy"
+                    decoding="async"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                  />
+                </div>
+                <span className="absolute top-2 left-2 bg-petrol/90 text-primary-foreground text-[10px] uppercase tracking-wide px-2 py-1 rounded">
+                  {g.tag}
+                </span>
+                <p className="text-xs text-muted-foreground p-3 leading-snug text-left">{g.caption}</p>
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Diferenciais */}
       <section className="py-16 md:py-20 bg-muted/30">
+
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-12">
             <h2 className="font-display text-3xl md:text-4xl text-foreground mb-3">
@@ -191,7 +247,7 @@ const BoxTradicionalKitReto = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 max-w-5xl mx-auto">
             {colors.map((c) => (
               <div key={c.name} className="flex flex-col items-center text-center">
                 <span
@@ -245,6 +301,46 @@ const BoxTradicionalKitReto = () => {
 
       <Footer />
       <WhatsAppButton />
+
+      {/* Lightbox */}
+      {lightbox !== null && (
+        <div
+          className="fixed inset-0 z-[60] bg-black/80 backdrop-blur-sm flex items-center justify-center p-4"
+          onClick={() => setLightbox(null)}
+        >
+          <button
+            onClick={(e) => { e.stopPropagation(); setLightbox(null); }}
+            className="absolute top-4 right-4 bg-white/10 hover:bg-white/20 text-white rounded-full p-2"
+            aria-label="Fechar"
+          >
+            <X className="w-6 h-6" />
+          </button>
+          <button
+            onClick={(e) => { e.stopPropagation(); prev(); }}
+            className="absolute left-4 md:left-8 bg-white/10 hover:bg-white/20 text-white rounded-full p-2"
+            aria-label="Anterior"
+          >
+            <ChevronLeft className="w-6 h-6" />
+          </button>
+          <button
+            onClick={(e) => { e.stopPropagation(); next(); }}
+            className="absolute right-4 md:right-8 bg-white/10 hover:bg-white/20 text-white rounded-full p-2"
+            aria-label="Próxima"
+          >
+            <ChevronRight className="w-6 h-6" />
+          </button>
+          <figure className="max-w-4xl w-full" onClick={(e) => e.stopPropagation()}>
+            <img
+              src={gallery[lightbox].src}
+              alt={gallery[lightbox].caption}
+              className="w-full max-h-[80vh] object-contain rounded-lg"
+            />
+            <figcaption className="text-center text-white/80 text-sm mt-3">
+              {gallery[lightbox].caption}
+            </figcaption>
+          </figure>
+        </div>
+      )}
     </div>
   );
 };
