@@ -16,6 +16,7 @@ const BoxFlex = lazy(() => import("./pages/BoxFlex"));
 const BoxPisoTetoKitReto = lazy(() => import("./pages/BoxPisoTetoKitReto"));
 const BoxTradicionalKitReto = lazy(() => import("./pages/BoxTradicionalKitReto"));
 const BoxCantoKitReto = lazy(() => import("./pages/BoxCantoKitReto"));
+const BoxAbrirPequenoVao = lazy(() => import("./pages/BoxAbrirPequenoVao"));
 const BoxSeguro = lazy(() => import("./pages/BoxSeguro"));
 const PortasVidro = lazy(() => import("./pages/PortasVidro"));
 const Espelhos = lazy(() => import("./pages/Espelhos"));
@@ -48,6 +49,7 @@ const App = () => (
             <Route path="/box-piso-teto-kit-reto" element={<BoxPisoTetoKitReto />} />
             <Route path="/box-tradicional-kit-reto" element={<BoxTradicionalKitReto />} />
             <Route path="/box-de-canto-kit-reto" element={<BoxCantoKitReto />} />
+            <Route path="/box-de-abrir-pequeno-vao" element={<BoxAbrirPequenoVao />} />
             <Route path="/box-seguro" element={<BoxSeguro />} />
             <Route path="/portas-de-vidro" element={<PortasVidro />} />
             <Route path="/espelhos" element={<Espelhos />} />

@@ -10,6 +10,7 @@ import boxTradicional from "@/assets/box-tradicional.webp";
 import boxPisoTetoReto from "@/assets/box-piso-teto/card-cover.png";
 import boxTradicionalKitReto from "@/assets/box-tradicional-kit-reto/card-cover.png";
 import boxCantoKitReto from "@/assets/box-canto-kit-reto/card-cover.png";
+import boxAbrirPequenoVao from "@/assets/box-abrir-pequeno-vao/card-cover.png";
 import { Phone } from "lucide-react";
 import { useSeo } from "@/lib/seo";
 
@@ -79,14 +80,11 @@ Todos os perfis são fabricados em alumínio com ligas especiais reforçadas, co
 Sua principal característica é a movimentação simultânea das folhas: duas correm juntas, permitindo uma abertura de até 2/3 do vão total — solução perfeita para acessibilidade e para banheiros que precisam de máxima passagem.`,
   },
   {
-    name: "Box Abrir - Porta de Giro",
-    image: placeholderImg,
-    description: "Modelo clássico com dobradiças de abrir.",
-    fullDescription: `O Box Abrir - Porta de Giro é o modelo clássico com dobradiças, indicado para vãos médios e grandes onde se busca uma abertura ampla e elegante da porta.
-
-Combina robustez, design atemporal e o conforto de uma abertura completa, sem trilhos no piso.
-
-Em breve mais detalhes técnicos e fotos deste modelo.`,
+    name: "Box de Abrir para Pequenos Vãos",
+    image: boxAbrirPequenoVao,
+    imageContain: true,
+    description: "1 fixo + 1 porta de giro com abertura para dentro. Ideal para banheiros compactos.",
+    to: "/box-de-abrir-pequeno-vao",
   },
   {
     name: "Box Duo Safe",
