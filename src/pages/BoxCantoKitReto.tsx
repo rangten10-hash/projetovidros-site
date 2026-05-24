@@ -43,6 +43,8 @@ const colors = [
   { name: "Branco Puro", hex: "#fafafa" },
   { name: "Cromado", hex: "linear-gradient(135deg,#e8e8e8,#a8a8a8)" },
   { name: "Bronze / Champagne", hex: "linear-gradient(135deg,#d8b78a,#9a7544)" },
+  { name: "Ouro Brilhante", hex: "linear-gradient(135deg,#f5d76e,#c9a227)" },
+  { name: "Natural Fosco", hex: "linear-gradient(135deg,#bdbdbd,#8f8f8f)" },
 ];
 
 const BoxCantoKitReto = () => {
@@ -248,7 +250,7 @@ const BoxCantoKitReto = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 max-w-5xl mx-auto">
             {colors.map((c) => (
               <div key={c.name} className="flex flex-col items-center text-center">
                 <span
