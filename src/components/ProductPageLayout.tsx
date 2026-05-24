@@ -87,7 +87,7 @@ const ProductPageLayout = ({ title, subtitle, products, children }: ProductPageL
               if (product.to) {
                 return (
                   <Link key={product.name} to={product.to} className={cardClass}>
-                    <ProductCardInner product={product} />
+                    <ProductCardInner product={product} asLink />
                   </Link>
                 );
               }
