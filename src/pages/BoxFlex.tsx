@@ -31,11 +31,11 @@ const gallery = [
 ];
 
 const colors = [
-  { name: "Cromado / Inox", hex: "linear-gradient(135deg,#e8e8e8,#a8a8a8)" },
-  { name: "Preto Fosco", hex: "#1a1a1a" },
+  { name: "Preto", hex: "#1a1a1a" },
   { name: "Branco", hex: "#fafafa" },
-  { name: "Branco Fosco", hex: "#ececec" },
-  { name: "Bronze", hex: "linear-gradient(135deg,#a87341,#6b3f1d)" },
+  { name: "Cromado", hex: "linear-gradient(135deg,#e8e8e8,#a8a8a8)" },
+  { name: "Dourado", hex: "linear-gradient(135deg,#e6c46a,#b8860b)" },
+  { name: "Rose", hex: "linear-gradient(135deg,#e8a899,#c47561)" },
 ];
 
 const BoxFlex = () => {
@@ -103,7 +103,7 @@ const BoxFlex = () => {
             <img
               src={flexAbertura90}
               alt="Box Flex articulado com abertura de até 90% do vão"
-              className="w-full rounded-2xl shadow-2xl object-cover max-h-[520px]"
+              className="w-full rounded-2xl shadow-2xl object-contain max-h-[520px] bg-petrol"
               fetchPriority="high"
               decoding="async"
             />
