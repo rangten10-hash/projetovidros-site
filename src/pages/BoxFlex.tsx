@@ -174,18 +174,18 @@ const BoxFlex = () => {
             {[
               {
                 icon: Maximize2,
-                title: "Ganho de Espaço",
-                text: "Abertura articulada inteligente que otimiza o cômodo e não bate em vasos, gabinetes ou nichos.",
+                title: "Ganho de Espaço Inteligente",
+                text: "Diga adeus aos banheiros apertados onde a porta do box bate no vaso sanitário, no gabinete ou nos nichos. O mecanismo articulado do Box Flex dobra-se perfeitamente sobre si mesmo em um movimento suave de abertura lateral. Isso significa que mesmo em vãos a partir de 60 cm, você garante total liberdade de acesso e um aproveitamento cirúrgico de cada centímetro quadrado disponível no seu cômodo.",
               },
               {
                 icon: ShieldCheck,
-                title: "Segurança Reforçada",
-                text: "Vidro temperado de alta qualidade com opção de película anti-estilhaço para máxima proteção.",
+                title: "Segurança Reforçada e Película PVB",
+                text: "Sua tranquilidade e a da sua família vêm em primeiro lugar. Todos os nossos modelos de Box Flex são fabricados com vidro temperado de alta resistência física e térmica. Para elevar o nível de proteção, oferecemos a aplicação opcional da película de segurança anti-estilhaço de fábrica. Em caso de quebra por forte impacto, os fragmentos de vidro ficam totalmente colados à película, evitando acidentes e cortes.",
               },
               {
                 icon: Sparkles,
-                title: "Design Clean",
-                text: "Sem trilhos superiores. Dobradiças em metais nobres com alta resistência e movimento suave.",
+                title: "Design Clean e Alta Durabilidade",
+                text: "Com uma estética minimalista, o sistema não utiliza trilhos superiores horizontais, o que deixa o visual do banheiro muito mais limpo, moderno e amplo. Suas dobradiças e acessórios são confeccionados em metais nobres com tratamento anticorrosivo, garantindo que o trilho inferior deslize com o mínimo de esforço e máxima suavidade por anos, sem travar ou fazer barulho.",
               },
             ].map((d) => (
               <div
