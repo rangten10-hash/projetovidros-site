@@ -242,6 +242,24 @@ const BoxFlex = () => {
         </div>
       </section>
 
+      {/* Institucional / SEO local */}
+      <section className="py-16 md:py-20 bg-background">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <h2 className="font-display text-3xl md:text-4xl text-foreground mb-6 text-center">
+            Por que escolher a Projeto Vidros em São Paulo?
+          </h2>
+          <p className="text-muted-foreground leading-relaxed text-lg">
+            Encontrar uma vidraçaria de confiança na Zona Norte ou em qualquer região de São Paulo exige atenção aos
+            detalhes. Na <strong className="text-foreground">Projeto Vidros</strong>, nós unimos a fabricação sob medida à instalação
+            técnica de altíssima precisão. Nossa equipe técnica realiza a medição e a checagem de prumo e nível
+            utilizando equipamentos a laser de última geração, o que anula erros de instalação e vazamentos
+            indesejados de água. Atendemos residências, apartamentos e projetos comerciais levando soluções que
+            alinham estética, segurança regulamentada e prazos de entrega rigorosamente cumpridos. Peça seu orçamento
+            direto de fábrica hoje mesmo.
+          </p>
+        </div>
+      </section>
+
       {/* Final CTA */}
       <section className="py-16 md:py-20 bg-petrol">
         <div className="container mx-auto px-4 max-w-3xl text-center">
