@@ -14,6 +14,7 @@ interface Product {
   description?: string;
   fullDescription?: string;
   to?: string;
+  imageContain?: boolean;
 }
 
 interface ProductPageLayoutProps {
@@ -25,11 +26,11 @@ interface ProductPageLayoutProps {
 
 const ProductCardInner = ({ product, asLink }: { product: Product; asLink?: boolean }) => (
   <>
-    <div className="aspect-square overflow-hidden">
+    <div className={`aspect-square overflow-hidden ${product.imageContain ? "bg-muted/40 flex items-center justify-center" : ""}`}>
       <img
         src={product.image}
         alt={`Instalação de ${product.name} em vidro temperado em São Paulo`}
-        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+        className={`w-full h-full ${product.imageContain ? "object-contain" : "object-cover"} transition-transform duration-700 group-hover:scale-105`}
         loading="lazy"
         decoding="async"
       />

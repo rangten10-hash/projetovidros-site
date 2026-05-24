@@ -7,7 +7,7 @@ import boxNobre from "@/assets/box-nobre.webp";
 import boxDuo from "@/assets/box-duo.webp";
 import boxTransfer from "@/assets/box-transfer.webp";
 import boxTradicional from "@/assets/box-tradicional.webp";
-import boxPisoTetoReto from "@/assets/box-piso-teto/reto-fosco-aberto.png";
+import boxPisoTetoReto from "@/assets/box-piso-teto/card-cover.png";
 import { Phone } from "lucide-react";
 import { useSeo } from "@/lib/seo";
 
@@ -25,6 +25,7 @@ const products = [
   {
     name: "Box Piso Teto Kit Reto",
     image: boxPisoTetoReto,
+    imageContain: true,
     description: "Luxo, efeito sauna e perfis minimalistas quadrados do piso ao teto.",
     to: "/box-piso-teto-kit-reto",
     fullDescription: `O Box Piso Teto Kit Reto leva o banho a um novo patamar de sofisticação. Com perfis minimalistas de linhas quadradas e instalação do piso ao teto, cria o desejado efeito sauna — reduzindo respingos, mantendo o calor e elevando o padrão estético do banheiro.
