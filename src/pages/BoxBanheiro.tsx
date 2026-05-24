@@ -24,7 +24,7 @@ const products = [
   },
   {
     name: "Box Piso Teto Kit Reto",
-    image: placeholderImg,
+    image: boxPisoTetoReto,
     description: "Luxo, efeito sauna e perfis minimalistas quadrados do piso ao teto.",
     to: "/box-piso-teto-kit-reto",
     fullDescription: `O Box Piso Teto Kit Reto leva o banho a um novo patamar de sofisticação. Com perfis minimalistas de linhas quadradas e instalação do piso ao teto, cria o desejado efeito sauna — reduzindo respingos, mantendo o calor e elevando o padrão estético do banheiro.
