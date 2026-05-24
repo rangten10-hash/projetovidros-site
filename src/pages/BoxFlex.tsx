@@ -84,9 +84,17 @@ const BoxFlex = () => {
               Ganhe até <strong className="text-copper-light">90% de passagem livre</strong> no vão com abertura
               articulada inteligente — sem trilhos superiores e com design clean.
             </p>
-            <p className="text-primary-foreground/60 mb-8">
+            <p className="text-primary-foreground/60 mb-6">
               Atendimento sob medida na Zona Norte e em toda a capital de São Paulo. Vidro temperado com opção de
               película de segurança contra estilhaços.
+            </p>
+            <p className="text-primary-foreground/70 leading-relaxed mb-8">
+              O Box Flex Articulado (também conhecido como <strong className="text-primary-foreground">box camarão</strong>) é a escolha
+              definitiva para quem busca otimização de espaço sem abrir mão da elegância. Projetado especialmente para
+              banheiros pequenos, apartamentos compactos ou vãos estreitos, seu sistema de abertura inteligente elimina
+              a necessidade de uma porta batente tradicional ou de trilhos superiores pesados. Com engenharia de alta
+              performance, ele garante uma passagem livre incrível de até 90% do vão, transformando a experiência de
+              banho e a circulação do seu ambiente.
             </p>
             <a
               href={WHATSAPP_URL}
@@ -166,18 +174,18 @@ const BoxFlex = () => {
             {[
               {
                 icon: Maximize2,
-                title: "Ganho de Espaço",
-                text: "Abertura articulada inteligente que otimiza o cômodo e não bate em vasos, gabinetes ou nichos.",
+                title: "Ganho de Espaço Inteligente",
+                text: "Diga adeus aos banheiros apertados onde a porta do box bate no vaso sanitário, no gabinete ou nos nichos. O mecanismo articulado do Box Flex dobra-se perfeitamente sobre si mesmo em um movimento suave de abertura lateral. Isso significa que mesmo em vãos a partir de 60 cm, você garante total liberdade de acesso e um aproveitamento cirúrgico de cada centímetro quadrado disponível no seu cômodo.",
               },
               {
                 icon: ShieldCheck,
-                title: "Segurança Reforçada",
-                text: "Vidro temperado de alta qualidade com opção de película anti-estilhaço para máxima proteção.",
+                title: "Segurança Reforçada e Película PVB",
+                text: "Sua tranquilidade e a da sua família vêm em primeiro lugar. Todos os nossos modelos de Box Flex são fabricados com vidro temperado de alta resistência física e térmica. Para elevar o nível de proteção, oferecemos a aplicação opcional da película de segurança anti-estilhaço de fábrica. Em caso de quebra por forte impacto, os fragmentos de vidro ficam totalmente colados à película, evitando acidentes e cortes.",
               },
               {
                 icon: Sparkles,
-                title: "Design Clean",
-                text: "Sem trilhos superiores. Dobradiças em metais nobres com alta resistência e movimento suave.",
+                title: "Design Clean e Alta Durabilidade",
+                text: "Com uma estética minimalista, o sistema não utiliza trilhos superiores horizontais, o que deixa o visual do banheiro muito mais limpo, moderno e amplo. Suas dobradiças e acessórios são confeccionados em metais nobres com tratamento anticorrosivo, garantindo que o trilho inferior deslize com o mínimo de esforço e máxima suavidade por anos, sem travar ou fazer barulho.",
               },
             ].map((d) => (
               <div
@@ -231,6 +239,24 @@ const BoxFlex = () => {
               />
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Institucional / SEO local */}
+      <section className="py-16 md:py-20 bg-background">
+        <div className="container mx-auto px-4 max-w-3xl">
+          <h2 className="font-display text-3xl md:text-4xl text-foreground mb-6 text-center">
+            Por que escolher a Projeto Vidros em São Paulo?
+          </h2>
+          <p className="text-muted-foreground leading-relaxed text-lg">
+            Encontrar uma vidraçaria de confiança na Zona Norte ou em qualquer região de São Paulo exige atenção aos
+            detalhes. Na <strong className="text-foreground">Projeto Vidros</strong>, nós unimos a fabricação sob medida à instalação
+            técnica de altíssima precisão. Nossa equipe técnica realiza a medição e a checagem de prumo e nível
+            utilizando equipamentos a laser de última geração, o que anula erros de instalação e vazamentos
+            indesejados de água. Atendemos residências, apartamentos e projetos comerciais levando soluções que
+            alinham estética, segurança regulamentada e prazos de entrega rigorosamente cumpridos. Peça seu orçamento
+            direto de fábrica hoje mesmo.
+          </p>
         </div>
       </section>
 
