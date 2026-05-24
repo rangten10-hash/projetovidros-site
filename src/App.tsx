@@ -12,6 +12,7 @@ import VersionChecker from "./components/VersionChecker";
 // Loaders are shared with the prefetch helper so hover/idle warming hits the
 // exact same chunk that React.lazy will request on navigation.
 const BoxBanheiro = lazy(() => import("./pages/BoxBanheiro"));
+const BoxFlex = lazy(() => import("./pages/BoxFlex"));
 const BoxSeguro = lazy(() => import("./pages/BoxSeguro"));
 const PortasVidro = lazy(() => import("./pages/PortasVidro"));
 const Espelhos = lazy(() => import("./pages/Espelhos"));
@@ -40,6 +41,7 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/box-de-banheiro" element={<BoxBanheiro />} />
+            <Route path="/box-flex" element={<BoxFlex />} />
             <Route path="/box-seguro" element={<BoxSeguro />} />
             <Route path="/portas-de-vidro" element={<PortasVidro />} />
             <Route path="/espelhos" element={<Espelhos />} />
