@@ -45,6 +45,10 @@ const colors = [
 ];
 
 const BoxTradicionalKitReto = () => {
+  const [lightbox, setLightbox] = useState<number | null>(null);
+  const next = () => setLightbox((i) => (i === null ? null : (i + 1) % gallery.length));
+  const prev = () => setLightbox((i) => (i === null ? null : (i - 1 + gallery.length) % gallery.length));
+
   useSeo({
     title: "Box Tradicional Kit Reto em São Paulo | Projeto Vidros",
     description:
