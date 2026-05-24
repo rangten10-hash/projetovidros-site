@@ -18,91 +18,111 @@ const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20u
 
 const placeholderImg = "/placeholder.svg";
 
-const products = [
-  {
-    name: "Box Flex",
-    image: boxFlex,
-    description: "Ganho de espaço em banheiros pequenos com abertura articulada (até 90% de vão livre).",
-    to: "/box-flex",
-  },
-  {
-    name: "Box Piso Teto Kit Reto",
-    image: boxPisoTetoReto,
-    imageContain: true,
-    description: "Luxo, efeito sauna e perfis minimalistas quadrados do piso ao teto.",
-    to: "/box-piso-teto-kit-reto",
-    fullDescription: `O Box Piso Teto Kit Reto leva o banho a um novo patamar de sofisticação. Com perfis minimalistas de linhas quadradas e instalação do piso ao teto, cria o desejado efeito sauna — reduzindo respingos, mantendo o calor e elevando o padrão estético do banheiro.
+const productFlex = {
+  name: "Box Flex",
+  image: boxFlex,
+  description: "Ganho de espaço em banheiros pequenos com abertura articulada (até 90% de vão livre).",
+  to: "/box-flex",
+};
+
+const productPisoTeto = {
+  name: "Box Piso Teto Kit Reto",
+  image: boxPisoTetoReto,
+  imageContain: true,
+  description: "Luxo, efeito sauna e perfis minimalistas quadrados do piso ao teto.",
+  to: "/box-piso-teto-kit-reto",
+  fullDescription: `O Box Piso Teto Kit Reto leva o banho a um novo patamar de sofisticação. Com perfis minimalistas de linhas quadradas e instalação do piso ao teto, cria o desejado efeito sauna — reduzindo respingos, mantendo o calor e elevando o padrão estético do banheiro.
 
 Ideal para suítes de alto padrão que buscam um visual clean, contemporâneo e com acabamento premium.
 
 Em breve mais detalhes técnicos e fotos deste modelo.`,
-  },
-  {
-    name: "Box Tradicional Kit Reto",
-    image: boxTradicionalKitReto,
-    imageContain: true,
-    description: "O clássico de correr atualizado com ferragens quadradas modernas.",
-    to: "/box-tradicional-kit-reto",
-  },
-  {
-    name: "Box Canto Kit Reto",
-    image: boxCantoKitReto,
-    imageContain: true,
-    description: "Abertura em L para cantos, com kit reto minimalista.",
-    to: "/box-de-canto-kit-reto",
-  },
-  {
-    name: "Box Elegance",
-    image: boxElegance,
-    description: "Roldanas aparentes de alto padrão em metais nobres.",
-    fullDescription: `Transforme o seu box de banheiro em um espaço aconchegante e sofisticado com o Box Elegance. A opção do Tubo Oblongo deixa o ambiente moderno e foi criado especialmente para manter uma padronização de todas linhas com roldanas aparentes, sendo usado no Elegance, Due e Encanto.
+};
 
-Cada detalhe do Box Elegance foi pensado para combinar com as tendências da decoração contemporânea. As roldanas aparentes deslizam com leveza sobre o trilho deixando o box de banheiro muito mais Elegante.
+const productTradicionalReto = {
+  name: "Box Tradicional Kit Reto",
+  image: boxTradicionalKitReto,
+  imageContain: true,
+  description: "O clássico de correr atualizado com ferragens quadradas modernas.",
+  to: "/box-tradicional-kit-reto",
+};
 
-As roldanas aparentes do Box Elegance são produzidas com metais nobres que passam por um processo especial de tratamento, garantindo alta durabilidade.`,
-  },
-  {
-    name: "Box Nobre",
-    image: boxNobre,
-    description: "Sistema robusto com perfil estrutural diferenciado e amortecimento.",
-    fullDescription: `O Box Nobre foi projetado e fabricado para aumentar a segurança no box de banheiro, com amortecedor ao abrir e fechar a porta.
+const productCantoReto = {
+  name: "Box Canto Kit Reto",
+  image: boxCantoKitReto,
+  imageContain: true,
+  description: "Abertura em L para cantos, com kit reto minimalista.",
+  to: "/box-de-canto-kit-reto",
+};
+
+const productTransfer = {
+  name: "Box Transfer 3 Folhas",
+  image: boxTransfer,
+  imageContain: true,
+  description: "Sistema inteligente: duas folhas correm juntas, liberando até 66% do vão.",
+  to: "/box-transfer-3-folhas",
+};
+
+const productAbrir = {
+  name: "Box de Abrir para Pequenos Vãos",
+  image: boxAbrirPequenoVao,
+  imageContain: true,
+  description: "1 fixo + 1 porta de giro com abertura para dentro. Ideal para banheiros compactos.",
+  to: "/box-de-abrir-pequeno-vao",
+};
+
+const productNobre = {
+  name: "Box Nobre",
+  image: boxNobre,
+  description: "Sistema robusto com perfil estrutural diferenciado e amortecimento.",
+  fullDescription: `O Box Nobre foi projetado e fabricado para aumentar a segurança no box de banheiro, com amortecedor ao abrir e fechar a porta.
 
 Linha NOBRE, perfeita para fazer fechamentos de área de banho em todos os formatos: Box Frontal (F1), Box em L (C1 / canto), Box Frontal (F2), Box com 2 portas centralizadas (F3), também usado em fechamentos de áreas externas e como porta de correr para dividir ambientes.
 
 Todos os perfis são fabricados em alumínio com ligas especiais reforçadas, com paredes mais robustas que os box tradicionais — entregando resistência e acabamento premium.`,
-  },
-  {
-    name: "Box Transfer 3 Folhas",
-    image: boxTransfer,
-    imageContain: true,
-    description: "Sistema inteligente: duas folhas correm juntas, liberando até 66% do vão.",
-    to: "/box-transfer-3-folhas",
-  },
-  {
-    name: "Box de Abrir para Pequenos Vãos",
-    image: boxAbrirPequenoVao,
-    imageContain: true,
-    description: "1 fixo + 1 porta de giro com abertura para dentro. Ideal para banheiros compactos.",
-    to: "/box-de-abrir-pequeno-vao",
-  },
-  {
-    name: "Box Duo Safe",
-    image: boxDuo,
-    description: "Segurança reforçada com pinças de pressão e película protetora especial.",
-    fullDescription: `O Box Duo Safe é um sistema de envidraçamento para banheiros focado em alta segurança, projetado para utilizar tanto vidro temperado quanto laminado, sem a necessidade de furos na peça de vidro.
+};
 
-Sua principal característica é o uso de pinças de pressão e a ausência de vidros fixos, com duas folhas de correr — somando à película protetora especial uma camada extra de segurança.`,
-  },
-  {
-    name: "Box Certo",
-    image: boxCerto,
-    description: "Abertura total de portas 180° para dentro ou para fora.",
-    fullDescription: `Para aprimorar o espaço do seu banheiro desenvolvemos o Box Certo, trazendo praticidade e funcionalidade para o seu dia a dia.
+const productElegance = {
+  name: "Box Elegance",
+  image: boxElegance,
+  description: "Roldanas aparentes de alto padrão em metais nobres.",
+  fullDescription: `Transforme o seu box de banheiro em um espaço aconchegante e sofisticado com o Box Elegance. A opção do Tubo Oblongo deixa o ambiente moderno e foi criado especialmente para manter uma padronização de todas linhas com roldanas aparentes, sendo usado no Elegance, Due e Encanto.
+
+Cada detalhe do Box Elegance foi pensado para combinar com as tendências da decoração contemporânea. As roldanas aparentes deslizam com leveza sobre o trilho deixando o box de banheiro muito mais Elegante.
+
+As roldanas aparentes do Box Elegance são produzidas com metais nobres que passam por um processo especial de tratamento, garantindo alta durabilidade.`,
+};
+
+const productCerto = {
+  name: "Box Certo",
+  image: boxCerto,
+  description: "Abertura total de portas 180° para dentro ou para fora.",
+  fullDescription: `Para aprimorar o espaço do seu banheiro desenvolvemos o Box Certo, trazendo praticidade e funcionalidade para o seu dia a dia.
 
 A porta possui abertura de 180°, tanto para dentro como para fora, com três paradas de 90°, otimizando o aproveitamento do ambiente. Possui ainda um sistema especial que faz a porta se fechar sozinha com um simples toque.
 
 O Box Certo pode ser montado em cantos, espaços frontais, sobre banheiras ou como porta bipartida. Totalmente acessível e seguro, perfeito para hotéis e residências. Várias cores de acabamento: Branco, Preto, Fosco e Brilhante.`,
-  },
+};
+
+const productDuo = {
+  name: "Box Duo Safe",
+  image: boxDuo,
+  description: "Segurança reforçada com pinças de pressão e película protetora especial.",
+  fullDescription: `O Box Duo Safe é um sistema de envidraçamento para banheiros focado em alta segurança, projetado para utilizar tanto vidro temperado quanto laminado, sem a necessidade de furos na peça de vidro.
+
+Sua principal característica é o uso de pinças de pressão e a ausência de vidros fixos, com duas folhas de correr — somando à película protetora especial uma camada extra de segurança.`,
+};
+
+const products = [
+  productFlex,
+  productPisoTeto,
+  productTradicionalReto,
+  productCantoReto,
+  productTransfer,
+  productAbrir,
+  productNobre,
+  productElegance,
+  productCerto,
+  productDuo,
 ];
 
 const BoxBanheiro = () => {
