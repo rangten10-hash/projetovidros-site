@@ -31,11 +31,11 @@ const gallery = [
 ];
 
 const colors = [
-  { name: "Cromado / Inox", hex: "linear-gradient(135deg,#e8e8e8,#a8a8a8)" },
-  { name: "Preto Fosco", hex: "#1a1a1a" },
+  { name: "Preto", hex: "#1a1a1a" },
   { name: "Branco", hex: "#fafafa" },
-  { name: "Branco Fosco", hex: "#ececec" },
-  { name: "Bronze", hex: "linear-gradient(135deg,#a87341,#6b3f1d)" },
+  { name: "Cromado", hex: "linear-gradient(135deg,#e8e8e8,#a8a8a8)" },
+  { name: "Dourado", hex: "linear-gradient(135deg,#e6c46a,#b8860b)" },
+  { name: "Rose", hex: "linear-gradient(135deg,#e8a899,#c47561)" },
 ];
 
 const BoxFlex = () => {
