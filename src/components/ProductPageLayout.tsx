@@ -76,39 +76,25 @@ const ProductPageLayout = ({ title, subtitle, products, children }: ProductPageL
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {products.map((product) => (
-              <div
-                key={product.name}
-                className="group bg-card rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-500 border border-border cursor-pointer"
-                onClick={() => setSelectedProduct(product)}
-              >
-                <div className="aspect-square overflow-hidden">
-                  <img
-                    src={product.image}
-                    alt={`Instalação de ${product.name} em vidro temperado em São Paulo`}
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                    loading="lazy"
-                    decoding="async"
-                  />
+            {products.map((product) => {
+              const cardClass = "group bg-card rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-500 border border-border cursor-pointer block";
+              if (product.to) {
+                return (
+                  <Link key={product.name} to={product.to} className={cardClass}>
+                    <ProductCardInner product={product} />
+                  </Link>
+                );
+              }
+              return (
+                <div
+                  key={product.name}
+                  className={cardClass}
+                  onClick={() => setSelectedProduct(product)}
+                >
+                  <ProductCardInner product={product} />
                 </div>
-                <div className="p-6">
-                  <h3 className="font-display text-xl text-foreground mb-2">{product.name}</h3>
-                  {product.description && (
-                    <p className="text-muted-foreground text-sm mb-4">{product.description}</p>
-                  )}
-                  <a
-                    href={WHATSAPP_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={(e) => { e.stopPropagation(); e.preventDefault(); gtagReportConversion(WHATSAPP_URL); }}
-                    className="inline-flex items-center gap-2 bg-[#25D366] text-white px-5 py-2.5 rounded-md text-sm font-semibold hover:bg-[#1ebe5a] transition-colors"
-                  >
-                    <Phone className="w-4 h-4" />
-                    Pedir Orçamento
-                  </a>
-                </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
