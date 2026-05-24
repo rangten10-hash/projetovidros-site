@@ -28,16 +28,8 @@ Você pode adquirir o Box Certo com toda a tranquilidade e segurança.`,
   {
     name: "Box Flex",
     image: boxFlex,
-    description: "Solução para banheiros pequenos com abertura articulada.",
-    fullDescription: `A sua solução para banheiros pequenos.
-
-Por ter a abertura articulada, tem um aproveitamento melhor do cômodo e você ganha até 90% de passagem livre no vão.
-
-Seu design é sofisticado, sem trilhos na parte superior, o que deixa o ambiente clean, discreto e funcional. As dobradiças são de metais nobres com alta resistência, podendo também ser montado de canto. O sistema flexível do box é muito fácil de se manusear.
-
-Produto com garantia de fábrica. Temos várias cores de acabamento: branco, dourado, preto, cromado e rose.
-
-Conhecido popularmente como box camarão, box articulado, box pantográfico, box flexível… O original é o BOX FLEX, fabricado pela Ideia Glass.`,
+    description: "Solução para banheiros pequenos com abertura articulada. Até 90% de vão livre.",
+    to: "/box-flex",
   },
   {
     name: "Box Elegance",
