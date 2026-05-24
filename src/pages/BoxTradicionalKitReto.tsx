@@ -247,7 +247,7 @@ const BoxTradicionalKitReto = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 max-w-5xl mx-auto">
             {colors.map((c) => (
               <div key={c.name} className="flex flex-col items-center text-center">
                 <span
@@ -301,6 +301,46 @@ const BoxTradicionalKitReto = () => {
 
       <Footer />
       <WhatsAppButton />
+
+      {/* Lightbox */}
+      {lightbox !== null && (
+        <div
+          className="fixed inset-0 z-[60] bg-black/80 backdrop-blur-sm flex items-center justify-center p-4"
+          onClick={() => setLightbox(null)}
+        >
+          <button
+            onClick={(e) => { e.stopPropagation(); setLightbox(null); }}
+            className="absolute top-4 right-4 bg-white/10 hover:bg-white/20 text-white rounded-full p-2"
+            aria-label="Fechar"
+          >
+            <X className="w-6 h-6" />
+          </button>
+          <button
+            onClick={(e) => { e.stopPropagation(); prev(); }}
+            className="absolute left-4 md:left-8 bg-white/10 hover:bg-white/20 text-white rounded-full p-2"
+            aria-label="Anterior"
+          >
+            <ChevronLeft className="w-6 h-6" />
+          </button>
+          <button
+            onClick={(e) => { e.stopPropagation(); next(); }}
+            className="absolute right-4 md:right-8 bg-white/10 hover:bg-white/20 text-white rounded-full p-2"
+            aria-label="Próxima"
+          >
+            <ChevronRight className="w-6 h-6" />
+          </button>
+          <figure className="max-w-4xl w-full" onClick={(e) => e.stopPropagation()}>
+            <img
+              src={gallery[lightbox].src}
+              alt={gallery[lightbox].caption}
+              className="w-full max-h-[80vh] object-contain rounded-lg"
+            />
+            <figcaption className="text-center text-white/80 text-sm mt-3">
+              {gallery[lightbox].caption}
+            </figcaption>
+          </figure>
+        </div>
+      )}
     </div>
   );
 };
