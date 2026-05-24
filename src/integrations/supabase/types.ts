@@ -14,6 +14,24 @@ export type Database = {
   }
   public: {
     Tables: {
+      _monitor_config: {
+        Row: {
+          created_at: string
+          key: string
+          value: string
+        }
+        Insert: {
+          created_at?: string
+          key: string
+          value: string
+        }
+        Update: {
+          created_at?: string
+          key?: string
+          value?: string
+        }
+        Relationships: []
+      }
       seo_alerts: {
         Row: {
           alert_type: string
