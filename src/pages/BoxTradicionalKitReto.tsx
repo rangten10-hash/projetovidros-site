@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import {
   ArrowLeft,
@@ -7,6 +8,8 @@ import {
   Ruler,
   ArrowUpDown,
   ChevronRight,
+  ChevronLeft,
+  X,
 } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -15,6 +18,8 @@ import { useSeo } from "@/lib/seo";
 import { gtagReportConversion } from "@/lib/gtag";
 
 import cardCover from "@/assets/box-tradicional-kit-reto/card-cover.png";
+import cantoPreto from "@/assets/box-tradicional-kit-reto/canto-preto.jpg";
+import branco from "@/assets/box-tradicional-kit-reto/branco.jpg";
 
 const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20o%20Box%20Tradicional%20Kit%20Reto.";
@@ -24,11 +29,19 @@ const handleWhatsappClick = (e: React.MouseEvent) => {
   gtagReportConversion(WHATSAPP_URL);
 };
 
+const gallery = [
+  { src: cardCover, tag: "Cromado / Inox", caption: "Box Tradicional Kit Reto — perfil cromado em vidro temperado 8mm" },
+  { src: cantoPreto, tag: "Preto Fosco", caption: "Box Canto Kit Reto Preto Fosco — versão em L com acabamento minimalista" },
+  { src: branco, tag: "Branco Puro", caption: "Box Tradicional Kit Reto Branco — visual clean e atemporal" },
+];
+
 const colors = [
   { name: "Preto Fosco", hex: "#1a1a1a" },
   { name: "Branco Puro", hex: "#fafafa" },
-  { name: "Cromado / Inox", hex: "linear-gradient(135deg,#e8e8e8,#a8a8a8)" },
+  { name: "Cromado", hex: "linear-gradient(135deg,#e8e8e8,#a8a8a8)" },
   { name: "Bronze / Champagne", hex: "linear-gradient(135deg,#d8b78a,#9a7544)" },
+  { name: "Ouro Brilhante", hex: "linear-gradient(135deg,#f3d77a,#b8860b)" },
+  { name: "Natural Fosco", hex: "linear-gradient(135deg,#bcbcbc,#7d7d7d)" },
 ];
 
 const BoxTradicionalKitReto = () => {
