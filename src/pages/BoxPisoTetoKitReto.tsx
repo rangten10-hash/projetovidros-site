@@ -143,15 +143,15 @@ const BoxPisoTetoKitReto = () => {
               <button
                 key={i}
                 onClick={() => setLightbox(i)}
-                className="group relative rounded-xl overflow-hidden border border-border bg-card shadow-sm hover:shadow-lg transition-all"
+                className="group relative rounded-xl overflow-hidden border border-border bg-muted/40 shadow-sm hover:shadow-lg transition-all"
               >
-                <div className="aspect-[3/4] overflow-hidden">
+                <div className="aspect-[3/4] overflow-hidden flex items-center justify-center bg-muted/30">
                   <img
                     src={g.src}
                     alt={g.caption}
                     loading="lazy"
                     decoding="async"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-[1.03]"
                   />
                 </div>
                 <span className="absolute top-2 left-2 bg-petrol/90 text-primary-foreground text-[10px] uppercase tracking-wide px-2 py-1 rounded">
