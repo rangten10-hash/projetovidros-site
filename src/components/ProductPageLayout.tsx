@@ -13,6 +13,7 @@ interface Product {
   image: string;
   description?: string;
   fullDescription?: string;
+  to?: string;
 }
 
 interface ProductPageLayoutProps {
@@ -21,6 +22,36 @@ interface ProductPageLayoutProps {
   products: Product[];
   children?: React.ReactNode;
 }
+
+const ProductCardInner = ({ product }: { product: Product }) => (
+  <>
+    <div className="aspect-square overflow-hidden">
+      <img
+        src={product.image}
+        alt={`Instalação de ${product.name} em vidro temperado em São Paulo`}
+        className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
+    <div className="p-6">
+      <h3 className="font-display text-xl text-foreground mb-2">{product.name}</h3>
+      {product.description && (
+        <p className="text-muted-foreground text-sm mb-4">{product.description}</p>
+      )}
+      <a
+        href={WHATSAPP_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={(e) => { e.stopPropagation(); e.preventDefault(); gtagReportConversion(WHATSAPP_URL); }}
+        className="inline-flex items-center gap-2 bg-[#25D366] text-white px-5 py-2.5 rounded-md text-sm font-semibold hover:bg-[#1ebe5a] transition-colors"
+      >
+        <Phone className="w-4 h-4" />
+        Pedir Orçamento
+      </a>
+    </div>
+  </>
+);
 
 const ProductPageLayout = ({ title, subtitle, products, children }: ProductPageLayoutProps) => {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
