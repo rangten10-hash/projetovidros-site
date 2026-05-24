@@ -7,6 +7,7 @@ import boxNobre from "@/assets/box-nobre.webp";
 import boxDuo from "@/assets/box-duo.webp";
 import boxTransfer from "@/assets/box-transfer.webp";
 import boxTradicional from "@/assets/box-tradicional.webp";
+import boxPisoTetoReto from "@/assets/box-piso-teto/reto-fosco-aberto.png";
 import { Phone } from "lucide-react";
 import { useSeo } from "@/lib/seo";
 
