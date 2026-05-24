@@ -117,6 +117,13 @@ async function sendAlertEmail(subject: string, html: string) {
   }
 }
 
+function timingSafeEqual(a: string, b: string): boolean {
+  if (a.length !== b.length) return false;
+  let result = 0;
+  for (let i = 0; i < a.length; i++) result |= a.charCodeAt(i) ^ b.charCodeAt(i);
+  return result === 0;
+}
+
 Deno.serve(async (req) => {
   if (req.method === "OPTIONS") return new Response("ok", { headers: corsHeaders });
 
@@ -125,6 +132,21 @@ Deno.serve(async (req) => {
       Deno.env.get("SUPABASE_URL")!,
       Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!,
     );
+
+    // Authenticate caller against the internal monitor secret stored server-side.
+    const provided = req.headers.get("x-monitor-secret") ?? "";
+    const { data: cfg } = await supabase
+      .from("_monitor_config")
+      .select("value")
+      .eq("key", "monitor_secret")
+      .maybeSingle();
+    const expected = cfg?.value ?? "";
+    if (!expected || !provided || !timingSafeEqual(provided, expected)) {
+      return new Response(JSON.stringify({ ok: false, error: "Unauthorized" }), {
+        status: 401,
+        headers: { ...corsHeaders, "Content-Type": "application/json" },
+      });
+    }
 
     const { data: pages, error: pagesError } = await supabase
       .from("seo_tracked_pages")
