@@ -9,6 +9,7 @@ import boxTransfer from "@/assets/box-transfer.webp";
 import boxTradicional from "@/assets/box-tradicional.webp";
 import boxPisoTetoReto from "@/assets/box-piso-teto/card-cover.png";
 import boxTradicionalKitReto from "@/assets/box-tradicional-kit-reto/card-cover.png";
+import boxCantoKitReto from "@/assets/box-canto-kit-reto/card-cover.png";
 import { Phone } from "lucide-react";
 import { useSeo } from "@/lib/seo";
 
@@ -44,13 +45,10 @@ Em breve mais detalhes técnicos e fotos deste modelo.`,
   },
   {
     name: "Box Canto Kit Reto",
-    image: placeholderImg,
+    image: boxCantoKitReto,
+    imageContain: true,
     description: "Abertura em L para cantos, com kit reto minimalista.",
-    fullDescription: `O Box Canto Kit Reto foi projetado para banheiros que aproveitam o canto da área de banho com uma abertura em L. Combina a leveza visual do kit reto minimalista com a otimização de espaço da configuração de canto.
-
-Solução versátil que casa praticidade, design contemporâneo e melhor aproveitamento do ambiente.
-
-Em breve mais detalhes técnicos e fotos deste modelo.`,
+    to: "/box-de-canto-kit-reto",
   },
   {
     name: "Box Elegance",
