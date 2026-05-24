@@ -119,8 +119,47 @@ const BoxTradicionalKitReto = () => {
         </div>
       </section>
 
+      {/* Galeria */}
+      <section className="py-16 md:py-20">
+        <div className="container mx-auto px-4">
+          <div className="text-center max-w-2xl mx-auto mb-10">
+            <h2 className="font-display text-3xl md:text-4xl text-foreground mb-3">
+              Galeria — Box Tradicional Kit Reto
+            </h2>
+            <p className="text-muted-foreground">
+              Variações de cor e configuração instaladas pela Projeto Vidros. Toque nas fotos para ampliar.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            {gallery.map((g, i) => (
+              <button
+                key={i}
+                onClick={() => setLightbox(i)}
+                className="group relative rounded-xl overflow-hidden border border-border bg-muted/40 shadow-sm hover:shadow-lg transition-all"
+              >
+                <div className="aspect-[3/4] overflow-hidden flex items-center justify-center bg-muted/30">
+                  <img
+                    src={g.src}
+                    alt={g.caption}
+                    loading="lazy"
+                    decoding="async"
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                  />
+                </div>
+                <span className="absolute top-2 left-2 bg-petrol/90 text-primary-foreground text-[10px] uppercase tracking-wide px-2 py-1 rounded">
+                  {g.tag}
+                </span>
+                <p className="text-xs text-muted-foreground p-3 leading-snug text-left">{g.caption}</p>
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Diferenciais */}
       <section className="py-16 md:py-20 bg-muted/30">
+
         <div className="container mx-auto px-4">
           <div className="text-center max-w-2xl mx-auto mb-12">
             <h2 className="font-display text-3xl md:text-4xl text-foreground mb-3">
