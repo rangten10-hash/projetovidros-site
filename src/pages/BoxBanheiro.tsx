@@ -5,7 +5,7 @@ import boxElegance from "@/assets/box-elegance.webp";
 import boxReto from "@/assets/box-reto.webp";
 import boxNobre from "@/assets/box-nobre.webp";
 import boxDuo from "@/assets/box-duo.webp";
-import boxTransfer from "@/assets/box-transfer.webp";
+import boxTransfer from "@/assets/box-transfer-3-folhas/card-cover.png";
 import boxTradicional from "@/assets/box-tradicional.webp";
 import boxPisoTetoReto from "@/assets/box-piso-teto/card-cover.png";
 import boxTradicionalKitReto from "@/assets/box-tradicional-kit-reto/card-cover.png";
@@ -72,12 +72,11 @@ Linha NOBRE, perfeita para fazer fechamentos de área de banho em todos os forma
 Todos os perfis são fabricados em alumínio com ligas especiais reforçadas, com paredes mais robustas que os box tradicionais — entregando resistência e acabamento premium.`,
   },
   {
-    name: "Box 3 Folhas - Transfer",
+    name: "Box Transfer 3 Folhas",
     image: boxTransfer,
-    description: "Sistema inteligente: duas folhas correm juntas para garantir maior vão de abertura.",
-    fullDescription: `O Box 3 Folhas - Transfer é um sistema de fechamento para banheiros projetado para oferecer alta acessibilidade e otimização de espaço, ideal para vãos pequenos.
-
-Sua principal característica é a movimentação simultânea das folhas: duas correm juntas, permitindo uma abertura de até 2/3 do vão total — solução perfeita para acessibilidade e para banheiros que precisam de máxima passagem.`,
+    imageContain: true,
+    description: "Sistema inteligente: duas folhas correm juntas, liberando até 66% do vão.",
+    to: "/box-transfer-3-folhas",
   },
   {
     name: "Box de Abrir para Pequenos Vãos",
