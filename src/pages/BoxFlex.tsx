@@ -103,7 +103,7 @@ const BoxFlex = () => {
             <img
               src={flexAbertura90}
               alt="Box Flex articulado com abertura de até 90% do vão"
-              className="w-full rounded-2xl shadow-2xl object-cover max-h-[520px]"
+              className="w-full rounded-2xl shadow-2xl object-contain max-h-[520px] bg-petrol"
               fetchPriority="high"
               decoding="async"
             />
