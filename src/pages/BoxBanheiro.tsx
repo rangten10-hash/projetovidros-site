@@ -8,6 +8,7 @@ import boxDuo from "@/assets/box-duo.webp";
 import boxTransfer from "@/assets/box-transfer.webp";
 import boxTradicional from "@/assets/box-tradicional.webp";
 import boxPisoTetoReto from "@/assets/box-piso-teto/card-cover.png";
+import boxTradicionalKitReto from "@/assets/box-tradicional-kit-reto/card-cover.png";
 import { Phone } from "lucide-react";
 import { useSeo } from "@/lib/seo";
 
@@ -36,13 +37,10 @@ Em breve mais detalhes técnicos e fotos deste modelo.`,
   },
   {
     name: "Box Tradicional Kit Reto",
-    image: placeholderImg,
+    image: boxTradicionalKitReto,
+    imageContain: true,
     description: "O clássico de correr atualizado com ferragens quadradas modernas.",
-    fullDescription: `O Box Tradicional Kit Reto preserva a praticidade e o custo-benefício do clássico box de correr, agora com uma releitura moderna: ferragens de linhas quadradas, perfis minimalistas e acabamento sofisticado.
-
-A escolha certa para quem quer atualizar o banheiro sem abrir mão da funcionalidade do modelo tradicional.
-
-Em breve mais detalhes técnicos e fotos deste modelo.`,
+    to: "/box-tradicional-kit-reto",
   },
   {
     name: "Box Canto Kit Reto",
