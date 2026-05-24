@@ -14,6 +14,7 @@ interface Product {
   description?: string;
   fullDescription?: string;
   to?: string;
+  imageContain?: boolean;
 }
 
 interface ProductPageLayoutProps {
