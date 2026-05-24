@@ -84,9 +84,17 @@ const BoxFlex = () => {
               Ganhe até <strong className="text-copper-light">90% de passagem livre</strong> no vão com abertura
               articulada inteligente — sem trilhos superiores e com design clean.
             </p>
-            <p className="text-primary-foreground/60 mb-8">
+            <p className="text-primary-foreground/60 mb-6">
               Atendimento sob medida na Zona Norte e em toda a capital de São Paulo. Vidro temperado com opção de
               película de segurança contra estilhaços.
+            </p>
+            <p className="text-primary-foreground/70 leading-relaxed mb-8">
+              O Box Flex Articulado (também conhecido como <strong className="text-primary-foreground">box camarão</strong>) é a escolha
+              definitiva para quem busca otimização de espaço sem abrir mão da elegância. Projetado especialmente para
+              banheiros pequenos, apartamentos compactos ou vãos estreitos, seu sistema de abertura inteligente elimina
+              a necessidade de uma porta batente tradicional ou de trilhos superiores pesados. Com engenharia de alta
+              performance, ele garante uma passagem livre incrível de até 90% do vão, transformando a experiência de
+              banho e a circulação do seu ambiente.
             </p>
             <a
               href={WHATSAPP_URL}
