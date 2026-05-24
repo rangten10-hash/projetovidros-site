@@ -37,9 +37,11 @@ const gallery = [
 
 const colors = [
   { name: "Preto Fosco", hex: "#1a1a1a" },
-  { name: "Branco Tradicional", hex: "#fafafa" },
-  { name: "Cromado / Inox", hex: "linear-gradient(135deg,#e8e8e8,#a8a8a8)" },
+  { name: "Branco Puro", hex: "#fafafa" },
+  { name: "Cromado", hex: "linear-gradient(135deg,#e8e8e8,#a8a8a8)" },
   { name: "Bronze / Champagne", hex: "linear-gradient(135deg,#d8b78a,#9a7544)" },
+  { name: "Ouro Brilhante", hex: "linear-gradient(135deg,#f3d77a,#b8860b)" },
+  { name: "Natural Fosco", hex: "linear-gradient(135deg,#bcbcbc,#7d7d7d)" },
 ];
 
 const BoxAbrirPequenoVao = () => {
@@ -143,7 +145,7 @@ const BoxAbrirPequenoVao = () => {
                     alt={g.caption}
                     loading="lazy"
                     decoding="async"
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+                    className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-[1.03]"
                   />
                 </div>
                 <span className="absolute top-2 left-2 bg-petrol/90 text-primary-foreground text-[10px] uppercase tracking-wide px-2 py-1 rounded">
@@ -245,7 +247,7 @@ const BoxAbrirPequenoVao = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-3xl mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-6 max-w-5xl mx-auto">
             {colors.map((c) => (
               <div key={c.name} className="flex flex-col items-center text-center">
                 <span
