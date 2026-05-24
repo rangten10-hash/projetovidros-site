@@ -265,7 +265,6 @@ Deno.serve(async (req) => {
       ok: true,
       pagesChecked: pages?.length || 0,
       alertsGenerated: alerts.length,
-      alerts,
     }), { status: 200, headers: { ...corsHeaders, "Content-Type": "application/json" } });
   } catch (e) {
     console.error("Monitor failed:", String(e));
