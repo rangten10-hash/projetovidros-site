@@ -23,7 +23,7 @@ interface ProductPageLayoutProps {
   children?: React.ReactNode;
 }
 
-const ProductCardInner = ({ product }: { product: Product }) => (
+const ProductCardInner = ({ product, asLink }: { product: Product; asLink?: boolean }) => (
   <>
     <div className="aspect-square overflow-hidden">
       <img
@@ -39,16 +39,22 @@ const ProductCardInner = ({ product }: { product: Product }) => (
       {product.description && (
         <p className="text-muted-foreground text-sm mb-4">{product.description}</p>
       )}
-      <a
-        href={WHATSAPP_URL}
-        target="_blank"
-        rel="noopener noreferrer"
-        onClick={(e) => { e.stopPropagation(); e.preventDefault(); gtagReportConversion(WHATSAPP_URL); }}
-        className="inline-flex items-center gap-2 bg-[#25D366] text-white px-5 py-2.5 rounded-md text-sm font-semibold hover:bg-[#1ebe5a] transition-colors"
-      >
-        <Phone className="w-4 h-4" />
-        Pedir Orçamento
-      </a>
+      {asLink ? (
+        <span className="inline-flex items-center gap-2 bg-[#25D366] text-white px-5 py-2.5 rounded-md text-sm font-semibold">
+          Ver Página do Produto
+        </span>
+      ) : (
+        <a
+          href={WHATSAPP_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={(e) => { e.stopPropagation(); e.preventDefault(); gtagReportConversion(WHATSAPP_URL); }}
+          className="inline-flex items-center gap-2 bg-[#25D366] text-white px-5 py-2.5 rounded-md text-sm font-semibold hover:bg-[#1ebe5a] transition-colors"
+        >
+          <Phone className="w-4 h-4" />
+          Pedir Orçamento
+        </a>
+      )}
     </div>
   </>
 );
@@ -81,7 +87,7 @@ const ProductPageLayout = ({ title, subtitle, products, children }: ProductPageL
               if (product.to) {
                 return (
                   <Link key={product.name} to={product.to} className={cardClass}>
-                    <ProductCardInner product={product} />
+                    <ProductCardInner product={product} asLink />
                   </Link>
                 );
               }
