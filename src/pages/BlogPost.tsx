@@ -133,6 +133,20 @@ const BlogPost = () => {
                       className="rounded-xl w-full h-auto my-6"
                     />
                   );
+                if (block.type === "internalLink")
+                  return (
+                    <div key={i} className="my-8 rounded-xl border border-copper/30 bg-copper/5 p-6 text-center">
+                      {block.description && (
+                        <p className="text-foreground/80 mb-4 text-base">{block.description}</p>
+                      )}
+                      <Link
+                        to={block.href}
+                        className="inline-flex items-center justify-center gap-2 bg-petrol hover:bg-petrol/90 text-primary-foreground font-semibold px-6 py-3 rounded-lg transition-colors"
+                      >
+                        {block.label}
+                      </Link>
+                    </div>
+                  );
                 return null;
               })}
             </div>

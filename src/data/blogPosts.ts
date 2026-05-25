@@ -53,6 +53,7 @@ import guardaCorpoEscadaInterna from "@/assets/blog-guarda-corpo-escada-interna.
 
 import guardaCorpoCobertura from "@/assets/blog-guarda-corpo-cobertura.webp";
 import guardaCorpoTorres from "@/assets/blog-guarda-corpo-torres.webp";
+import vidroAcrilicoCortinaCapa from "@/assets/blog-vidro-acrilico-cortina-capa.webp";
 
 export interface BlogPost {
   slug: string;
@@ -75,12 +76,120 @@ export type BlogBlock =
   | { type: "paragraph"; text: string }
   | { type: "heading"; text: string }
   | { type: "list"; items: { strong?: string; text: string }[] }
-  | { type: "image"; src: string; alt: string };
+  | { type: "image"; src: string; alt: string }
+  | { type: "internalLink"; href: string; label: string; description?: string };
 
 const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-vidro-acrilico-cortina-seguranca-higiene",
+    title: "Medo do Box de Vidro? Descubra se a Cortina ou o Acrílico Realmente Valem a Pena",
+    excerpt:
+      "Vidro temperado, acrílico ou cortina: entenda qual a escolha mais segura e higiênica para o seu banheiro e como a tecnologia Box + Seguro elimina o medo da quebra.",
+    image: vidroAcrilicoCortinaCapa,
+    imageAlt:
+      "Comparativo entre Box de Vidro, Box de Acrílico e Cortina de banheiro - Projeto Vidros",
+    date: "2026-05-25",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box de Vidro, Acrílico ou Cortina: qual a escolha mais segura e higiênica? Conheça a tecnologia Box + Seguro com película anti-estilhaço da Projeto Vidros em São Paulo.",
+    cta: {
+      label: "Quero um Box + Seguro no meu banheiro",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Se você está planejando o seu banheiro, é muito provável que já tenha ouvido alguma história de box de vidro que quebrou \"do nada\" e acabou optando, por receio, pelas famosas cortinas de plástico ou pelas placas de acrílico.",
+      },
+      {
+        type: "paragraph",
+        text: "Esse medo é super compreensível. Afinal, a segurança da nossa família vem sempre em primeiro lugar. Mas será que trocar o vidro pelo acrílico ou pela cortina é realmente a melhor decisão para o seu dia a dia, para a sua saúde e para o seu bolso?",
+      },
+      {
+        type: "paragraph",
+        text: "Hoje, vamos desmistificar o uso do vidro no banheiro e mostrar por que os sistemas modernos são infinitamente superiores e mais seguros do que as alternativas antigas.",
+      },
+      {
+        type: "heading",
+        text: "O Problema Oculto da Cortina e do Acrílico: Higiene e Durabilidade",
+      },
+      {
+        type: "paragraph",
+        text: "À primeira vista, a cortina de plástico e o box de acrílico parecem escolhas baratas e \"inofensivas\". Mas o banheiro é a área mais úmida da casa, e é aí que começam os problemas:",
+      },
+      {
+        type: "list",
+        items: [
+          {
+            strong: "Cortinas de Plástico:",
+            text: "acumulam água nas dobras e, em pouquíssimas semanas, ficam cheias de manchas pretas de bolor e mofo. Além de darem um aspecto visual de desleixo ao banheiro, são péssimas para quem tem rinite ou problemas respiratórios. Fora o incômodo da cortina grudando no corpo durante o banho e a água que sempre vaza para o restante do banheiro.",
+          },
+          {
+            strong: "Box de Acrílico:",
+            text: "o acrílico é um material poroso. Com o tempo, o cloro da água e o resto de sabonete penetram nessas porosidades, deixando o box amarelado, opaco e encardido. Ele risca com extrema facilidade e as placas costumam trincar ou sair do trilho constantemente, exigindo trocas frequentes.",
+          },
+        ],
+      },
+      {
+        type: "paragraph",
+        text: "No final das contas, o barato sai caro: você gasta tempo esfregando e dinheiro trocando de material a cada poucos meses.",
+      },
+      {
+        type: "heading",
+        text: "Por que o Vidro Temperado Moderno é Diferente?",
+      },
+      {
+        type: "paragraph",
+        text: "O vidro utilizado em engenharia de banheiros não é um vidro comum (como o de uma janela simples). Ele é Vidro Temperado de 8mm.",
+      },
+      {
+        type: "paragraph",
+        text: "Isso significa que ele passou por um tratamento térmico (um choque de temperatura na fabricação) que o torna até 5 vezes mais resistente a impactos e variações de temperatura do que o vidro normal. Se um vidro temperado quebrar, ele não se divide em estilhaços pontiagudos e cortantes; ele se desintegra em pequenos pedaços arredondados, justamente para evitar acidentes graves.",
+      },
+      {
+        type: "heading",
+        text: "O Segredo para Perder o Medo de Vez: Tecnologia Box + Seguro",
+      },
+      {
+        type: "paragraph",
+        text: "Mesmo sabendo que o vidro temperado é forte, o medo de uma quebra acidental ainda te preocupa? É aqui que entra a evolução da tecnologia.",
+      },
+      {
+        type: "paragraph",
+        text: "Hoje, você não precisa deixar de ter um banheiro lindo e higiênico por medo. Na Projeto Vidros, todos os nossos boxes podem receber a tecnologia exclusiva Box + Seguro: uma película de segurança invisível de alta resistência, aplicada diretamente na lâmina de vidro de fábrica.",
+      },
+      {
+        type: "paragraph",
+        text: "Como funciona? No caso raríssimo de uma quebra por impacto forte ou mau uso, a película cumpre o papel de um \"escudo\". Todos os fragmentos de vidro ficam 100% colados e presos na película, mantendo a estrutura em pé. A porta não cai, os pedaços não se espalham pelo chão e ninguém se corta. Você pode abrir e fechar o box quebrado com segurança até que a equipe técnica faça a substituição.",
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a Tecnologia Box + Seguro",
+        description:
+          "Veja em detalhes como a película anti-estilhaço protege a sua família e elimina de vez o medo de acidentes no banheiro.",
+      },
+      {
+        type: "heading",
+        text: "Conclusão: Sofisticação com Segurança Real",
+      },
+      {
+        type: "paragraph",
+        text: "O box de vidro traz amplitude, valoriza o seu imóvel, é extremamente fácil de limpar e, com a estrutura certa (como os perfis quadrados do Kit Reto), transforma o seu banheiro em um verdadeiro spa doméstico.",
+      },
+      {
+        type: "paragraph",
+        text: "Você não precisa abrir mão do design e da higiene por medo. Basta escolher quem trabalha com as normas técnicas de segurança e oferece proteção extra para o seu lar.",
+      },
+      {
+        type: "paragraph",
+        text: "Quer transformar seu banheiro com total segurança? Venha conhecer nossas soluções de boxes com película de segurança e medição digital a laser em São Paulo. Fale agora com a nossa equipe no WhatsApp para tirar suas dúvidas e pedir um orçamento sem compromisso.",
+      },
+    ],
+  },
   {
     slug: "guarda-corpo-de-vidro-seguranca-normas-abnt",
     title: "Guarda-Corpo de Vidro: Por que a Escolha do Material Errado pode ser Fatal (e Ilegal)",
