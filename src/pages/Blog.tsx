@@ -39,12 +39,12 @@ const Blog = () => {
                 className="group bg-card rounded-xl overflow-hidden border border-border shadow-sm hover:shadow-lg transition-all"
               >
                 <Link to={`/blog/${post.slug}`} className="block">
-                  <div className="overflow-hidden bg-muted flex items-center justify-center">
+                  <div className="aspect-[3/4] overflow-hidden bg-muted">
                     <img
                       src={post.image}
                       alt={post.imageAlt}
                       loading="lazy"
-                      className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-500"
+                      className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-500"
                     />
                   </div>
                   <div className="p-6">
