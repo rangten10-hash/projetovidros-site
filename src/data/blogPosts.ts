@@ -54,6 +54,7 @@ import guardaCorpoEscadaInterna from "@/assets/blog-guarda-corpo-escada-interna.
 import guardaCorpoCobertura from "@/assets/blog-guarda-corpo-cobertura.webp";
 import guardaCorpoTorres from "@/assets/blog-guarda-corpo-torres.webp";
 import vidroAcrilicoCortinaCapa from "@/assets/blog-vidro-acrilico-cortina-capa.webp";
+import boxAbrirZonaNorteCapa from "@/assets/blog-box-abrir-zona-norte-capa.webp";
 
 export interface BlogPost {
   slug: string;
