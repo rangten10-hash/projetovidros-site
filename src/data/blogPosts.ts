@@ -55,6 +55,7 @@ import guardaCorpoCobertura from "@/assets/blog-guarda-corpo-cobertura.webp";
 import guardaCorpoTorres from "@/assets/blog-guarda-corpo-torres.webp";
 import vidroAcrilicoCortinaCapa from "@/assets/blog-vidro-acrilico-cortina-capa.webp";
 import boxAbrirZonaNorteCapa from "@/assets/blog-box-abrir-zona-norte-capa.webp";
+import boxFlexZonaNorteCapa from "@/assets/blog-box-flex-zona-norte-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -84,6 +85,121 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "onde-comprar-box-flex-banheiro-pequeno-zona-norte-sp",
+    title: "Onde Comprar Box Flex para Banheiro Pequeno na Zona Norte de SP?",
+    excerpt:
+      "Banheiro pequeno na Zona Norte de SP? Conheça o Box Flex articulado: até 90% de abertura, design clean e instalação sob medida com medição a laser.",
+    image: boxFlexZonaNorteCapa,
+    imageAlt:
+      "Onde comprar Box Flex para banheiro pequeno na Zona Norte de SP - Projeto Vidros",
+    date: "2026-05-26",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box Flex sob medida para banheiro pequeno na Zona Norte de SP. Até 90% de abertura, vidro temperado 8mm, tecnologia Box + Seguro e medição a laser.",
+    cta: {
+      label: "Quero um orçamento de Box Flex",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Se você mora na Zona Norte de São Paulo, já deve ter reparado que as novas construções e apartamentos na região (como em Santana, Tucuruvi ou Parada Inglesa) estão vindo com banheiros cada vez mais compactos. Diante de um espaço reduzido, o maior erro é tentar forçar a instalação de um box de correr comum. Em vãos menores que 90 centímetros, o box tradicional deixa uma passagem tão estreita que o banho se torna desconfortável.",
+      },
+      {
+        type: "paragraph",
+        text: "É exatamente para resolver esse problema que o Box Flex (também conhecido como box articulado ou camarão) foi desenvolvido.",
+      },
+      {
+        type: "paragraph",
+        text: "Se você quer entender como esse sistema funciona e descobrir onde comprar com garantia e instalação especializada na Zona Norte, este artigo é para você.",
+      },
+      {
+        type: "heading",
+        text: "O que é o Box Flex e como ele funciona?",
+      },
+      {
+        type: "paragraph",
+        text: "Ao contrário dos modelos tradicionais que exigem uma folha de vidro fixa e pesada ocupando espaço, o Box Flex funciona sem trilho superior e sem vidro fixo obrigatório.",
+      },
+      {
+        type: "paragraph",
+        text: "O sistema é composto por duas folhas de vidro temperado de 8mm conectadas por dobradiças centrais de alta engenharia. Ao abrir, as folhas se dobram uma contra a outra e deslizam suavemente por um trilho inferior discreto, recolhendo-se totalmente rente à parede do banheiro.",
+      },
+      {
+        type: "internalLink",
+        href: "/box-flex",
+        label: "Conheça o Box Flex Articulado",
+        description: "Veja todos os detalhes técnicos, cores e fotos do modelo:",
+      },
+      {
+        type: "heading",
+        text: "As Vantagens do Box Articulado para Espaços Reduzidos",
+      },
+      {
+        type: "paragraph",
+        text: "O Box Flex é considerado o \"salvador\" dos banheiros pequenos por motivos bem claros:",
+      },
+      {
+        type: "heading",
+        text: "1. Incríveis 90% de Aproveitamento do Vão",
+      },
+      {
+        type: "paragraph",
+        text: "Como ele não tem uma folha de vidro fixa bloqueando a entrada, o modelo camarão libera quase a totalidade do espaço para você passar. Enquanto o box comum abre apenas 50% do vão, o Box Flex entrega até 90% de abertura livre, garantindo acessibilidade real e total conforto.",
+      },
+      {
+        type: "heading",
+        text: "2. Estética Clean e Moderna",
+      },
+      {
+        type: "paragraph",
+        text: "Por dispensar aquela barra pesada de alumínio na parte superior (o trilho de correr tradicional), o Box Flex deixa o visual do banheiro muito mais limpo, minimalista e sofisticado, ajudando a dar uma sensação de amplitude ao ambiente.",
+      },
+      {
+        type: "heading",
+        text: "3. Ideal para Vãos Extremamente Estreitos",
+      },
+      {
+        type: "paragraph",
+        text: "Se o seu banheiro tem aquele vão bem pequeno (a partir de 60 ou 70 cm) onde nenhuma outra porta cabe, o sistema articulado resolve o problema perfeitamente, sem bater na pia e sem invadir o espaço do vaso sanitário.",
+      },
+      {
+        type: "heading",
+        text: "Resistência e Durabilidade com o Sistema Box + Seguro",
+      },
+      {
+        type: "paragraph",
+        text: "Muitas pessoas têm dúvidas se o movimento de dobrar o vidro diariamente é seguro. Na Projeto Vidros, nós trabalhamos apenas com vidros temperados de 8mm normatizados e ferragens de alta performance que garantem um deslize leve e seguro por muitos anos.",
+      },
+      {
+        type: "paragraph",
+        text: "Para quem busca blindar a segurança da família, todos os nossos modelos Flex podem receber de fábrica a tecnologia Box + Seguro. Trata-se de uma película invisível de alta resistência aplicada sobre o vidro. No caso raríssimo de uma quebra por impacto forte, os fragmentos de vidro ficam totalmente grudados na película, impedindo que se espalhem pelo chão e evitando acidentes.",
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Saiba como a película anti-estilhaço protege sua família:",
+      },
+      {
+        type: "heading",
+        text: "Projeto Vidros: A sua Vidraçaria Especialista na Zona Norte",
+      },
+      {
+        type: "paragraph",
+        text: "Sistemas articulados exigem precisão absoluta na instalação. Se o prumo da parede estiver torto ou o nível do piso apresentar imperfeições, o box pode travar ou apresentar vazamentos.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, nós não trabalhamos com \"achômetros\". Realizamos uma medição digital a laser na sua casa para garantir que o seu Box Flex seja fabricado sob medida para o seu banheiro, com vedação impecável.",
+      },
+      {
+        type: "paragraph",
+        text: "Atendemos toda a Zona Norte de São Paulo (Casa Verde, Limão, Mandaqui, Jaçanã, Vila Maria e região) com equipe de montagem própria, prazos rigorosos e acabamentos premium nas cores que combinam com seu projeto (Preto, Cromado, Branco, Dourado ou Rose).",
+      },
+    ],
+  },
   {
     slug: "box-vidro-abrir-zona-norte-banheiros-estreitos",
     title: "Box de Vidro de Abrir na Zona Norte: Soluções Milimétricas para Banheiros Estreitos",
