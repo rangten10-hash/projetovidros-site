@@ -85,6 +85,121 @@ const WHATSAPP_URL =
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "box-vidro-abrir-zona-norte-banheiros-estreitos",
+    title: "Box de Vidro de Abrir na Zona Norte: Soluções Milimétricas para Banheiros Estreitos",
+    excerpt:
+      "Banheiro estreito na Zona Norte de SP? Conheça o Box de Vidro de Abrir com abertura interna: ganho de espaço, banheiro seco e instalação sob medida com Box + Seguro.",
+    image: boxAbrirZonaNorteCapa,
+    imageAlt:
+      "Box de Vidro de Abrir em banheiro estreito - Projeto Vidros Zona Norte SP",
+    date: "2026-05-26",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box de Vidro de Abrir na Zona Norte de SP: solução milimétrica para banheiros estreitos com abertura interna, vidro temperado 8mm e tecnologia Box + Seguro.",
+    cta: {
+      label: "Quero um orçamento de Box de Abrir",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Quem mora em apartamento ou casa moderna na Zona Norte de São Paulo sabe que otimizar o espaço do banheiro é um verdadeiro desafio. Na hora de planejar a área do banho, a maioria das pessoas recorre ao tradicional box de correr de duas folhas. No entanto, se o vão do seu chuveiro for muito estreito, esse modelo pode reduzir a passagem pela metade, tornando o acesso apertado e desconfortável.",
+      },
+      {
+        type: "paragraph",
+        text: "Se você está passando por isso, o Box de Vidro de Abrir com abertura para dentro é a solução de engenharia inteligente que vai transformar o seu espaço.",
+      },
+      {
+        type: "paragraph",
+        text: "Neste artigo, vamos te explicar como esse modelo funciona e por que ele se tornou a escolha favorita para projetos sob medida na nossa região.",
+      },
+      {
+        type: "heading",
+        text: "O que é o Box de Vidro de Abrir Interno?",
+      },
+      {
+        type: "paragraph",
+        text: "Diferente do box convencional, o sistema de abrir para pequenos vãos é composto estrategicamente por 1 folha fixa de vidro e 1 porta de giro (abrir).",
+      },
+      {
+        type: "paragraph",
+        text: "O grande segredo deste projeto está nas dobradiças técnicas de alta performance. Elas são reguladas para que a porta faça o movimento de giro para o lado de dentro do chuveiro.",
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-abrir-pequeno-vao",
+        label: "Conheça o Box de Abrir para Pequenos Vãos",
+        description: "Veja todos os detalhes técnicos e fotos do modelo:",
+      },
+      {
+        type: "heading",
+        text: "As Principais Praticidades para Banheiros Pequenos",
+      },
+      {
+        type: "paragraph",
+        text: "Optar por um box de abrir planejado traz vantagens que vão muito além da estética moderna:",
+      },
+      {
+        type: "heading",
+        text: "1. Ganho Real de Espaço Externo",
+      },
+      {
+        type: "paragraph",
+        text: "Em banheiros compactos, uma porta que abre para fora costuma ser um problema: ela colide com o vaso sanitário, bate no gabinete da pia ou bloqueia totalmente a porta de entrada do banheiro. Com a abertura projetada para o lado de dentro, a área de circulação externa fica 100% livre e desimpedida.",
+      },
+      {
+        type: "heading",
+        text: "2. Banheiro Sempre Seco (Adeus respingos!)",
+      },
+      {
+        type: "paragraph",
+        text: "Sabe aquele incômodo de abrir a porta do box após o banho e ver a água escorrer direto no tapete ou no piso de fora? Com o sistema de abertura interna, todas as gotas de água que ficam acumuladas no vidro escorrem diretamente para a área do ralo, mantendo o restante do seu banheiro completamente seco.",
+      },
+      {
+        type: "heading",
+        text: "3. Altura Padrão ou Sob Medida (Piso ao Teto)",
+      },
+      {
+        type: "paragraph",
+        text: "Cada projeto exige uma solução visual diferente. Esse modelo pode ser instalado na altura padrão de 1,84m ou ser desenhado sob medida até o teto. O fechamento total (piso ao teto) cria uma barreira térmica perfeita, retendo o vapor e proporcionando um efeito sauna incrível no seu banho, além de entregar um visual ultra sofisticado.",
+      },
+      {
+        type: "heading",
+        text: "Segurança em Primeiro Lugar: Tecnologia Box + Seguro",
+      },
+      {
+        type: "paragraph",
+        text: "Por ser um modelo compacto e de uso diário, a Projeto Vidros faz questão de trabalhar apenas com o máximo padrão de segurança. Nossos boxes utilizam painéis espessos de vidro temperado de 8mm, altamente resistentes a impactos e variações de temperatura.",
+      },
+      {
+        type: "paragraph",
+        text: "Além disso, você pode equipar o seu projeto com a nossa tecnologia exclusiva Box + Seguro. Uma película de segurança invisível é aplicada direto de fábrica no vidro. No caso raríssimo de uma quebra acidental, todos os fragmentos ficam firmemente presos à película, mantendo a estrutura em pé e evitando qualquer tipo de acidente ou corte. É a paz de espírito que a sua família merece.",
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Saiba como a película anti-estilhaço protege sua família:",
+      },
+      {
+        type: "heading",
+        text: "Procurando Vidraçaria na Zona Norte de SP?",
+      },
+      {
+        type: "paragraph",
+        text: "Vãos pequenos e estreitos não aceitam erros. Uma medição incorreta por poucos milímetros pode fazer a porta raspar no chão ou gerar frestas com vazamento de água.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, nós eliminamos esse risco utilizando medição digital a laser diretamente na sua residência. Nossa equipe técnica é especializada em instalações milimétricas em Santana, Casa Verde, Tucuruvi, Vila Maria e em toda a capital de São Paulo.",
+      },
+      {
+        type: "paragraph",
+        text: "Se você quer valorizar o seu imóvel e ganhar espaço de verdade com um acabamento premium (como os perfis modernos do Kit Reto), nós temos o projeto perfeito.",
+      },
+    ],
+  },
+  {
     slug: "box-vidro-acrilico-cortina-seguranca-higiene",
     title: "Medo do Box de Vidro? Descubra se a Cortina ou o Acrílico Realmente Valem a Pena",
     excerpt:
