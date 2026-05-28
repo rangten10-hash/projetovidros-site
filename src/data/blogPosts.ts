@@ -56,6 +56,7 @@ import guardaCorpoTorres from "@/assets/blog-guarda-corpo-torres.webp";
 import vidroAcrilicoCortinaCapa from "@/assets/blog-vidro-acrilico-cortina-capa.webp";
 import boxAbrirZonaNorteCapa from "@/assets/blog-box-abrir-zona-norte-capa.webp";
 import boxFlexZonaNorteCapa from "@/assets/blog-box-flex-zona-norte-capa.png";
+import peliculaSegurancaZonaNorteCapa from "@/assets/blog-pelicula-seguranca-zona-norte-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -85,6 +86,114 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "pelicula-seguranca-box-banheiro-zona-norte-sp",
+    title: "Película de Segurança para Box de Banheiro na Zona Norte: Vale a Pena?",
+    excerpt:
+      "Película PS4 para box de banheiro na Zona Norte de SP: proteção anti-estilhaço invisível sobre vidro temperado 8mm. Entenda por que vale a pena investir.",
+    image: peliculaSegurancaZonaNorteCapa,
+    imageAlt:
+      "Película de segurança PS4 aplicada em box de banheiro na Zona Norte de SP - Projeto Vidros",
+    date: "2026-05-28",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Película de segurança PS4 para box de banheiro na Zona Norte de SP: proteção anti-estilhaço invisível, vidro temperado 8mm e instalação Box + Seguro.",
+    cta: {
+      label: "Quero um orçamento com Película Protetora",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Quem está reformando ou decorando um apartamento em São Paulo sabe que a lista de prioridades é longa. Mas se existe um item onde a segurança da sua família deve vir 100% em primeiro lugar, esse item é o box do banheiro.",
+      },
+      {
+        type: "paragraph",
+        text: "Muitas pessoas acreditam que, por escolherem o vidro temperado de 8mm, já estão totalmente protegidas. O vidro temperado é, sim, altamente resistente e considerado um vidro de segurança, mas ele não é indestrutível. Mudanças bruscas de temperatura (choque térmico) ou impactos invisíveis nas bordas podem, em casos raros, causar a quebra espontânea do vidro.",
+      },
+      {
+        type: "paragraph",
+        text: "Se você mora na Zona Norte de SP e quer entender se o investimento em uma película de segurança realmente vale a pena para o seu banheiro, continue lendo este artigo.",
+      },
+      {
+        type: "heading",
+        text: "O que é a Película de Segurança PS4 e Como Ela Funciona?",
+      },
+      {
+        type: "paragraph",
+        text: "Ao contrário do que muitos pensam, a película de segurança para box de banheiro não é igual àquela película comum usada em vidros de carros para escurecer o ambiente.",
+      },
+      {
+        type: "paragraph",
+        text: "Nós trabalhamos com a Película de Segurança PS4, uma tecnologia de alta engenharia feita de poliéster ultra-resistente e transparente. Ela é aplicada diretamente na face externa do vidro temperado de 8mm.",
+      },
+      {
+        type: "paragraph",
+        text: "A mágica do sistema acontece no momento do impacto: caso ocorra uma quebra raríssima por acidente, a película atua como uma \"rede de contenção\". Ela retém 100% dos fragmentos de vidro grudados nela, impedindo que os pedaços caiam no chão, se espalhem pelo banheiro ou atinjam alguém durante o banho.",
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a Tecnologia Box + Seguro",
+        description: "Veja como essa tecnologia funciona na prática e os testes de resistência:",
+      },
+      {
+        type: "heading",
+        text: "Por Que a Película é Indispensável para Quem Tem Crianças e Idosos?",
+      },
+      {
+        type: "paragraph",
+        text: "Se no seu apartamento na Zona Norte moram crianças, idosos ou até mesmo animais de estimação, a película deixa de ser um \"opcional\" e passa a ser uma necessidade essencial.",
+      },
+      {
+        type: "paragraph",
+        text: "O vidro temperado, quando quebra sem película, se estilhaça em milhares de pequenos pedaços menos cortantes que o vidro comum, mas que ainda assim caem com peso e velocidade no chão. No momento do banho, onde estamos descalços e vulneráveis, o susto e os fragmentos no chão podem causar quedas e ferimentos graves.",
+      },
+      {
+        type: "paragraph",
+        text: "Com a película instalada, o vidro quebrado continua estruturado no lugar, como uma placa inteira, dando tempo para você sair do box com total calma e segurança, sem nenhum arranhão.",
+      },
+      {
+        type: "heading",
+        text: "As Principais Vantagens de Blindar seu Box com o Selo Box + Seguro",
+      },
+      {
+        type: "paragraph",
+        text: "Ao escolher a instalação do seu box com a película protetora, você garante benefícios que vão muito além da tranquilidade mental:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Proteção Anti-Estilhaço Real:", text: "O vidro quebra, mas não cai. O banheiro fica limpo e sua família totalmente protegida contra cortes." },
+          { strong: "Valorização do Imóvel:", text: "Apartamentos novos na região de Santana, Tucuruvi, Parada Inglesa ou Vila Guilherme ganham um diferencial de segurança valorizado no mercado." },
+          { strong: "Estética 100% Preservada:", text: "A película PS4 utilizada pela Projeto Vidros é totalmente invisível e transparente. Ela não altera o brilho, a cor ou a transparência do seu vidro texturizado ou incolor." },
+          { strong: "Fácil Manutenção:", text: "A película recebe um tratamento que facilita a limpeza diária, evitando que manchas de shampoo ou sabonete grudem com facilidade." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Saiba mais sobre o Box + Seguro",
+        description: "Conheça em detalhes a tecnologia de película anti-estilhaço:",
+      },
+      {
+        type: "heading",
+        text: "Projeto Vidros: Referência em Segurança e Instalação na Zona Norte de SP",
+      },
+      {
+        type: "paragraph",
+        text: "A aplicação da película de segurança exige técnica. Se ficarem bolhas ou poeira entre o poliéster e o vidro, a eficiência do sistema é comprometida. Na Projeto Vidros, nós integramos o selo Box + Seguro diretamente no processo de preparação e instalação do seu projeto.",
+      },
+      {
+        type: "paragraph",
+        text: "Unimos o que há de mais moderno em kits e ferragens (nas cores Preto, Cromado, Branco, Dourado ou Rose) com a proteção real que sua casa precisa. Atendemos toda a Zona Norte de São Paulo — incluindo Casa Verde, Limão, Mandaqui, Jaçanã, Vila Maria e imediações — com medição digital a laser e equipe de montagem própria treinada para garantir vedação impecável e fixação perfeita.",
+      },
+      {
+        type: "paragraph",
+        text: "Vai instalar um box novo ou quer trocar o modelo antigo do seu banheiro com a certeza de estar fazendo a escolha mais segura? Fale com nossos especialistas no WhatsApp e garanta um atendimento sob medida com a proteção Box + Seguro inclusa.",
+      },
+    ],
+  },
   {
     slug: "onde-comprar-box-flex-banheiro-pequeno-zona-norte-sp",
     title: "Onde Comprar Box Flex para Banheiro Pequeno na Zona Norte de SP?",
