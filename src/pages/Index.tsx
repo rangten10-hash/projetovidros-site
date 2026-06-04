@@ -40,6 +40,16 @@ const Index = () => {
       <Header />
       <main id="main-content" role="main">
         <HeroCarousel />
+        <section className="bg-background py-10 md:py-14 px-4">
+          <div className="max-w-5xl mx-auto text-center">
+            <h1 className="font-['Playfair_Display',serif] text-2xl md:text-4xl lg:text-5xl font-bold text-[#002B36] leading-tight">
+              Vidraçaria na Zona Norte de SP: Especialista em Box de Banheiro e Vidros de Segurança
+            </h1>
+            <h2 className="mt-4 font-['Raleway',sans-serif] text-base md:text-lg lg:text-xl text-[#002B36]/80 leading-snug">
+              Soluções sob medida com tecnologia anti-estilhaço e instalação profissional em toda a Grande São Paulo.
+            </h2>
+          </div>
+        </section>
         <CategoryCards />
         <SocialProof />
         <SafetySection />
