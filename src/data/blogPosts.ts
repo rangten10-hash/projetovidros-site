@@ -57,6 +57,8 @@ import vidroAcrilicoCortinaCapa from "@/assets/blog-vidro-acrilico-cortina-capa.
 import boxAbrirZonaNorteCapa from "@/assets/blog-box-abrir-zona-norte-capa.webp";
 import boxFlexZonaNorteCapa from "@/assets/blog-box-flex-zona-norte-capa.png";
 import peliculaSegurancaZonaNorteCapa from "@/assets/blog-pelicula-seguranca-zona-norte-capa.png";
+import precoBoxBanheiroSpCapa from "@/assets/blog-preco-box-banheiro-sp-capa.png";
+import precoBoxBanheiroSpPromo from "@/assets/blog-preco-box-banheiro-sp-promo.png";
 
 export interface BlogPost {
   slug: string;
@@ -86,6 +88,108 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "preco-box-banheiro-sao-paulo-zona-norte",
+    title: "Preço de Box de Banheiro em São Paulo na Zona Norte: Qual o Valor Médio e Onde Encontrar o Melhor Custo-Benefício?",
+    excerpt:
+      "Quanto custa um box de banheiro na Zona Norte de SP? Veja faixas de preço atualizadas, o que influencia o valor e onde encontrar o melhor custo-benefício com vidro temperado 8mm e instalação Box + Seguro.",
+    image: precoBoxBanheiroSpCapa,
+    imageAlt:
+      "Preço de box de banheiro em São Paulo na Zona Norte - Projeto Vidros",
+    date: "2026-06-04",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Preço de box de banheiro na Zona Norte de SP: valor médio atualizado, custo-benefício e onde encontrar instalação profissional com vidro 8mm temperado.",
+    cta: {
+      label: "Quero meu orçamento de Box",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Está reformando o banheiro do seu apartamento na Zona Norte de São Paulo e a grande dúvida que aparece é sempre a mesma: quanto custa um box de banheiro novo, instalado, com qualidade e segurança? O preço de um box pode variar bastante de uma vidraçaria para outra, e entender o que está incluso no valor é essencial para não cair em ciladas e nem pagar caro por um serviço mal feito.",
+      },
+      {
+        type: "paragraph",
+        text: "Neste artigo, vamos te mostrar a faixa de preço atualizada para os principais modelos de box em São Paulo, o que faz o valor subir ou descer e como escolher a melhor opção de custo-benefício para o seu banheiro na Zona Norte.",
+      },
+      {
+        type: "heading",
+        text: "Quanto Custa um Box de Banheiro em São Paulo Hoje?",
+      },
+      {
+        type: "paragraph",
+        text: "O valor de um box de banheiro em São Paulo depende diretamente de três fatores: o tamanho do vão, o tipo de vidro escolhido e o acabamento do kit (perfis e ferragens). Como referência, na Projeto Vidros temos uma condição especial para banheiros compactos: Box de Vidro Incolor 8mm Temperado com Alumínio Fosco em até 12x de R$ 89,00, já instalado, para vãos de até 0,80m de largura por 1,90m de altura.",
+      },
+      {
+        type: "image",
+        src: precoBoxBanheiroSpPromo,
+        alt: "Promoção Box de Vidro Incolor 8mm Temperado em até 12x de R$ 89,00 já instalado - Projeto Vidros",
+      },
+      {
+        type: "paragraph",
+        text: "Essa é uma das melhores opções de entrada do mercado para apartamentos da Zona Norte com banheiros pequenos, justamente porque já inclui vidro temperado de 8mm, kit de alumínio fosco com acabamento premium e a instalação profissional feita pela nossa equipe própria.",
+      },
+      {
+        type: "heading",
+        text: "O Que Influencia o Preço do Box de Banheiro?",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Tamanho do vão:", text: "quanto maior a largura e a altura, maior o consumo de vidro e perfis, e mais alto o valor final." },
+          { strong: "Tipo de vidro:", text: "vidro incolor 8mm é o mais econômico; vidros fumê, verde, bronze e mini boreal entram em faixas superiores." },
+          { strong: "Modelo do box:", text: "o tradicional de correr é o mais acessível, enquanto modelos Flex (articulado), Frontal, Canto e Piso-Teto têm engenharia diferente e preços maiores." },
+          { strong: "Cor do acabamento:", text: "alumínio fosco e branco costumam ser padrão; preto, cromado, dourado e rosé são acabamentos premium." },
+          { strong: "Tecnologia Box + Seguro:", text: "a aplicação da película anti-estilhaço é um item opcional que agrega segurança real para a sua família." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Veja todos os modelos de Box de Banheiro",
+        description: "Conheça o catálogo completo com fotos, medidas e acabamentos:",
+      },
+      {
+        type: "heading",
+        text: "Custo-Benefício Inteligente: Onde Você Não Pode Economizar",
+      },
+      {
+        type: "paragraph",
+        text: "Buscar preço baixo é natural, mas no caso de box de banheiro existem três pontos onde economizar pode sair muito mais caro depois: a espessura do vidro, a qualidade do kit de alumínio e a mão de obra da instalação.",
+      },
+      {
+        type: "paragraph",
+        text: "Vidro abaixo de 8mm não é considerado seguro pelas normas da ABNT para box. Kits de alumínio muito baratos costumam manchar, oxidar e travar com pouco tempo de uso. E uma instalação feita por mão de obra despreparada gera vazamentos, vidros desalinhados e, no pior cenário, acidentes.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros trabalhamos exclusivamente com vidro temperado 8mm certificado, kits de alumínio premium e equipe própria de instalação treinada. Isso garante que o seu investimento dure mais de 15 anos sem dor de cabeça.",
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Entenda como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Onde Encontrar o Melhor Box na Zona Norte de São Paulo",
+      },
+      {
+        type: "paragraph",
+        text: "A Zona Norte de São Paulo é uma das regiões com maior crescimento de novos apartamentos compactos, e por isso a demanda por box sob medida só cresce. Na hora de escolher a vidraçaria, dê preferência para empresas que oferecem medição digital a laser gratuita, atendimento direto com o profissional que executa o serviço e portfólio real de instalações na região.",
+      },
+      {
+        type: "paragraph",
+        text: "A Projeto Vidros atende toda a Zona Norte de SP — incluindo Santana, Tucuruvi, Parada Inglesa, Vila Guilherme, Casa Verde, Limão, Mandaqui, Jaçanã, Vila Maria e bairros vizinhos — com mais de 30 anos de experiência em vidraçaria, equipe própria de instalação e garantia escrita em todos os serviços.",
+      },
+      {
+        type: "paragraph",
+        text: "Investimento certo, conforto que dura e valor que vale a pena. Fale agora com nossos especialistas pelo WhatsApp e receba seu orçamento personalizado de box de banheiro em poucos minutos.",
+      },
+    ],
+  },
   {
     slug: "pelicula-seguranca-box-banheiro-zona-norte-sp",
     title: "Película de Segurança para Box de Banheiro na Zona Norte: Vale a Pena?",
