@@ -28,15 +28,6 @@ const Hero = () => {
         className="md:hidden absolute inset-0 w-full h-full object-cover object-center z-[1]"
       />
 
-      {/* SEO Heading — positioned over hero image */}
-      <div className="absolute top-24 md:top-32 left-4 md:left-8 z-[5] max-w-xl">
-        <h1 className="text-white text-xl md:text-3xl lg:text-4xl font-bold leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)] font-['Playfair_Display',serif]">
-          Vidraçaria na Zona Norte de SP: Especialista em Box de Banheiro e Vidros de Segurança
-        </h1>
-        <h2 className="mt-2 md:mt-3 text-white/90 text-sm md:text-lg lg:text-xl font-normal leading-snug drop-shadow-[0_2px_6px_rgba(0,0,0,0.8)] font-['Raleway',sans-serif]">
-          Soluções sob medida com tecnologia anti-estilhaço e instalação profissional em toda a Grande São Paulo.
-        </h2>
-      </div>
 
       <div className="absolute inset-x-0 bottom-12 md:bottom-28 z-10 flex justify-center px-4">
         <a
