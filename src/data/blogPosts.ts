@@ -67,6 +67,7 @@ import boxBanheiroMandaquiCapa from "@/assets/blog-box-banheiro-mandaqui-capa.pn
 import boxBanheiroTucuruviCapa from "@/assets/blog-box-banheiro-tucuruvi-capa.png";
 import boxBanheiroCasaVerdeCapa from "@/assets/blog-box-banheiro-casa-verde-capa.png";
 import boxBanheiroVilaMariaCapa from "@/assets/blog-box-banheiro-vila-maria-capa.png";
+import boxBanheiroJacanaCapa from "@/assets/blog-box-banheiro-jacana-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -96,6 +97,101 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-de-banheiro-no-jacana",
+    title: "Box de Banheiro no Jaçanã: Economia, Durabilidade e Segurança com Projeto Vidros",
+    excerpt:
+      "Box de banheiro no Jaçanã com vidro temperado, película anti-estilhaço e instalação sob medida. Atendimento rápido na Zona Norte de SP com a Projeto Vidros.",
+    image: boxBanheiroJacanaCapa,
+    imageAlt:
+      "Box de banheiro no Jaçanã - Projeto Vidros, Zona Norte de São Paulo",
+    date: "2026-06-11",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box de banheiro no Jaçanã com economia, durabilidade e segurança. Vidro temperado e película anti-estilhaço com a Projeto Vidros na Zona Norte de SP.",
+    cta: {
+      label: "Quero meu Box no Jaçanã",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Quem mora no tradicional bairro do Jaçanã, na Zona Norte de São Paulo, sabe muito bem o valor de investir na própria casa para trazer mais conforto à família. Quando pensamos em renovar o banheiro, o box de vidro é um elemento que transforma completamente o ambiente. Ele separa a área de banho com elegância, mantém o espaço organizado e traz aquela sensação de banheiro limpo e moderno que todo mundo adora.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, somos especialistas em projetar e instalar boxes de vidro temperado sob medida no Jaçanã, garantindo o melhor preço da região com qualidade de fábrica.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroJacanaCapa,
+        alt: "Box de banheiro no Jaçanã com vidro temperado e instalação sob medida - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Diferenciais da Projeto Vidros no Jaçanã",
+      },
+      {
+        type: "paragraph",
+        text: "Sabemos que na hora de contratar uma vidraçaria no Jaçanã, você busca pontualidade, segurança e um preço justo. A Projeto Vidros entrega tudo isso e se destaca pelos seguintes pontos:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Atendimento Próximo e Rápido:", text: "por estarmos cobrindo toda a Zona Norte, nossa equipe técnica chega rapidamente ao Jaçanã, Edu Chaves e Tremembé para realizar a medição exata e tirar todas as suas dúvidas antes da instalação." },
+          { strong: "Ferragens e Perfis de Alta Resistência:", text: "utilizamos kits de alumínio com tratamento especial que não mancham com a umidade do chuveiro, além de roldanas blindadas que garantem um deslize suave por muitos anos." },
+          { strong: "Segurança em Primeiro Lugar — Película Anti-Estilhaço:", text: "o banheiro é o local mais escorregadio da casa, onde acidentes domésticos infelizmente podem acontecer. Para proteger quem você ama — especialmente crianças e idosos —, a Projeto Vidros oferece a aplicação da película de segurança no seu box de vidro no Jaçanã. Em caso de quebra por forte impacto, a película segura todos os fragmentos de vidro colados na estrutura, impedindo que se espalhem pelo chão e evitando acidentes graves até a chegada da manutenção." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Os Modelos de Box Mais Procurados no Jaçanã",
+      },
+      {
+        type: "paragraph",
+        text: "Temos o design perfeito para se adequar ao tamanho e estilo do seu banheiro:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box de Correr (Tradicional):", text: "o modelo clássico e mais vendido pela sua praticidade no dia a dia e excelente economia de espaço." },
+          { strong: "Box com Kit Reto (Moderno):", text: "a escolha favorita de quem busca modernidade. Suas linhas retas e acabamento quadrado dão um visual clean e luxuoso ao ambiente, além de possuir superfícies lisas que facilitam muito a limpeza diária." },
+          { strong: "Box Articulado (Flex):", text: "a solução ideal para os novos apartamentos ou banheiros compactos no Jaçanã. Suas portas dobram sobre si mesmas, aproveitando até 90% do vão para a passagem." },
+          { strong: "Box de Canto (Em L):", text: "desenvolvido sob medida para aproveitar ao máximo os cantos das paredes em banheiros quadrados." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-tradicional-kit-reto",
+        label: "Ver Box Tradicional Kit Reto",
+        description: "Conheça o modelo moderno com perfis retos e acabamento minimalista:",
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Solicite Seu Orçamento de Box no Jaçanã!",
+      },
+      {
+        type: "paragraph",
+        text: "Garantimos preços competitivos direto de fábrica e excelentes opções de parcelamento para que você possa tirar a sua reforma do papel hoje mesmo.",
+      },
+      {
+        type: "paragraph",
+        text: "Entre em contato com a nossa equipe agora mesmo pelo WhatsApp, informe as medidas aproximadas do seu banheiro e receba um orçamento rápido, transparente e sem compromisso para o seu box de banheiro no Jaçanã.",
+      },
+    ],
+  },
   {
     slug: "box-de-banheiro-na-vila-maria",
     title: "Box de Banheiro na Vila Maria: Qualidade, Instalação Rápida e Segurança com Projeto Vidros",
