@@ -64,6 +64,7 @@ import kitRedondoPerfil from "@/assets/blog-kit-redondo-perfil.png";
 import kitRetoPerfil from "@/assets/blog-kit-reto-perfil.png";
 import boxBanheiroSantanaCapa from "@/assets/blog-box-banheiro-santana-capa.png";
 import boxBanheiroMandaquiCapa from "@/assets/blog-box-banheiro-mandaqui-capa.png";
+import boxBanheiroTucuruviCapa from "@/assets/blog-box-banheiro-tucuruvi-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -93,6 +94,101 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-de-banheiro-no-tucuruvi",
+    title: "Box de Banheiro no Tucuruvi: Instalação Rápida, Segurança e Custo-Benefício com Projeto Vidros",
+    excerpt:
+      "Box de banheiro no Tucuruvi com vidro temperado 8mm, película anti-estilhaço e instalação rápida. Atendimento exclusivo na Zona Norte de SP com a Projeto Vidros.",
+    image: boxBanheiroTucuruviCapa,
+    imageAlt:
+      "Box de banheiro no Tucuruvi - Projeto Vidros, Zona Norte de São Paulo",
+    date: "2026-06-08",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box de banheiro no Tucuruvi com instalação rápida, segurança e custo-benefício. Vidro temperado 8mm e película anti-estilhaço com a Projeto Vidros na Zona Norte de SP.",
+    cta: {
+      label: "Quero meu Box no Tucuruvi",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Se você mora no Tucuruvi, na Zona Norte de São Paulo, sabe como a região tem crescido e se modernizado. Com tantos novos apartamentos e reformas de casas tradicionais acontecendo, a busca por soluções inteligentes para o lar virou prioridade. E quando o assunto é o banheiro, a escolha do box de vidro ideal une o útil ao agradável: organiza o espaço, evita que a água espalhe e traz um visual incrível.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, somos especialistas em transformar banheiros de todos os tamanhos no Tucuruvi, oferecendo atendimento rápido, materiais de alto padrão e preços que cabem no seu bolso.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroTucuruviCapa,
+        alt: "Box de banheiro no Tucuruvi com vidro temperado e instalação rápida - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Diferenciais da Projeto Vidros no Tucuruvi",
+      },
+      {
+        type: "paragraph",
+        text: "Encontrar uma vidraçaria no Tucuruvi que entregue no prazo e com garantia de verdade pode ser um desafio. Na Projeto Vidros, nós eliminamos essa dor de cabeça com diferenciais focados na sua satisfação:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Atendimento Exclusivo para a Zona Norte:", text: "nossa proximidade com o Tucuruvi permite agendar visitas técnicas de medição com muito mais flexibilidade, garantindo que o seu projeto saia do papel sem atrasos." },
+          { strong: "Instalação Profissional e Limpa:", text: "nossa equipe conta com profissionais treinados, que cuidam de cada detalhe da vedação e regulagem das roldanas para o seu box funcionar perfeitamente por anos." },
+          { strong: "Segurança em Primeiro Lugar — Película Anti-Estilhaço:", text: "esse é o nosso maior diferencial. O vidro temperado de 8mm é altamente resistente, mas acidentes domésticos podem acontecer. Pensando na proteção de crianças e idosos, oferecemos a aplicação da película de segurança para o seu box de vidro no Tucuruvi. Caso ocorra uma quebra por impacto forte, os estilhaços ficam totalmente presos na película, evitando cortes e acidentes graves até a troca do vidro." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Modelos de Box de Banheiro em Alta na Região",
+      },
+      {
+        type: "paragraph",
+        text: "Temos a solução perfeita para se adaptar ao layout do seu ambiente:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box de Correr (Tradicional):", text: "o mais procurado por sua praticidade, deslizando suavemente e economizando espaço precioso na área de banho." },
+          { strong: "Box com Kit Reto (Moderno):", text: "a escolha perfeita para quem quer um acabamento diferenciado. Substitui as linhas arredondadas por perfis quadrados e minimalistas, que além de lindos, evitam o acúmulo de sujeira nos cantos." },
+          { strong: "Box Articulado (Flex):", text: "muito indicado para os novos apartamentos residenciais no Tucuruvi, que costumam ter banheiros menores. Ele dobra sobre si mesmo e libera a máxima área de passagem." },
+          { strong: "Box de Canto (Em L):", text: "ideal para aproveitar perfeitamente os espaços em banheiros com cantos quadrados." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-tradicional-kit-reto",
+        label: "Ver Box Tradicional Kit Reto",
+        description: "Conheça o modelo moderno com perfis retos e acabamento minimalista:",
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Solicite Seu Orçamento Sob Medida no Tucuruvi!",
+      },
+      {
+        type: "paragraph",
+        text: "Trabalhamos com preços competitivos de fábrica e condições facilitadas de pagamento para que você possa reformar sem preocupações.",
+      },
+      {
+        type: "paragraph",
+        text: "Entre em contato com a Projeto Vidros agora mesmo, passe as medidas aproximadas ou agende uma visita para receber seu orçamento rápido e sem compromisso para o seu box de banheiro no Tucuruvi.",
+      },
+    ],
+  },
   {
     slug: "box-de-banheiro-no-mandaqui",
     title: "Box de Banheiro no Mandaqui: Modernidade, Segurança e Sob Medida com Projeto Vidros",
