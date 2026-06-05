@@ -62,6 +62,7 @@ import precoBoxBanheiroSpPromo from "@/assets/blog-preco-box-banheiro-sp-promo.p
 import kitRetoVsRedondoCapa from "@/assets/blog-kit-reto-vs-redondo-capa.png";
 import kitRedondoPerfil from "@/assets/blog-kit-redondo-perfil.png";
 import kitRetoPerfil from "@/assets/blog-kit-reto-perfil.png";
+import boxBanheiroSantanaCapa from "@/assets/blog-box-banheiro-santana-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -91,6 +92,95 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-de-banheiro-em-santana",
+    title: "Box de Banheiro em Santana: Qualidade, Segurança e Instalação Rápida com Projeto Vidros",
+    excerpt:
+      "Box de banheiro em Santana com vidro temperado 8mm, película anti-estilhaço e instalação rápida em toda a Zona Norte de São Paulo. Orçamento sob medida com a Projeto Vidros.",
+    image: boxBanheiroSantanaCapa,
+    imageAlt:
+      "Box de banheiro em Santana - Projeto Vidros, Zona Norte de São Paulo",
+    date: "2026-06-06",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box de banheiro em Santana com qualidade, segurança e instalação rápida. Vidro temperado 8mm, película anti-estilhaço e atendimento em toda a Zona Norte de SP.",
+    cta: {
+      label: "Quero meu Box em Santana",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Moradores de Santana, na Zona Norte de São Paulo, sabem a importância de ter um lar que combine beleza, funcionalidade e, acima de tudo, segurança. Quando o assunto é box de banheiro, a escolha certa faz toda a diferença para valorizar o imóvel e evitar dores de cabeça.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, entendemos as necessidades dos moradores da região e oferecemos soluções personalizadas que transformam seu banheiro em um ambiente moderno, elegante e altamente seguro.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroSantanaCapa,
+        alt: "Box de banheiro em Santana com vidro temperado e instalação rápida - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Por Que Escolher a Projeto Vidros em Santana?",
+      },
+      {
+        type: "paragraph",
+        text: "Escolher uma vidraçaria em Santana que realmente entenda as particularidades da Zona Norte e ofereça um serviço de excelência é crucial. A Projeto Vidros se destaca no mercado pelos seguintes diferenciais:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Atendimento ágil e localizado:", text: "estamos estrategicamente próximos a você, o que garante visitas técnicas de medição muito mais rápidas e instalação eficiente em toda a Zona Norte, cobrindo Santana e bairros vizinhos como Tucuruvi, Mandaqui e Casa Verde." },
+          { strong: "Experiência e acabamento premium:", text: "contamos com uma equipe altamente especializada e utilizamos apenas materiais de primeira linha, assegurando durabilidade e acabamento impecável para o seu box de banheiro em Santana." },
+          { strong: "Diferencial exclusivo — Película Anti-Estilhaço:", text: "todos os nossos boxes podem ser configurados com a película de segurança exclusiva. Em caso de quebra por impacto, ela mantém todos os fragmentos de vidro unidos na estrutura, evitando acidentes graves e garantindo total tranquilidade." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Tipos de Box de Banheiro para o Seu Lar em Santana",
+      },
+      {
+        type: "paragraph",
+        text: "Oferecemos uma vasta gama de modelos de box de banheiro para atender a todos os layouts de projetos e necessidades de espaço:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box de Correr (Tradicional):", text: "o modelo campeão de vendas, ideal para otimizar o espaço do banheiro com portas que deslizam suavemente sobre perfis modernos." },
+          { strong: "Box de Canto (Em L):", text: "perfeito para banheiros com layouts diferenciados ou quadrados, aproveitando cada centímetro do canto das paredes." },
+          { strong: "Box Articulado (Flex):", text: "uma solução inteligente e moderna para banheiros menores, proporcionando a maior área de passagem possível." },
+          { strong: "Box Fixo (Walk-in):", text: "tendência de minimalismo e sofisticação para quem busca um design clean e aberto para a área do chuveiro." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Solicite Seu Orçamento de Box de Banheiro em Santana!",
+      },
+      {
+        type: "paragraph",
+        text: "Não perca tempo e evite os riscos de instalações amadoras! Transforme o seu banheiro com a qualidade, rapidez e segurança que só a líder em vidraçaria na Zona Norte pode oferecer.",
+      },
+      {
+        type: "paragraph",
+        text: "Fale conosco agora mesmo, envie as medidas aproximadas do seu espaço e receba um orçamento sob medida e sem compromisso para o seu box de banheiro em Santana.",
+      },
+    ],
+  },
   {
     slug: "kit-reto-ou-kit-redondo-box-banheiro",
     title: "Kit Reto ou Kit Redondo: Qual o Melhor Acabamento para Box de Banheiro?",
