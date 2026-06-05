@@ -180,7 +180,6 @@ export const blogPosts: BlogPost[] = [
         text: "Fale conosco agora mesmo, envie as medidas aproximadas do seu espaço e receba um orçamento sob medida e sem compromisso para o seu box de banheiro em Santana.",
       },
     ],
-    tags: ["box de banheiro", "santana", "zona norte", "vidraçaria"],
   },
   {
     slug: "kit-reto-ou-kit-redondo-box-banheiro",
