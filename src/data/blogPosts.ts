@@ -63,6 +63,7 @@ import kitRetoVsRedondoCapa from "@/assets/blog-kit-reto-vs-redondo-capa.png";
 import kitRedondoPerfil from "@/assets/blog-kit-redondo-perfil.png";
 import kitRetoPerfil from "@/assets/blog-kit-reto-perfil.png";
 import boxBanheiroSantanaCapa from "@/assets/blog-box-banheiro-santana-capa.png";
+import boxBanheiroMandaquiCapa from "@/assets/blog-box-banheiro-mandaqui-capa.png";
 
 export interface BlogPost {
   slug: string;
