@@ -65,6 +65,7 @@ import kitRetoPerfil from "@/assets/blog-kit-reto-perfil.png";
 import boxBanheiroSantanaCapa from "@/assets/blog-box-banheiro-santana-capa.png";
 import boxBanheiroMandaquiCapa from "@/assets/blog-box-banheiro-mandaqui-capa.png";
 import boxBanheiroTucuruviCapa from "@/assets/blog-box-banheiro-tucuruvi-capa.png";
+import boxBanheiroCasaVerdeCapa from "@/assets/blog-box-banheiro-casa-verde-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -94,6 +95,101 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-de-banheiro-na-casa-verde",
+    title: "Box de Banheiro na Casa Verde: Proteção, Elegância e Instalação sob Medida com Projeto Vidros",
+    excerpt:
+      "Box de banheiro na Casa Verde com vidro temperado, película anti-estilhaço e instalação sob medida. Atendimento rápido em toda a Zona Norte de SP com a Projeto Vidros.",
+    image: boxBanheiroCasaVerdeCapa,
+    imageAlt:
+      "Box de banheiro na Casa Verde - Projeto Vidros, Zona Norte de São Paulo",
+    date: "2026-06-09",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box de banheiro na Casa Verde com proteção, elegância e instalação sob medida. Vidro temperado e película anti-estilhaço com a Projeto Vidros na Zona Norte de SP.",
+    cta: {
+      label: "Quero meu Box na Casa Verde",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Quem vive na Casa Verde, na Zona Norte de São Paulo, sabe muito bem que o bairro une tradição com um forte crescimento moderno. Com tantos imóveis passando por reformas e novos condomínios sendo entregues na região, ter um banheiro planejado com um box de vidro bonito e funcional faz toda a diferença para valorizar o seu espaço e garantir o conforto do dia a dia.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, somos especialistas em criar soluções sob medida, combinando vidros de alta resistência, perfis de alumínio modernos e uma instalação impecável que vai transformar o visual do seu banheiro.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroCasaVerdeCapa,
+        alt: "Box de banheiro na Casa Verde com vidro temperado e instalação sob medida - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Por Que Chamar a Projeto Vidros na Casa Verde?",
+      },
+      {
+        type: "paragraph",
+        text: "Encontrar uma vidraçaria na Casa Verde que ofereça atendimento rápido, preço de fábrica e compromisso real com os prazos não precisa ser uma tarefa difícil. A Projeto Vidros garante total tranquilidade na sua obra por meio de diferenciais exclusivos:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Visita Técnica e Medição Rápida:", text: "como atuamos ativamente em toda a Zona Norte, nossa equipe chega com facilidade e rapidez à Casa Verde, ao Bairro do Limão e à Imirim para fazer a checagem milimétrica do seu vão, evitando erros de projeto." },
+          { strong: "Durabilidade e Acabamento Premium:", text: "não economizamos nos componentes. Nossos kits possuem roldanas de rolamento suave e vedações de alta qualidade, garantindo que o seu box não trave e nem apresente vazamentos de água com o tempo." },
+          { strong: "Segurança Reforçada — Película Anti-Estilhaço:", text: "a segurança de quem você ama vem sempre em primeiro lugar. O banheiro é um local escorregadio, e quedas ou impactos podem quebrar o vidro temperado. Para proteger crianças, idosos e toda a família, oferecemos a aplicação da nossa película de segurança no seu box de vidro na Casa Verde. Se o vidro chegar a quebrar por um impacto forte, todos os pedaços ficam totalmente colados na película, impedindo que se espalhem pelo chão e evitando acidentes sérios." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Os Modelos de Box de Vidro Ideais para o Seu Espaço",
+      },
+      {
+        type: "paragraph",
+        text: "Temos o design certo para cada necessidade e tamanho de banheiro na Casa Verde:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box de Correr (Tradicional):", text: "o clássico que nunca sai de moda. Desliza de forma prática e oferece o melhor custo-benefício para aproveitar o espaço interno do chuveiro." },
+          { strong: "Box com Kit Reto (Tendência):", text: "perfeito para projetos modernos. Esse acabamento traz perfis quadrados e linhas retas (muito pedido por arquitetos), deixando o ambiente com cara de hotel de luxo e facilitando demais a limpeza diária." },
+          { strong: "Box Articulado (Flex):", text: "uma verdadeira solução inteligente para banheiros com vãos muito pequenos, comuns em apartamentos novos na Casa Verde. Ele dobra sobre si mesmo e libera quase toda a largura para a passagem." },
+          { strong: "Box de Canto (Em L):", text: "a escolha inteligente para banheiros que possuem o chuveiro instalado no canto das paredes, aproveitando o espaço ao máximo." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-tradicional-kit-reto",
+        label: "Ver Box Tradicional Kit Reto",
+        description: "Conheça o modelo moderno com perfis retos e acabamento minimalista:",
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Peça Já o Seu Orçamento de Box na Casa Verde!",
+      },
+      {
+        type: "paragraph",
+        text: "Aproveite nossas condições facilitadas de pagamento e garanta um box direto de quem é referência em vidraçaria na Zona Norte.",
+      },
+      {
+        type: "paragraph",
+        text: "Fale com nossos especialistas agora mesmo, envie uma estimativa das suas medidas e receba um orçamento personalizado, transparente e sem compromisso para o seu box de banheiro na Casa Verde.",
+      },
+    ],
+  },
   {
     slug: "box-de-banheiro-no-tucuruvi",
     title: "Box de Banheiro no Tucuruvi: Instalação Rápida, Segurança e Custo-Benefício com Projeto Vidros",
