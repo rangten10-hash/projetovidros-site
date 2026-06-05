@@ -66,6 +66,7 @@ import boxBanheiroSantanaCapa from "@/assets/blog-box-banheiro-santana-capa.png"
 import boxBanheiroMandaquiCapa from "@/assets/blog-box-banheiro-mandaqui-capa.png";
 import boxBanheiroTucuruviCapa from "@/assets/blog-box-banheiro-tucuruvi-capa.png";
 import boxBanheiroCasaVerdeCapa from "@/assets/blog-box-banheiro-casa-verde-capa.png";
+import boxBanheiroVilaMariaCapa from "@/assets/blog-box-banheiro-vila-maria-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -95,6 +96,101 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-de-banheiro-na-vila-maria",
+    title: "Box de Banheiro na Vila Maria: Qualidade, Instalação Rápida e Segurança com Projeto Vidros",
+    excerpt:
+      "Box de banheiro na Vila Maria com vidro temperado, película anti-estilhaço e instalação rápida. Atendimento especializado na Zona Norte de SP com a Projeto Vidros.",
+    image: boxBanheiroVilaMariaCapa,
+    imageAlt:
+      "Box de banheiro na Vila Maria - Projeto Vidros, Zona Norte de São Paulo",
+    date: "2026-06-10",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box de banheiro na Vila Maria com qualidade, instalação rápida e segurança. Vidro temperado e película anti-estilhaço com a Projeto Vidros na Zona Norte de SP.",
+    cta: {
+      label: "Quero meu Box na Vila Maria",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Para quem mora na Vila Maria, na Zona Norte de São Paulo, cuidar do lar e investir na valorização do imóvel é tradição. E quando pensamos em reforma ou modernização, o banheiro é um dos ambientes que mais merecem atenção. Instalar o box de vidro ideal vai muito além de apenas segurar a água do chuveiro: traz amplitude, organiza o espaço e dá um toque de sofisticação essencial para o seu dia a dia.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, somos especialistas em transformar banheiros na região, trazendo soluções sob medida com alta durabilidade, acabamento impecável e o respeito aos prazos que a sua obra exige.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroVilaMariaCapa,
+        alt: "Box de banheiro na Vila Maria com vidro temperado e instalação rápida - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Por Que Escolher a Projeto Vidros na Vila Maria?",
+      },
+      {
+        type: "paragraph",
+        text: "Procurar uma vidraçaria na Vila Maria de confiança e que entregue um serviço de alto padrão não precisa ser dor de cabeça. A Projeto Vidros se destaca na Zona Norte pelos seguintes diferenciais:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Atendimento Próximo e Veloz:", text: "nossa equipe está sempre circulando pela região da Vila Maria, Vila Guilherme e Parque Novo Mundo. Isso significa que conseguimos agendar sua visita técnica de medição e a instalação com muito mais agilidade." },
+          { strong: "Componentes de Primeira Linha:", text: "só trabalhamos com vidros temperados regulamentados e kits de alumínio de alta resistência. Suas roldanas vão deslizar macias por anos, sem travar e sem balançar." },
+          { strong: "Proteção Máxima — Box com Película Anti-Estilhaço:", text: "esse é o nosso grande diferencial para a segurança da sua casa. O banheiro é um ambiente úmido e escorregadio, onde acidentes podem acontecer. Pensando na proteção de crianças e idosos, oferecemos a aplicação da película de segurança no seu box de vidro na Vila Maria. Caso o vidro sofra um impacto muito forte e quebre, os fragmentos não caem no chão; eles ficam totalmente colados na película, evitando cortes e acidentes sérios até que a nossa equipe faça a manutenção." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Modelos de Box de Vidro Mais Pedidos na Região",
+      },
+      {
+        type: "paragraph",
+        text: "Temos o design ideal para valorizar o layout do seu banheiro:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box de Correr (Tradicional):", text: "o grande campeão de vendas por sua praticidade e excelente custo-benefício, ideal para vãos padrão de apartamentos e casas." },
+          { strong: "Box com Kit Reto (Moderno):", text: "o queridinho dos novos projetos. Com linhas retas e acabamento quadrado, ele dá um visual minimalista e luxuoso ao banheiro, além de ser liso e incrivelmente fácil de limpar no dia a dia." },
+          { strong: "Box Articulado (Flex):", text: "a engenharia perfeita para banheiros pequenos ou com vãos apertados. Ele dobra sobre si mesmo e garante a maior abertura de passagem possível para o seu banho." },
+          { strong: "Box de Canto (Em L):", text: "perfeito para banheiros onde o chuveiro fica posicionado no encontro de duas paredes, otimizando o espaço ao máximo." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-tradicional-kit-reto",
+        label: "Ver Box Tradicional Kit Reto",
+        description: "Conheça o modelo moderno com perfis retos e acabamento minimalista:",
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Solicite Seu Orçamento de Box na Vila Maria!",
+      },
+      {
+        type: "paragraph",
+        text: "Trabalhamos com preços competitivos direto de fábrica e ótimas condições de parcelamento para que você possa concluir a sua reforma sem estourar o orçamento.",
+      },
+      {
+        type: "paragraph",
+        text: "Entre em contato com a nossa equipe agora mesmo, envie uma estimativa das medidas do seu vão e receba um orçamento rápido, transparente e sem compromisso para o seu box de banheiro na Vila Maria.",
+      },
+    ],
+  },
   {
     slug: "box-de-banheiro-na-casa-verde",
     title: "Box de Banheiro na Casa Verde: Proteção, Elegância e Instalação sob Medida com Projeto Vidros",
