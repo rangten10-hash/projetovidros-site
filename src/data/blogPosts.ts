@@ -63,6 +63,7 @@ import kitRetoVsRedondoCapa from "@/assets/blog-kit-reto-vs-redondo-capa.png";
 import kitRedondoPerfil from "@/assets/blog-kit-redondo-perfil.png";
 import kitRetoPerfil from "@/assets/blog-kit-reto-perfil.png";
 import boxBanheiroSantanaCapa from "@/assets/blog-box-banheiro-santana-capa.png";
+import boxBanheiroMandaquiCapa from "@/assets/blog-box-banheiro-mandaqui-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -92,6 +93,101 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-de-banheiro-no-mandaqui",
+    title: "Box de Banheiro no Mandaqui: Modernidade, Segurança e Sob Medida com Projeto Vidros",
+    excerpt:
+      "Box de banheiro no Mandaqui com vidro temperado, película anti-estilhaço e projeto sob medida. Atendimento rápido em toda a Zona Norte de SP com a Projeto Vidros.",
+    image: boxBanheiroMandaquiCapa,
+    imageAlt:
+      "Box de banheiro no Mandaqui - Projeto Vidros, Zona Norte de São Paulo",
+    date: "2026-06-07",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box de banheiro no Mandaqui com vidro temperado, película anti-estilhaço e projeto sob medida. Atendimento rápido em toda a Zona Norte de SP.",
+    cta: {
+      label: "Quero meu Box no Mandaqui",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Quem mora no Mandaqui, na Zona Norte de São Paulo, valoriza a tranquilidade e o conforto de um dos bairros mais tradicionais da região. Na hora de reformar ou planejar a casa, cada detalhe conta — e o box de banheiro é uma peça-chave para garantir um ambiente prático, limpo e visualmente amplo.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, desenvolvemos projetos sob medida que se adaptam perfeitamente ao estilo do seu lar, trazendo sofisticação e a máxima eficiência que o seu espaço merece.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroMandaquiCapa,
+        alt: "Box de banheiro no Mandaqui com vidro temperado e projeto sob medida - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Por Que a Projeto Vidros é a Escolha Certa no Mandaqui?",
+      },
+      {
+        type: "paragraph",
+        text: "Se você está procurando uma vidraçaria no Mandaqui ou nas proximidades da Avenida Engenheiro Caetano Álvares, sabe que a proximidade e a confiança fazem toda a diferença na hora de contratar um serviço. Veja por que somos líderes na região:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Atendimento rápido e visita técnica local:", text: "por cobrirmos toda a Zona Norte, nossa equipe chega muito mais rápido ao Mandaqui, Santana, Tremembé e Lauzane Paulista para tirar as medidas exatas e esclarecer todas as suas dúvidas." },
+          { strong: "Projetos de alto padrão:", text: "cuidamos desde a escolha dos perfis de alumínio até a regulagem fina das roldanas. O resultado é um box que desliza suavemente e tem altíssima durabilidade." },
+          { strong: "Proteção essencial — Película Anti-Estilhaço:", text: "todos os nossos modelos de box de vidro no Mandaqui contam com a opção de aplicação da película de segurança. Se o vidro temperado sofrer um impacto forte e quebrar, os pedaços ficam totalmente colados na película, evitando acidentes — um cuidado indispensável para quem tem crianças ou idosos em casa." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Os Modelos de Box de Vidro Mais Procurados no Mandaqui",
+      },
+      {
+        type: "paragraph",
+        text: "Independentemente do tamanho do seu banheiro, nós temos o design ideal:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box de Correr (Tradicional):", text: "perfeito para vãos padrão, unindo o melhor custo-benefício do mercado com um visual clean e moderno." },
+          { strong: "Box Articulado (Flex):", text: "a melhor engenharia para banheiros pequenos. As portas dobram entre si, liberando quase 90% do espaço de passagem do vão." },
+          { strong: "Box de Canto (Em L):", text: "excelente para aproveitar o canto do ambiente em banheiros quadrados ou com furação centralizada." },
+          { strong: "Box com Kit Reto:", text: "a nova tendência da arquitetura. Linhas retas e acabamento quadrado que dão um toque minimalista e de luxo, além de ser muito mais fácil de limpar." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-tradicional-kit-reto",
+        label: "Ver Box Tradicional Kit Reto",
+        description: "Conheça o modelo queridinho dos arquitetos com perfis minimalistas e vidro 8mm:",
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Peça Seu Orçamento de Box de Banheiro no Mandaqui!",
+      },
+      {
+        type: "paragraph",
+        text: "Valorize o seu imóvel com quem entrega preço justo, pontualidade e garantia de fábrica na Zona Norte. Não feche o seu projeto sem antes falar com nossos especialistas.",
+      },
+      {
+        type: "paragraph",
+        text: "Entre em contato agora mesmo, informe o modelo desejado ou as medidas do seu espaço para receber um orçamento rápido, prático e sem compromisso.",
+      },
+    ],
+  },
   {
     slug: "box-de-banheiro-em-santana",
     title: "Box de Banheiro em Santana: Qualidade, Segurança e Instalação Rápida com Projeto Vidros",
