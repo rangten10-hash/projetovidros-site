@@ -59,6 +59,9 @@ import boxFlexZonaNorteCapa from "@/assets/blog-box-flex-zona-norte-capa.png";
 import peliculaSegurancaZonaNorteCapa from "@/assets/blog-pelicula-seguranca-zona-norte-capa.png";
 import precoBoxBanheiroSpCapa from "@/assets/blog-preco-box-banheiro-sp-capa.png";
 import precoBoxBanheiroSpPromo from "@/assets/blog-preco-box-banheiro-sp-promo.png";
+import kitRetoVsRedondoCapa from "@/assets/blog-kit-reto-vs-redondo-capa.png";
+import kitRedondoPerfil from "@/assets/blog-kit-redondo-perfil.png";
+import kitRetoPerfil from "@/assets/blog-kit-reto-perfil.png";
 
 export interface BlogPost {
   slug: string;
@@ -88,6 +91,96 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "kit-reto-ou-kit-redondo-box-banheiro",
+    title: "Kit Reto ou Kit Redondo: Qual o Melhor Acabamento para Box de Banheiro?",
+    excerpt:
+      "Entenda a diferença entre Kit Reto e Kit Redondo no box de banheiro: design, limpeza, vedação e qual o melhor custo-benefício na Zona Norte de SP.",
+    image: kitRetoVsRedondoCapa,
+    imageAlt:
+      "Comparativo Kit Reto vs Kit Redondo para box de banheiro - Projeto Vidros",
+    date: "2026-06-05",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Kit Reto ou Kit Redondo no box de banheiro? Compare design, limpeza e vedação. Veja por que o Kit Reto é a escolha mais procurada em São Paulo.",
+    cta: {
+      label: "Quero meu Box com Kit Reto",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Na hora de instalar ou trocar o box do banheiro, a maioria das pessoas foca apenas na escolha do vidro. No entanto, existe um detalhe fundamental que define tanto a beleza quanto a facilidade de limpeza do seu espaço: o kit de acabamento (os perfis de alumínio e roldanas).",
+      },
+      {
+        type: "paragraph",
+        text: "Se você está pesquisando opções em uma vidraçaria na Zona Norte de São Paulo, com certeza vai se deparar com duas opções principais: o Kit Reto e o Kit Redondo. Mas afinal, qual deles vale mais a pena? Abaixo, a Projeto Vidros explica as diferenças para você não errar na escolha.",
+      },
+      {
+        type: "heading",
+        text: "O Tradicional Kit Redondo (Modelo Convencional)",
+      },
+      {
+        type: "image",
+        src: kitRedondoPerfil,
+        alt: "Perfil de alumínio do Kit Redondo tradicional para box de banheiro",
+      },
+      {
+        type: "paragraph",
+        text: "O kit redondo foi o padrão de mercado por muitos anos. Ele traz perfis de alumínio com bordas curvas e roldanas aparentes arredondadas.",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Vantagem:", text: "é um modelo muito conhecido e instalado em larga escala." },
+          { strong: "Desvantagem:", text: "o design curvo e os encaixes desse modelo tendem a acumular mais frestas. Com o tempo, o vapor do chuveiro e o acúmulo de xampu ou sabonete nessas curvas tornam a limpeza diária muito mais difícil, exigindo mais esforço para evitar manchas de limo." },
+        ],
+      },
+      {
+        type: "heading",
+        text: "O Moderno Kit Reto: Tendência Absoluta",
+      },
+      {
+        type: "image",
+        src: kitRetoPerfil,
+        alt: "Perfil de alumínio Kit Reto com linhas retas e design minimalista",
+      },
+      {
+        type: "paragraph",
+        text: "O Kit Reto é o queridinho dos arquitetos e designers de interiores atualmente. Ele possui linhas retas, cantos quadrados e um design totalmente minimalista (clean).",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Estética moderna:", text: "deixa o banheiro com uma aparência muito mais sofisticada e luxuosa, combinando perfeitamente com metais quadrados (torneiras e chuveiros modernos)." },
+          { strong: "Limpeza muito mais fácil:", text: "por não ter reentrâncias curvas ou roldanas saltadas para fora, a superfície do alumínio é lisa. Um simples pano com rodo passa direto, evitando o acúmulo de sujeira nos cantos." },
+          { strong: "Visual clean:", text: "esconde melhor os sistemas de rolamento, focando o olhar no que realmente importa: o brilho do vidro." },
+        ],
+      },
+      {
+        type: "heading",
+        text: "Qual a Melhor Opção de Custo-Benefício em São Paulo?",
+      },
+      {
+        type: "paragraph",
+        text: "Se você busca o banheiro dos sonhos sem estourar o orçamento da sua reforma, o Box Tradicional com Kit Reto é o campeão absoluto hoje. Muitas pessoas pensam que por ser um modelo moderno e de alto padrão, o preço seria absurdo. Mas na Projeto Vidros, nós democratizamos esse acesso para a região de São Paulo.",
+      },
+      {
+        type: "paragraph",
+        text: "Você pode garantir o seu Box com Kit Reto, Vidro 8mm Temperado e Instalação Inclusa com parcelas a partir de 12x de R$ 89,00. É a chance de modernizar a sua casa pagando o menor preço da Zona Norte.",
+      },
+      {
+        type: "internalLink",
+        href: "/box-tradicional-kit-reto",
+        label: "Ver fotos do Box Tradicional Kit Reto",
+        description: "Confira o modelo completo, cores de perfil disponíveis e detalhes técnicos:",
+      },
+      {
+        type: "paragraph",
+        text: "Não feche o seu box sem falar com a nossa equipe. Envie as medidas aproximadas do seu vão pelo WhatsApp e receba um orçamento rápido e sem compromisso direto com nossos especialistas.",
+      },
+    ],
+  },
   {
     slug: "preco-box-banheiro-sao-paulo-zona-norte",
     title: "Preço de Box de Banheiro em São Paulo na Zona Norte: Qual o Valor Médio e Onde Encontrar o Melhor Custo-Benefício?",
