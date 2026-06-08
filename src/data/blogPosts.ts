@@ -70,6 +70,7 @@ import boxBanheiroVilaMariaCapa from "@/assets/blog-box-banheiro-vila-maria-capa
 import boxBanheiroJacanaCapa from "@/assets/blog-box-banheiro-jacana-capa.png";
 import boxBanheiroFreguesiaDoOCapa from "@/assets/blog-box-banheiro-freguesia-do-o-capa.png";
 import boxBanheiroImirimCapa from "@/assets/blog-box-banheiro-imirim-capa.png";
+import boxBanheiroVilaGuilhermeCapa from "@/assets/blog-box-banheiro-vila-guilherme-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -99,6 +100,101 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-de-banheiro-na-vila-guilherme",
+    title: "Box de Banheiro na Vila Guilherme: Instalação Rápida, Design Moderno e Segurança com Projeto Vidros",
+    excerpt:
+      "Box de banheiro na Vila Guilherme com vidro temperado, película anti-estilhaço e instalação sob medida. Atendimento rápido na Zona Norte de SP com a Projeto Vidros.",
+    image: boxBanheiroVilaGuilhermeCapa,
+    imageAlt:
+      "Box de banheiro na Vila Guilherme - Projeto Vidros, Zona Norte de São Paulo",
+    date: "2026-06-14",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box de banheiro na Vila Guilherme com instalação rápida, design moderno e segurança. Vidro temperado e película anti-estilhaço com a Projeto Vidros na Zona Norte de SP.",
+    cta: {
+      label: "Quero meu Box na Vila Guilherme",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Quem mora na Vila Guilherme, na Zona Norte de São Paulo, sabe a importância de contar com fornecedores integrados e eficientes para cuidar do lar. Seja para reformar um imóvel tradicional ou para mobiliar um dos novos apartamentos da região, o box de banheiro é uma das peças mais importantes. Ele delimita a área do chuveiro com elegância, evita que a água se espalhe e traz um toque de sofisticação imediato ao ambiente.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, somos especialistas em desenvolver projetos de boxes sob medida, combinando o melhor preço da região com materiais de alta durabilidade e uma instalação limpa e segura.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroVilaGuilhermeCapa,
+        alt: "Box de banheiro na Vila Guilherme com vidro temperado e instalação sob medida - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Por Que Escolher a Projeto Vidros na Vila Guilherme?",
+      },
+      {
+        type: "paragraph",
+        text: "Encontrar uma vidraçaria na Vila Guilherme que ofereça atendimento rápido, preço justo de fábrica e cumprimento rigoroso de prazos não precisa ser um desafio. A Projeto Vidros se destaca na Zona Norte por entregar total tranquilidade na sua obra:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Visita Técnica e Entrega Acelerada:", text: "por estarmos muito próximos e atendendo diariamente a Vila Guilherme, Vila Maria e Santana, conseguimos enviar nossa equipe técnica rapidamente para fazer a medição milimétrica do seu vão, eliminando erros no projeto." },
+          { strong: "Componentes de Alta Durabilidade:", text: "nossos kits de instalação utilizam perfis de alumínio estruturado que resistem à umidade constante do banheiro e roldanas blindadas de rolamento suave, garantindo que a sua porta deslize macia por muitos anos." },
+          { strong: "Diferencial Exclusivo — Película Anti-Estilhaço de Segurança:", text: "o banheiro é a área mais úmida e escorregadia da casa. Para proteger quem você ama — especialmente crianças e idosos —, a Projeto Vidros oferece a aplicação opcional da película de segurança em todos os seus modelos de box de vidro na Vila Guilherme. Caso o vidro temperado sofra um impacto severo e quebre, os fragmentos ficam colados na película, impedindo que se espalhem pelo chão e evitando acidentes graves até a troca do vidro." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Os Modelos de Box Mais Procurados na Região",
+      },
+      {
+        type: "paragraph",
+        text: "Temos a solução de design ideal para o tamanho e formato do seu banheiro:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box de Correr (Tradicional):", text: "o grande campeão de vendas devido à sua praticidade no dia a dia e excelente custo-benefício para vãos padrão." },
+          { strong: "Box com Kit Reto (Moderno):", text: "o preferido dos arquitetos. Substitui as linhas curvas tradicionais por perfis quadrados e minimalistas. Deixa o ambiente com visual clean, digno de hotel de luxo, e possui superfícies lisas que facilitam muito a limpeza." },
+          { strong: "Box Articulado (Flex):", text: "a engenharia ideal para banheiros compactos de novos apartamentos na Vila Guilherme. Ele dobra sobre si mesmo e libera até 90% da largura do vão para a passagem." },
+          { strong: "Box de Canto (Em L):", text: "projetado sob medida para aproveitar ao máximo o encontro das paredes em banheiros quadrados." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-tradicional-kit-reto",
+        label: "Ver Box Tradicional Kit Reto",
+        description: "Conheça o modelo moderno com perfis retos e acabamento minimalista:",
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Solicite Seu Orçamento na Vila Guilherme!",
+      },
+      {
+        type: "paragraph",
+        text: "Garantimos preços competitivos direto de fábrica e excelentes condições de parcelamento para você concluir o seu projeto sem estourar o orçamento da reforma.",
+      },
+      {
+        type: "paragraph",
+        text: "Entre em contato com a nossa equipe agora mesmo pelo WhatsApp, envie as medidas aproximadas do seu espaço e receba um orçamento rápido, transparente e sem compromisso para o seu box de banheiro na Vila Guilherme.",
+      },
+    ],
+  },
   {
     slug: "box-de-banheiro-no-imirim",
     title: "Box de Banheiro no Imirim: Instalação Sob Medida, Custo-Benefício e Segurança com Projeto Vidros",
