@@ -69,6 +69,7 @@ import boxBanheiroCasaVerdeCapa from "@/assets/blog-box-banheiro-casa-verde-capa
 import boxBanheiroVilaMariaCapa from "@/assets/blog-box-banheiro-vila-maria-capa.png";
 import boxBanheiroJacanaCapa from "@/assets/blog-box-banheiro-jacana-capa.png";
 import boxBanheiroFreguesiaDoOCapa from "@/assets/blog-box-banheiro-freguesia-do-o-capa.png";
+import boxBanheiroImirimCapa from "@/assets/blog-box-banheiro-imirim-capa.png";
 
 export interface BlogPost {
   slug: string;
