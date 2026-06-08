@@ -68,6 +68,7 @@ import boxBanheiroTucuruviCapa from "@/assets/blog-box-banheiro-tucuruvi-capa.pn
 import boxBanheiroCasaVerdeCapa from "@/assets/blog-box-banheiro-casa-verde-capa.png";
 import boxBanheiroVilaMariaCapa from "@/assets/blog-box-banheiro-vila-maria-capa.png";
 import boxBanheiroJacanaCapa from "@/assets/blog-box-banheiro-jacana-capa.png";
+import boxBanheiroFreguesiaDoOCapa from "@/assets/blog-box-banheiro-freguesia-do-o-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -97,6 +98,101 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-de-banheiro-na-freguesia-do-o",
+    title: "Box de Banheiro na Freguesia do Ó: Qualidade, Segurança e Modernidade com Projeto Vidros",
+    excerpt:
+      "Box de banheiro na Freguesia do Ó com vidro temperado, película anti-estilhaço e instalação sob medida. Atendimento rápido na Zona Norte de SP com a Projeto Vidros.",
+    image: boxBanheiroFreguesiaDoOCapa,
+    imageAlt:
+      "Box de banheiro na Freguesia do Ó - Projeto Vidros, Zona Norte de São Paulo",
+    date: "2026-06-12",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box de banheiro na Freguesia do Ó com qualidade, segurança e modernidade. Vidro temperado e película anti-estilhaço com a Projeto Vidros na Zona Norte de SP.",
+    cta: {
+      label: "Quero meu Box na Freguesia do Ó",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Quem mora na Freguesia do Ó, na Zona Norte de São Paulo, conhece bem o valor de um bairro que une história, tradição e constante modernização. Seja para renovar uma casa tradicional ou para decorar um dos novos apartamentos da região, o box de banheiro é um item indispensável. Ele valoriza o imóvel, organiza o espaço e transforma a área de banho em um ambiente sofisticado e prático para o dia a dia.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, criamos projetos sob medida que se adaptam perfeitamente ao layout do seu banheiro, unindo a beleza do alto padrão com a agilidade na entrega.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroFreguesiaDoOCapa,
+        alt: "Box de banheiro na Freguesia do Ó com vidro temperado e instalação sob medida - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Por Que Chamar a Projeto Vidros na Freguesia do Ó?",
+      },
+      {
+        type: "paragraph",
+        text: "Se você procura uma vidraçaria na Freguesia do Ó ou nas proximidades da Avenida Inajar de Souza e da Marginal Tietê, sabe que agilidade no atendimento e compromisso com o prazo mudam o jogo na reforma. Veja por que somos líderes na Zona Norte:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Atendimento Local e Visita Rápida:", text: "pela nossa proximidade com a região, nossa equipe técnica chega rapidamente à Freguesia do Ó, Bairro do Limão e Pirituba para realizar a medição milimétrica do seu espaço, garantindo que o box encaixe perfeitamente." },
+          { strong: "Durabilidade e Funcionamento Suave:", text: "trabalhamos apenas com alumínio estruturado e roldanas blindadas de alta performance. Seu box desliza macio, não trava e mantém a vedação da água por muitos anos." },
+          { strong: "Segurança Exclusiva — Box com Película Anti-Estilhaço:", text: "o banheiro é a área mais escorregadia da casa. Pensando na proteção de quem você ama — especialmente crianças e idosos —, a Projeto Vidros oferece a aplicação da película de segurança em todos os modelos de box de vidro na Freguesia do Ó. Se o vidro temperado sofrer um impacto muito forte e quebrar, todos os fragmentos ficam colados na película, impedindo que se espalhem pelo chão e evitando acidentes sérios até a troca do vidro." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Os Modelos de Box Mais Desejados na Região",
+      },
+      {
+        type: "paragraph",
+        text: "Temos a solução de design ideal para o tamanho do seu ambiente:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box de Correr (Tradicional):", text: "o modelo clássico que nunca sai de moda, unindo praticidade com o melhor custo-benefício para vãos padrão." },
+          { strong: "Box com Kit Reto (Moderno):", text: "o preferido dos arquitetos atualmente. Substitui as linhas curvas tradicionais por perfis quadrados e minimalistas. O visual fica super luxuoso e as superfícies lisas são muito mais fáceis de limpar, evitando o acúmulo de sujeira nos cantos." },
+          { strong: "Box Articulado (Flex):", text: "uma verdadeira solução inteligente para os banheiros compactos dos novos apartamentos na Freguesia. Ele dobra sobre si mesmo e libera quase toda a largura para a passagem." },
+          { strong: "Box de Canto (Em L):", text: "sob medida para aproveitar o espaço ao máximo em banheiros com o chuveiro instalado no canto das paredes." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-tradicional-kit-reto",
+        label: "Ver Box Tradicional Kit Reto",
+        description: "Conheça o modelo moderno com perfis retos e acabamento minimalista:",
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Solicite Seu Orçamento na Freguesia do Ó!",
+      },
+      {
+        type: "paragraph",
+        text: "Garantimos preços competitivos de fábrica e facilidade no pagamento para você tirar o seu projeto do papel hoje mesmo, sem estourar o orçamento da obra.",
+      },
+      {
+        type: "paragraph",
+        text: "Entre em contato com a nossa equipe agora mesmo pelo WhatsApp, envie uma estimativa das medidas do seu vão e receba um orçamento rápido, transparente e sem compromisso para o seu box de banheiro na Freguesia do Ó.",
+      },
+    ],
+  },
   {
     slug: "box-de-banheiro-no-jacana",
     title: "Box de Banheiro no Jaçanã: Economia, Durabilidade e Segurança com Projeto Vidros",
