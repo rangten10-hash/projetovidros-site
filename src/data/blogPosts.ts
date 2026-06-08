@@ -70,6 +70,7 @@ import boxBanheiroVilaMariaCapa from "@/assets/blog-box-banheiro-vila-maria-capa
 import boxBanheiroJacanaCapa from "@/assets/blog-box-banheiro-jacana-capa.png";
 import boxBanheiroFreguesiaDoOCapa from "@/assets/blog-box-banheiro-freguesia-do-o-capa.png";
 import boxBanheiroImirimCapa from "@/assets/blog-box-banheiro-imirim-capa.png";
+import boxBanheiroVilaGuilhermeCapa from "@/assets/blog-box-banheiro-vila-guilherme-capa.png";
 
 export interface BlogPost {
   slug: string;
