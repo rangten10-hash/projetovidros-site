@@ -71,6 +71,7 @@ import boxBanheiroJacanaCapa from "@/assets/blog-box-banheiro-jacana-capa.png";
 import boxBanheiroFreguesiaDoOCapa from "@/assets/blog-box-banheiro-freguesia-do-o-capa.png";
 import boxBanheiroImirimCapa from "@/assets/blog-box-banheiro-imirim-capa.png";
 import boxBanheiroVilaGuilhermeCapa from "@/assets/blog-box-banheiro-vila-guilherme-capa.png";
+import boxBanheiroLimaoCapa from "@/assets/blog-box-banheiro-limao-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -100,6 +101,94 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-de-banheiro-no-bairro-do-limao",
+    title: "Box de Banheiro no Bairro do Limão: Instalação Rápida, Segurança e Modernidade com Projeto Vidros",
+    excerpt:
+      "Box de banheiro no Bairro do Limão com vidro temperado, película anti-estilhaço e instalação sob medida. Atendimento rápido na Zona Norte de SP com a Projeto Vidros.",
+    image: boxBanheiroLimaoCapa,
+    imageAlt:
+      "Box de banheiro no Bairro do Limão - Projeto Vidros, Zona Norte de São Paulo",
+    date: "2026-06-15",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Procurando Box de Banheiro no Bairro do Limão? A Projeto Vidros oferece instalação rápida, design moderno e a segurança exclusiva da película anti-estilhaço. Solicite seu orçamento via WhatsApp hoje mesmo!",
+    cta: {
+      label: "Quero meu Box no Bairro do Limão",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Quem mora ou está construindo no Bairro do Limão, na Zona Norte de São Paulo, sabe como a região é estratégica e cheia de novos empreendimentos residenciais de alto padrão. Na hora de planejar a sua reforma, a escolha do box de vidro ideal faz toda a diferença para valorizar o imóvel, ampliar o ambiente e garantir a praticidade na limpeza diária.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, criamos projetos sob medida que se adaptam perfeitamente ao estilo da sua casa ou apartamento no Limão, unindo estética premium com agilidade real na entrega.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroLimaoCapa,
+        alt: "Box de banheiro no Bairro do Limão com vidro temperado e instalação sob medida - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Por Que Escolher a Projeto Vidros no Bairro do Limão?",
+      },
+      {
+        type: "paragraph",
+        text: "Encontrar uma vidraçaria no Bairro do Limão de confiança e que garanta um acabamento impecável não precisa ser um desafio. Veja os diferenciais que nos tornam líderes na Zona Norte:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Atendimento Ágil e Visita Técnica Local:", text: "como nossa equipe atende diariamente o Bairro do Limão, a Freguesia do Ó e a Casa Verde, conseguimos agendar medições milimétricas rapidamente, evitando qualquer erro de projeto ou atraso na sua obra." },
+          { strong: "Componentes de Alta Durabilidade:", text: "nossos boxes contam com kits de alumínio estruturado que não mancham com o vapor do chuveiro e roldanas blindadas que garantem um deslize suave por muitos anos." },
+          { strong: "Segurança Essencial — Box com Película Anti-Estilhaço:", text: "o banheiro é a área mais escorregadia da casa. Para garantir a total tranquilidade de quem tem crianças ou idosos, a Projeto Vidros oferece a aplicação opcional da nossa película de segurança. Se o vidro temperado sofrer um impacto muito forte e quebrar, todos os fragmentos ficam colados na película, impedindo que se espalhem pelo chão e evitando acidentes sérios." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Modelos de Box de Vidro Mais Procurados no Bairro do Limão",
+      },
+      {
+        type: "paragraph",
+        text: "Temos o design certo para valorizar cada centímetro do seu banheiro:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box de Correr no Limão (Tradicional):", text: "o grande campeão de vendas por sua praticidade e excelente custo-benefício em vãos padrão." },
+          { strong: "Box com Kit Reto no Limão (Tendência):", text: "o queridinho dos arquitetos. Substitui as linhas curvas por perfis quadrados e minimalistas, deixando o ambiente com cara de hotel de luxo e facilitando muito a limpeza." },
+          { strong: "Box Articulado no Limão (Flex):", text: "a engenharia perfeita para os banheiros compactos dos novos apartamentos na Zona Norte. Ele dobra sobre si mesmo e libera até 90% da largura do vão para a passagem do banho." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Solicite Seu Orçamento de Box de Banheiro no Bairro do Limão!",
+      },
+      {
+        type: "paragraph",
+        text: "Garantimos preços competitivos de fábrica e ótimas condições de parcelamento para você concluir a sua reforma sem estourar o orçamento.",
+      },
+      {
+        type: "paragraph",
+        text: "Entre em contato conosco agora mesmo pelo WhatsApp, envie uma estimativa das suas medidas e receba uma proposta rápida e sem compromisso para o seu box de banheiro no Bairro do Limão.",
+      },
+    ],
+  },
   {
     slug: "box-de-banheiro-na-vila-guilherme",
     title: "Box de Banheiro na Vila Guilherme: Instalação Rápida, Design Moderno e Segurança com Projeto Vidros",
