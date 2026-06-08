@@ -69,6 +69,7 @@ import boxBanheiroCasaVerdeCapa from "@/assets/blog-box-banheiro-casa-verde-capa
 import boxBanheiroVilaMariaCapa from "@/assets/blog-box-banheiro-vila-maria-capa.png";
 import boxBanheiroJacanaCapa from "@/assets/blog-box-banheiro-jacana-capa.png";
 import boxBanheiroFreguesiaDoOCapa from "@/assets/blog-box-banheiro-freguesia-do-o-capa.png";
+import boxBanheiroImirimCapa from "@/assets/blog-box-banheiro-imirim-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -98,6 +99,101 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-de-banheiro-no-imirim",
+    title: "Box de Banheiro no Imirim: Instalação Sob Medida, Custo-Benefício e Segurança com Projeto Vidros",
+    excerpt:
+      "Box de banheiro no Imirim com vidro temperado, película anti-estilhaço e instalação sob medida. Atendimento rápido na Zona Norte de SP com a Projeto Vidros.",
+    image: boxBanheiroImirimCapa,
+    imageAlt:
+      "Box de banheiro no Imirim - Projeto Vidros, Zona Norte de São Paulo",
+    date: "2026-06-13",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Box de banheiro no Imirim com instalação sob medida, custo-benefício e segurança. Vidro temperado e película anti-estilhaço com a Projeto Vidros na Zona Norte de SP.",
+    cta: {
+      label: "Quero meu Box no Imirim",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Quem mora no Imirim, na Zona Norte de São Paulo, sabe como o bairro é prático e bem localizado. Na hora de valorizar o imóvel e trazer mais conforto para o dia a dia da família, a reforma do banheiro é sempre um dos investimentos mais inteligentes. E a escolha do box de vidro correto é o ponto principal para unir beleza, facilidade de limpeza e organização no ambiente.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, somos especialistas em transformar banheiros no Imirim. Desenvolvemos projetos sob medida com vidros temperados de alta resistência e acabamentos modernos que se adaptam perfeitamente ao seu espaço.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroImirimCapa,
+        alt: "Box de banheiro no Imirim com vidro temperado e instalação sob medida - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Por Que Escolher a Projeto Vidros no Imirim?",
+      },
+      {
+        type: "paragraph",
+        text: "Encontrar uma vidraçaria no Imirim ou próximo a avenidas movimentadas como a Imirim e a Direitos Humanos exige a escolha de uma empresa que garanta pontualidade e materiais de procedência. Veja os nossos diferenciais na região:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Atendimento Expresso e Medição Gratuita:", text: "por estarmos muito próximos, nossa equipe técnica atende com agilidade o Imirim, a Casa Verde e o Mandaqui, realizando medições milimétricas para que o seu projeto saia exatamente como planejado." },
+          { strong: "Componentes Premium Duráveis:", text: "nossos kits de instalação utilizam perfis de alumínio reforçado que não sofrem com a umidade do chuveiro, além de roldanas blindadas que mantêm o deslize das portas macio e silencioso por anos." },
+          { strong: "Diferencial Indispensável — Película Anti-Estilhaço:", text: "o banheiro é a área mais úmida e propensa a escorregões da casa. Para garantir a total tranquilidade de quem tem crianças ou idosos em casa, a Projeto Vidros oferece a aplicação da película de segurança em todos os modelos de box de vidro no Imirim. Se o vidro temperado sofrer um impacto severo e quebrar, todos os cacos ficam firmemente colados na película, impedindo que se espalhem e evitando ferimentos sérios até a manutenção do box." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Modelos de Box de Vidro Ideais para o Seu Banheiro",
+      },
+      {
+        type: "paragraph",
+        text: "Temos o design certo para valorizar cada centímetro do seu projeto:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box de Correr (Tradicional):", text: "o queridinho de casas e apartamentos por seu excelente custo-benefício e facilidade de abertura diária." },
+          { strong: "Box com Kit Reto (Tendência):", text: "perfeito para quem busca um acabamento de alto padrão. Traz linhas retas e perfis quadrados que dão um ar minimalista e luxuoso ao banheiro, além de ser plano e muito mais fácil de limpar." },
+          { strong: "Box Articulado (Flex):", text: "a solução perfeita para banheiros com vãos muito apertados. Ele dobra sobre si mesmo e garante até 90% de abertura para a passagem do banho." },
+          { strong: "Box de Canto (Em L):", text: "sob medida para aproveitar de forma inteligente o encontro das paredes em banheiros de formato quadrado." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-tradicional-kit-reto",
+        label: "Ver Box Tradicional Kit Reto",
+        description: "Conheça o modelo moderno com perfis retos e acabamento minimalista:",
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Solicite Seu Orçamento de Box no Imirim!",
+      },
+      {
+        type: "paragraph",
+        text: "Garantimos preços competitivos direto da fábrica e opções facilitadas de parcelamento para você renovar a sua casa sem comprometer o orçamento.",
+      },
+      {
+        type: "paragraph",
+        text: "Entre em contato com a Projeto Vidros agora mesmo pelo WhatsApp, envie as medidas aproximadas do seu vão e receba uma proposta rápida e sem compromisso para o seu box de banheiro no Imirim.",
+      },
+    ],
+  },
   {
     slug: "box-de-banheiro-na-freguesia-do-o",
     title: "Box de Banheiro na Freguesia do Ó: Qualidade, Segurança e Modernidade com Projeto Vidros",
