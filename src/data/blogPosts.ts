@@ -72,6 +72,7 @@ import boxBanheiroFreguesiaDoOCapa from "@/assets/blog-box-banheiro-freguesia-do
 import boxBanheiroImirimCapa from "@/assets/blog-box-banheiro-imirim-capa.png";
 import boxBanheiroVilaGuilhermeCapa from "@/assets/blog-box-banheiro-vila-guilherme-capa.png";
 import boxBanheiroLimaoCapa from "@/assets/blog-box-banheiro-limao-capa.png";
+import boxBanheiroTremembeCapa from "@/assets/blog-box-banheiro-tremembe-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -101,6 +102,94 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-de-banheiro-no-tremembe",
+    title: "Box de Banheiro no Tremembé: Instalação Rápida, Segurança e Modernidade com Projeto Vidros",
+    excerpt:
+      "Box de banheiro no Tremembé com vidro temperado, película anti-estilhaço e instalação sob medida. Atendimento rápido na Zona Norte de SP com a Projeto Vidros.",
+    image: boxBanheiroTremembeCapa,
+    imageAlt:
+      "Box de banheiro no Tremembé - Projeto Vidros, Zona Norte de São Paulo",
+    date: "2026-06-16",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Procurando Box de Banheiro no Tremembé? A Projeto Vidros oferece instalação rápida, design moderno e a segurança exclusiva da película anti-estilhaço. Solicite seu orçamento via WhatsApp hoje mesmo!",
+    cta: {
+      label: "Quero meu Box no Tremembé",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Quem mora ou está construindo na região do Tremembé, na Zona Norte de São Paulo, valoriza a tranquilidade e o contato com a natureza que o bairro oferece, sem abrir mão do conforto e da modernidade dentro de casa. Na hora de planejar a sua reforma ou finalização da obra, a escolha do box de vidro ideal faz toda a diferença para valorizar o imóvel, otimizar o espaço do chuveiro e garantir a praticidade na hora da limpeza.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, criamos projetos sob medida que se adaptam perfeitamente à arquitetura da sua casa ou apartamento no Tremembé, unindo estética premium com agilidade real na entrega.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroTremembeCapa,
+        alt: "Box de banheiro no Tremembé com vidro temperado e instalação sob medida - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Por Que Escolher a Projeto Vidros no Tremembé?",
+      },
+      {
+        type: "paragraph",
+        text: "Encontrar uma vidraçaria no Tremembé de confiança e que garanta um acabamento impecável não precisa ser um desafio para a sua obra. Veja os diferenciais que nos tornam líderes em toda a Zona Norte:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Atendimento Ágil e Visita Técnica no Tremembé:", text: "como a nossa equipe atende diariamente a região do Tremembé, Jardim França e Mandaqui, conseguimos agendar medições milimétricas rapidamente, evitando qualquer erro de projeto ou atraso na sua instalação." },
+          { strong: "Componentes de Alta Durabilidade:", text: "nossos boxes contam com kits de alumínio estruturado que não mancham com o vapor do chuveiro e roldanas blindadas que garantem um deslize suave e silencioso por muitos anos." },
+          { strong: "Segurança Essencial — Box com Película Anti-Estilhaço:", text: "o banheiro é a área mais escorregadia da casa. Para garantir a total tranquilidade da sua família, a Projeto Vidros oferece a aplicação opcional da nossa película de segurança. Se o vidro temperado sofrer um impacto muito forte e quebrar, todos os fragmentos ficam colados na película, impedindo que caiam e evitando acidentes sérios até a manutenção do box." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Modelos de Box de Vidro Mais Procurados no Tremembé",
+      },
+      {
+        type: "paragraph",
+        text: "Temos o design certo para valorizar o layout e o espaço do seu banheiro:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box de Correr no Tremembé (Tradicional):", text: "o grande campeão de vendas por sua praticidade no dia a dia e excelente custo-benefício para vãos padrão." },
+          { strong: "Box com Kit Reto no Tremembé (Tendência):", text: "o queridinho dos arquitetos na Zona Norte. Substitui as linhas curvas por perfis quadrados e minimalistas, deixando o ambiente com cara de hotel de luxo e facilitando muito a limpeza diária." },
+          { strong: "Box Articulado no Tremembé (Flex):", text: "a engenharia perfeita para os espaços compactos de casas e apartamentos. Ele dobra sobre si mesmo e libera até 90% da largura do vão para a passagem do banho." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Solicite Seu Orçamento de Box de Banheiro no Tremembé!",
+      },
+      {
+        type: "paragraph",
+        text: "Garantimos preços competitivos de fábrica e ótimas condições de parcelamento para você concluir a sua reforma sem estourar o orçamento da obra.",
+      },
+      {
+        type: "paragraph",
+        text: "Entre em contato conosco agora mesmo pelo WhatsApp, envie uma estimativa das suas medidas e receba uma proposta rápida e sem compromisso para o seu box de banheiro no Tremembé.",
+      },
+    ],
+  },
   {
     slug: "box-de-banheiro-no-bairro-do-limao",
     title: "Box de Banheiro no Bairro do Limão: Instalação Rápida, Segurança e Modernidade com Projeto Vidros",
