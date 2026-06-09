@@ -73,6 +73,7 @@ import boxBanheiroImirimCapa from "@/assets/blog-box-banheiro-imirim-capa.png";
 import boxBanheiroVilaGuilhermeCapa from "@/assets/blog-box-banheiro-vila-guilherme-capa.png";
 import boxBanheiroLimaoCapa from "@/assets/blog-box-banheiro-limao-capa.png";
 import boxBanheiroTremembeCapa from "@/assets/blog-box-banheiro-tremembe-capa.png";
+import boxBanheiroParadaInglesaCapa from "@/assets/blog-box-banheiro-parada-inglesa-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -102,6 +103,94 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-de-banheiro-na-parada-inglesa",
+    title: "Box de Banheiro na Parada Inglesa: Instalação Rápida, Segurança e Modernidade com Projeto Vidros",
+    excerpt:
+      "Box de banheiro na Parada Inglesa com vidro temperado, película anti-estilhaço e instalação sob medida. Atendimento rápido na Zona Norte de SP com a Projeto Vidros.",
+    image: boxBanheiroParadaInglesaCapa,
+    imageAlt:
+      "Box de banheiro na Parada Inglesa - Projeto Vidros, Zona Norte de São Paulo",
+    date: "2026-06-17",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Procurando Box de Banheiro na Parada Inglesa? A Projeto Vidros oferece instalação rápida, design moderno e a segurança exclusiva da película anti-estilhaço. Solicite seu orçamento via WhatsApp hoje mesmo!",
+    cta: {
+      label: "Quero meu Box na Parada Inglesa",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Quem mora ou está mudando para a Parada Inglesa, na Zona Norte de São Paulo, sabe como o bairro se tornou sinônimo de praticidade e modernidade. Com a grande quantidade de novos condomínios residenciais e estúdios modernos que surgiram perto do metrô, otimizar o espaço sem abrir mão do design virou prioridade. Na hora de planejar o seu banheiro, a escolha do box de vidro correto é o ponto principal para garantir amplitude, elegância e facilidade na limpeza.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, criamos projetos sob medida que se adaptam perfeitamente ao estilo do seu apartamento ou casa na Parada Inglesa, unindo estética premium com agilidade real na entrega.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroParadaInglesaCapa,
+        alt: "Box de banheiro na Parada Inglesa com vidro temperado e instalação sob medida - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Por Que Escolher a Projeto Vidros na Parada Inglesa?",
+      },
+      {
+        type: "paragraph",
+        text: "Encontrar uma vidraçaria na Parada Inglesa de confiança e que garanta um acabamento impecável não precisa ser um desafio para a sua reforma. Veja os diferenciais que nos tornam líderes na Zona Norte:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Atendimento Ágil e Visita Técnica na Parada Inglesa:", text: "como a nossa equipe atende diariamente a região da Parada Inglesa, Santana e Tucuruvi, conseguimos agendar medições milimétricas muito rapidamente, evitando erros de projeto e atrasos na sua obra." },
+          { strong: "Componentes de Alta Durabilidade:", text: "nossos boxes contam com kits de alumínio estruturado que não mancham com o vapor do chuveiro e roldanas blindadas que garantem um deslize suave por muitos anos." },
+          { strong: "Segurança Essencial — Box com Película Anti-Estilhaço:", text: "o banheiro é a área mais úmida e escorregadia da casa. Para garantir a total tranquilidade da sua família, a Projeto Vidros oferece a aplicação opcional da nossa película de segurança. Se o vidro temperado sofrer um impacto muito forte e quebrar, todos os fragmentos ficam colados na película, impedindo que se espalhem pelo chão e evitando acidentes sérios." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Modelos de Box de Vidro Mais Procurados na Parada Inglesa",
+      },
+      {
+        type: "paragraph",
+        text: "Temos o design certo para valorizar cada centímetro do seu banheiro:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box Articulado na Parada Inglesa (Flex):", text: "o grande favorito dos novos apartamentos e estúdios da região. Ele dobra sobre si mesmo e libera até 90% da largura do vão, sendo a engenharia perfeita para banheiros compactos." },
+          { strong: "Box com Kit Reto na Parada Inglesa (Tendência):", text: "o queridinho dos arquitetos. Substitui as linhas curvas por perfis quadrados e minimalistas, deixando o ambiente com cara de hotel de luxo e facilitando muito a limpeza diária." },
+          { strong: "Box de Correr na Parada Inglesa (Tradicional):", text: "o modelo clássico que une excelente custo-benefício e muita praticidade para os vãos de tamanho padrão." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Solicite Seu Orçamento de Box de Banheiro na Parada Inglesa!",
+      },
+      {
+        type: "paragraph",
+        text: "Garantimos preços competitivos de fábrica e ótimas condições de parcelamento para você concluir a sua reforma sem estourar o orçamento.",
+      },
+      {
+        type: "paragraph",
+        text: "Entre em contato conosco agora mesmo pelo WhatsApp, envie uma estimativa das suas medidas e receba uma proposta rápida e sem compromisso para o seu box de banheiro na Parada Inglesa.",
+      },
+    ],
+  },
   {
     slug: "box-de-banheiro-no-tremembe",
     title: "Box de Banheiro no Tremembé: Instalação Rápida, Segurança e Modernidade com Projeto Vidros",
