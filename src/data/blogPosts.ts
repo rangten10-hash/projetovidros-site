@@ -74,6 +74,7 @@ import boxBanheiroVilaGuilhermeCapa from "@/assets/blog-box-banheiro-vila-guilhe
 import boxBanheiroLimaoCapa from "@/assets/blog-box-banheiro-limao-capa.png";
 import boxBanheiroTremembeCapa from "@/assets/blog-box-banheiro-tremembe-capa.png";
 import boxBanheiroParadaInglesaCapa from "@/assets/blog-box-banheiro-parada-inglesa-capa.png";
+import boxBanheiroLauzanePaulistaCapa from "@/assets/blog-box-banheiro-lauzane-paulista-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -103,6 +104,98 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-de-banheiro-no-lauzane-paulista",
+    title: "Box de Banheiro no Lauzane Paulista: Instalação Rápida, Segurança e Modernidade com Projeto Vidros",
+    excerpt:
+      "Box de banheiro no Lauzane Paulista com vidro temperado, película anti-estilhaço e instalação sob medida. Atendimento rápido na Zona Norte de SP com a Projeto Vidros.",
+    image: boxBanheiroLauzanePaulistaCapa,
+    imageAlt:
+      "Box de banheiro no Lauzane Paulista - Projeto Vidros, Zona Norte de São Paulo",
+    date: "2026-06-18",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Procurando Box de Banheiro no Lauzane Paulista? A Projeto Vidros oferece instalação rápida, design moderno e a segurança exclusiva da película anti-estilhaço. Solicite seu orçamento via WhatsApp hoje mesmo!",
+    cta: {
+      label: "Quero meu Box no Lauzane Paulista",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "heading",
+        text: "Renove o Seu Banheiro na Zona Norte com Quem é Referência",
+      },
+      {
+        type: "paragraph",
+        text: "Quem mora ou está reformando no Lauzane Paulista, na Zona Norte de São Paulo, sabe o quanto a região se valorizou e se tornou desejada. Seja perto do Shopping Santana Parque ou nas áreas residenciais do bairro, investir no conforto e na estética do lar é prioridade para os moradores. Na hora de planejar a renovação do seu banheiro, a escolha do box de vidro correto é o ponto principal para garantir amplitude, elegância e facilidade na limpeza diária.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, criamos projetos sob medida que se adaptam perfeitamente ao layout da sua casa ou apartamento no Lauzane Paulista, unindo estética premium com agilidade real na entrega.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroLauzanePaulistaCapa,
+        alt: "Box de banheiro no Lauzane Paulista com vidro temperado e instalação sob medida - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Por Que Escolher a Projeto Vidros no Lauzane Paulista?",
+      },
+      {
+        type: "paragraph",
+        text: "Encontrar uma vidraçaria no Lauzane Paulista de confiança e que garanta um acabamento impecável não precisa ser uma dor de cabeça para a sua obra. Veja os diferenciais que nos tornam líderes em toda a Zona Norte:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Atendimento Ágil e Visita Técnica no Lauzane Paulista:", text: "como a nossa equipe atende diariamente a região do Lauzane, Mandaqui e Santana, conseguimos agendar medições milimétricas muito rapidamente, evitando erros de projeto e atrasos na entrega." },
+          { strong: "Componentes de Alta Durabilidade:", text: "nossos boxes contam com kits de alumínio estruturado que não mancham com o vapor constante do chuveiro e roldanas blindadas que garantem um deslize suave e silencioso por muitos anos." },
+          { strong: "Segurança Essencial — Box com Película Anti-Estilhaço:", text: "o banheiro é uma das áreas mais propensas a escorregões da casa. Para garantir a total tranquilidade da sua família, a Projeto Vidros oferece a aplicação opcional da nossa película de segurança. Se o vidro temperado sofrer um impacto muito forte e quebrar, todos os fragmentos ficam colados na película, impedindo que se espalhem pelo chão e evitando acidentes graves até a manutenção do box." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Modelos de Box de Vidro Mais Procurados no Lauzane Paulista",
+      },
+      {
+        type: "paragraph",
+        text: "Temos o design certo para valorizar cada centímetro do seu banheiro:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box com Kit Reto no Lauzane Paulista (Tendência):", text: "muito procurado nos novos projetos de arquitetura do bairro. Substitui as linhas curvas tradicionais por perfis quadrados e minimalistas, deixando o ambiente com cara de hotel de luxo e facilitando muito a limpeza." },
+          { strong: "Box Articulado no Lauzane Paulista (Flex):", text: "a engenharia perfeita para banheiros compactos ou com vãos apertados. Ele dobra sobre si mesmo e libera até 90% da largura do vão para a passagem do banho." },
+          { strong: "Box de Correr no Lauzane Paulista (Tradicional):", text: "o modelo clássico e consagrado, que une excelente custo-benefício e máxima praticidade para os vãos de tamanho padrão." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Solicite Seu Orçamento de Box de Banheiro no Lauzane Paulista!",
+      },
+      {
+        type: "paragraph",
+        text: "Garantimos preços competitivos de fábrica e ótimas condições de parcelamento para você concluir a sua reforma sem estourar o orçamento.",
+      },
+      {
+        type: "paragraph",
+        text: "Entre em contato conosco agora mesmo pelo WhatsApp, envie uma estimativa das suas medidas e receba uma proposta rápida e sem compromisso para o seu box de banheiro no Lauzane Paulista.",
+      },
+    ],
+  },
   {
     slug: "box-de-banheiro-na-parada-inglesa",
     title: "Box de Banheiro na Parada Inglesa: Instalação Rápida, Segurança e Modernidade com Projeto Vidros",
