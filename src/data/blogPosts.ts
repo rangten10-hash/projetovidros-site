@@ -73,6 +73,7 @@ import boxBanheiroImirimCapa from "@/assets/blog-box-banheiro-imirim-capa.png";
 import boxBanheiroVilaGuilhermeCapa from "@/assets/blog-box-banheiro-vila-guilherme-capa.png";
 import boxBanheiroLimaoCapa from "@/assets/blog-box-banheiro-limao-capa.png";
 import boxBanheiroTremembeCapa from "@/assets/blog-box-banheiro-tremembe-capa.png";
+import boxBanheiroParadaInglesaCapa from "@/assets/blog-box-banheiro-parada-inglesa-capa.png";
 
 export interface BlogPost {
   slug: string;
