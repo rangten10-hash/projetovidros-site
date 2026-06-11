@@ -109,6 +109,99 @@ const WHATSAPP_URL =
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "box-de-banheiro-em-pirituba",
+    title: "Box de Banheiro em Pirituba: Vidraçaria de Confiança, Instalação Rápida e Segurança com Projeto Vidros",
+    excerpt:
+      "Box de vidro em Pirituba com vidro temperado, película anti-estilhaço e instalação sob medida. Vidraçaria em Pirituba com atendimento rápido próximo ao Terminal Pirituba.",
+    image: boxBanheiroPiritubaCapa,
+    imageAlt:
+      "Box de banheiro em Pirituba - Projeto Vidros, próximo ao Terminal Pirituba, São Paulo",
+    date: "2026-06-22",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Procurando Box de Banheiro em Pirituba? A Projeto Vidros é a vidraçaria em Pirituba que oferece instalação rápida, design moderno e a segurança exclusiva da película anti-estilhaço. Solicite seu orçamento via WhatsApp hoje mesmo!",
+    cta: {
+      label: "Quero meu Box em Pirituba",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "heading",
+        text: "Renove o Seu Banheiro em Pirituba com Quem é Referência na Zona Norte/Oeste",
+      },
+      {
+        type: "paragraph",
+        text: "Quem mora ou tem imóvel em Pirituba, na divisa da Zona Norte com a Zona Oeste de São Paulo, sabe que o bairro cresceu muito nos últimos anos. Com novos condomínios surgindo próximos ao Terminal Pirituba, à estação de trem e à Avenida Mutinga, a busca por uma vidraçaria em Pirituba de confiança se tornou essencial. A escolha do box para banheiro em Pirituba é o detalhe que transforma o ambiente, trazendo amplitude, sofisticação e máxima praticidade no dia a dia.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, somos especialistas em projetos de box de vidro em Pirituba sob medida, com instalação limpa, rápida e acabamento premium.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroPiritubaCapa,
+        alt: "Box de banheiro em Pirituba com vidro temperado e instalação sob medida próximo ao Terminal Pirituba - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Por Que Escolher a Projeto Vidros como sua Vidraçaria em Pirituba?",
+      },
+      {
+        type: "paragraph",
+        text: "Atender Pirituba e bairros vizinhos como Vila Pereira Barreto, Jaraguá, São Domingos e Vila Mangalot exige logística eficiente, medição digital sem erros e materiais de primeira linha. A Projeto Vidros já é referência na região, com instalações concluídas em ruas próximas ao Terminal Pirituba, à Praça Cornélia e ao longo da Avenida Mutinga.",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Atendimento Local e Rápido em Pirituba:", text: "estamos próximos da região, com agenda flexível para visitas técnicas em residências e condomínios próximos ao Terminal Pirituba, à estação CPTM e às principais avenidas do bairro." },
+          { strong: "Medição a Laser sem Erros:", text: "conferimos o prumo das paredes e os níveis do piso com tecnologia digital, garantindo vedação total contra vazamentos no seu box para banheiro em Pirituba." },
+          { strong: "Vidro Temperado e Ferragens Premium:", text: "trabalhamos com vidros normatizados de 8 mm e perfis estruturados em alumínio, com roldanas blindadas de rolamento suave que duram muitos anos sem perder a leveza." },
+          { strong: "Proteção Avançada com o Selo Box + Seguro:", text: "o banheiro é a área mais propensa a escorregões da casa. Aplicamos de fábrica a nossa película de segurança de alta resistência. No caso raríssimo de uma quebra por impacto forte, a película retém 100% dos fragmentos de vidro grudados, impedindo que caiam no chão e evitando acidentes sérios até que a troca seja efetuada." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Modelos de Box de Vidro em Pirituba Mais Procurados",
+      },
+      {
+        type: "paragraph",
+        text: "Oferecemos os modelos de box para banheiro em Pirituba que mais combinam com os apartamentos e casas do bairro:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box Kit Reto em Pirituba (Tendência):", text: "o queridinho dos arquitetos e decoradores. Substitui os perfis redondos tradicionais por linhas retas e minimalistas, deixando o banheiro com cara de hotel de luxo e facilitando muito a limpeza." },
+          { strong: "Box Articulado em Pirituba (Flex):", text: "a engenharia perfeita para banheiros compactos ou com vãos apertados, comuns em apartamentos próximos ao Terminal Pirituba. Ele dobra sobre si mesmo e libera até 90% da largura do vão." },
+          { strong: "Box de Correr em Pirituba (Tradicional):", text: "o modelo clássico e consagrado, que une excelente custo-benefício e máxima praticidade para os vãos de tamanho padrão das residências do bairro." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Solicite Seu Orçamento de Box de Banheiro em Pirituba!",
+      },
+      {
+        type: "paragraph",
+        text: "Quer saber mais sobre como a Projeto Vidros pode transformar o seu banheiro em Pirituba? Aproveite para conhecer a nossa tecnologia de Box + Seguro ou veja os detalhes do nosso Box Tradicional Kit Reto.",
+      },
+      {
+        type: "paragraph",
+        text: "Entre em contato conosco agora mesmo pelo WhatsApp, envie uma estimativa das suas medidas e receba uma proposta rápida e sem compromisso para o seu box de vidro em Pirituba.",
+      },
+    ],
+  },
+  {
     slug: "box-de-banheiro-no-city-america",
     title: "Box de Banheiro no City América: Instalação Premium, Segurança e Modernidade com Projeto Vidros",
     excerpt:
