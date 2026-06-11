@@ -176,14 +176,14 @@ const SeoSection = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002B36]/95 via-[#002B36]/55 to-[#002B36]/20" />
               <div className="relative h-full flex flex-col justify-end p-6 md:p-8 text-white">
-                <div className="flex items-center gap-2 text-[hsl(var(--copper))] text-xs font-semibold tracking-[0.25em] uppercase mb-2">
+                <div className="flex items-center gap-2 text-copper text-xs font-semibold tracking-[0.25em] uppercase mb-2">
                   <MapPin className="w-4 h-4" />
                   Cobertura SP
                 </div>
                 <h4 className="font-display text-2xl md:text-3xl leading-tight mb-4">
                   Atendemos em São Paulo
                 </h4>
-                <span className="inline-flex items-center gap-2 self-start bg-[hsl(var(--copper))] hover:bg-[hsl(var(--copper))]/90 text-[#002B36] font-bold text-xs md:text-sm tracking-[0.2em] uppercase px-5 py-3 rounded-md shadow transition-colors">
+                <span className="inline-flex items-center gap-2 self-start bg-copper hover:bg-copper/90 text-[#002B36] font-bold text-xs md:text-sm tracking-[0.2em] uppercase px-5 py-3 rounded-md shadow transition-colors">
                   Veja os Bairros
                   <ArrowRight className="w-4 h-4" />
                 </span>
@@ -197,7 +197,7 @@ const SeoSection = () => {
                   key={region}
                   type="button"
                   onClick={() => setOpen(true)}
-                  className="px-4 py-2 bg-muted hover:bg-[hsl(var(--copper))]/15 hover:text-foreground text-muted-foreground rounded-md text-sm font-medium border border-transparent hover:border-[hsl(var(--copper))]/40 transition-colors"
+                  className="px-4 py-2 bg-muted hover:bg-copper/15 hover:text-foreground text-muted-foreground rounded-md text-sm font-medium border border-transparent hover:border-copper/40 transition-colors"
                 >
                   {region}
                 </button>
@@ -209,10 +209,10 @@ const SeoSection = () => {
 
       {/* Modal com tabela de bairros */}
       <Dialog open={open} onOpenChange={setOpen}>
-        <DialogContent className="max-w-5xl max-h-[90vh] overflow-y-auto bg-background border-[hsl(var(--copper))]/30">
+        <DialogContent className="max-w-5xl max-h-[90vh] overflow-y-auto bg-background border-copper/30">
           <DialogHeader>
             <DialogTitle className="font-display text-2xl md:text-3xl text-foreground text-center">
-              Bairros atendidos em <span className="text-[hsl(var(--copper))]">São Paulo</span>
+              Bairros atendidos em <span className="text-copper">São Paulo</span>
             </DialogTitle>
             <p className="text-center text-muted-foreground text-sm mt-2">
               Clique no seu bairro para ver os serviços de box de vidro e vidraçaria disponíveis.
@@ -225,7 +225,7 @@ const SeoSection = () => {
                 key={zona.titulo}
                 className="rounded-xl border border-border bg-card p-5 animate-in fade-in slide-in-from-bottom-2 duration-500"
               >
-                <h4 className="font-display text-lg text-[#002B36] dark:text-foreground mb-3 pb-2 border-b border-[hsl(var(--copper))]/40">
+                <h4 className="font-display text-lg text-[#002B36] dark:text-foreground mb-3 pb-2 border-b border-copper/40">
                   {zona.titulo}
                 </h4>
                 <ul className="space-y-1.5">
@@ -234,9 +234,9 @@ const SeoSection = () => {
                       <Link
                         to={`/servicos/${b.slug}`}
                         onClick={() => setOpen(false)}
-                        className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-[hsl(var(--copper))] transition-colors"
+                        className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-copper transition-colors"
                       >
-                        <span className="w-1.5 h-1.5 rounded-full bg-[hsl(var(--copper))]/60 group-hover:bg-[hsl(var(--copper))] transition-colors" />
+                        <span className="w-1.5 h-1.5 rounded-full bg-copper/60 group-hover:bg-copper transition-colors" />
                         {b.nome}
                       </Link>
                     </li>
