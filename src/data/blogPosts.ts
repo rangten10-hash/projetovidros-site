@@ -106,6 +106,98 @@ const WHATSAPP_URL =
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "box-de-banheiro-na-vila-nova-cachoeirinha",
+    title: "Box de Banheiro na Vila Nova Cachoeirinha: Instalação Rápida, Segurança e Modernidade com Projeto Vidros",
+    excerpt:
+      "Box de banheiro na Vila Nova Cachoeirinha com vidro temperado, película anti-estilhaço e instalação sob medida. Atendimento rápido na Zona Norte de SP com a Projeto Vidros.",
+    image: boxBanheiroVilaNovaCachoeirinhaCapa,
+    imageAlt:
+      "Box de banheiro na Vila Nova Cachoeirinha - Projeto Vidros, Zona Norte de São Paulo",
+    date: "2026-06-19",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Procurando Box de Banheiro na Vila Nova Cachoeirinha? A Projeto Vidros oferece instalação rápida, design moderno e a segurança exclusiva da película anti-estilhaço. Solicite seu orçamento via WhatsApp hoje mesmo!",
+    cta: {
+      label: "Quero meu Box na Vila Nova Cachoeirinha",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "heading",
+        text: "Renove o Seu Banheiro na Zona Norte com Quem é Referência",
+      },
+      {
+        type: "paragraph",
+        text: "Quem mora ou está reformando na Vila Nova Cachoeirinha, na Zona Norte de São Paulo, sabe como o bairro é vibrante, tradicional e cheio de novas oportunidades de moradia. Na hora de planejar a renovação da sua casa ou apartamento, o banheiro merece uma atenção especial. Escolher o box de vidro correto valoriza o imóvel, organiza o espaço do chuveiro e traz muito mais praticidade para manter o ambiente limpo no dia a dia.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, desenvolvemos projetos sob medida que se adaptam perfeitamente ao estilo do seu lar na Vila Nova Cachoeirinha, unindo acabamento de alto padrão com agilidade real na entrega.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroVilaNovaCachoeirinhaCapa,
+        alt: "Box de banheiro na Vila Nova Cachoeirinha com vidro temperado e instalação sob medida - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Por Que Escolher a Projeto Vidros na Vila Nova Cachoeirinha?",
+      },
+      {
+        type: "paragraph",
+        text: "Encontrar uma vidraçaria na Vila Nova Cachoeirinha de confiança e que garanta um acabamento impecável não precisa ser uma dor de cabeça para a sua obra. Veja os diferenciais que nos tornam líderes em toda a Zona Norte:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Atendimento Ágil e Visita Técnica na Cachoeirinha:", text: "como a nossa equipe atende diariamente a região da Vila Nova Cachoeirinha, do Imirim e do Bairro do Limão, conseguimos agendar medições milimétricas rapidamente, evitando erros de projeto e atrasos na sua entrega." },
+          { strong: "Componentes de Alta Durabilidade:", text: "nossos boxes contam com kits de alumínio estruturado que resistem perfeitamente à umidade constante do banheiro e roldanas blindadas que garantem um deslize suave por muitos anos." },
+          { strong: "Segurança Essencial — Box com Película Anti-Estilhaço:", text: "o banheiro é uma das áreas mais propensas a escorregões da casa. Para garantir a total tranquilidade da sua família, a Projeto Vidros oferece a aplicação opcional da nossa película de segurança. Se o vidro temperado sofrer um impacto muito forte e quebrar, todos os fragmentos ficam colados na película, impedindo que se espalhem pelo chão e evitando acidentes sérios até a manutenção do box." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Modelos de Box de Vidro Mais Procurados na Vila Nova Cachoeirinha",
+      },
+      {
+        type: "paragraph",
+        text: "Temos o design certo para valorizar cada centímetro do seu banheiro:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box com Kit Reto na Vila Nova Cachoeirinha (Tendência):", text: "o favorito de quem busca modernidade. Substitui as linhas curvas tradicionais por perfis quadrados e minimalistas, deixando o ambiente com cara de hotel de luxo e facilitando muito a limpeza rápida." },
+          { strong: "Box Articulado na Vila Nova Cachoeirinha (Flex):", text: "a engenharia perfeita para banheiros compactos ou com vãos apertados. Ele dobra sobre si mesmo e libera até 90% da largura do vão para a passagem confortável do banho." },
+          { strong: "Box de Correr na Vila Nova Cachoeirinha (Tradicional):", text: "o modelo clássico e consagrado, que une excelente custo-benefício e máxima praticidade para os vãos de tamanho padrão." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Solicite Seu Orçamento de Box de Banheiro na Vila Nova Cachoeirinha!",
+      },
+      {
+        type: "paragraph",
+        text: "Garantimos preços competitivos de fábrica e ótimas condições de parcelamento para você concluir a sua reforma sem estourar o orçamento da obra.",
+      },
+      {
+        type: "paragraph",
+        text: "Entre em contato conosco agora mesmo pelo WhatsApp, envie uma estimativa das suas medidas e receba uma proposta rápida e sem compromisso para o seu box de banheiro na Vila Nova Cachoeirinha.",
+      },
+    ],
+  },
+  {
     slug: "box-de-banheiro-no-lauzane-paulista",
     title: "Box de Banheiro no Lauzane Paulista: Instalação Rápida, Segurança e Modernidade com Projeto Vidros",
     excerpt:
