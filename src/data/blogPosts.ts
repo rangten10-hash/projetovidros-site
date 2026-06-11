@@ -78,6 +78,7 @@ import boxBanheiroLauzanePaulistaCapa from "@/assets/blog-box-banheiro-lauzane-p
 import boxBanheiroVilaNovaCachoeirinhaCapa from "@/assets/blog-box-banheiro-vila-nova-cachoeirinha-capa.png";
 import boxBanheiroParqueSaoDomingosCapa from "@/assets/blog-box-banheiro-parque-sao-domingos-capa.png";
 import boxBanheiroCityAmericaCapa from "@/assets/blog-box-banheiro-city-america-capa.png";
+import boxBanheiroPiritubaCapa from "@/assets/blog-box-banheiro-pirituba-capa.png";
 
 export interface BlogPost {
   slug: string;
