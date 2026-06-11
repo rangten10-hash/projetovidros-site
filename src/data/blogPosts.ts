@@ -79,6 +79,7 @@ import boxBanheiroVilaNovaCachoeirinhaCapa from "@/assets/blog-box-banheiro-vila
 import boxBanheiroParqueSaoDomingosCapa from "@/assets/blog-box-banheiro-parque-sao-domingos-capa.png";
 import boxBanheiroCityAmericaCapa from "@/assets/blog-box-banheiro-city-america-capa.png";
 import boxBanheiroPiritubaCapa from "@/assets/blog-box-banheiro-pirituba-capa.png";
+import boxBanheiroHortoFlorestalCapa from "@/assets/blog-box-banheiro-horto-florestal-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -108,6 +109,98 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-de-banheiro-no-horto-florestal",
+    title: "Vidraçaria Horto Florestal: Excelência em Instalação e Projetos Sob Medida",
+    excerpt:
+      "Vidraçaria no Horto Florestal: box de banheiro com vidro temperado, película anti-estilhaço e instalação sob medida para imóveis de alto padrão na Zona Norte de SP.",
+    image: boxBanheiroHortoFlorestalCapa,
+    imageAlt:
+      "Box de banheiro no Horto Florestal - Projeto Vidros, Zona Norte de São Paulo",
+    date: "2026-06-23",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Procurando uma Vidraçaria no Horto Florestal? A Projeto Vidros oferece instalação rápida de box de banheiro no Horto Florestal com design premium e a película exclusiva anti-estilhaço. Solicite seu orçamento via WhatsApp!",
+    cta: {
+      label: "Quero meu Box no Horto Florestal",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "heading",
+        text: "Box de Banheiro Horto Florestal: Design Moderno e Segurança para a Sua Casa",
+      },
+      {
+        type: "paragraph",
+        text: "Quem reside ou está construindo na região do Horto Florestal, na Zona Norte de São Paulo, valoriza a exclusividade, a tranquilidade e o alto padrão que o bairro oferece. Em imóveis sofisticados e com acabamento refinado, o banheiro e as suítes merecem um projeto à altura. A escolha do box de vidro correto é o ponto principal para trazer amplitude, elegância e máxima praticidade na organização e limpeza do ambiente.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, combinamos a estética premium que os moradores do Horto exigem com a agilidade real e a precisão técnica na entrega que a sua obra precisa.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroHortoFlorestalCapa,
+        alt: "Box de banheiro no Horto Florestal com vidro temperado e instalação premium - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Por Que Escolher a Projeto Vidros como Sua Vidraçaria no Horto Florestal?",
+      },
+      {
+        type: "paragraph",
+        text: "Atender ao mercado residencial premium do Horto Florestal exige pontualidade, medição digital a laser e materiais de primeira linha. Veja por que somos a escolha certa para o seu projeto:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Atendimento Local Especializado:", text: "como nossa equipe técnica atende diariamente a região do Horto, Tremembé e Mandaqui, realizamos visitas técnicas rápidas para conferir o prumo das paredes com tecnologia digital, garantindo uma vedação impecável contra vazamentos de água." },
+          { strong: "Componentes de Alta Engenharia:", text: "trabalhamos apenas com vidros temperados normatizados e kits com perfis de alumínio estruturado que não oxidam com o vapor do banho, além de roldanas blindadas de rolamento ultra suave." },
+          { strong: "Proteção Avançada com o Selo Box + Seguro:", text: "para blindar a segurança de toda a sua família, oferecemos a aplicação opcional da nossa película de segurança de alta resistência. No caso raríssimo de uma quebra por impacto forte, a película retém 100% dos fragmentos de vidro grudados, impedindo que caiam no chão e evitando cortes graves." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Modelos de Box de Vidro Horto Florestal Mais Procurados",
+      },
+      {
+        type: "paragraph",
+        text: "Temos as soluções de design perfeitas para valorizar a arquitetura das salas de banho da região:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box com Kit Reto (Tendência de Luxo):", text: "o favorito absoluto dos arquitetos para casas modernas no Horto Florestal. Substitui os perfis redondos por linhas retas, quadradas e minimalistas, deixando o ambiente clean, digno de hotel cinco estrelas." },
+          { strong: "Box Articulado (Flex):", text: "a engenharia perfeita para otimizar o espaço de suítes e banheiros compactos, liberando até 90% da abertura do vão para a passagem sem a necessidade de uma folha de vidro fixa." },
+          { strong: "Box de Correr Premium:", text: "praticidade e elegância consagradas para vãos padrão, com roldanas de deslizamento ultra suave que valorizam a transparência e o brilho do vidro." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Solicite Seu Orçamento de Box de Banheiro Horto Florestal!",
+      },
+      {
+        type: "paragraph",
+        text: "Garantimos preços competitivos direto de fábrica, atendimento personalizado e ótimas condições de parcelamento para você concluir a sua reforma com total tranquilidade.",
+      },
+      {
+        type: "paragraph",
+        text: "Aproveite para conhecer os detalhes da nossa tecnologia exclusiva de Box + Seguro e as especificações do nosso Box Tradicional Kit Reto. Entre em contato conosco agora mesmo pelo WhatsApp, envie seu projeto ou as medidas aproximadas e receba uma proposta rápida e sem compromisso!",
+      },
+    ],
+  },
   {
     slug: "box-de-banheiro-em-pirituba",
     title: "Box de Banheiro em Pirituba: Vidraçaria de Confiança, Instalação Rápida e Segurança com Projeto Vidros",
