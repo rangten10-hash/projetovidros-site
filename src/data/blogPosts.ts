@@ -77,6 +77,7 @@ import boxBanheiroParadaInglesaCapa from "@/assets/blog-box-banheiro-parada-ingl
 import boxBanheiroLauzanePaulistaCapa from "@/assets/blog-box-banheiro-lauzane-paulista-capa.png";
 import boxBanheiroVilaNovaCachoeirinhaCapa from "@/assets/blog-box-banheiro-vila-nova-cachoeirinha-capa.png";
 import boxBanheiroParqueSaoDomingosCapa from "@/assets/blog-box-banheiro-parque-sao-domingos-capa.png";
+import boxBanheiroCityAmericaCapa from "@/assets/blog-box-banheiro-city-america-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -106,6 +107,103 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-de-banheiro-no-city-america",
+    title: "Box de Banheiro no City América: Instalação Premium, Segurança e Modernidade com Projeto Vidros",
+    excerpt:
+      "Box de banheiro no City América com vidro temperado, película anti-estilhaço e instalação sob medida. Projetos premium no Condomínio Unique Green e em toda a Zona Norte/Oeste de SP.",
+    image: boxBanheiroCityAmericaCapa,
+    imageAlt:
+      "Box de banheiro no City América - Projeto Vidros, Condomínio Unique Green, São Paulo",
+    date: "2026-06-21",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Procurando Box de Banheiro no City América? A Projeto Vidros oferece instalação rápida, design premium e a segurança exclusiva da película anti-estilhaço. Solicite seu orçamento via WhatsApp hoje mesmo!",
+    cta: {
+      label: "Quero meu Box no City América",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "heading",
+        text: "Valorize o Seu Imóvel de Alto Padrão com Projetos sob Medida",
+      },
+      {
+        type: "paragraph",
+        text: "Quem reside ou está construindo no City América, na Zona Norte de São Paulo, sabe que o bairro é referência em sofisticação, segurança e qualidade de vida. Em imóveis amplos e com acabamento refinado, cada detalhe da arquitetura interna conta. Na hora de planejar ou renovar as suas suítes, a escolha de um box de vidro com linhas modernas e alta performance é fundamental para manter o padrão de elegância e funcionalidade que a sua casa exige.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, somos especialistas em desenvolver projetos de box de luxo e espelhos sob medida que se integram perfeitamente ao design do seu lar no City América, garantindo uma instalação limpa e execução rápida.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroCityAmericaCapa,
+        alt: "Box de banheiro no City América com vidro temperado e instalação premium - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Por Que Escolher a Projeto Vidros no City América?",
+      },
+      {
+        type: "paragraph",
+        text: "Atender ao mercado residencial premium do City América exige pontualidade britânica, medição digital sem erros e materiais de primeira linha. A Projeto Vidros já é uma marca presente na rotina do bairro, tendo inclusive realizado diversos projetos de sucesso e instalações sob medida dentro do renomado Condomínio Unique Green.",
+      },
+      {
+        type: "paragraph",
+        text: "Veja por que somos a escolha certa para o seu projeto:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Experiência Comprovada na Região:", text: "por já conhecermos o padrão arquitetônico e as exigências de condomínios de alto padrão como o Unique Green, garantimos uma instalação perfeitamente alinhada com as normas técnicas e com o nível de acabamento que você espera." },
+          { strong: "Medição a Laser e Atendimento Local:", text: "realizamos visitas técnicas rápidas para conferir o prumo das paredes e os níveis do piso com tecnologia digital, garantindo vedação total contra vazamentos de água no seu banheiro." },
+          { strong: "Acabamento e Componentes Premium:", text: "trabalhamos com vidros temperados normatizados e ferragens de alta engenharia. Nossos kits utilizam perfis estruturados que resistem à umidade constante e roldanas blindadas com rolamento ultra suave, feitas para durar por muitos anos sem perder a leveza." },
+          { strong: "Proteção Avançada com o Selo Box + Seguro:", text: "o banheiro é a área mais propensa a escorregões da casa. Para blindar a segurança de toda a sua família, oferecemos a aplicação de fábrica da nossa película de segurança de alta resistência. No caso raríssimo de uma quebra por impacto forte, a película retém 100% dos fragmentos de vidro grudados, impedindo que caiam no chão e evitando acidentes sérios até que a troca seja efetuada." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Modelos de Box de Vidro Mais Procurados no City América",
+      },
+      {
+        type: "paragraph",
+        text: "Oferecemos soluções de design que combinam com os projetos arquitetônicos mais exigentes da região:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box com Kit Reto no City América (Tendência de Luxo):", text: "o favorito absoluto dos decoradores para casas modernas. Ele substitui os perfis redondos tradicionais por linhas retas, quadradas e minimalistas. O resultado é um visual limpo, digno de salas de banho de hotéis cinco estrelas, com superfícies fáceis de limpar." },
+          { strong: "Box de Correr Premium no City América:", text: "praticidade e elegância consagradas para vãos padrão, com roldanas aparentes ou embutidas que valorizam a transparência do vidro." },
+          { strong: "Box Articulado no City América (Flex):", text: "a engenharia ideal para otimizar o espaço de banheiros compactos ou de closets integrados, liberando até 90% da abertura do vão sem a necessidade de uma folha de vidro fixa." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Solicite Seu Orçamento de Box de Banheiro no City América!",
+      },
+      {
+        type: "paragraph",
+        text: "Trabalhamos com condições especiais e atendimento personalizado para que a sua obra ou reforma seja concluída com total tranquilidade e excelência técnica.",
+      },
+      {
+        type: "paragraph",
+        text: "Entre em contato conosco agora mesmo pelo WhatsApp, envie seu projeto ou as medidas aproximadas e receba um atendimento rápido e exclusivo para o seu box de banheiro no City América.",
+      },
+    ],
+  },
   {
     slug: "box-de-banheiro-no-parque-sao-domingos",
     title: "Box de Banheiro no Parque São Domingos: Instalação Rápida, Segurança e Modernidade com Projeto Vidros",
