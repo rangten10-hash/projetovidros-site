@@ -68,6 +68,7 @@ const BAIRRO_DISPLAY: Record<string, string> = {
   "vila-madalena": "Vila Madalena",
   "parque-sao-domingos": "Parque São Domingos",
   "vila-olimpia": "Vila Olímpia",
+  "santana-de-parnaiba": "Santana de Parnaíba",
   "mooca": "Mooca",
   "penha": "Penha",
   "vila-formosa": "Vila Formosa",
