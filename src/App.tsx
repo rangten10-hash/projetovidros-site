@@ -18,6 +18,7 @@ import EspelhosLed from "./pages/EspelhosLed";
 import Projetos from "./pages/Projetos";
 import Simulador from "./pages/Simulador";
 import Blog from "./pages/Blog";
+import ServicosBairro from "./pages/ServicosBairro";
 import BlogPost from "./pages/BlogPost";
 import NotFound from "./pages/NotFound";
 import CookieConsent from "./components/CookieConsent";
@@ -48,6 +49,7 @@ const App = () => (
           <Route path="/simulador" element={<Simulador />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
+          <Route path="/servicos/:bairro" element={<ServicosBairro />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <CookieConsent />
