@@ -76,6 +76,7 @@ import boxBanheiroTremembeCapa from "@/assets/blog-box-banheiro-tremembe-capa.pn
 import boxBanheiroParadaInglesaCapa from "@/assets/blog-box-banheiro-parada-inglesa-capa.png";
 import boxBanheiroLauzanePaulistaCapa from "@/assets/blog-box-banheiro-lauzane-paulista-capa.png";
 import boxBanheiroVilaNovaCachoeirinhaCapa from "@/assets/blog-box-banheiro-vila-nova-cachoeirinha-capa.png";
+import boxBanheiroParqueSaoDomingosCapa from "@/assets/blog-box-banheiro-parque-sao-domingos-capa.png";
 
 export interface BlogPost {
   slug: string;
@@ -105,6 +106,98 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "box-de-banheiro-no-parque-sao-domingos",
+    title: "Box de Banheiro no Parque São Domingos: Instalação Rápida, Segurança e Modernidade com Projeto Vidros",
+    excerpt:
+      "Box de banheiro no Parque São Domingos com vidro temperado, película anti-estilhaço e instalação sob medida. Atendimento rápido na Zona Norte/Oeste de SP com a Projeto Vidros.",
+    image: boxBanheiroParqueSaoDomingosCapa,
+    imageAlt:
+      "Box de banheiro no Parque São Domingos - Projeto Vidros, São Paulo",
+    date: "2026-06-20",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Procurando Box de Banheiro no Parque São Domingos? A Projeto Vidros oferece instalação rápida, design moderno e a segurança exclusiva da película anti-estilhaço. Solicite seu orçamento via WhatsApp hoje mesmo!",
+    cta: {
+      label: "Quero meu Box no Parque São Domingos",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "heading",
+        text: "Renove o Seu Banheiro na Zona Norte com Quem é Referência",
+      },
+      {
+        type: "paragraph",
+        text: "Quem mora ou está construindo no Parque São Domingos, na Zona Norte de São Paulo, sabe que o bairro se destaca pelas suas ruas tranquilas, arborizadas e imóveis de excelente padrão. Na hora de valorizar a sua casa ou apartamento, a reforma do banheiro merece atenção especial. A escolha do box de vidro correto é o ponto principal para trazer amplitude, sofisticação e máxima praticidade na organização do ambiente.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, desenvolvemos projetos sob medida que se adaptam perfeitamente à arquitetura de alto padrão do seu lar no Parque São Domingos, unindo estética premium com entrega rápida e garantida.",
+      },
+      {
+        type: "image",
+        src: boxBanheiroParqueSaoDomingosCapa,
+        alt: "Box de banheiro no Parque São Domingos com vidro temperado e instalação sob medida - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Por Que Escolher a Projeto Vidros no Parque São Domingos?",
+      },
+      {
+        type: "paragraph",
+        text: "Encontrar uma vidraçaria no Parque São Domingos que ofereça atendimento ágil, preço justo de fábrica e acabamento impecável não precisa ser um desafio para a sua obra. Veja os diferenciais que nos tornam líderes na região:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Atendimento Rápido e Visita Técnica no Parque São Domingos:", text: "como nossa equipe atende diariamente a região do Parque São Domingos, City América e Pirituba, conseguimos agendar a medição a laser do seu vão rapidamente, eliminando qualquer risco de erro no projeto." },
+          { strong: "Componentes de Alta Durabilidade:", text: "nossos boxes contam com perfis de alumínio estruturado que resistem perfeitamente à umidade e roldanas blindadas de rolamento suave, garantindo que a porta deslize sem travar por muitos anos." },
+          { strong: "Segurança Essencial — Box com Película Anti-Estilhaço:", text: "o banheiro é a área mais escorregadia da casa, e a proteção da sua família vem sempre em primeiro lugar. Pensando em prevenir acidentes com crianças ou idosos, a Projeto Vidros oferece a aplicação opcional da nossa película de segurança. Se o vidro temperado sofrer um impacto forte e quebrar, todos os fragmentos ficam colados na película, impedindo que se espalhem pelo chão e evitando cortes graves até a manutenção do box." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-seguro",
+        label: "Conheça a tecnologia Box + Seguro",
+        description: "Veja como a película anti-estilhaço protege sua família contra acidentes:",
+      },
+      {
+        type: "heading",
+        text: "Modelos de Box de Vidro Mais Procurados no Parque São Domingos",
+      },
+      {
+        type: "paragraph",
+        text: "Temos o design certo para valorizar cada centímetro do seu banheiro:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Box com Kit Reto no Parque São Domingos (Tendência):", text: "a escolha favorita de arquitetos para os imóveis de alto padrão do bairro. Substitui as linhas curvas por perfis quadrados e minimalistas, deixando o ambiente com visual clean, digno de hotel de luxo, e facilitando muito a limpeza rápida." },
+          { strong: "Box Articulado no Parque São Domingos (Flex):", text: "a engenharia perfeita para banheiros compactos ou suítes. Ele dobra sobre si mesmo e libera até 90% da largura do vão, garantindo uma passagem confortável e inteligente." },
+          { strong: "Box de Correr no Parque São Domingos (Tradicional):", text: "o modelo clássico que une excelente custo-benefício e muita praticidade para os vãos de tamanho padrão." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver todos os modelos de Box de Banheiro",
+        description: "Confira o catálogo completo com fotos, medidas e acabamentos disponíveis:",
+      },
+      {
+        type: "heading",
+        text: "Solicite Seu Orçamento de Box de Banheiro no Parque São Domingos!",
+      },
+      {
+        type: "paragraph",
+        text: "Garantimos preços competitivos direto da fábrica e ótimas condições de parcelamento para você concluir a sua reforma com tranquilidade.",
+      },
+      {
+        type: "paragraph",
+        text: "Entre em contato conosco agora mesmo pelo WhatsApp, envie uma estimativa das suas medidas e receba uma proposta rápida e sem compromisso para o seu box de banheiro no Parque São Domingos.",
+      },
+    ],
+  },
   {
     slug: "box-de-banheiro-na-vila-nova-cachoeirinha",
     title: "Box de Banheiro na Vila Nova Cachoeirinha: Instalação Rápida, Segurança e Modernidade com Projeto Vidros",
