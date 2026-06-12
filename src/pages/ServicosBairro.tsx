@@ -207,7 +207,7 @@ const ServicosBairro = () => {
   if (!slug || !zona) return <Navigate to="/" replace />;
 
   const zonaTxt = ZONA_TEXTO[zona];
-  const waMsg = `Olá! Gostaria de um orçamento de box de vidro para o meu banheiro aqui em ${bairroNome}.`;
+  const waMsg = `Olá! Estou no site e gostaria de ver fotos de modelos de box e projetos instalados aqui no ${bairroNome}.`;
   const waUrl = `https://wa.me/5511915485945?text=${encodeURIComponent(waMsg)}`;
 
   const handleCta = (e: React.MouseEvent) => {
