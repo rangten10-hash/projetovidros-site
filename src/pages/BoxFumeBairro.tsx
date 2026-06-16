@@ -113,7 +113,7 @@ const BoxFumeBairro = () => {
                 src={hero.src}
                 alt={`${hero.alt} — instalado em ${bairroNome}`}
                 loading="eager"
-                className="w-full h-full object-contain"
+                className="max-w-full max-h-full object-contain"
               />
             </div>
 
@@ -224,7 +224,7 @@ const BoxFumeBairro = () => {
                 src={secundaria.src}
                 alt={`${secundaria.alt} — projeto Projeto Vidros em ${bairroNome}`}
                 loading="lazy"
-                className="w-full h-full object-contain"
+                className="max-w-full max-h-full object-contain"
               />
             </div>
 

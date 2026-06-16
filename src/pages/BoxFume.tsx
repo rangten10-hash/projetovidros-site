@@ -82,7 +82,7 @@ const BoxFume = () => {
                 src={hero.src}
                 alt={hero.alt}
                 loading="eager"
-                className="w-full h-full object-contain"
+                className="max-w-full max-h-full object-contain"
               />
             </div>
           </div>
