@@ -12,6 +12,8 @@ import BoxCantoKitReto from "./pages/BoxCantoKitReto";
 import BoxAbrirPequenoVao from "./pages/BoxAbrirPequenoVao";
 import BoxTransfer3Folhas from "./pages/BoxTransfer3Folhas";
 import BoxSeguro from "./pages/BoxSeguro";
+import BoxFume from "./pages/BoxFume";
+import BoxFumeBairro from "./pages/BoxFumeBairro";
 import PortasVidro from "./pages/PortasVidro";
 import Espelhos from "./pages/Espelhos";
 import EspelhosLed from "./pages/EspelhosLed";
@@ -42,6 +44,8 @@ const App = () => (
           <Route path="/box-de-abrir-pequeno-vao" element={<BoxAbrirPequenoVao />} />
           <Route path="/box-transfer-3-folhas" element={<BoxTransfer3Folhas />} />
           <Route path="/box-seguro" element={<BoxSeguro />} />
+          <Route path="/box-fume" element={<BoxFume />} />
+          <Route path="/box-fume/:bairro" element={<BoxFumeBairro />} />
           <Route path="/portas-de-vidro" element={<PortasVidro />} />
           <Route path="/espelhos" element={<Espelhos />} />
           <Route path="/espelhos-led" element={<EspelhosLed />} />
