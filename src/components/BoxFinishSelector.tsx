@@ -35,7 +35,8 @@ const FINISHES: Finish[] = [
     slug: "incolor",
     label: "Box Incolor",
     swatch: "bg-gradient-to-br from-slate-100 to-slate-300 border border-border",
-    active: false,
+    active: true,
+    href: "/box-incolor",
   },
   {
     slug: "pontilhado",

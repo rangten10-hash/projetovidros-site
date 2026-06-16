@@ -39,6 +39,7 @@ const STATIC_ROUTES: { path: string; changefreq?: string; priority?: string }[] 
   { path: "/box-flex", changefreq: "monthly", priority: "0.9" },
   { path: "/box-seguro", changefreq: "monthly", priority: "0.8" },
   { path: "/box-fume", changefreq: "monthly", priority: "0.9" },
+  { path: "/box-incolor", changefreq: "monthly", priority: "0.9" },
   { path: "/portas-de-vidro", changefreq: "monthly", priority: "0.8" },
   { path: "/espelhos", changefreq: "monthly", priority: "0.8" },
   { path: "/espelhos-led", changefreq: "monthly", priority: "0.8" },
@@ -74,6 +75,7 @@ const urls: string[] = [
   ...blogSlugs.map((s) => urlBlock(`/blog/${s}`, "monthly", "0.6")),
   ...BAIRROS.map((b) => urlBlock(`/servicos/${b}`, "monthly", "0.7")),
   ...BAIRROS.map((b) => urlBlock(`/box-fume/${b}`, "monthly", "0.7")),
+  ...BAIRROS.map((b) => urlBlock(`/box-incolor/${b}`, "monthly", "0.7")),
 ];
 
 const xml = [
@@ -86,5 +88,5 @@ const xml = [
 
 writeFileSync(resolve("public/sitemap.xml"), xml);
 console.log(
-  `sitemap.xml gerado (${STATIC_ROUTES.length} estáticas + ${blogSlugs.length} posts + ${BAIRROS.length} bairros + ${BAIRROS.length} box-fume/bairro)`,
+  `sitemap.xml gerado (${STATIC_ROUTES.length} estáticas + ${blogSlugs.length} posts + ${BAIRROS.length} bairros + ${BAIRROS.length} box-fume/bairro + ${BAIRROS.length} box-incolor/bairro)`,
 );
