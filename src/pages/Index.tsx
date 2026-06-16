@@ -4,6 +4,7 @@ import HeroCarousel from "@/components/HeroCarousel";
 import CategoryCards from "@/components/CategoryCards";
 import SafetySection from "@/components/SafetySection";
 import SeoSection from "@/components/SeoSection";
+import BoxFinishSelector from "@/components/BoxFinishSelector";
 import SocialProof from "@/components/SocialProof";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -54,6 +55,7 @@ const Index = () => {
         <SocialProof />
         <SafetySection />
         <SeoSection />
+        <BoxFinishSelector />
       </main>
       <Footer />
       <WhatsAppButton />
