@@ -77,12 +77,12 @@ const BoxFume = () => {
                 </Link>
               </div>
             </div>
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl aspect-[4/5] bg-muted">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl w-full max-h-[350px] md:max-h-[450px] flex items-center justify-center bg-background">
               <img
                 src={hero.src}
                 alt={hero.alt}
                 loading="eager"
-                className="absolute inset-0 w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
