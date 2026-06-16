@@ -108,12 +108,12 @@ const BoxFumeBairro = () => {
               Procurando Box para Banheiro Fumê com Instalação Rápida em {bairroNome}?
             </h2>
 
-            <div className="rounded-2xl overflow-hidden shadow-xl mb-8 aspect-[4/3] bg-muted">
+            <div className="rounded-2xl overflow-hidden shadow-xl mb-8 w-full max-h-[350px] md:max-h-[450px] flex items-center justify-center bg-background">
               <img
                 src={hero.src}
                 alt={`${hero.alt} — instalado em ${bairroNome}`}
                 loading="eager"
-                className="w-full h-full object-cover"
+                className="max-w-full max-h-full object-contain"
               />
             </div>
 
@@ -219,12 +219,12 @@ const BoxFumeBairro = () => {
             </div>
 
             {/* Galeria secundária */}
-            <div className="rounded-2xl overflow-hidden shadow-md mb-10 aspect-[16/10] bg-muted">
+            <div className="rounded-2xl overflow-hidden shadow-md mb-10 w-full max-h-[350px] md:max-h-[450px] flex items-center justify-center bg-background">
               <img
                 src={secundaria.src}
                 alt={`${secundaria.alt} — projeto Projeto Vidros em ${bairroNome}`}
                 loading="lazy"
-                className="w-full h-full object-cover"
+                className="max-w-full max-h-full object-contain"
               />
             </div>
 
