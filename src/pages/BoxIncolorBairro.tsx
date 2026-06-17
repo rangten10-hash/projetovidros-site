@@ -229,6 +229,9 @@ const BoxIncolorBairro = () => {
                 Vidraçaria em {bairroNome}
               </Link>
             </div>
+
+            {/* FAQ específico do bairro + categoria */}
+            <BairroFaq slug={slug} categoria="incolor" />
           </div>
         </article>
 
@@ -236,10 +239,7 @@ const BoxIncolorBairro = () => {
       </main>
       <Footer />
       <WhatsAppButton />
-            </div>
-
-            {/* FAQ específico do bairro + categoria */}
-            <BairroFaq slug={slug} categoria="incolor" />
+    </div>
   );
 };
 
