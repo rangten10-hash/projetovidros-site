@@ -30,12 +30,18 @@ const BoxIncolor = () => {
     path: "/box-incolor",
     jsonLd: {
       "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Box de Vidro Incolor",
+      "@type": "Service",
+      name: "Instalação de Box de Vidro Incolor",
+      serviceType: "Fabricação e instalação de box de banheiro em vidro temperado incolor 8mm",
       description:
-        "Box de banheiro em vidro temperado incolor 8mm Cebrace/Guardian com película Box + Seguro opcional.",
-      brand: { "@type": "Brand", name: "Projeto Vidros" },
-      category: "Box de Banheiro Incolor",
+        "Box de banheiro em vidro temperado incolor 8mm Cebrace/Guardian com película Box + Seguro opcional. Medição digital e instalação em toda a Grande São Paulo.",
+      areaServed: { "@type": "City", name: "São Paulo" },
+      provider: {
+        "@type": "LocalBusiness",
+        name: "Projeto Vidros",
+        telephone: "+5511915485945",
+        areaServed: "São Paulo e Grande SP",
+      },
     },
   });
 
