@@ -8,7 +8,7 @@ import {
   Shield,
   CheckCircle2,
   MessageCircle,
-  Ruler,
+  
   Sparkles,
   ArrowLeft,
 } from "lucide-react";
@@ -16,6 +16,9 @@ import { useSeo, SITE_URL } from "@/lib/seo";
 import { gtagReportConversion } from "@/lib/gtag";
 import { findBairro } from "@/lib/bairros";
 import { pickRandomBoxFumeImage } from "@/lib/boxFumeImages";
+import { buildBairroMetaDescription } from "@/lib/bairroProfiles";
+import BairroAtendimentoSection from "@/components/BairroAtendimentoSection";
+import BairroFaq from "@/components/BairroFaq";
 
 const MODELOS_FUME: { titulo: string; desc: string }[] = [
   {
@@ -47,7 +50,9 @@ const BoxFumeBairro = () => {
 
   const bairroNome = data?.nome ?? "";
   const title = `Box de Vidro Fumê em ${bairroNome} | Projeto Vidros`;
-  const description = `Instalação de Box de Vidro Fumê em ${bairroNome} com vidro temperado 8mm Cebrace/Guardian. Medição digital a laser, modelos frontal, canto, abrir, elegance e flex. Orçamento rápido no WhatsApp.`;
+  const description = slug
+    ? buildBairroMetaDescription(slug, "fume")
+    : `Box de Vidro Fumê em ${bairroNome}.`;
 
   useSeo({
     title,
@@ -133,19 +138,8 @@ const BoxFumeBairro = () => {
               .
             </p>
 
-            {/* Bloco SEO local automatizado */}
-            <div className="rounded-xl border border-copper/30 bg-copper/5 p-6 md:p-8 mb-10">
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-copper/20 flex items-center justify-center">
-                  <Ruler className="w-6 h-6 text-copper" />
-                </div>
-                <p className="text-foreground/85 text-base leading-relaxed">
-                  Nossa equipe realiza medições digitais a laser e instalação rápida de{" "}
-                  <strong>Box Fumê em toda a região de {bairroNome}</strong>, atendendo a
-                  residências e condomínios com o padrão de acabamento Projeto Vidros.
-                </p>
-              </div>
-            </div>
+            {/* Atendimento na região — texto varia com perfil do bairro */}
+            <BairroAtendimentoSection slug={slug} categoria="fume" />
 
             {/* H3 + Modelos específicos */}
             <h3 className="font-display text-xl md:text-2xl text-petrol mb-2">
@@ -252,6 +246,9 @@ const BoxFumeBairro = () => {
                 Vidraçaria em {bairroNome}
               </Link>
             </div>
+
+            {/* FAQ específico do bairro + categoria */}
+            <BairroFaq slug={slug} categoria="fume" />
           </div>
         </article>
 

@@ -8,7 +8,7 @@ import {
   Shield,
   CheckCircle2,
   MessageCircle,
-  Ruler,
+  
   Sparkles,
   ArrowLeft,
 } from "lucide-react";
@@ -16,6 +16,9 @@ import { useSeo, SITE_URL } from "@/lib/seo";
 import { gtagReportConversion } from "@/lib/gtag";
 import { findBairro } from "@/lib/bairros";
 import { pickRandomBoxIncolorImage } from "@/lib/boxIncolorImages";
+import { buildBairroMetaDescription } from "@/lib/bairroProfiles";
+import BairroAtendimentoSection from "@/components/BairroAtendimentoSection";
+import BairroFaq from "@/components/BairroFaq";
 
 const MODELOS_INCOLOR: { titulo: string; desc: string }[] = [
   { titulo: "Box frontal incolor", desc: "Ideal para vãos retos, garantindo um visual limpo e funcional." },
@@ -33,7 +36,9 @@ const BoxIncolorBairro = () => {
 
   const bairroNome = data?.nome ?? "";
   const title = `Box de Vidro Incolor em ${bairroNome} | Projeto Vidros`;
-  const description = `Box de vidro incolor em ${bairroNome}: vidro temperado 8mm Cebrace/Guardian. Modelos frontal, canto, abrir, elegance, flex e piso-teto. Medição digital a laser e orçamento no WhatsApp.`;
+  const description = slug
+    ? buildBairroMetaDescription(slug, "incolor")
+    : `Box de Vidro Incolor em ${bairroNome}.`;
 
   useSeo({
     title,
@@ -116,19 +121,8 @@ const BoxIncolorBairro = () => {
               <strong>medição digital a laser em {bairroNome}</strong>.
             </p>
 
-            {/* Bloco SEO local */}
-            <div className="rounded-xl border border-copper/30 bg-copper/5 p-6 md:p-8 mb-10">
-              <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-12 h-12 rounded-lg bg-copper/20 flex items-center justify-center">
-                  <Ruler className="w-6 h-6 text-copper" />
-                </div>
-                <p className="text-foreground/85 text-base leading-relaxed">
-                  Nossa equipe realiza medições digitais a laser e instalação rápida de{" "}
-                  <strong>Box Incolor em toda a região de {bairroNome}</strong>, atendendo a
-                  residências e condomínios com o padrão de acabamento Projeto Vidros.
-                </p>
-              </div>
-            </div>
+            {/* Atendimento na região — texto varia com perfil do bairro */}
+            <BairroAtendimentoSection slug={slug} categoria="incolor" />
 
             {/* H3 + Modelos específicos */}
             <h3 className="font-display text-xl md:text-2xl text-petrol mb-2">
@@ -235,6 +229,9 @@ const BoxIncolorBairro = () => {
                 Vidraçaria em {bairroNome}
               </Link>
             </div>
+
+            {/* FAQ específico do bairro + categoria */}
+            <BairroFaq slug={slug} categoria="incolor" />
           </div>
         </article>
 
