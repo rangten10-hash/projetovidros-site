@@ -21,12 +21,18 @@ const BoxFume = () => {
     path: "/box-fume",
     jsonLd: {
       "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Box de Vidro Fumê",
+      "@type": "Service",
+      name: "Instalação de Box de Vidro Fumê",
+      serviceType: "Fabricação e instalação de box de banheiro em vidro temperado fumê 8mm",
       description:
-        "Box de banheiro em vidro temperado fumê 8mm Cebrace/Guardian com película Box + Seguro opcional.",
-      brand: { "@type": "Brand", name: "Projeto Vidros" },
-      category: "Box de Banheiro Fumê",
+        "Box de banheiro em vidro temperado fumê 8mm Cebrace/Guardian com película Box + Seguro opcional. Medição digital e instalação em toda a Grande São Paulo.",
+      areaServed: { "@type": "City", name: "São Paulo" },
+      provider: {
+        "@type": "LocalBusiness",
+        name: "Projeto Vidros",
+        telephone: "+5511915485945",
+        areaServed: "São Paulo e Grande SP",
+      },
     },
   });
 
