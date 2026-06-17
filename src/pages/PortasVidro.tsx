@@ -118,11 +118,16 @@ const PortasVidro = () => {
     path: "/portas-de-vidro",
     jsonLd: {
       "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Portas de Vidro Projeto Vidros",
-      description: "Portas de vidro sob medida com sistemas Vision, Nobre, Certo, Flex e Versatik.",
-      brand: { "@type": "Brand", name: "Projeto Vidros" },
-      category: "Portas de Vidro",
+      "@type": "Service",
+      name: "Instalação de Portas de Vidro Sob Medida em São Paulo",
+      serviceType: "Instalação de Portas de Vidro",
+      description: "Portas de vidro sob medida com sistemas Vision, Nobre, Certo, Flex e Versatik, instaladas em São Paulo.",
+      areaServed: { "@type": "City", name: "São Paulo" },
+      provider: {
+        "@type": "LocalBusiness",
+        name: "Projeto Vidros",
+        telephone: "+55-11-91548-5945",
+      },
     },
   });
   return (

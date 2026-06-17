@@ -57,13 +57,17 @@ const BoxTradicionalKitReto = () => {
     image: cardCover,
     jsonLd: {
       "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Box Tradicional Kit Reto",
+      "@type": "Service",
+      name: "Instalação de Box Tradicional Kit Reto em São Paulo",
+      serviceType: "Instalação de Box de Banheiro de Correr",
       description:
         "Box de banheiro de correr com perfis quadrados minimalistas (Kit Reto), vidro temperado 8mm. Altura padrão 1,90m ou sob medida em São Paulo.",
-      brand: { "@type": "Brand", name: "Projeto Vidros" },
-      category: "Box de Banheiro",
-      areaServed: "São Paulo",
+      areaServed: { "@type": "City", name: "São Paulo" },
+      provider: {
+        "@type": "LocalBusiness",
+        name: "Projeto Vidros",
+        telephone: "+55-11-91548-5945",
+      },
     },
   });
 
