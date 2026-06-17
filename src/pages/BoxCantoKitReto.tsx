@@ -60,13 +60,17 @@ const BoxCantoKitReto = () => {
     image: cardCover,
     jsonLd: {
       "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Box de Canto Kit Reto",
+      "@type": "Service",
+      name: "Instalação de Box de Canto Kit Reto em São Paulo",
+      serviceType: "Instalação de Box de Banheiro de Canto",
       description:
         "Box de canto em L com perfis quadrados minimalistas (Kit Reto), vidro temperado 8mm. Altura padrão 1,90m ou piso a teto sob medida em São Paulo.",
-      brand: { "@type": "Brand", name: "Projeto Vidros" },
-      category: "Box de Banheiro",
-      areaServed: "São Paulo",
+      areaServed: { "@type": "City", name: "São Paulo" },
+      provider: {
+        "@type": "LocalBusiness",
+        name: "Projeto Vidros",
+        telephone: "+55-11-91548-5945",
+      },
     },
   });
 

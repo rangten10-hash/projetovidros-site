@@ -133,12 +133,17 @@ const BoxBanheiro = () => {
     path: "/box-de-banheiro",
     jsonLd: {
       "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Box de Banheiro Projeto Vidros",
+      "@type": "Service",
+      name: "Instalação de Box de Banheiro Sob Medida em São Paulo",
+      serviceType: "Instalação de Box de Banheiro",
       description:
-        "Linha completa de box de banheiro em vidro temperado com película anti-estilhaço.",
-      brand: { "@type": "Brand", name: "Projeto Vidros" },
-      category: "Box de Banheiro",
+        "Fabricação e instalação de box de banheiro em vidro temperado com película anti-estilhaço, sob medida em São Paulo.",
+      areaServed: { "@type": "City", name: "São Paulo" },
+      provider: {
+        "@type": "LocalBusiness",
+        name: "Projeto Vidros",
+        telephone: "+55-11-91548-5945",
+      },
     },
   });
   return (

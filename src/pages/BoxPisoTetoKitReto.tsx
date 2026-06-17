@@ -61,13 +61,17 @@ const BoxPisoTetoKitReto = () => {
     image: ateOTeto,
     jsonLd: {
       "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Box Piso Teto Kit Reto",
+      "@type": "Service",
+      name: "Instalação de Box Piso Teto Kit Reto em São Paulo",
+      serviceType: "Instalação de Box de Banheiro Piso-Teto",
       description:
         "Box de banheiro piso-teto com perfis quadrados minimalistas (Kit Reto). Vidro temperado 8mm, efeito sauna e instalação sob medida em São Paulo.",
-      brand: { "@type": "Brand", name: "Projeto Vidros" },
-      category: "Box de Banheiro Piso-Teto",
-      areaServed: "São Paulo",
+      areaServed: { "@type": "City", name: "São Paulo" },
+      provider: {
+        "@type": "LocalBusiness",
+        name: "Projeto Vidros",
+        telephone: "+55-11-91548-5945",
+      },
     },
   });
 

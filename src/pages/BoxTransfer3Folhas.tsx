@@ -48,13 +48,17 @@ const BoxTransfer3Folhas = () => {
     image: cardCover,
     jsonLd: {
       "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Box Transfer 3 Folhas",
+      "@type": "Service",
+      name: "Instalação de Box Transfer 3 Folhas em São Paulo",
+      serviceType: "Instalação de Box de Banheiro Transfer",
       description:
         "Box de banheiro com sistema Transfer de 3 folhas: 1 fixa + 2 portas que correm simultaneamente, liberando até 66% do vão.",
-      brand: { "@type": "Brand", name: "Projeto Vidros" },
-      category: "Box de Banheiro",
-      areaServed: "São Paulo",
+      areaServed: { "@type": "City", name: "São Paulo" },
+      provider: {
+        "@type": "LocalBusiness",
+        name: "Projeto Vidros",
+        telephone: "+55-11-91548-5945",
+      },
     },
   });
 

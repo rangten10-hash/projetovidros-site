@@ -49,13 +49,17 @@ const BoxFlex = () => {
     image: flexTetoFechado,
     jsonLd: {
       "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Box Flex Articulado",
+      "@type": "Service",
+      name: "Instalação de Box Flex Articulado em São Paulo",
+      serviceType: "Instalação de Box de Banheiro Articulado",
       description:
         "Box de banheiro articulado com abertura de até 90% do vão livre. Vidro temperado com opção de película de segurança. Sob medida em São Paulo.",
-      brand: { "@type": "Brand", name: "Projeto Vidros" },
-      category: "Box de Banheiro Articulado",
-      areaServed: "São Paulo",
+      areaServed: { "@type": "City", name: "São Paulo" },
+      provider: {
+        "@type": "LocalBusiness",
+        name: "Projeto Vidros",
+        telephone: "+55-11-91548-5945",
+      },
     },
   });
 

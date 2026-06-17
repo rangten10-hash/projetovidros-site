@@ -22,11 +22,16 @@ const Espelhos = () => {
     path: "/espelhos",
     jsonLd: {
       "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Espelhos Decorativos Sob Medida",
-      description: "Espelhos sob medida com cristais Guardian e Cebrace, acabamento lapidado ou bisotê.",
-      brand: { "@type": "Brand", name: "Projeto Vidros" },
-      category: "Espelhos",
+      "@type": "Service",
+      name: "Espelhos Decorativos Sob Medida em São Paulo",
+      serviceType: "Fabricação e Instalação de Espelhos Sob Medida",
+      description: "Espelhos sob medida com cristais Guardian e Cebrace, acabamento lapidado ou bisotê, instalados em São Paulo.",
+      areaServed: { "@type": "City", name: "São Paulo" },
+      provider: {
+        "@type": "LocalBusiness",
+        name: "Projeto Vidros",
+        telephone: "+55-11-91548-5945",
+      },
     },
   });
   return (

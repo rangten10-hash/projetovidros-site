@@ -57,13 +57,17 @@ const BoxAbrirPequenoVao = () => {
     image: cardCover,
     jsonLd: {
       "@context": "https://schema.org",
-      "@type": "Product",
-      name: "Box de Abrir para Pequenos Vãos",
+      "@type": "Service",
+      name: "Instalação de Box de Abrir para Pequenos Vãos em São Paulo",
+      serviceType: "Instalação de Box de Banheiro de Abrir",
       description:
         "Box de abrir com 1 folha fixa e 1 porta de giro com abertura para dentro, ideal para banheiros compactos. Altura padrão 1,84m ou sob medida.",
-      brand: { "@type": "Brand", name: "Projeto Vidros" },
-      category: "Box de Banheiro",
-      areaServed: "São Paulo",
+      areaServed: { "@type": "City", name: "São Paulo" },
+      provider: {
+        "@type": "LocalBusiness",
+        name: "Projeto Vidros",
+        telephone: "+55-11-91548-5945",
+      },
     },
   });
 
