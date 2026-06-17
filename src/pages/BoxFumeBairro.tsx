@@ -62,12 +62,18 @@ const BoxFumeBairro = () => {
     jsonLd: data
       ? {
           "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          name: `Projeto Vidros – Box Fumê em ${bairroNome}`,
+          "@type": "Service",
+          name: `Instalação de Box Fumê em ${bairroNome}`,
+          serviceType: "Fabricação e instalação de box de banheiro em vidro temperado fumê 8mm",
           description,
           areaServed: { "@type": "Place", name: `${bairroNome}, São Paulo` },
-          telephone: "+5511915485945",
           url: `${SITE_URL}/box-fume/${slug}`,
+          provider: {
+            "@type": "LocalBusiness",
+            name: "Projeto Vidros",
+            telephone: "+5511915485945",
+            areaServed: `${bairroNome}, São Paulo`,
+          },
         }
       : undefined,
   });
