@@ -48,12 +48,18 @@ const BoxIncolorBairro = () => {
     jsonLd: data
       ? {
           "@context": "https://schema.org",
-          "@type": "LocalBusiness",
-          name: `Projeto Vidros – Box Incolor em ${bairroNome}`,
+          "@type": "Service",
+          name: `Instalação de Box Incolor em ${bairroNome}`,
+          serviceType: "Fabricação e instalação de box de banheiro em vidro temperado incolor 8mm",
           description,
           areaServed: { "@type": "Place", name: `${bairroNome}, São Paulo` },
-          telephone: "+5511915485945",
           url: `${SITE_URL}/box-incolor/${slug}`,
+          provider: {
+            "@type": "LocalBusiness",
+            name: "Projeto Vidros",
+            telephone: "+5511915485945",
+            areaServed: `${bairroNome}, São Paulo`,
+          },
         }
       : undefined,
   });
