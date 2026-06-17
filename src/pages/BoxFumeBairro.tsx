@@ -8,7 +8,7 @@ import {
   Shield,
   CheckCircle2,
   MessageCircle,
-  Ruler,
+  
   Sparkles,
   ArrowLeft,
 } from "lucide-react";
