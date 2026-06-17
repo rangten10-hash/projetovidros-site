@@ -249,46 +249,33 @@ export function buildAtendimentoTexto(slug: string, categoria: CategoriaSlug) {
  */
 export function buildBairroFaq(slug: string, categoria: CategoriaSlug) {
   const bairro = findBairro(slug);
-  const profile = getBairroProfile(slug);
   const cat = CATEGORIAS[categoria];
   if (!bairro) return [];
 
   const itens: { q: string; a: string }[] = [];
 
-  // Prazo de instalação
-  if (profile?.prazoInstalacao) {
-    itens.push({
-      q: `Qual o prazo de instalação de ${cat.label.toLowerCase()} em ${bairro.nome}?`,
-      a: `Para ${bairro.nome} o prazo atual é de ${profile.prazoInstalacao}, contado a partir da medição digital a laser realizada no local.`,
-    });
-  } else {
-    itens.push({
-      q: `Qual o prazo de instalação de ${cat.label.toLowerCase()} em ${bairro.nome}?`,
-      a: `O prazo é o mesmo que praticamos em toda a nossa área de atendimento: ${PRAZO_PADRAO}. Preferimos ser transparentes a inventar variação por bairro.`,
-    });
-  }
+  // 1) Prazo de instalação — resposta padrão unificada
+  itens.push({
+    q: `Qual o prazo de instalação de ${cat.label.toLowerCase()} em ${bairro.nome}?`,
+    a: `O prazo varia de 10 dias úteis para modelos de box padrão ou até 20 dias úteis para projetos totalmente personalizados. Esse prazo é unificado para toda a nossa área de atendimento em São Paulo, pois priorizamos a máxima transparência com nossos clientes em vez de criar variações artificiais por bairro.`,
+  });
 
-  // Tipos de imóvel atendidos
-  if (profile?.imovelPredominante) {
-    const obsTrecho = profile.observacaoTecnica
-      ? ` Uma característica que vemos com frequência por aqui: ${profile.observacaoTecnica}.`
-      : "";
-    itens.push({
-      q: `Que tipo de imóvel vocês atendem em ${bairro.nome}?`,
-      a: `Em ${bairro.nome} a maior parte dos projetos é em ${profile.imovelPredominante}.${obsTrecho} Também atendemos os demais perfis da região mediante medição prévia.`,
-    });
-  } else {
-    itens.push({
-      q: `Que tipo de imóvel vocês atendem em ${bairro.nome}?`,
-      a: `Atendemos todos os perfis residenciais e comerciais da região. Ainda não consolidamos dados específicos sobre o tipo de imóvel mais frequente em ${bairro.nome} — assim que tivermos um volume de obras representativo, atualizamos esta seção.`,
-    });
-  }
+  // 2) Tipo de imóvel — resposta padrão unificada
+  itens.push({
+    q: `Que tipo de imóvel vocês atendem em ${bairro.nome}?`,
+    a: `Atendemos todos os perfis de imóveis na região, incluindo apartamentos, casas, empresas e lojas. Nossa equipe técnica é altamente capacitada tanto para instalações residenciais quanto para projetos comerciais sob medida.`,
+  });
 
-  // Categoria recomendada (se houver destaque)
-  if (profile?.categoriaDestaque && profile.categoriaDestaque === categoria) {
+  // 3) Pergunta específica por categoria
+  if (categoria === "incolor") {
     itens.push({
-      q: `${cat.label} é a opção mais procurada em ${bairro.nome}?`,
-      a: `Sim. Entre os pedidos que recebemos de ${bairro.nome}, ${cat.label.toLowerCase()} aparece com mais frequência — principalmente por entregar ${cat.beneficio}.`,
+      q: `Box Incolor é a opção mais procurada em ${bairro.nome}?`,
+      a: `Sim. Entre os pedidos que recebemos, o box incolor é o que aparece com maior frequência, principalmente por entregar uma sensação de amplitude ao ambiente, leveza visual e total neutralidade com qualquer tipo de revestimento.`,
+    });
+  } else if (categoria === "fume") {
+    itens.push({
+      q: `Box Fumê é uma opção muito procurada em ${bairro.nome}?`,
+      a: `Sim. O box fumê é altamente procurado por clientes que buscam um design moderno, sofisticado e, acima de tudo, privacidade discreta no momento do banho, filtrando a luz de forma elegante.`,
     });
   }
 
