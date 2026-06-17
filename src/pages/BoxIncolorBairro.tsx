@@ -236,7 +236,10 @@ const BoxIncolorBairro = () => {
       </main>
       <Footer />
       <WhatsAppButton />
-    </div>
+            </div>
+
+            {/* FAQ específico do bairro + categoria */}
+            <BairroFaq slug={slug} categoria="incolor" />
   );
 };
 
