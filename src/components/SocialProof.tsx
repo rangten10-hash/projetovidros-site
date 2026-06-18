@@ -1,8 +1,10 @@
 import { Instagram, Star, User } from "lucide-react";
 import instagramLogo from "@/assets/social-instagram.png";
 import tiktokLogo from "@/assets/social-tiktok.png";
+import youtubeLogo from "@/assets/social-youtube.png";
 
 const INSTAGRAM_URL = "https://www.instagram.com/projetovidros.sp?igsh=MjJ3b2hzb3phdTFz&utm_source=qr";
+const YOUTUBE_URL = "https://www.youtube.com/@ProjetoVidrosVidracaria";
 const TIKTOK_URL = "https://www.tiktok.com/@projeto.vidros?_r=1&_t=ZS-95oOpJcsi9d";
 const GOOGLE_URL = "https://maps.app.goo.gl/AMCBT3PqQ2bHAiXo9";
 
