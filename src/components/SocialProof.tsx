@@ -1,8 +1,10 @@
 import { Instagram, Star, User } from "lucide-react";
 import instagramLogo from "@/assets/social-instagram.png";
 import tiktokLogo from "@/assets/social-tiktok.png";
+import youtubeLogo from "@/assets/social-youtube.png";
 
 const INSTAGRAM_URL = "https://www.instagram.com/projetovidros.sp?igsh=MjJ3b2hzb3phdTFz&utm_source=qr";
+const YOUTUBE_URL = "https://www.youtube.com/@ProjetoVidrosVidracaria";
 const TIKTOK_URL = "https://www.tiktok.com/@projeto.vidros?_r=1&_t=ZS-95oOpJcsi9d";
 const GOOGLE_URL = "https://maps.app.goo.gl/AMCBT3PqQ2bHAiXo9";
 
@@ -35,7 +37,7 @@ const SocialProof = () => {
             <span className="text-gradient-copper">tempo real</span> em nossas redes sociais
           </h2>
           <p className="text-muted-foreground">
-            Acompanhe instalações, bastidores, novidades e avaliações direto no nosso Instagram, TikTok e Google.
+            Acompanhe instalações, bastidores, novidades e avaliações direto no nosso Instagram, TikTok, YouTube e Google.
           </p>
 
           <div className="flex items-center justify-center gap-8 mt-8">
@@ -47,6 +49,15 @@ const SocialProof = () => {
               className="transition-transform duration-300 hover:scale-125 hover:animate-pulse"
             >
               <img src={instagramLogo} alt="Instagram" loading="lazy" decoding="async" className="h-16 w-16 md:h-20 md:w-20 object-contain" />
+            </a>
+            <a
+              href={YOUTUBE_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="YouTube Projeto Vidros"
+              className="transition-transform duration-300 hover:scale-125 hover:animate-pulse"
+            >
+              <img src={youtubeLogo} alt="YouTube" loading="lazy" decoding="async" className="h-16 w-16 md:h-20 md:w-20 object-contain rounded-2xl" />
             </a>
             <a
               href={TIKTOK_URL}
