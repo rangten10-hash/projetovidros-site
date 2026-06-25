@@ -49,10 +49,8 @@ const BoxFumeBairro = () => {
   const data = slug ? findBairro(slug) : undefined;
 
   const bairroNome = data?.nome ?? "";
-  const title = `Box de Vidro Fumê em ${bairroNome} | Projeto Vidros`;
-  const description = slug
-    ? buildBairroMetaDescription(slug, "fume")
-    : `Box de Vidro Fumê em ${bairroNome}.`;
+  const title = `${bairroNome} | Box de Vidro Direto da Fábrica`;
+  const description = `Box de banheiro em ${bairroNome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado sob medida. Peça seu orçamento pelo WhatsApp!`;
 
   useSeo({
     title,

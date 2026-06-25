@@ -179,8 +179,8 @@ const ServicosBairro = () => {
   const zona = slug ? getZona(slug) : null;
 
   const bairroNome = formatBairro(slug);
-  const title = `Vidraçaria em ${bairroNome}: Box de Vidro e Projetos Sob Medida | Projeto Vidros`;
-  const description = `Procurando uma Vidraçaria em ${bairroNome}? A Projeto Vidros oferece instalação rápida de box de banheiro em ${bairroNome}, espelhos e fechamentos com design premium. Solicite seu orçamento!`;
+  const title = `${bairroNome} | Box de Vidro Direto da Fábrica`;
+  const description = `Box de banheiro em ${bairroNome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado sob medida. Peça seu orçamento pelo WhatsApp!`;
 
   useSeo({
     title,
