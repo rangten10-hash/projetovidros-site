@@ -92,5 +92,5 @@ const xml = [
 
 writeFileSync(resolve("public/sitemap.xml"), xml);
 console.log(
-  `sitemap.xml gerado (${STATIC_ROUTES.length} estáticas + ${blogSlugs.length} posts + ${BAIRROS.length} bairros × 4 prefixos de box)`,
+  `sitemap.xml gerado (${STATIC_ROUTES.length} estáticas + ${blogSlugs.length} posts + ${BAIRROS.length} bairros × 5 prefixos: servicos, box-fume, box-incolor, box-verde, box-bronze)`,
 );
