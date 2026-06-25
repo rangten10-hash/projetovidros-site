@@ -23,13 +23,15 @@ const FINISHES: Finish[] = [
     slug: "bronze",
     label: "Box Bronze",
     swatch: "bg-gradient-to-br from-amber-700 to-amber-900",
-    active: false,
+    active: true,
+    href: "/box-bronze",
   },
   {
     slug: "verde",
     label: "Box Verde",
     swatch: "bg-gradient-to-br from-emerald-700 to-emerald-900",
-    active: false,
+    active: true,
+    href: "/box-verde",
   },
   {
     slug: "incolor",
