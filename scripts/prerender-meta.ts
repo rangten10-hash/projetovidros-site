@@ -161,6 +161,18 @@ const STATIC_ROUTES: RouteMeta[] = [
       "Box incolor em vidro temperado 8mm: amplitude, neutralidade e modelos sob medida. Atendimento em toda São Paulo.",
   },
   {
+    path: "/box-verde",
+    title: "Box Verde em São Paulo | Vidro Temperado Direto da Fábrica",
+    description:
+      "Box verde em vidro temperado 8mm: tonalidade natural sofisticada, privacidade suave e modelos sob medida em toda São Paulo.",
+  },
+  {
+    path: "/box-bronze",
+    title: "Box Bronze em São Paulo | Vidro Temperado Direto da Fábrica",
+    description:
+      "Box bronze em vidro temperado 8mm: tom âmbar elegante, calor visual e modelos sob medida em toda São Paulo.",
+  },
+  {
     path: "/box-flex",
     title: "Box Flex Articulado 90% Abertura | Projeto Vidros",
     description:
@@ -204,11 +216,29 @@ const STATIC_ROUTES: RouteMeta[] = [
   },
 ];
 
-function bairroMeta(slug: string, nome: string, prefixo: "servicos" | "box-fume" | "box-incolor"): RouteMeta {
+function bairroMeta(
+  slug: string,
+  nome: string,
+  prefixo: "servicos" | "box-fume" | "box-incolor" | "box-verde" | "box-bronze",
+): RouteMeta {
+  const titleByPrefix: Record<typeof prefixo, string> = {
+    servicos: `${nome} | Box de Vidro Direto da Fábrica`,
+    "box-fume": `${nome} | Box de Vidro Fumê Direto da Fábrica`,
+    "box-incolor": `${nome} | Box de Vidro Incolor Direto da Fábrica`,
+    "box-verde": `${nome} | Box de Vidro Verde Direto da Fábrica`,
+    "box-bronze": `${nome} | Box de Vidro Bronze Direto da Fábrica`,
+  };
+  const descByPrefix: Record<typeof prefixo, string> = {
+    servicos: `Box de banheiro em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado sob medida. Peça seu orçamento pelo WhatsApp!`,
+    "box-fume": `Box de banheiro fumê em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado fumê sob medida. Peça seu orçamento pelo WhatsApp!`,
+    "box-incolor": `Box de banheiro incolor em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado incolor sob medida. Peça seu orçamento pelo WhatsApp!`,
+    "box-verde": `Box de banheiro verde em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado verde sob medida. Peça seu orçamento pelo WhatsApp!`,
+    "box-bronze": `Box de banheiro bronze em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado bronze sob medida. Peça seu orçamento pelo WhatsApp!`,
+  };
   return {
     path: `/${prefixo}/${slug}`,
-    title: `${nome} | Box de Vidro Direto da Fábrica`,
-    description: `Box de banheiro em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado sob medida. Peça seu orçamento pelo WhatsApp!`,
+    title: titleByPrefix[prefixo],
+    description: descByPrefix[prefixo],
     ogType: "article",
   };
 }
@@ -312,6 +342,8 @@ const routes: RouteMeta[] = [
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "servicos")),
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "box-fume")),
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "box-incolor")),
+  ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "box-verde")),
+  ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "box-bronze")),
 ];
 
 for (const r of routes) writeRoute(r);

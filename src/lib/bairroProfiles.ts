@@ -4,7 +4,7 @@
 
 import { findBairro, ZONA_LABEL, type Zona } from "@/lib/bairros";
 
-export type CategoriaSlug = "fume" | "incolor";
+export type CategoriaSlug = "fume" | "incolor" | "verde" | "bronze";
 
 export interface CategoriaAngulo {
   label: string;            // "Box Fumê"
@@ -33,6 +33,24 @@ export const CATEGORIAS: Record<CategoriaSlug, CategoriaAngulo> = {
     publicoTipico: "quem quer ampliar visualmente um banheiro pequeno",
     acabamentoNota:
       "o vidro incolor maximiza a entrada de luz e combina com qualquer paleta de revestimentos, do clássico ao contemporâneo",
+  },
+  verde: {
+    label: "Box Verde",
+    artigo: "o",
+    beneficio: "estética natural e privacidade suave",
+    beneficioCurto: "tom verde sofisticado",
+    publicoTipico: "quem busca um banheiro com identidade contemporânea e biofílica",
+    acabamentoNota:
+      "o vidro verde temperado entrega uma tonalidade discreta que combina com revestimentos amadeirados, marmorizados claros e metais pretos ou dourados",
+  },
+  bronze: {
+    label: "Box Bronze",
+    artigo: "o",
+    beneficio: "calor visual e elegância clássica",
+    beneficioCurto: "tom âmbar sofisticado",
+    publicoTipico: "quem prefere ambientes aconchegantes com pegada retrô-moderna",
+    acabamentoNota:
+      "o vidro bronze temperado traz uma tonalidade quente que valoriza metais dourados, madeira natural e revestimentos em mármore travertino",
   },
 };
 
@@ -276,6 +294,16 @@ export function buildBairroFaq(slug: string, categoria: CategoriaSlug) {
     itens.push({
       q: `Box Fumê é uma opção muito procurada em ${bairro.nome}?`,
       a: `Sim. O box fumê é altamente procurado por clientes que buscam um design moderno, sofisticado e, acima de tudo, privacidade discreta no momento do banho, filtrando a luz de forma elegante.`,
+    });
+  } else if (categoria === "verde") {
+    itens.push({
+      q: `Box Verde combina com banheiros em ${bairro.nome}?`,
+      a: `Sim. O box verde temperado vem sendo bastante pedido por entregar uma tonalidade natural e elegante, que conversa muito bem com revestimentos amadeirados, marmorizados claros e metais pretos ou dourados — uma escolha contemporânea e fora do óbvio.`,
+    });
+  } else if (categoria === "bronze") {
+    itens.push({
+      q: `Box Bronze ainda é uma boa escolha em ${bairro.nome}?`,
+      a: `Sim. O box bronze é um clássico que voltou com força: entrega calor visual e sofisticação, valorizando ambientes com metais dourados, madeira natural e mármores em tons quentes. É a escolha ideal para quem busca um banheiro aconchegante e atemporal.`,
     });
   }
 

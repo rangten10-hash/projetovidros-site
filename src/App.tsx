@@ -16,6 +16,10 @@ import BoxFume from "./pages/BoxFume";
 import BoxFumeBairro from "./pages/BoxFumeBairro";
 import BoxIncolor from "./pages/BoxIncolor";
 import BoxIncolorBairro from "./pages/BoxIncolorBairro";
+import BoxVerde from "./pages/BoxVerde";
+import BoxVerdeBairro from "./pages/BoxVerdeBairro";
+import BoxBronze from "./pages/BoxBronze";
+import BoxBronzeBairro from "./pages/BoxBronzeBairro";
 import PortasVidro from "./pages/PortasVidro";
 import Espelhos from "./pages/Espelhos";
 import EspelhosLed from "./pages/EspelhosLed";
@@ -50,6 +54,10 @@ const App = () => (
           <Route path="/box-fume/:bairro" element={<BoxFumeBairro />} />
           <Route path="/box-incolor" element={<BoxIncolor />} />
           <Route path="/box-incolor/:bairro" element={<BoxIncolorBairro />} />
+          <Route path="/box-verde" element={<BoxVerde />} />
+          <Route path="/box-verde/:bairro" element={<BoxVerdeBairro />} />
+          <Route path="/box-bronze" element={<BoxBronze />} />
+          <Route path="/box-bronze/:bairro" element={<BoxBronzeBairro />} />
           <Route path="/portas-de-vidro" element={<PortasVidro />} />
           <Route path="/espelhos" element={<Espelhos />} />
           <Route path="/espelhos-led" element={<EspelhosLed />} />
