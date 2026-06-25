@@ -342,6 +342,8 @@ const routes: RouteMeta[] = [
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "servicos")),
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "box-fume")),
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "box-incolor")),
+  ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "box-verde")),
+  ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "box-bronze")),
 ];
 
 for (const r of routes) writeRoute(r);
