@@ -4,7 +4,7 @@
 
 import { findBairro, ZONA_LABEL, type Zona } from "@/lib/bairros";
 
-export type CategoriaSlug = "fume" | "incolor";
+export type CategoriaSlug = "fume" | "incolor" | "verde" | "bronze";
 
 export interface CategoriaAngulo {
   label: string;            // "Box Fumê"
@@ -33,6 +33,24 @@ export const CATEGORIAS: Record<CategoriaSlug, CategoriaAngulo> = {
     publicoTipico: "quem quer ampliar visualmente um banheiro pequeno",
     acabamentoNota:
       "o vidro incolor maximiza a entrada de luz e combina com qualquer paleta de revestimentos, do clássico ao contemporâneo",
+  },
+  verde: {
+    label: "Box Verde",
+    artigo: "o",
+    beneficio: "estética natural e privacidade suave",
+    beneficioCurto: "tom verde sofisticado",
+    publicoTipico: "quem busca um banheiro com identidade contemporânea e biofílica",
+    acabamentoNota:
+      "o vidro verde temperado entrega uma tonalidade discreta que combina com revestimentos amadeirados, marmorizados claros e metais pretos ou dourados",
+  },
+  bronze: {
+    label: "Box Bronze",
+    artigo: "o",
+    beneficio: "calor visual e elegância clássica",
+    beneficioCurto: "tom âmbar sofisticado",
+    publicoTipico: "quem prefere ambientes aconchegantes com pegada retrô-moderna",
+    acabamentoNota:
+      "o vidro bronze temperado traz uma tonalidade quente que valoriza metais dourados, madeira natural e revestimentos em mármore travertino",
   },
 };
 
