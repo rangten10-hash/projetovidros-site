@@ -19,21 +19,63 @@ const BoxFume = () => {
     description:
       "Box de banheiro fumê com vidro temperado 8mm (Cebrace/Guardian). Sofisticação, privacidade e modernidade. Medição digital a laser e instalação em toda a Grande SP.",
     path: "/box-fume",
-    jsonLd: {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      name: "Instalação de Box de Vidro Fumê",
-      serviceType: "Fabricação e instalação de box de banheiro em vidro temperado fumê 8mm",
-      description:
-        "Box de banheiro em vidro temperado fumê 8mm Cebrace/Guardian com película Box + Seguro opcional. Medição digital e instalação em toda a Grande São Paulo.",
-      areaServed: { "@type": "City", name: "São Paulo" },
-      provider: {
-        "@type": "LocalBusiness",
-        name: "Projeto Vidros",
-        telephone: "+5511915485945",
-        areaServed: "São Paulo e Grande SP",
+    jsonLd: [
+      {
+        "@context": "https://schema.org",
+        "@type": "Service",
+        name: "Instalação de Box de Vidro Fumê",
+        serviceType:
+          "Fabricação e instalação de box de banheiro em vidro temperado fumê 8mm",
+        description:
+          "Box de banheiro em vidro temperado fumê 8mm Cebrace/Guardian com película Box + Seguro opcional. Medição digital e instalação em toda a Grande São Paulo.",
+        areaServed: { "@type": "City", name: "São Paulo" },
+        provider: {
+          "@type": "LocalBusiness",
+          name: "Projeto Vidros",
+          telephone: "+5511915485945",
+          areaServed: "São Paulo e Grande SP",
+        },
       },
-    },
+      {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        name: "Box de Vidro Fumê 8mm Temperado",
+        description:
+          "Box de banheiro em vidro temperado fumê 8mm (Cebrace/Guardian) com película Box + Seguro opcional. Medição digital a laser e instalação em toda a Grande São Paulo.",
+        brand: { "@type": "Brand", name: "Projeto Vidros" },
+        category: "Box de Banheiro",
+        image: "https://www.projetovidros.com.br/images/og-image.png",
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: "5",
+          bestRating: "5",
+          worstRating: "1",
+          reviewCount: "8",
+        },
+        offers: {
+          "@type": "Offer",
+          url: "https://www.projetovidros.com.br/box-fume",
+          priceCurrency: "BRL",
+          price: "890.00",
+          priceSpecification: {
+            "@type": "PriceSpecification",
+            priceCurrency: "BRL",
+            price: "890.00",
+            valueAddedTaxIncluded: true,
+            description:
+              "Preço inicial a partir de R$ 890,00. Valor final sob orçamento conforme medição técnica.",
+          },
+          availability: "https://schema.org/InStock",
+          itemCondition: "https://schema.org/NewCondition",
+          areaServed: { "@type": "City", name: "São Paulo" },
+          seller: {
+            "@type": "LocalBusiness",
+            name: "Projeto Vidros",
+            telephone: "+5511915485945",
+          },
+        },
+      },
+    ],
   });
 
   const hero = pickRandomBoxFumeImage();
