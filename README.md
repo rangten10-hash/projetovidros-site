@@ -9,6 +9,9 @@ O **Projeto Vidros** é um ecossistema comercial de alta performance desenvolvid
 ## 📈 Métricas de Sucesso & Performance Comercial
 
 * **SEO em Larga Escala:** Mais de 411 páginas indexadas com sucesso no Google Search Console em apenas 4 meses de lançamento, posicionando dezenas de palavras-chave estratégicas na 1ª e 2ª página dos resultados de busca.
+Arquitetura Anti-Duplicação (Programmatic SEO): Sistema inteligente de renderização para páginas de bairros e regiões (ex: Zona Norte, Sul, Oeste). Ao selecionar uma localização, a plataforma injeta dinamicamente um carrossel exclusivo com 3 imagens e blocos de textos customizados. Essa abordagem elimina o problema de Duplicate Content (Conteúdo Duplicado), permitindo que mais de 400 páginas permaneçam indexadas e bem ranqueadas simultaneamente de forma saudável.
+
+Omnichannel & Prova Social Multiplataforma: Integração visual de feeds e APIs das principais redes sociais (Instagram, TikTok e YouTube) junto com o widget de avaliações reais do Google Business (Nota 5.0). Centralização de autoridade que engaja o usuário e valida o serviço em tempo real antes do clique de conversão.
 * **Otimização Extrema (PageSpeed Insights):** Pontuação máxima de performance mobile, registrando **100/100 em SEO** e **100/100 em Práticas Recomendadas**, garantindo carregamento instantâneo para o usuário final.
 * **Estratégia de Silos Regionais (Geotargeting):** Arquitetura programática que conecta produtos específicos (Box de Banheiro, Portas de Vidro, Espelhos LED) a bairros e regiões estratégicas, gerando relevância local imbatível.
 * **Marketing de Conteúdo & Conversão:** Blog integrado e alimentado para autoridade técnica, vídeos demonstrativos de testes de impacto de produtos integrados nas landing pages e botões flutuantes de ação (CTAs) com o WhatsApp em 100% das páginas.
