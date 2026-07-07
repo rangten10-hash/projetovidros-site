@@ -3,27 +3,26 @@ import promoMobile from "@/assets/banner-mobile-oferta.webp";
 import { gtagReportConversion } from "@/lib/gtag";
 
 const WHATSAPP_URL =
-  "https://wa.me/5511915485945?text=Olá,%20vi%20a%20oferta%20do%20Box%20Incolor%2012x%20R$89%20e%20gostaria%20de%20garantir!";
+  "https://wa.me/5511915485945?text=Olá,%20vi%20a%20oferta%20do%20Box%20Incolor%2012x%20R$79,90%20e%20gostaria%20de%20garantir!";
+
+const ALT = "Oferta Box de vidro incolor 8mm temperado - 12x de R$79,90 já instalado";
 
 const PromoBanner = () => {
   return (
     <section className="relative h-full w-full overflow-hidden bg-[#1a1a1a] lg:pt-24">
-      {/* Desktop image */}
-      <img
-        src={promoDesktop}
-        alt="Oferta Box de vidro incolor 8mm temperado - 12x de R$89 instalado"
-        loading="lazy"
-        decoding="async"
-        className="hidden md:block absolute inset-0 lg:top-24 w-full h-[calc(100%-0px)] lg:h-[calc(100%-6rem)] object-contain object-center z-[1]"
-      />
-      {/* Mobile image */}
-      <img
-        src={promoMobile}
-        alt="Oferta Box de vidro incolor 8mm temperado - 12x de R$89 instalado"
-        loading="lazy"
-        decoding="async"
-        className="md:hidden absolute inset-0 w-full h-full object-contain object-center z-[1]"
-      />
+      <picture>
+        <source media="(min-width: 768px)" srcSet={promoDesktop} type="image/webp" />
+        <source media="(max-width: 767px)" srcSet={promoMobile} type="image/webp" />
+        <img
+          src={promoDesktop}
+          alt={ALT}
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
+          className="absolute inset-0 md:top-0 lg:top-24 w-full h-full lg:h-[calc(100%-6rem)] object-contain object-center z-[1]"
+        />
+      </picture>
+
 
       <div className="absolute inset-x-0 bottom-4 md:bottom-12 z-10 flex justify-center px-4">
         <a
