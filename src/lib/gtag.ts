@@ -77,6 +77,14 @@ export function gtagReportConversion(
     window.gtag("set", "user_data", enhanced);
   }
 
+  // GA4 custom conversion event
+  window.gtag("event", "click_whatsapp", {
+    event_category: "engagement",
+    event_label: url,
+    transport_type: "beacon",
+  });
+
+  // Google Ads conversion
   window.gtag("event", "conversion", {
     send_to: "AW-18016443240/HvZMCJmZg4wcEOi29I5D",
     allow_enhanced_conversions: true,
