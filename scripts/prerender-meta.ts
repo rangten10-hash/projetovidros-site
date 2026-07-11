@@ -224,6 +224,14 @@ const ESPELHO_TITLES = [
   (n: string) => `Vidraçaria Especialista em Espelhos em ${n}`,
 ];
 
+const PORTA_TITLES = [
+  (n: string) => `Portas de Vidro Sob Medida em ${n}: Divisórias Modernas`,
+  (n: string) => `Portas de Vidro de Correr em ${n}: Linhas Vision e Flex`,
+  (n: string) => `Instalação de Porta de Vidro Flex e de Abrir em ${n}`,
+  (n: string) => `Fábrica de Portas de Vidro Temperado em ${n}`,
+  (n: string) => `Vidraçaria de Portas e Divisórias de Vidro em ${n}`,
+];
+
 function hashSlug(s: string) {
   let h = 0;
   for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
@@ -233,7 +241,7 @@ function hashSlug(s: string) {
 function bairroMeta(
   slug: string,
   nome: string,
-  prefixo: "servicos" | "box-fume" | "box-incolor" | "box-verde" | "box-bronze" | "espelhos",
+  prefixo: "servicos" | "box-fume" | "box-incolor" | "box-verde" | "box-bronze" | "espelhos" | "portas-de-vidro",
 ): RouteMeta {
   if (prefixo === "espelhos") {
     const t = ESPELHO_TITLES[hashSlug(slug) % ESPELHO_TITLES.length](nome);
@@ -244,14 +252,23 @@ function bairroMeta(
       ogType: "article",
     };
   }
-  const titleByPrefix: Record<Exclude<typeof prefixo, "espelhos">, string> = {
+  if (prefixo === "portas-de-vidro") {
+    const t = PORTA_TITLES[hashSlug(slug) % PORTA_TITLES.length](nome);
+    return {
+      path: `/portas-de-vidro/${slug}`,
+      title: `${t} | Projeto Vidros`,
+      description: `Portas de vidro sob medida em ${nome}: correr, abrir, flex camarão, Vision e Versatik. Vidro temperado 8/10mm. Orçamento pelo WhatsApp.`,
+      ogType: "article",
+    };
+  }
+  const titleByPrefix: Record<Exclude<typeof prefixo, "espelhos" | "portas-de-vidro">, string> = {
     servicos: `${nome} | Box de Vidro Direto da Fábrica`,
     "box-fume": `${nome} | Box de Vidro Fumê Direto da Fábrica`,
     "box-incolor": `${nome} | Box de Vidro Incolor Direto da Fábrica`,
     "box-verde": `${nome} | Box de Vidro Verde Direto da Fábrica`,
     "box-bronze": `${nome} | Box de Vidro Bronze Direto da Fábrica`,
   };
-  const descByPrefix: Record<Exclude<typeof prefixo, "espelhos">, string> = {
+  const descByPrefix: Record<Exclude<typeof prefixo, "espelhos" | "portas-de-vidro">, string> = {
     servicos: `Box de banheiro em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado sob medida. Peça seu orçamento pelo WhatsApp!`,
     "box-fume": `Box de banheiro fumê em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado fumê sob medida. Peça seu orçamento pelo WhatsApp!`,
     "box-incolor": `Box de banheiro incolor em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado incolor sob medida. Peça seu orçamento pelo WhatsApp!`,
