@@ -80,6 +80,7 @@ const urls: string[] = [
   ...BAIRROS.map((b) => urlBlock(`/box-incolor/${b}`, "monthly", "0.7")),
   ...BAIRROS.map((b) => urlBlock(`/box-verde/${b}`, "monthly", "0.7")),
   ...BAIRROS.map((b) => urlBlock(`/box-bronze/${b}`, "monthly", "0.7")),
+  ...BAIRROS.map((b) => urlBlock(`/espelhos/${b}`, "monthly", "0.7")),
 ];
 
 const xml = [
@@ -92,5 +93,5 @@ const xml = [
 
 writeFileSync(resolve("public/sitemap.xml"), xml);
 console.log(
-  `sitemap.xml gerado (${STATIC_ROUTES.length} estáticas + ${blogSlugs.length} posts + ${BAIRROS.length} bairros × 5 prefixos: servicos, box-fume, box-incolor, box-verde, box-bronze)`,
+  `sitemap.xml gerado (${STATIC_ROUTES.length} estáticas + ${blogSlugs.length} posts + ${BAIRROS.length} bairros × 6 prefixos: servicos, box-fume, box-incolor, box-verde, box-bronze, espelhos)`,
 );

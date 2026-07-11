@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import GalleryPageLayout from "@/components/GalleryPageLayout";
 import espelho1 from "@/assets/espelho-1.webp";
 import espelho2 from "@/assets/espelho-2.webp";
@@ -9,6 +10,7 @@ import espelho7 from "@/assets/espelho-7.webp";
 import espelho8 from "@/assets/espelho-8.webp";
 import { Phone } from "lucide-react";
 import { useSeo } from "@/lib/seo";
+import { ZONA_BAIRROS, ZONA_LABEL, type Zona } from "@/lib/bairros";
 
 const espelhoImages = [espelho1, espelho2, espelho3, espelho4, espelho5, espelho6, espelho7, espelho8];
 
@@ -58,6 +60,44 @@ const Espelhos = () => {
         <Phone className="w-4 h-4" />
         Peça seu orçamento de espelho sob medida agora!
       </a>
+
+      {/* Grade de bairros atendidos */}
+      <section className="pt-12">
+        <div className="text-center mb-8">
+          <span className="text-copper text-xs font-semibold tracking-[0.25em] uppercase">
+            Atendimento Local
+          </span>
+          <h3 className="font-display text-2xl md:text-3xl text-petrol mt-2">
+            Espelhos Sob Medida por Bairro em São Paulo
+          </h3>
+          <p className="text-muted-foreground text-sm mt-2">
+            Clique no seu bairro e veja a página dedicada com modelos, fotos e orçamento.
+          </p>
+        </div>
+
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {(Object.keys(ZONA_BAIRROS) as Zona[]).map((z) => (
+            <div key={z} className="rounded-xl border border-border bg-card p-5">
+              <h4 className="font-display text-lg text-petrol mb-3 pb-2 border-b border-copper/40">
+                {ZONA_LABEL[z]}
+              </h4>
+              <ul className="space-y-1.5">
+                {ZONA_BAIRROS[z].map((b) => (
+                  <li key={b.slug}>
+                    <Link
+                      to={`/espelhos/${b.slug}`}
+                      className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-copper transition-colors"
+                    >
+                      <span className="w-1.5 h-1.5 rounded-full bg-copper/60 group-hover:bg-copper transition-colors" />
+                      Espelhos em {b.nome}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </section>
     </div>
   </GalleryPageLayout>
   );

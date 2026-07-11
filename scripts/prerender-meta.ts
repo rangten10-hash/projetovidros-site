@@ -216,19 +216,42 @@ const STATIC_ROUTES: RouteMeta[] = [
   },
 ];
 
+const ESPELHO_TITLES = [
+  (n: string) => `Espelhos Sob Medida em ${n}: Amplitude e Elegância para seu Ambiente`,
+  (n: string) => `Fábrica de Espelhos em ${n}: Projetos Decorativos Personalizados`,
+  (n: string) => `Espelho para Banheiro e Ambientes Internos em ${n}`,
+  (n: string) => `Espelhos Decorativos e Modernos na Região de ${n}`,
+  (n: string) => `Vidraçaria Especialista em Espelhos em ${n}`,
+];
+
+function hashSlug(s: string) {
+  let h = 0;
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+  return h;
+}
+
 function bairroMeta(
   slug: string,
   nome: string,
-  prefixo: "servicos" | "box-fume" | "box-incolor" | "box-verde" | "box-bronze",
+  prefixo: "servicos" | "box-fume" | "box-incolor" | "box-verde" | "box-bronze" | "espelhos",
 ): RouteMeta {
-  const titleByPrefix: Record<typeof prefixo, string> = {
+  if (prefixo === "espelhos") {
+    const t = ESPELHO_TITLES[hashSlug(slug) % ESPELHO_TITLES.length](nome);
+    return {
+      path: `/espelhos/${slug}`,
+      title: `${t} | Projeto Vidros`,
+      description: `Espelhos sob medida em ${nome}: decorativos, bisotê, lapidados e antiumidade para banheiro. Instalação profissional em São Paulo. Orçamento pelo WhatsApp.`,
+      ogType: "article",
+    };
+  }
+  const titleByPrefix: Record<Exclude<typeof prefixo, "espelhos">, string> = {
     servicos: `${nome} | Box de Vidro Direto da Fábrica`,
     "box-fume": `${nome} | Box de Vidro Fumê Direto da Fábrica`,
     "box-incolor": `${nome} | Box de Vidro Incolor Direto da Fábrica`,
     "box-verde": `${nome} | Box de Vidro Verde Direto da Fábrica`,
     "box-bronze": `${nome} | Box de Vidro Bronze Direto da Fábrica`,
   };
-  const descByPrefix: Record<typeof prefixo, string> = {
+  const descByPrefix: Record<Exclude<typeof prefixo, "espelhos">, string> = {
     servicos: `Box de banheiro em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado sob medida. Peça seu orçamento pelo WhatsApp!`,
     "box-fume": `Box de banheiro fumê em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado fumê sob medida. Peça seu orçamento pelo WhatsApp!`,
     "box-incolor": `Box de banheiro incolor em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado incolor sob medida. Peça seu orçamento pelo WhatsApp!`,
@@ -344,6 +367,7 @@ const routes: RouteMeta[] = [
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "box-incolor")),
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "box-verde")),
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "box-bronze")),
+  ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "espelhos")),
 ];
 
 for (const r of routes) writeRoute(r);

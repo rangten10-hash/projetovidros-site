@@ -22,6 +22,7 @@ import BoxBronze from "./pages/BoxBronze";
 import BoxBronzeBairro from "./pages/BoxBronzeBairro";
 import PortasVidro from "./pages/PortasVidro";
 import Espelhos from "./pages/Espelhos";
+import EspelhosBairro from "./pages/EspelhosBairro";
 import EspelhosLed from "./pages/EspelhosLed";
 import Projetos from "./pages/Projetos";
 import Simulador from "./pages/Simulador";
@@ -60,6 +61,7 @@ const App = () => (
           <Route path="/box-bronze/:bairro" element={<BoxBronzeBairro />} />
           <Route path="/portas-de-vidro" element={<PortasVidro />} />
           <Route path="/espelhos" element={<Espelhos />} />
+          <Route path="/espelhos/:bairro" element={<EspelhosBairro />} />
           <Route path="/espelhos-led" element={<EspelhosLed />} />
           <Route path="/projetos" element={<Projetos />} />
           <Route path="/simulador" element={<Simulador />} />
