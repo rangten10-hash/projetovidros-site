@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ProductPageLayout from "@/components/ProductPageLayout";
 import portaVision from "@/assets/porta-vision.webp";
 import portaNobre from "@/assets/porta-nobre.webp";
@@ -8,6 +9,7 @@ import portaCorrer from "@/assets/porta-correr.webp";
 import portaVersatik from "@/assets/porta-versatik.webp";
 import { Phone } from "lucide-react";
 import { useSeo } from "@/lib/seo";
+import { ZONA_BAIRROS, ZONA_LABEL, type Zona } from "@/lib/bairros";
 
 const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20portas%20de%20vidro.";
 
