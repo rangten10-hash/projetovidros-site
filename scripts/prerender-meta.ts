@@ -254,7 +254,7 @@ function hashSlug(s: string) {
 function bairroMeta(
   slug: string,
   nome: string,
-  prefixo: "servicos" | "box-fume" | "box-incolor" | "box-verde" | "box-bronze" | "espelhos" | "portas-de-vidro",
+  prefixo: "servicos" | "box-fume" | "box-incolor" | "box-verde" | "box-bronze" | "espelhos" | "portas-de-vidro" | "projetos",
 ): RouteMeta {
   if (prefixo === "espelhos") {
     const t = ESPELHO_TITLES[hashSlug(slug) % ESPELHO_TITLES.length](nome);
@@ -274,14 +274,23 @@ function bairroMeta(
       ogType: "article",
     };
   }
-  const titleByPrefix: Record<Exclude<typeof prefixo, "espelhos" | "portas-de-vidro">, string> = {
+  if (prefixo === "projetos") {
+    const t = PROJETO_TITLES[hashSlug(slug) % PROJETO_TITLES.length](nome);
+    return {
+      path: `/projetos/${slug}`,
+      title: `${t} | Projeto Vidros`,
+      description: `Projetos de vidraçaria em ${nome}: janelas, guarda-corpo, sacadas, vitrines, divisórias e coberturas de vidro sob medida. Orçamento pelo WhatsApp.`,
+      ogType: "article",
+    };
+  }
+  const titleByPrefix: Record<Exclude<typeof prefixo, "espelhos" | "portas-de-vidro" | "projetos">, string> = {
     servicos: `${nome} | Box de Vidro Direto da Fábrica`,
     "box-fume": `${nome} | Box de Vidro Fumê Direto da Fábrica`,
     "box-incolor": `${nome} | Box de Vidro Incolor Direto da Fábrica`,
     "box-verde": `${nome} | Box de Vidro Verde Direto da Fábrica`,
     "box-bronze": `${nome} | Box de Vidro Bronze Direto da Fábrica`,
   };
-  const descByPrefix: Record<Exclude<typeof prefixo, "espelhos" | "portas-de-vidro">, string> = {
+  const descByPrefix: Record<Exclude<typeof prefixo, "espelhos" | "portas-de-vidro" | "projetos">, string> = {
     servicos: `Box de banheiro em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado sob medida. Peça seu orçamento pelo WhatsApp!`,
     "box-fume": `Box de banheiro fumê em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado fumê sob medida. Peça seu orçamento pelo WhatsApp!`,
     "box-incolor": `Box de banheiro incolor em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado incolor sob medida. Peça seu orçamento pelo WhatsApp!`,
