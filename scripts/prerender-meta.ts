@@ -232,6 +232,19 @@ const PORTA_TITLES = [
   (n: string) => `Vidraçaria de Portas e Divisórias de Vidro em ${n}`,
 ];
 
+const PROJETO_TITLES = [
+  (n: string) => `Projetos de Janelas de Vidro Temperado em ${n}`,
+  (n: string) => `Instalação de Guarda-Corpo de Vidro em ${n}`,
+  (n: string) => `Envidraçamento de Sacadas e Varandas em ${n}`,
+  (n: string) => `Portas de Vidro para Lojas e Comércios em ${n}`,
+  (n: string) => `Fábrica de Vitrines de Vidro para Lojas em ${n}`,
+  (n: string) => `Divisórias de Vidro para Cozinha em ${n}`,
+  (n: string) => `Divisórias de Vidro para Lavanderia em ${n}`,
+  (n: string) => `Divisórias Corporativas de Vidro em ${n}`,
+  (n: string) => `Fornecimento de Vidros para Obras em ${n}`,
+  (n: string) => `Cobertura de Vidro Sob Medida em ${n}`,
+];
+
 function hashSlug(s: string) {
   let h = 0;
   for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
