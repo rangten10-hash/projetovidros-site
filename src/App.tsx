@@ -26,6 +26,7 @@ import Espelhos from "./pages/Espelhos";
 import EspelhosBairro from "./pages/EspelhosBairro";
 import EspelhosLed from "./pages/EspelhosLed";
 import Projetos from "./pages/Projetos";
+import ProjetosBairro from "./pages/ProjetosBairro";
 import Simulador from "./pages/Simulador";
 import Blog from "./pages/Blog";
 import ServicosBairro from "./pages/ServicosBairro";
@@ -66,6 +67,7 @@ const App = () => (
           <Route path="/espelhos/:bairro" element={<EspelhosBairro />} />
           <Route path="/espelhos-led" element={<EspelhosLed />} />
           <Route path="/projetos" element={<Projetos />} />
+          <Route path="/projetos/:bairro" element={<ProjetosBairro />} />
           <Route path="/simulador" element={<Simulador />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />

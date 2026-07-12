@@ -232,6 +232,19 @@ const PORTA_TITLES = [
   (n: string) => `Vidraçaria de Portas e Divisórias de Vidro em ${n}`,
 ];
 
+const PROJETO_TITLES = [
+  (n: string) => `Projetos de Janelas de Vidro Temperado em ${n}`,
+  (n: string) => `Instalação de Guarda-Corpo de Vidro em ${n}`,
+  (n: string) => `Envidraçamento de Sacadas e Varandas em ${n}`,
+  (n: string) => `Portas de Vidro para Lojas e Comércios em ${n}`,
+  (n: string) => `Fábrica de Vitrines de Vidro para Lojas em ${n}`,
+  (n: string) => `Divisórias de Vidro para Cozinha em ${n}`,
+  (n: string) => `Divisórias de Vidro para Lavanderia em ${n}`,
+  (n: string) => `Divisórias Corporativas de Vidro em ${n}`,
+  (n: string) => `Fornecimento de Vidros para Obras em ${n}`,
+  (n: string) => `Cobertura de Vidro Sob Medida em ${n}`,
+];
+
 function hashSlug(s: string) {
   let h = 0;
   for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
@@ -241,7 +254,7 @@ function hashSlug(s: string) {
 function bairroMeta(
   slug: string,
   nome: string,
-  prefixo: "servicos" | "box-fume" | "box-incolor" | "box-verde" | "box-bronze" | "espelhos" | "portas-de-vidro",
+  prefixo: "servicos" | "box-fume" | "box-incolor" | "box-verde" | "box-bronze" | "espelhos" | "portas-de-vidro" | "projetos",
 ): RouteMeta {
   if (prefixo === "espelhos") {
     const t = ESPELHO_TITLES[hashSlug(slug) % ESPELHO_TITLES.length](nome);
@@ -261,14 +274,23 @@ function bairroMeta(
       ogType: "article",
     };
   }
-  const titleByPrefix: Record<Exclude<typeof prefixo, "espelhos" | "portas-de-vidro">, string> = {
+  if (prefixo === "projetos") {
+    const t = PROJETO_TITLES[hashSlug(slug) % PROJETO_TITLES.length](nome);
+    return {
+      path: `/projetos/${slug}`,
+      title: `${t} | Projeto Vidros`,
+      description: `Projetos de vidraçaria em ${nome}: janelas, guarda-corpo, sacadas, vitrines, divisórias e coberturas de vidro sob medida. Orçamento pelo WhatsApp.`,
+      ogType: "article",
+    };
+  }
+  const titleByPrefix: Record<Exclude<typeof prefixo, "espelhos" | "portas-de-vidro" | "projetos">, string> = {
     servicos: `${nome} | Box de Vidro Direto da Fábrica`,
     "box-fume": `${nome} | Box de Vidro Fumê Direto da Fábrica`,
     "box-incolor": `${nome} | Box de Vidro Incolor Direto da Fábrica`,
     "box-verde": `${nome} | Box de Vidro Verde Direto da Fábrica`,
     "box-bronze": `${nome} | Box de Vidro Bronze Direto da Fábrica`,
   };
-  const descByPrefix: Record<Exclude<typeof prefixo, "espelhos" | "portas-de-vidro">, string> = {
+  const descByPrefix: Record<Exclude<typeof prefixo, "espelhos" | "portas-de-vidro" | "projetos">, string> = {
     servicos: `Box de banheiro em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado sob medida. Peça seu orçamento pelo WhatsApp!`,
     "box-fume": `Box de banheiro fumê em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado fumê sob medida. Peça seu orçamento pelo WhatsApp!`,
     "box-incolor": `Box de banheiro incolor em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado incolor sob medida. Peça seu orçamento pelo WhatsApp!`,
@@ -386,6 +408,7 @@ const routes: RouteMeta[] = [
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "box-bronze")),
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "espelhos")),
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "portas-de-vidro")),
+  ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "projetos")),
 ];
 
 for (const r of routes) writeRoute(r);
