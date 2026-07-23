@@ -3,7 +3,6 @@ import instagramLogo from "@/assets/social-instagram.png";
 import tiktokLogo from "@/assets/social-tiktok.png";
 import youtubeLogo from "@/assets/social-youtube.png";
 
-const INSTAGRAM_URL = "https://www.instagram.com/projetovidros.sp/";
 const YOUTUBE_URL = "https://www.youtube.com/@ProjetoVidrosVidra%C3%A7aria/shorts";
 const TIKTOK_URL = "https://www.tiktok.com/@projeto.vidros?_r=1&_t=ZS-95oOpJcsi9d";
 const GOOGLE_URL = "https://maps.app.goo.gl/AMCBT3PqQ2bHAiXo9";
@@ -42,7 +41,7 @@ const SocialProof = () => {
 
           <div className="flex items-center justify-center gap-8 mt-8">
             <a
-              href={INSTAGRAM_URL}
+              href="https://www.instagram.com/projetovidros.sp/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram Projeto Vidros"
@@ -100,7 +99,7 @@ const SocialProof = () => {
               {instagramPosts.map((post, i) => (
                 <a
                   key={i}
-                  href={INSTAGRAM_URL}
+                  href="https://www.instagram.com/projetovidros.sp/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group relative aspect-square overflow-hidden rounded-md"
@@ -119,7 +118,7 @@ const SocialProof = () => {
             </div>
 
             <a
-              href={INSTAGRAM_URL}
+              href="https://www.instagram.com/projetovidros.sp/"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 flex items-center justify-center w-full rounded-lg px-6 py-3 text-sm font-semibold text-primary-foreground bg-gradient-to-r from-[#F58529] via-[#DD2A7B] to-[#8134AF] hover:opacity-90 transition-opacity"
