@@ -81,7 +81,7 @@ const Footer = () => {
 
         <div className="border-t border-copper/10 mt-12 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-4">
-            <a href="https://www.instagram.com/projetovidros.sp?igsh=MjJ3b2hzb3phdTFz&utm_source=qr" target="_blank" rel="noopener noreferrer" className="flex h-11 w-11 items-center justify-center rounded-full border border-copper/20 text-primary-foreground/60 transition-colors hover:border-copper hover:text-copper" aria-label="Instagram">
+            <a href="https://www.instagram.com/projetovidros.sp/" target="_blank" rel="noopener noreferrer" className="flex h-11 w-11 items-center justify-center rounded-full border border-copper/20 text-primary-foreground/60 transition-colors hover:border-copper hover:text-copper" aria-label="Instagram">
               <Instagram className="h-6 w-6" />
             </a>
             <a href="https://www.youtube.com/@ProjetoVidrosVidra%C3%A7aria" target="_blank" rel="noopener noreferrer" className="flex h-11 w-11 items-center justify-center rounded-full border border-copper/20 text-primary-foreground/60 transition-colors hover:border-copper hover:text-copper" aria-label="YouTube">
