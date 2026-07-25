@@ -80,6 +80,9 @@ import boxBanheiroParqueSaoDomingosCapa from "@/assets/blog-box-banheiro-parque-
 import boxBanheiroCityAmericaCapa from "@/assets/blog-box-banheiro-city-america-capa.png";
 import boxBanheiroPiritubaCapa from "@/assets/blog-box-banheiro-pirituba-capa.png";
 import boxBanheiroHortoFlorestalCapa from "@/assets/blog-box-banheiro-horto-florestal-capa.png";
+import sacadaUniqueCapa from "@/assets/blog-sacada-unique-capa.png";
+import sacadaUniqueAntes from "@/assets/blog-sacada-unique-antes.jpg";
+import sacadaUniqueDepois from "@/assets/blog-sacada-unique-depois.jpg";
 
 export interface BlogPost {
   slug: string;
@@ -103,12 +106,116 @@ export type BlogBlock =
   | { type: "heading"; text: string }
   | { type: "list"; items: { strong?: string; text: string }[] }
   | { type: "image"; src: string; alt: string }
-  | { type: "internalLink"; href: string; label: string; description?: string };
+  | { type: "internalLink"; href: string; label: string; description?: string }
+  | { type: "youtube"; videoId: string; title: string };
 
 const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "envidracamento-sacada-bastidores-instalacao",
+    title: "Envidraçamento de Sacada: Do Antes e Depois aos Bastidores de uma Instalação de Alto Padrão",
+    excerpt:
+      "Veja os bastidores de uma instalação real de envidraçamento de sacada pela Projeto Vidros: do antes ao processo técnico com vidro temperado e vedação impecável.",
+    image: sacadaUniqueCapa,
+    imageAlt:
+      "Bastidores de obra: instalação de fechamento de sacada com vidro temperado pela Projeto Vidros",
+    date: "2026-07-25",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Bastidores de obra da Projeto Vidros: veja o antes e o processo de instalação de fechamento de sacada com vidro temperado, vedação técnica e mão de obra especializada.",
+    cta: {
+      label: "Falar pelo WhatsApp e Solicitar Orçamento",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "heading",
+        text: "A Importância da Execução Técnica no Fechamento de Sacada",
+      },
+      {
+        type: "paragraph",
+        text: "A busca por mais espaço, conforto térmico e proteção no apartamento faz do envidraçamento de sacada um dos projetos mais desejados em imóveis modernos. Por trás daquela vista panorâmica e do acabamento impecável, existe um processo técnico rigoroso que garante a segurança e a durabilidade da estrutura.",
+      },
+      {
+        type: "paragraph",
+        text: "Na Projeto Vidros, fazemos questão de mostrar nossos projetos ainda em fase de finalização — como neste registro recente, com 90% da obra concluída. Acreditamos que a transparência nos bastidores demonstra a precisão do nosso trabalho, o cuidado no manuseio dos painéis de vidro e o alinhamento impecável dos trilhos e vedações.",
+      },
+      {
+        type: "image",
+        src: sacadaUniqueAntes,
+        alt: "Antes: sacada aberta com guarda-corpo metálico antes do envidraçamento",
+      },
+      {
+        type: "heading",
+        text: "O Que Avaliar Antes de Fechar Sua Sacada?",
+      },
+      {
+        type: "paragraph",
+        text: "Para que o fechamento de sacada traga todos os benefícios esperados sem dores de cabeça futuras, três pilares são fundamentais:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Medição Exata e Personalizada:", text: "cada estrutura é projetada para se adequar perfeitamente ao vão do imóvel, garantindo estanqueidade total contra chuva e ventos fortes." },
+          { strong: "Qualidade dos Materiais e Vidros Certificados:", text: "utilizamos painéis de vidro temperado e perfis de alumínio de alta resistência, que garantem durabilidade contra oxidação e desgaste natural." },
+          { strong: "Mão de Obra Especializada:", text: "a montagem é executada por técnicos treinados para assegurar o deslize suave das folhas, o travamento correto e a vedação técnica de silicone nas pontas." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/projetos",
+        label: "Ver projetos de Envidraçamento de Sacada",
+        description: "Conheça em detalhes nossas soluções de fechamento de sacada sob medida:",
+      },
+      {
+        type: "heading",
+        text: "Principais Benefícios do Envidraçamento de Sacada",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Aproveitamento da Área Gourmet:", text: "transforme a sacada em uma extensão da sala de estar ou espaço de lazer para todas as estações do ano." },
+          { strong: "Proteção Contra Agentes Externos:", text: "bloqueie chuva, poeira, vento e entrada de folhagens." },
+          { strong: "Isolamento Acústico e Térmico:", text: "reduza o ruído urbano e mantenha a temperatura interna mais agradável." },
+          { strong: "Valorização do Imóvel:", text: "um projeto bem executado agrega valor imediato à arquitetura do seu apartamento." },
+        ],
+      },
+      {
+        type: "image",
+        src: sacadaUniqueDepois,
+        alt: "Depois: sacada envidraçada com vidro temperado e vista panorâmica - Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Confira o Vídeo da Instalação em Andamento",
+      },
+      {
+        type: "paragraph",
+        text: "Acompanhe abaixo os bastidores do nosso trabalho na prática. Veja o \"antes\" do ambiente e o cuidado da equipe na montagem das lâminas de vidro:",
+      },
+      {
+        type: "youtube",
+        videoId: "zTl0-tz9Yi8",
+        title: "Fechamento de Sacada com Vidro: Antes e Processo de Instalação | Projeto Vidros",
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver toda a linha de Produtos de Vidraçaria",
+        description: "Explore também nossos boxes, portas e espelhos sob medida:",
+      },
+      {
+        type: "heading",
+        text: "Quer Valorizar Seu Imóvel com Segurança e Sofisticação?",
+      },
+      {
+        type: "paragraph",
+        text: "Entre em contato com a equipe de especialistas da Projeto Vidros e receba uma consultoria técnica sob medida para o seu projeto de fechamento de sacada.",
+      },
+    ],
+  },
   {
     slug: "box-de-banheiro-no-horto-florestal",
     title: "Vidraçaria Horto Florestal: Excelência em Instalação e Projetos Sob Medida",
