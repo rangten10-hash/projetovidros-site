@@ -80,6 +80,9 @@ import boxBanheiroParqueSaoDomingosCapa from "@/assets/blog-box-banheiro-parque-
 import boxBanheiroCityAmericaCapa from "@/assets/blog-box-banheiro-city-america-capa.png";
 import boxBanheiroPiritubaCapa from "@/assets/blog-box-banheiro-pirituba-capa.png";
 import boxBanheiroHortoFlorestalCapa from "@/assets/blog-box-banheiro-horto-florestal-capa.png";
+import sacadaUniqueCapa from "@/assets/blog-sacada-unique-capa.png";
+import sacadaUniqueAntes from "@/assets/blog-sacada-unique-antes.jpg";
+import sacadaUniqueDepois from "@/assets/blog-sacada-unique-depois.jpg";
 
 export interface BlogPost {
   slug: string;
