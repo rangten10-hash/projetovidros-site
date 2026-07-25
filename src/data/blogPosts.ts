@@ -83,6 +83,9 @@ import boxBanheiroHortoFlorestalCapa from "@/assets/blog-box-banheiro-horto-flor
 import sacadaUniqueCapa from "@/assets/blog-sacada-unique-capa.png";
 import sacadaUniqueAntes from "@/assets/blog-sacada-unique-antes.jpg";
 import sacadaUniqueDepois from "@/assets/blog-sacada-unique-depois.jpg";
+import sacadaRetratilCapa from "@/assets/blog-sacada-retratil-capa.png";
+import sacadaRetratilAbrindo from "@/assets/blog-sacada-retratil-abrindo.png";
+import sacadaRetratilFinal from "@/assets/blog-sacada-retratil-final.jpg";
 
 export interface BlogPost {
   slug: string;
