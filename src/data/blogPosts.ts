@@ -117,6 +117,171 @@ const WHATSAPP_URL =
 
 export const blogPosts: BlogPost[] = [
   {
+    slug: "sacada-com-vidro-retratil-como-funciona",
+    title: "Sacada com Vidro Retrátil: Veja Como Abre e Fecha na Prática",
+    excerpt:
+      "Veja como funciona a abertura e o fechamento de uma sacada com vidro retrátil. Assista aos vídeos reais de instalações executadas pela Projeto Vidros em São Paulo.",
+    image: sacadaRetratilCapa,
+    imageAlt:
+      "Sacada com vidro retrátil sendo aberta por técnico da Projeto Vidros em apartamento em São Paulo",
+    date: "2026-07-26",
+    author: "Projeto Vidros",
+    metaDescription:
+      "Veja como funciona uma sacada com vidro retrátil na prática. Assista ao vídeo da abertura e fechamento do sistema e conheça as vantagens do envidraçamento realizado pela Projeto Vidros em São Paulo.",
+    cta: {
+      label: "Falar pelo WhatsApp e Solicitar Orçamento",
+      href: WHATSAPP_URL,
+    },
+    content: [
+      {
+        type: "paragraph",
+        text: "Uma das perguntas que mais recebemos na Projeto Vidros é: \"Como funciona a abertura da sacada com vidro?\" Muitas pessoas imaginam que os painéis são fixos ou que abrem apenas parcialmente. Na prática, o sistema retrátil permite recolher as folhas de vidro para uma das extremidades da varanda, proporcionando ventilação, praticidade e uma vista totalmente livre quando desejado.",
+      },
+      {
+        type: "paragraph",
+        text: "Neste artigo, mostramos vídeos reais de uma instalação executada por nossa equipe para que você veja exatamente como funciona o sistema — do movimento das folhas até o resultado final da sacada envidraçada.",
+      },
+      {
+        type: "heading",
+        text: "Assista ao Funcionamento do Sistema Retrátil",
+      },
+      {
+        type: "youtube",
+        videoId: "SjDjVb0aquc",
+        title: "Sacada com Vidro Retrátil: Como Abre e Fecha na Prática | Projeto Vidros",
+      },
+      {
+        type: "paragraph",
+        text: "Este vídeo mostra uma instalação real realizada pela Projeto Vidros em São Paulo, demonstrando o funcionamento do sistema retrátil durante a abertura e o fechamento dos painéis de vidro. O deslizamento acontece de forma suave, permitindo que praticamente toda a abertura da sacada fique livre — um dos principais diferenciais do envidraçamento retrátil.",
+      },
+      {
+        type: "heading",
+        text: "Como Funciona a Sacada com Vidro Retrátil?",
+      },
+      {
+        type: "paragraph",
+        text: "O sistema é composto por painéis de vidro temperado instalados sobre trilhos de alta resistência. Cada folha desliza individualmente até uma das extremidades da sacada, onde pode ser recolhida de maneira organizada. Esse mecanismo oferece diversas vantagens práticas para o dia a dia:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Ventilação natural:", text: "controle total do fluxo de ar em qualquer estação do ano." },
+          { strong: "Aproveitamento da varanda:", text: "espaço utilizável integrado à sala em qualquer momento." },
+          { strong: "Proteção contra chuva e vento:", text: "vedação eficiente quando o sistema está fechado." },
+          { strong: "Vista panorâmica preservada:", text: "vidros transparentes que mantêm a paisagem." },
+          { strong: "Facilidade de limpeza:", text: "acesso simples às duas faces dos painéis." },
+          { strong: "Design moderno e elegante:", text: "acabamento discreto que valoriza a arquitetura." },
+        ],
+      },
+      {
+        type: "image",
+        src: sacadaRetratilAbrindo,
+        alt: "Técnico da Projeto Vidros abrindo painéis de vidro retrátil em sacada de apartamento em São Paulo",
+      },
+      {
+        type: "heading",
+        text: "O Sistema Abre Totalmente?",
+      },
+      {
+        type: "paragraph",
+        text: "Uma dúvida bastante comum é se a sacada fica completamente aberta. Na maioria dos projetos, o sistema permite recolher praticamente todas as folhas para uma das laterais, deixando grande parte da abertura livre. O percentual exato depende do modelo escolhido e das características da instalação.",
+      },
+      {
+        type: "heading",
+        text: "Vantagens do Envidraçamento Retrátil",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Aproveitamento do espaço:", text: "a varanda pode ser utilizada em qualquer época do ano, integrando-se à sala de estar." },
+          { strong: "Mais iluminação natural:", text: "como os painéis são transparentes, o ambiente continua recebendo luz natural durante todo o dia." },
+          { strong: "Proteção contra chuva e vento:", text: "quando fechado, o sistema reduz significativamente a entrada de água, vento, poeira e parte dos ruídos externos." },
+          { strong: "Valorização do imóvel:", text: "o fechamento de sacadas é um investimento que melhora o conforto e pode aumentar o valor percebido do imóvel." },
+          { strong: "Abertura suave e segura:", text: "os sistemas modernos utilizam componentes desenvolvidos para proporcionar um deslizamento leve e seguro, com funcionamento eficiente por muitos anos quando bem instalados." },
+        ],
+      },
+      {
+        type: "heading",
+        text: "Onde a Sacada com Vidro Retrátil Pode Ser Instalada?",
+      },
+      {
+        type: "paragraph",
+        text: "O sistema retrátil é indicado para os mais diversos tipos de imóveis, sempre desenvolvido de acordo com as medidas do vão e as regras do condomínio:",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "Apartamentos", text: "de todos os padrões, com ou sem cortina de vidro anterior." },
+          { strong: "Coberturas", text: "residenciais e áreas gourmet elevadas." },
+          { strong: "Varandas gourmet", text: "com integração à cozinha e sala de jantar." },
+          { strong: "Sacadas residenciais", text: "de metragens variadas, em prédios novos ou antigos." },
+          { strong: "Sacadas comerciais", text: "de escritórios, coworkings e áreas de convivência corporativa." },
+        ],
+      },
+      {
+        type: "heading",
+        text: "Veja o Resultado Final da Instalação",
+      },
+      {
+        type: "paragraph",
+        text: "Após conhecer o funcionamento do sistema, confira o resultado final da sacada totalmente envidraçada. O projeto proporciona mais conforto, proteção contra chuva e vento, além de valorizar o imóvel.",
+      },
+      {
+        type: "youtube",
+        videoId: "zTl0-tz9Yi8",
+        title: "Resultado Final: Sacada Envidraçada pela Projeto Vidros",
+      },
+      {
+        type: "image",
+        src: sacadaRetratilFinal,
+        alt: "Sacada envidraçada com vidro temperado - resultado final da instalação pela Projeto Vidros",
+      },
+      {
+        type: "heading",
+        text: "Projeto Executado pela Projeto Vidros",
+      },
+      {
+        type: "paragraph",
+        text: "Os vídeos apresentados neste artigo mostram uma instalação realizada por nossa equipe. Cada projeto recebe atenção desde a medição até a instalação final, buscando oferecer acabamento de qualidade, funcionamento suave e segurança. Atendemos toda a cidade de São Paulo, com forte atuação na Zona Norte, incluindo bairros como Santana, Tucuruvi, Mandaqui, Casa Verde, Limão, Freguesia do Ó, Vila Maria, Pirituba, Jaçanã e regiões próximas.",
+      },
+      {
+        type: "internalLink",
+        href: "/projetos",
+        label: "Ver mais projetos de envidraçamento",
+        description: "Conheça outros projetos de envidraçamento de sacadas e varandas executados pela nossa equipe:",
+      },
+      {
+        type: "heading",
+        text: "Perguntas Frequentes",
+      },
+      {
+        type: "list",
+        items: [
+          { strong: "O vidro retrátil abre completamente?", text: "Na maioria dos sistemas, os painéis podem ser recolhidos para uma das extremidades da sacada, deixando praticamente toda a abertura livre." },
+          { strong: "O sistema trava quando está fechado?", text: "Sim. Os sistemas possuem mecanismos de fechamento desenvolvidos para manter os painéis alinhados e proporcionar segurança durante o uso." },
+          { strong: "É fácil abrir os vidros?", text: "Sim. Quando instalado corretamente, o sistema desliza de forma leve e prática, permitindo abertura com pouco esforço." },
+          { strong: "Posso abrir apenas uma parte da sacada?", text: "Sim. É possível abrir somente a quantidade de folhas desejada, permitindo controlar a ventilação do ambiente." },
+          { strong: "Qual vidro é utilizado?", text: "Normalmente utiliza-se vidro temperado de alta resistência ou vidro laminado, conforme as normas técnicas aplicáveis e as características de cada projeto." },
+          { strong: "A limpeza é difícil?", text: "Não. Os sistemas retráteis facilitam o acesso aos vidros, tornando a limpeza muito mais simples do que em painéis fixos." },
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Conhecer nossa linha completa de produtos",
+        description: "Explore também nossos boxes, portas de vidro e espelhos sob medida:",
+      },
+      {
+        type: "heading",
+        text: "Solicite um Orçamento",
+      },
+      {
+        type: "paragraph",
+        text: "Quer instalar uma sacada com vidro retrátil? A Projeto Vidros desenvolve projetos personalizados para apartamentos, coberturas e varandas, utilizando materiais de alta qualidade e mão de obra especializada. Entre em contato conosco pelo WhatsApp e solicite um orçamento sem compromisso.",
+      },
+    ],
+  },
+  {
     slug: "envidracamento-sacada-bastidores-instalacao",
     title: "Envidraçamento de Sacada: Do Antes e Depois aos Bastidores de uma Instalação de Alto Padrão",
     excerpt:
