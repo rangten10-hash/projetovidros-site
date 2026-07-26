@@ -2221,7 +2221,7 @@ export const blogPosts: BlogPost[] = [
       "Quanto custa um box de banheiro na Zona Norte de SP? Veja faixas de preço atualizadas, o que influencia o valor e onde encontrar o melhor custo-benefício com vidro temperado 8mm e instalação Box + Seguro.",
     image: precoBoxBanheiroSpCapa,
     imageAlt:
-      "Preço de box de banheiro em São Paulo na Zona Norte - Projeto Vidros",
+      "Preço de Box de Banheiro em Santana – Projeto Vidros Vidraçaria Zona Norte SP",
     date: "2026-06-04",
     author: "Projeto Vidros",
     metaDescription:
@@ -2230,6 +2230,40 @@ export const blogPosts: BlogPost[] = [
       label: "Quero meu orçamento de Box",
       href: WHATSAPP_URL,
     },
+    autoLink: true,
+    faqTitle: "Perguntas Frequentes sobre Preço de Box de Banheiro",
+    faq: [
+      {
+        question: "Qual o preço médio de um box de banheiro em São Paulo?",
+        answer:
+          "O preço de um box de banheiro em São Paulo varia conforme o modelo, tamanho e tipo de vidro. Box de canto simples começa em torno de R$800 a R$1.200. Box flex articulado fica entre R$1.500 e R$2.500. Box até o teto tem valor a partir de R$2.000. O melhor caminho é solicitar uma medição e orçamento gratuito, pois cada banheiro tem medidas diferentes.",
+      },
+      {
+        question: "O que influencia no preço do box de banheiro?",
+        answer:
+          "Os principais fatores são: tamanho do box em metros quadrados, modelo escolhido (reto, canto, flex, até o teto), espessura do vidro (8mm ou 10mm), tipo de perfil (alumínio ou inox), cor do vidro (incolor, fumê, bronze ou verde) e se inclui película de segurança. A instalação profissional com medição a laser também está incluída no preço da Projeto Vidros.",
+      },
+      {
+        question: "Box de banheiro com película de segurança é mais caro?",
+        answer:
+          "A película adiciona um custo, mas é um investimento que vale muito. Além de ser exigida pela norma técnica atual, ela mantém os fragmentos unidos caso o vidro quebre, protegendo sua família. Na Projeto Vidros todos os box saem com a tecnologia Box + Seguro inclusa no orçamento.",
+      },
+      {
+        question: "Vale a pena pagar mais por um box até o teto?",
+        answer:
+          "Sim. O box até o teto elimina o espaço entre o box e o teto onde se acumula mofo e umidade, facilita a limpeza, valoriza esteticamente o banheiro e faz o ambiente parecer maior. O investimento adicional em relação ao box comum é compensado pela durabilidade e pelo acabamento superior.",
+      },
+      {
+        question: "O preço do box inclui a instalação?",
+        answer:
+          "Sim, na Projeto Vidros o preço do box de banheiro já inclui medição a laser, fabricação sob medida, entrega e instalação profissional. Não há cobranças extras surpresa. Após a medição você recebe o orçamento fechado com tudo incluso.",
+      },
+      {
+        question: "Como solicitar um orçamento de box de banheiro na Zona Norte?",
+        answer:
+          "É simples. Entre em contato pelo WhatsApp (11) 91548-5945, envie uma foto do seu banheiro e as medidas aproximadas (ou agendamos uma visita de medição gratuita). Em até 24 horas você recebe o orçamento completo com modelo, vidro, perfil e prazo de instalação.",
+      },
+    ],
     content: [
       {
         type: "paragraph",
