@@ -113,8 +113,10 @@ const BlogPost = () => {
 
             <div className="space-y-6 text-foreground/85 text-lg leading-relaxed">
               {post.content.map((block, i) => {
+                const fmt = (t: string) =>
+                  post.autoLink ? autoLinkText(t, linkedTerms) : t;
                 if (block.type === "paragraph")
-                  return <p key={i}>{block.text}</p>;
+                  return <p key={i}>{fmt(block.text)}</p>;
                 if (block.type === "heading")
                   return (
                     <h2
@@ -136,7 +138,7 @@ const BlogPost = () => {
                                 {item.strong}{" "}
                               </strong>
                             )}
-                            {item.text}
+                            {fmt(item.text)}
                           </span>
                         </li>
                       ))}
@@ -144,15 +146,22 @@ const BlogPost = () => {
                   );
                 if (block.type === "image")
                   return (
-                    <img
-                      key={i}
-                      src={block.src}
-                      alt={block.alt}
-                      loading="lazy"
-                      decoding="async"
-                      className="rounded-xl w-full h-auto my-6"
-                    />
+                    <figure key={i} className="my-6">
+                      <img
+                        src={block.src}
+                        alt={block.alt}
+                        loading="lazy"
+                        decoding="async"
+                        className="rounded-xl w-full h-auto"
+                      />
+                      {block.caption && (
+                        <figcaption className="mt-2 text-sm text-foreground/60 text-center italic">
+                          {block.caption}
+                        </figcaption>
+                      )}
+                    </figure>
                   );
+
                 if (block.type === "internalLink")
                   return (
                     <div key={i} className="my-8 rounded-xl border border-copper/30 bg-copper/5 p-6 text-center">
