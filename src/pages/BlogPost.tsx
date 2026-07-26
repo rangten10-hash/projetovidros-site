@@ -213,7 +213,7 @@ const BlogPost = () => {
             {post.faq && post.faq.length > 0 && (
               <section className="mt-14">
                 <h2 className="font-display text-2xl md:text-3xl text-petrol mb-6">
-                  Perguntas Frequentes sobre Envidraçamento de Sacada
+                  {post.faqTitle ?? "Perguntas Frequentes"}
                 </h2>
                 <div className="space-y-4">
                   {post.faq.map((item, i) => (
