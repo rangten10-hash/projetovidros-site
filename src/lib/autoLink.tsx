@@ -4,10 +4,12 @@ import { Link } from "react-router-dom";
 /** Termos que viram links internos dentro do texto dos posts (ordem: mais específico primeiro) */
 const TERMS: { pattern: RegExp; href: string }[] = [
   { pattern: /box de banheiro/i, href: "/box-de-banheiro" },
+  { pattern: /box de vidro/i, href: "/box-de-banheiro" },
   { pattern: /portas de vidro/i, href: "/portas-de-vidro" },
   { pattern: /vidro temperado/i, href: "/box-seguro" },
   { pattern: /pel[ií]culas?/i, href: "/box-seguro" },
   { pattern: /espelhos?/i, href: "/espelhos" },
+  { pattern: /sacadas?/i, href: "/projetos" },
 ];
 
 const LINK_CLASS =
