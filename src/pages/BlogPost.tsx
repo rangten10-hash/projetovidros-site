@@ -16,31 +16,51 @@ const BlogPost = () => {
     ? post.title.replace(/[^\p{L}\p{N}\s:–\-+]/gu, "").trim()
     : "";
 
+  const articleJsonLd = post
+    ? {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: cleanTitle,
+        datePublished: post.date,
+        author: { "@type": "Person", name: post.author },
+        image: `${SITE_URL}${post.image}`,
+        mainEntityOfPage: `${SITE_URL}/blog/${post.slug}`,
+        publisher: {
+          "@type": "Organization",
+          name: "Projeto Vidros",
+          logo: {
+            "@type": "ImageObject",
+            url: `${SITE_URL}/icon-512.png`,
+          },
+        },
+      }
+    : undefined;
+
+  const faqJsonLd =
+    post?.faq && post.faq.length
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: post.faq.map((f) => ({
+            "@type": "Question",
+            name: f.question,
+            acceptedAnswer: { "@type": "Answer", text: f.answer },
+          })),
+        }
+      : undefined;
+
   useSeo({
     title: post ? `${cleanTitle} | Projeto Vidros` : "Blog | Projeto Vidros",
     description: post?.metaDescription ?? "",
     path: post ? `/blog/${post.slug}` : "/blog",
     image: post ? `${SITE_URL}${post.image}` : undefined,
-    jsonLd: post
-      ? {
-          "@context": "https://schema.org",
-          "@type": "Article",
-          headline: cleanTitle,
-          datePublished: post.date,
-          author: { "@type": "Person", name: post.author },
-          image: `${SITE_URL}${post.image}`,
-          mainEntityOfPage: `${SITE_URL}/blog/${post.slug}`,
-          publisher: {
-            "@type": "Organization",
-            name: "Projeto Vidros",
-            logo: {
-              "@type": "ImageObject",
-              url: `${SITE_URL}/icon-512.png`,
-            },
-          },
-        }
+    jsonLd: articleJsonLd
+      ? faqJsonLd
+        ? [articleJsonLd, faqJsonLd]
+        : articleJsonLd
       : undefined,
   });
+
 
   useEffect(() => {
     if (post) window.scrollTo(0, 0);
