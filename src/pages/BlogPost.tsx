@@ -101,15 +101,24 @@ const BlogPost = () => {
               {post.title}
             </h1>
 
-            <div className="rounded-xl overflow-hidden mb-10 bg-muted">
-              <img
-                src={post.image}
-                alt={post.imageAlt}
-                fetchPriority="high"
-                decoding="async"
-                className="w-full h-auto object-cover"
-              />
-            </div>
+            <figure className="mb-10">
+              <div className="rounded-xl overflow-hidden bg-muted">
+                <img
+                  src={post.image}
+                  alt={post.imageAlt}
+                  fetchPriority="high"
+                  decoding="async"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              {post.autoLink && (
+                <figcaption className="mt-2 text-sm text-foreground/60 text-center italic">
+                  {post.imageAlt}
+                </figcaption>
+              )}
+            </figure>
+
+
 
             <div className="space-y-6 text-foreground/85 text-lg leading-relaxed">
               {post.content.map((block, i) => {
