@@ -7,10 +7,13 @@ import { getPostBySlug } from "@/data/blogPosts";
 import { ArrowLeft, MessageCircle } from "lucide-react";
 import { gtagReportConversion } from "@/lib/gtag";
 import { useSeo, SITE_URL } from "@/lib/seo";
+import { autoLinkText } from "@/lib/autoLink";
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
   const post = slug ? getPostBySlug(slug) : undefined;
+  const linkedTerms = new Set<string>();
+
 
   const cleanTitle = post
     ? post.title.replace(/[^\p{L}\p{N}\s:–\-+]/gu, "").trim()
