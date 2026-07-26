@@ -239,8 +239,10 @@ export const blogPosts: BlogPost[] = [
       {
         type: "image",
         src: sacadaRetratilFinal,
-        alt: "Sacada envidraçada com vidro temperado - resultado final da instalação pela Projeto Vidros",
+        alt: "Instalação de Sacada com Vidro Retrátil em Santana – Projeto Vidros Vidraçaria Zona Norte SP",
+        caption: "Instalação de Sacada com Vidro Retrátil em Santana – Projeto Vidros Vidraçaria Zona Norte SP",
       },
+
       {
         type: "heading",
         text: "Projeto Executado pela Projeto Vidros",
