@@ -343,6 +343,7 @@ export const blogPosts: BlogPost[] = [
       href: WHATSAPP_URL,
     },
     autoLink: true,
+    faqTitle: "Perguntas Frequentes sobre Envidraçamento de Sacada",
     faq: [
       {
         question: "Qual é o melhor tipo de vidro para fechar sacada?",
