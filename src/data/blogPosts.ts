@@ -102,15 +102,20 @@ export interface BlogPost {
     href: string;
   };
   metaDescription: string;
+  /** Perguntas frequentes marcadas como FAQPage (JSON-LD) */
+  faq?: { question: string; answer: string }[];
+  /** Ativa links internos automáticos em parágrafos e listas */
+  autoLink?: boolean;
 }
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
   | { type: "heading"; text: string }
   | { type: "list"; items: { strong?: string; text: string }[] }
-  | { type: "image"; src: string; alt: string }
+  | { type: "image"; src: string; alt: string; caption?: string }
   | { type: "internalLink"; href: string; label: string; description?: string }
   | { type: "youtube"; videoId: string; title: string };
+
 
 const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
@@ -123,15 +128,49 @@ export const blogPosts: BlogPost[] = [
       "Veja como funciona a abertura e o fechamento de uma sacada com vidro retrátil. Assista aos vídeos reais de instalações executadas pela Projeto Vidros em São Paulo.",
     image: sacadaRetratilCapa,
     imageAlt:
-      "Sacada com vidro retrátil sendo aberta por técnico da Projeto Vidros em apartamento em São Paulo",
+      "Instalação de Sacada com Vidro Retrátil em Santana – Projeto Vidros Vidraçaria Zona Norte SP",
     date: "2026-07-26",
     author: "Projeto Vidros",
     metaDescription:
       "Veja como funciona uma sacada com vidro retrátil na prática. Assista ao vídeo da abertura e fechamento do sistema e conheça as vantagens do envidraçamento realizado pela Projeto Vidros em São Paulo.",
+    autoLink: true,
+    faq: [
+      {
+        question: "O vidro retrátil abre completamente?",
+        answer:
+          "Na maioria dos sistemas, os painéis podem ser recolhidos para uma das extremidades da sacada, deixando praticamente toda a abertura livre.",
+      },
+      {
+        question: "O sistema trava quando está fechado?",
+        answer:
+          "Sim. Os sistemas possuem mecanismos de fechamento desenvolvidos para manter os painéis alinhados e proporcionar segurança durante o uso.",
+      },
+      {
+        question: "É fácil abrir os vidros?",
+        answer:
+          "Sim. Quando instalado corretamente, o sistema desliza de forma leve e prática, permitindo abertura com pouco esforço.",
+      },
+      {
+        question: "Posso abrir apenas uma parte da sacada?",
+        answer:
+          "Sim. É possível abrir somente a quantidade de folhas desejada, permitindo controlar a ventilação do ambiente.",
+      },
+      {
+        question: "Qual vidro é utilizado?",
+        answer:
+          "Normalmente utiliza-se vidro temperado de alta resistência ou vidro laminado, conforme as normas técnicas aplicáveis e as características de cada projeto.",
+      },
+      {
+        question: "A limpeza é difícil?",
+        answer:
+          "Não. Os sistemas retráteis facilitam o acesso aos vidros, tornando a limpeza muito mais simples do que em painéis fixos.",
+      },
+    ],
     cta: {
       label: "Falar pelo WhatsApp e Solicitar Orçamento",
       href: WHATSAPP_URL,
     },
+
     content: [
       {
         type: "paragraph",
@@ -176,8 +215,10 @@ export const blogPosts: BlogPost[] = [
       {
         type: "image",
         src: sacadaRetratilAbrindo,
-        alt: "Técnico da Projeto Vidros abrindo painéis de vidro retrátil em sacada de apartamento em São Paulo",
+        alt: "Instalação de Sacada com Vidro Retrátil em Santana – Projeto Vidros Vidraçaria Zona Norte SP",
+        caption: "Instalação de Sacada com Vidro Retrátil em Santana – Projeto Vidros Vidraçaria Zona Norte SP",
       },
+
       {
         type: "heading",
         text: "O Sistema Abre Totalmente?",
@@ -234,8 +275,10 @@ export const blogPosts: BlogPost[] = [
       {
         type: "image",
         src: sacadaRetratilFinal,
-        alt: "Sacada envidraçada com vidro temperado - resultado final da instalação pela Projeto Vidros",
+        alt: "Instalação de Sacada com Vidro Retrátil em Santana – Projeto Vidros Vidraçaria Zona Norte SP",
+        caption: "Instalação de Sacada com Vidro Retrátil em Santana – Projeto Vidros Vidraçaria Zona Norte SP",
       },
+
       {
         type: "heading",
         text: "Projeto Executado pela Projeto Vidros",

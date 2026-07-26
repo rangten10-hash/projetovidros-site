@@ -7,40 +7,63 @@ import { getPostBySlug } from "@/data/blogPosts";
 import { ArrowLeft, MessageCircle } from "lucide-react";
 import { gtagReportConversion } from "@/lib/gtag";
 import { useSeo, SITE_URL } from "@/lib/seo";
+import { autoLinkText } from "@/lib/autoLink";
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
   const post = slug ? getPostBySlug(slug) : undefined;
+  const linkedTerms = new Set<string>();
+
 
   const cleanTitle = post
     ? post.title.replace(/[^\p{L}\p{N}\s:–\-+]/gu, "").trim()
     : "";
+
+  const articleJsonLd = post
+    ? {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        headline: cleanTitle,
+        datePublished: post.date,
+        author: { "@type": "Person", name: post.author },
+        image: `${SITE_URL}${post.image}`,
+        mainEntityOfPage: `${SITE_URL}/blog/${post.slug}`,
+        publisher: {
+          "@type": "Organization",
+          name: "Projeto Vidros",
+          logo: {
+            "@type": "ImageObject",
+            url: `${SITE_URL}/icon-512.png`,
+          },
+        },
+      }
+    : undefined;
+
+  const faqJsonLd =
+    post?.faq && post.faq.length
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: post.faq.map((f) => ({
+            "@type": "Question",
+            name: f.question,
+            acceptedAnswer: { "@type": "Answer", text: f.answer },
+          })),
+        }
+      : undefined;
 
   useSeo({
     title: post ? `${cleanTitle} | Projeto Vidros` : "Blog | Projeto Vidros",
     description: post?.metaDescription ?? "",
     path: post ? `/blog/${post.slug}` : "/blog",
     image: post ? `${SITE_URL}${post.image}` : undefined,
-    jsonLd: post
-      ? {
-          "@context": "https://schema.org",
-          "@type": "Article",
-          headline: cleanTitle,
-          datePublished: post.date,
-          author: { "@type": "Person", name: post.author },
-          image: `${SITE_URL}${post.image}`,
-          mainEntityOfPage: `${SITE_URL}/blog/${post.slug}`,
-          publisher: {
-            "@type": "Organization",
-            name: "Projeto Vidros",
-            logo: {
-              "@type": "ImageObject",
-              url: `${SITE_URL}/icon-512.png`,
-            },
-          },
-        }
+    jsonLd: articleJsonLd
+      ? faqJsonLd
+        ? [articleJsonLd, faqJsonLd]
+        : articleJsonLd
       : undefined,
   });
+
 
   useEffect(() => {
     if (post) window.scrollTo(0, 0);
@@ -81,20 +104,31 @@ const BlogPost = () => {
               {post.title}
             </h1>
 
-            <div className="rounded-xl overflow-hidden mb-10 bg-muted">
-              <img
-                src={post.image}
-                alt={post.imageAlt}
-                fetchPriority="high"
-                decoding="async"
-                className="w-full h-auto object-cover"
-              />
-            </div>
+            <figure className="mb-10">
+              <div className="rounded-xl overflow-hidden bg-muted">
+                <img
+                  src={post.image}
+                  alt={post.imageAlt}
+                  fetchPriority="high"
+                  decoding="async"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+              {post.autoLink && (
+                <figcaption className="mt-2 text-sm text-foreground/60 text-center italic">
+                  {post.imageAlt}
+                </figcaption>
+              )}
+            </figure>
+
+
 
             <div className="space-y-6 text-foreground/85 text-lg leading-relaxed">
               {post.content.map((block, i) => {
+                const fmt = (t: string) =>
+                  post.autoLink ? autoLinkText(t, linkedTerms) : t;
                 if (block.type === "paragraph")
-                  return <p key={i}>{block.text}</p>;
+                  return <p key={i}>{fmt(block.text)}</p>;
                 if (block.type === "heading")
                   return (
                     <h2
@@ -116,7 +150,7 @@ const BlogPost = () => {
                                 {item.strong}{" "}
                               </strong>
                             )}
-                            {item.text}
+                            {fmt(item.text)}
                           </span>
                         </li>
                       ))}
@@ -124,15 +158,22 @@ const BlogPost = () => {
                   );
                 if (block.type === "image")
                   return (
-                    <img
-                      key={i}
-                      src={block.src}
-                      alt={block.alt}
-                      loading="lazy"
-                      decoding="async"
-                      className="rounded-xl w-full h-auto my-6"
-                    />
+                    <figure key={i} className="my-6">
+                      <img
+                        src={block.src}
+                        alt={block.alt}
+                        loading="lazy"
+                        decoding="async"
+                        className="rounded-xl w-full h-auto"
+                      />
+                      {block.caption && (
+                        <figcaption className="mt-2 text-sm text-foreground/60 text-center italic">
+                          {block.caption}
+                        </figcaption>
+                      )}
+                    </figure>
                   );
+
                 if (block.type === "internalLink")
                   return (
                     <div key={i} className="my-8 rounded-xl border border-copper/30 bg-copper/5 p-6 text-center">
