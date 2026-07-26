@@ -181,8 +181,10 @@ export const blogPosts: BlogPost[] = [
       {
         type: "image",
         src: sacadaRetratilAbrindo,
-        alt: "Técnico da Projeto Vidros abrindo painéis de vidro retrátil em sacada de apartamento em São Paulo",
+        alt: "Instalação de Sacada com Vidro Retrátil em Santana – Projeto Vidros Vidraçaria Zona Norte SP",
+        caption: "Instalação de Sacada com Vidro Retrátil em Santana – Projeto Vidros Vidraçaria Zona Norte SP",
       },
+
       {
         type: "heading",
         text: "O Sistema Abre Totalmente?",
