@@ -210,6 +210,29 @@ const BlogPost = () => {
               })}
             </div>
 
+            {post.faq && post.faq.length > 0 && (
+              <section className="mt-14">
+                <h2 className="font-display text-2xl md:text-3xl text-petrol mb-6">
+                  {post.faqTitle ?? "Perguntas Frequentes"}
+                </h2>
+                <div className="space-y-4">
+                  {post.faq.map((item, i) => (
+                    <div
+                      key={i}
+                      className="rounded-xl border border-petrol/15 bg-muted/40 p-5"
+                    >
+                      <h3 className="font-semibold text-petrol text-lg mb-2">
+                        {item.question}
+                      </h3>
+                      <p className="text-foreground/80 text-base leading-relaxed">
+                        {item.answer}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            )}
+
             {post.cta && (
               <div className="mt-12 rounded-2xl bg-petrol p-8 md:p-10 text-center">
                 <p className="text-primary-foreground/80 text-sm tracking-widest uppercase mb-4">

@@ -104,6 +104,8 @@ export interface BlogPost {
   metaDescription: string;
   /** Perguntas frequentes marcadas como FAQPage (JSON-LD) */
   faq?: { question: string; answer: string }[];
+  /** Título exibido acima do bloco de FAQ */
+  faqTitle?: string;
   /** Ativa links internos automáticos em parágrafos e listas */
   autoLink?: boolean;
 }
@@ -341,6 +343,7 @@ export const blogPosts: BlogPost[] = [
       href: WHATSAPP_URL,
     },
     autoLink: true,
+    faqTitle: "Perguntas Frequentes sobre Envidraçamento de Sacada",
     faq: [
       {
         question: "Qual é o melhor tipo de vidro para fechar sacada?",
