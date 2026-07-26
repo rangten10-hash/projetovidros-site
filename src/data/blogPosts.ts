@@ -102,15 +102,20 @@ export interface BlogPost {
     href: string;
   };
   metaDescription: string;
+  /** Perguntas frequentes marcadas como FAQPage (JSON-LD) */
+  faq?: { question: string; answer: string }[];
+  /** Ativa links internos automáticos em parágrafos e listas */
+  autoLink?: boolean;
 }
 
 export type BlogBlock =
   | { type: "paragraph"; text: string }
   | { type: "heading"; text: string }
   | { type: "list"; items: { strong?: string; text: string }[] }
-  | { type: "image"; src: string; alt: string }
+  | { type: "image"; src: string; alt: string; caption?: string }
   | { type: "internalLink"; href: string; label: string; description?: string }
   | { type: "youtube"; videoId: string; title: string };
+
 
 const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
