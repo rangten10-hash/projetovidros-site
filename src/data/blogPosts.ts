@@ -2284,7 +2284,8 @@ export const blogPosts: BlogPost[] = [
       {
         type: "image",
         src: precoBoxBanheiroSpPromo,
-        alt: "Promoção Box de Vidro Incolor 8mm Temperado em até 12x de R$ 89,00 já instalado - Projeto Vidros",
+        alt: "Preço de Box de Banheiro em Santana – Projeto Vidros Vidraçaria Zona Norte SP",
+        caption: "Preço de Box de Banheiro em Santana – Projeto Vidros Vidraçaria Zona Norte SP",
       },
       {
         type: "paragraph",
