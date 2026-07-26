@@ -340,6 +340,34 @@ export const blogPosts: BlogPost[] = [
       label: "Falar pelo WhatsApp e Solicitar Orçamento",
       href: WHATSAPP_URL,
     },
+    autoLink: true,
+    faq: [
+      {
+        question: "Qual é o melhor tipo de vidro para fechar sacada?",
+        answer:
+          "O vidro temperado de 8mm a 10mm com película de segurança é o mais indicado para fechamento de sacadas — e hoje a norma técnica já exige essa combinação. O vidro temperado sozinho, ao quebrar, se fragmenta em pedaços pequenos, mas a película mantém os fragmentos unidos, evitando acidentes. Para projetos de maior exigência técnica e estética, utilizamos também vidro laminado de 8mm, 10mm e até 12mm, que oferece ainda mais segurança estrutural e isolamento acústico. Na Projeto Vidros todos os fechamentos de sacada seguem a norma vigente com vidro certificado e película de segurança inclusa.",
+      },
+      {
+        question: "Quanto tempo leva a instalação de uma sacada com vidro?",
+        answer:
+          "Em média 1 a 2 dias úteis dependendo do tamanho e modelo escolhido. Realizamos medição a laser antes da instalação para garantir precisão e acabamento impecável.",
+      },
+      {
+        question: "O envidraçamento de sacada esquenta o ambiente?",
+        answer:
+          "O sistema retrátil permite abrir completamente a sacada para ventilação natural. Para sacadas fixas, recomendamos vidro com controle solar que reduz a entrada de calor em até 70% mantendo a luminosidade.",
+      },
+      {
+        question: "Precisa de aprovação do condomínio para fechar a sacada?",
+        answer:
+          "Sim, a maioria dos condomínios exige aprovação em assembleia e seguir o padrão visual do edifício. Nossa equipe orienta sobre toda a documentação necessária e trabalhamos com modelos aprovados pelos principais condomínios da Zona Norte de SP.",
+      },
+      {
+        question: "Qual a diferença entre sacada retrátil e sacada articulada?",
+        answer:
+          "A sacada retrátil tem painéis que deslizam lateralmente e empilham em uma extremidade. A articulada tem painéis que dobram como sanfona. Ambas permitem abertura total. A escolha depende do espaço disponível e da preferência estética.",
+      },
+    ],
     content: [
       {
         type: "heading",
@@ -347,7 +375,12 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: "paragraph",
-        text: "A busca por mais espaço, conforto térmico e proteção no apartamento faz do envidraçamento de sacada um dos projetos mais desejados em imóveis modernos. Por trás daquela vista panorâmica e do acabamento impecável, existe um processo técnico rigoroso que garante a segurança e a durabilidade da estrutura.",
+        text: "A busca por mais espaço, conforto térmico e proteção no apartamento faz do envidraçamento de sacada um dos projetos mais desejados em imóveis modernos. Por trás daquela vista panorâmica e do acabamento impecável, existe um processo técnico rigoroso com vidro temperado que garante a segurança e a durabilidade da estrutura.",
+      },
+      {
+        type: "youtube",
+        videoId: "zTl0-tz9Yi8",
+        title: "Fechamento de Sacada com Vidro: Antes e Processo de Instalação | Projeto Vidros",
       },
       {
         type: "paragraph",
@@ -356,7 +389,8 @@ export const blogPosts: BlogPost[] = [
       {
         type: "image",
         src: sacadaUniqueAntes,
-        alt: "Antes: sacada aberta com guarda-corpo metálico antes do envidraçamento",
+        alt: "Envidraçamento de Sacada com Vidro Temperado em Santana – Projeto Vidros Vidraçaria Zona Norte SP",
+        caption: "Envidraçamento de Sacada com Vidro Temperado em Santana – Projeto Vidros Vidraçaria Zona Norte SP",
       },
       {
         type: "heading",
@@ -370,7 +404,7 @@ export const blogPosts: BlogPost[] = [
         type: "list",
         items: [
           { strong: "Medição Exata e Personalizada:", text: "cada estrutura é projetada para se adequar perfeitamente ao vão do imóvel, garantindo estanqueidade total contra chuva e ventos fortes." },
-          { strong: "Qualidade dos Materiais e Vidros Certificados:", text: "utilizamos painéis de vidro temperado e perfis de alumínio de alta resistência, que garantem durabilidade contra oxidação e desgaste natural." },
+          { strong: "Qualidade dos Materiais e Vidros Certificados:", text: "utilizamos painéis de vidro temperado com película de segurança e perfis de alumínio de alta resistência, que garantem durabilidade contra oxidação e desgaste natural." },
           { strong: "Mão de Obra Especializada:", text: "a montagem é executada por técnicos treinados para assegurar o deslize suave das folhas, o travamento correto e a vedação técnica de silicone nas pontas." },
         ],
       },
@@ -396,26 +430,14 @@ export const blogPosts: BlogPost[] = [
       {
         type: "image",
         src: sacadaUniqueDepois,
-        alt: "Depois: sacada envidraçada com vidro temperado e vista panorâmica - Projeto Vidros",
-      },
-      {
-        type: "heading",
-        text: "Confira o Vídeo da Instalação em Andamento",
-      },
-      {
-        type: "paragraph",
-        text: "Acompanhe abaixo os bastidores do nosso trabalho na prática. Veja o \"antes\" do ambiente e o cuidado da equipe na montagem das lâminas de vidro:",
-      },
-      {
-        type: "youtube",
-        videoId: "zTl0-tz9Yi8",
-        title: "Fechamento de Sacada com Vidro: Antes e Processo de Instalação | Projeto Vidros",
+        alt: "Envidraçamento de Sacada com Vidro Temperado em Santana – Projeto Vidros Vidraçaria Zona Norte SP",
+        caption: "Envidraçamento de Sacada com Vidro Temperado em Santana – Projeto Vidros Vidraçaria Zona Norte SP",
       },
       {
         type: "internalLink",
         href: "/box-de-banheiro",
         label: "Ver toda a linha de Produtos de Vidraçaria",
-        description: "Explore também nossos boxes, portas e espelhos sob medida:",
+        description: "Explore também nosso box de banheiro, portas de vidro e espelhos sob medida:",
       },
       {
         type: "heading",
@@ -427,6 +449,7 @@ export const blogPosts: BlogPost[] = [
       },
     ],
   },
+
   {
     slug: "box-de-banheiro-no-horto-florestal",
     title: "Vidraçaria Horto Florestal: Excelência em Instalação e Projetos Sob Medida",
