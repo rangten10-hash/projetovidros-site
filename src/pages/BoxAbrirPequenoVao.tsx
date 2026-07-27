@@ -17,7 +17,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { useSeo } from "@/lib/seo";
 import { gtagReportConversion } from "@/lib/gtag";
 
-import cardCover from "@/assets/box-abrir-pequeno-vao/card-cover.png";
+import cardCover from "@/assets/box-abrir-pequeno-vao/card-cover.webp";
 import interna1 from "@/assets/box-abrir-pequeno-vao/interna-1.png";
 import interna2 from "@/assets/box-abrir-pequeno-vao/interna-2.jpg";
 

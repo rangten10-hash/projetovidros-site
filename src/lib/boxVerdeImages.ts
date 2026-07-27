@@ -1,6 +1,6 @@
 // Conjunto de imagens reais de portfólio com vidro verde temperado.
-const verde1 = "/assets/box-verde/box-verde-1.png";
-const verde2 = "/assets/box-verde/box-verde-2.png";
+const verde1 = "/assets/box-verde/box-verde-1.webp";
+const verde2 = "/assets/box-verde/box-verde-2.webp";
 
 export const BOX_VERDE_IMAGES = [
   { src: verde1, alt: "Box de banheiro em vidro verde temperado com porta de correr e perfil preto" },

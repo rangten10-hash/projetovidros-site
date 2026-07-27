@@ -5,12 +5,12 @@ import boxElegance from "@/assets/box-elegance.webp";
 import boxReto from "@/assets/box-reto.webp";
 import boxNobre from "@/assets/box-nobre.webp";
 import boxDuo from "@/assets/box-duo.webp";
-import boxTransfer from "@/assets/box-transfer-3-folhas/card-cover.png";
+import boxTransfer from "@/assets/box-transfer-3-folhas/card-cover.webp";
 import boxTradicional from "@/assets/box-tradicional.webp";
-import boxPisoTetoReto from "@/assets/box-piso-teto/card-cover.png";
-import boxTradicionalKitReto from "@/assets/box-tradicional-kit-reto/card-cover.png";
-import boxCantoKitReto from "@/assets/box-canto-kit-reto/card-cover.png";
-import boxAbrirPequenoVao from "@/assets/box-abrir-pequeno-vao/card-cover.png";
+import boxPisoTetoReto from "@/assets/box-piso-teto/card-cover.webp";
+import boxTradicionalKitReto from "@/assets/box-tradicional-kit-reto/card-cover.webp";
+import boxCantoKitReto from "@/assets/box-canto-kit-reto/card-cover.webp";
+import boxAbrirPequenoVao from "@/assets/box-abrir-pequeno-vao/card-cover.webp";
 import { Phone } from "lucide-react";
 import { useSeo } from "@/lib/seo";
 
