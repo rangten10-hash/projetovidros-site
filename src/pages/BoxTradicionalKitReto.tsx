@@ -17,7 +17,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { useSeo } from "@/lib/seo";
 import { gtagReportConversion } from "@/lib/gtag";
 
-import cardCover from "@/assets/box-tradicional-kit-reto/card-cover.png";
+import cardCover from "@/assets/box-tradicional-kit-reto/card-cover.webp";
 import cantoPreto from "@/assets/box-tradicional-kit-reto/canto-preto.jpg";
 import branco from "@/assets/box-tradicional-kit-reto/branco.jpg";
 

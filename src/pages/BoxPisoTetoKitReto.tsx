@@ -17,12 +17,12 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { useSeo } from "@/lib/seo";
 import { gtagReportConversion } from "@/lib/gtag";
 
-import ouroFrontal from "@/assets/box-piso-teto/ouro-frontal.png";
-import retoFosco from "@/assets/box-piso-teto/reto-fosco.png";
-import retoFoscoAberto from "@/assets/box-piso-teto/reto-fosco-aberto.png";
+import ouroFrontal from "@/assets/box-piso-teto/ouro-frontal.webp";
+import retoFosco from "@/assets/box-piso-teto/reto-fosco.webp";
+import retoFoscoAberto from "@/assets/box-piso-teto/reto-fosco-aberto.webp";
 import ateOTeto from "@/assets/box-piso-teto/ate-o-teto.jpg";
 import tetoConcha from "@/assets/box-piso-teto/teto-concha.jpg";
-import canto from "@/assets/box-piso-teto/canto.png";
+import canto from "@/assets/box-piso-teto/canto.webp";
 
 const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20o%20Box%20Piso%20Teto%20Kit%20Reto.";

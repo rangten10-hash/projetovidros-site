@@ -23,10 +23,19 @@ if (typeof window !== "undefined") {
 }
 
 import "./index.css";
-import { initWebVitals } from "./lib/webVitals";
 
 createRoot(document.getElementById("root")!).render(<App />);
 
-// Start Core Web Vitals monitoring (LCP, CLS, INP, FCP, TTFB)
-initWebVitals();
+// Core Web Vitals monitoring loaded only when the browser is idle,
+// so it never competes with FCP/LCP work.
+if (typeof window !== "undefined") {
+  const startVitals = () =>
+    import("./lib/webVitals").then((m) => m.initWebVitals());
+  if ("requestIdleCallback" in window) {
+    (window as any).requestIdleCallback(startVitals, { timeout: 4000 });
+  } else {
+    setTimeout(startVitals, 3000);
+  }
+}
+
 

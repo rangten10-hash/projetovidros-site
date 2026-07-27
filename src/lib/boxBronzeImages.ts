@@ -1,6 +1,6 @@
 // Conjunto de imagens reais de portfólio com vidro bronze temperado.
-const bronze1 = "/assets/box-bronze/box-bronze-1.png";
-const bronze2 = "/assets/box-bronze/box-bronze-2.png";
+const bronze1 = "/assets/box-bronze/box-bronze-1.webp";
+const bronze2 = "/assets/box-bronze/box-bronze-2.webp";
 
 export const BOX_BRONZE_IMAGES = [
   { src: bronze1, alt: "Box de banheiro em vidro bronze temperado com perfil dourado e ripado de madeira" },

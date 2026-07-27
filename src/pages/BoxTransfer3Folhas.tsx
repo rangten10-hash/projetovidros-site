@@ -17,9 +17,9 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { useSeo } from "@/lib/seo";
 import { gtagReportConversion } from "@/lib/gtag";
 
-import cardCover from "@/assets/box-transfer-3-folhas/card-cover.png";
-import aberto from "@/assets/box-transfer-3-folhas/aberto.png";
-import fechado from "@/assets/box-transfer-3-folhas/fechado.png";
+import cardCover from "@/assets/box-transfer-3-folhas/card-cover.webp";
+import aberto from "@/assets/box-transfer-3-folhas/aberto.webp";
+import fechado from "@/assets/box-transfer-3-folhas/fechado.webp";
 
 const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20o%20Box%20Transfer%203%20Folhas.";

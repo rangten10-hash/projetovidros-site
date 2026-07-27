@@ -7,12 +7,12 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { useSeo } from "@/lib/seo";
 import { gtagReportConversion } from "@/lib/gtag";
 
-import flexPadraoFechado from "@/assets/box-flex/box-flex-padrao-fechado.png";
-import flexPadraoAberto from "@/assets/box-flex/box-flex-padrao-aberto.png";
-import flexTetoFechado from "@/assets/box-flex/box-flex-teto-fechado.jpg";
-import flexTetoAberto from "@/assets/box-flex/box-flex-teto-aberto.jpg";
-import flexAbertura90 from "@/assets/box-flex/box-flex-abertura-90.png";
-import flexCores from "@/assets/box-flex/box-flex-cores.png";
+import flexPadraoFechado from "@/assets/box-flex/box-flex-padrao-fechado.webp";
+import flexPadraoAberto from "@/assets/box-flex/box-flex-padrao-aberto.webp";
+import flexTetoFechado from "@/assets/box-flex/box-flex-teto-fechado.webp";
+import flexTetoAberto from "@/assets/box-flex/box-flex-teto-aberto.webp";
+import flexAbertura90 from "@/assets/box-flex/box-flex-abertura-90.webp";
+import flexCores from "@/assets/box-flex/box-flex-cores.webp";
 
 const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20o%20Box%20Flex%20Articulado.";

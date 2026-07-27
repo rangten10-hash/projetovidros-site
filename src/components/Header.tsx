@@ -32,7 +32,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
       <div className="container mx-auto px-4 flex items-center justify-between h-24">
         <Link to="/" className="flex items-center py-1" aria-label="Projeto Vidros - Início">
-          <img src={logo} alt="Projeto Vidros" width={224} height={112} className="h-28 w-auto" fetchPriority="high" decoding="async" />
+          <img src={logo} alt="Projeto Vidros" width={224} height={112} className="h-28 w-auto" decoding="async" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-6">
@@ -81,7 +81,7 @@ const Header = () => {
               </SmartLink>
             ))}
             <SmartLink to="/box-seguro" onClick={() => setIsOpen(false)} className="py-2">
-              <img src={logoBoxSeguro} alt="Box +Seguro" className="h-10 w-auto" />
+              <img src={logoBoxSeguro} alt="Box +Seguro" className="h-10 w-auto" loading="lazy" decoding="async" />
             </SmartLink>
             {navItemsRight.map((item) => (
               <SmartLink key={item.path} to={item.path} onClick={() => setIsOpen(false)} className="text-foreground hover:text-accent transition-colors py-2 text-sm font-medium tracking-wide uppercase">

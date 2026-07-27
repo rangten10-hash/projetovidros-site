@@ -8,6 +8,8 @@ import { ArrowLeft, MessageCircle } from "lucide-react";
 import { gtagReportConversion } from "@/lib/gtag";
 import { useSeo, SITE_URL } from "@/lib/seo";
 import { autoLinkText } from "@/lib/autoLink";
+import YouTubeFacade from "@/components/YouTubeFacade";
+
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -191,20 +193,9 @@ const BlogPost = () => {
                 if (block.type === "youtube")
                   return (
                     <div key={i} className="my-8">
-                      <div
-                        className="relative w-full overflow-hidden rounded-2xl border-4 border-petrol/90 bg-black shadow-[0_20px_50px_-15px_rgba(0,43,54,0.55)]"
-                        style={{ paddingBottom: "56.25%" }}
-                      >
-                        <iframe
-                          src={`https://www.youtube.com/embed/${block.videoId}`}
-                          title={block.title}
-                          loading="lazy"
-                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                          allowFullScreen
-                          className="absolute inset-0 h-full w-full"
-                        />
-                      </div>
+                      <YouTubeFacade videoId={block.videoId} title={block.title} />
                     </div>
+
                   );
                 return null;
               })}

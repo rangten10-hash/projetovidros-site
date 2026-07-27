@@ -16,8 +16,9 @@ const PromoBanner = () => {
         <img
           src={promoDesktop}
           alt={ALT}
-          loading="eager"
-          fetchPriority="high"
+          loading="lazy"
+          fetchPriority="low"
+
           decoding="async"
           className="absolute inset-0 md:top-0 lg:top-24 w-full h-full lg:h-[calc(100%-6rem)] object-contain object-center z-[1]"
         />

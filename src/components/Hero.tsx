@@ -9,24 +9,20 @@ const WHATSAPP_URL =
 const Hero = () => {
   return (
     <section className="relative h-full w-full overflow-hidden bg-[#1a1a1a] lg:pt-24">
-      {/* Desktop image */}
-      <img
-        src={heroDesktop}
-        alt="Box+ Seguro: a beleza que você quer e a segurança que sua família precisa"
-        loading="eager"
-        fetchPriority="high"
-        decoding="async"
-        className="hidden md:block absolute inset-0 lg:top-24 w-full h-[calc(100%-0px)] lg:h-[calc(100%-6rem)] object-contain object-center z-[1]"
-      />
-      {/* Mobile image */}
-      <img
-        src={heroMobile}
-        alt="Box+ Seguro: a beleza que você quer e a segurança que sua família precisa"
-        loading="eager"
-        fetchPriority="high"
-        decoding="async"
-        className="md:hidden absolute inset-0 w-full h-full object-cover object-center z-[1]"
-      />
+      {/* Single <picture>: browser downloads only the matching source (no double fetch) */}
+      <picture>
+        <source media="(min-width: 768px)" srcSet={heroDesktop} type="image/webp" />
+        <source media="(max-width: 767px)" srcSet={heroMobile} type="image/webp" />
+        <img
+          src={heroMobile}
+          alt="Box+ Seguro: a beleza que você quer e a segurança que sua família precisa"
+          loading="eager"
+          fetchPriority="high"
+          decoding="async"
+          className="absolute inset-0 md:top-24 w-full h-full md:h-[calc(100%-6rem)] object-cover md:object-contain object-center z-[1]"
+        />
+      </picture>
+
 
 
       <div className="absolute inset-x-0 bottom-12 md:bottom-28 z-10 flex justify-center px-4">

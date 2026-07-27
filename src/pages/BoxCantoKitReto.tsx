@@ -17,11 +17,11 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import { useSeo } from "@/lib/seo";
 import { gtagReportConversion } from "@/lib/gtag";
 
-import cardCover from "@/assets/box-canto-kit-reto/card-cover.png";
+import cardCover from "@/assets/box-canto-kit-reto/card-cover.webp";
 import cantoPreto from "@/assets/box-canto-kit-reto/canto-preto.jpg";
 import peliculaSeguro from "@/assets/box-canto-kit-reto/pelicula-seguro.jpg";
-import cantoCromado from "@/assets/box-canto-kit-reto/canto-cromado.png";
-import cinzaRal from "@/assets/box-canto-kit-reto/cinza-ral-9007.png";
+import cantoCromado from "@/assets/box-canto-kit-reto/canto-cromado.webp";
+import cinzaRal from "@/assets/box-canto-kit-reto/cinza-ral-9007.webp";
 
 const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20gostaria%20de%20um%20orçamento%20para%20o%20Box%20de%20Canto%20Kit%20Reto.";
