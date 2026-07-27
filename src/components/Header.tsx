@@ -81,7 +81,7 @@ const Header = () => {
               </SmartLink>
             ))}
             <SmartLink to="/box-seguro" onClick={() => setIsOpen(false)} className="py-2">
-              <img src={logoBoxSeguro} alt="Box +Seguro" className="h-10 w-auto" />
+              <img src={logoBoxSeguro} alt="Box +Seguro" className="h-10 w-auto" loading="lazy" decoding="async" />
             </SmartLink>
             {navItemsRight.map((item) => (
               <SmartLink key={item.path} to={item.path} onClick={() => setIsOpen(false)} className="text-foreground hover:text-accent transition-colors py-2 text-sm font-medium tracking-wide uppercase">
