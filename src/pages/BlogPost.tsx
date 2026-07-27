@@ -8,6 +8,8 @@ import { ArrowLeft, MessageCircle } from "lucide-react";
 import { gtagReportConversion } from "@/lib/gtag";
 import { useSeo, SITE_URL } from "@/lib/seo";
 import { autoLinkText } from "@/lib/autoLink";
+import YouTubeFacade from "@/components/YouTubeFacade";
+
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
