@@ -101,7 +101,7 @@ const EnvidracamentoSacadaBairro = () => {
           <div className="max-w-3xl mx-auto">
             <Link
               to="/envidracamento-de-sacada"
-              className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-copper transition-colors mb-4"
+              className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-copper transition-colors mb-6"
             >
               <ArrowLeft className="w-4 h-4" /> Voltar para Envidraçamento de Sacada
             </Link>
