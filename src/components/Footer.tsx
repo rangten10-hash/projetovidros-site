@@ -26,10 +26,13 @@ const Footer = () => {
               {[
                 { label: "Box de Banheiro", path: "/box-de-banheiro" },
                 { label: "Portas de Vidro", path: "/portas-de-vidro" },
-                { label: "Espelhos", path: "/espelhos" },
-                { label: "Espelhos LED", path: "/espelhos-led" },
+                { label: "Envidraçamento de Sacada", path: "/envidracamento-de-sacada" },
+                { label: "Box+Seguro", path: "/box-seguro" },
+                { label: "Espelhos Decorativos", path: "/espelhos" },
+                { label: "Espelhos com LED", path: "/espelhos-led" },
                 { label: "Projetos", path: "/projetos" },
                 { label: "Blog", path: "/blog" },
+
               ].map((item) => (
                 <Link key={item.path} to={item.path} className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm">
                   {item.label}
