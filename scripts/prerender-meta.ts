@@ -251,6 +251,26 @@ const PROJETO_TITLES = [
   (n: string) => `Cobertura de Vidro Sob Medida em ${n}`,
 ];
 
+const SACADA_H1_VARIACOES = [
+  (n: string) => `Envidraçamento de Sacada em ${n}`,
+  (n: string) => `Fechamento de Sacada de Vidro em ${n}`,
+  (n: string) => `Cortina de Vidro para Varanda em ${n}`,
+  (n: string) => `Instalação de Envidraçamento de Sacadas em ${n}`,
+  (n: string) => `Sacada de Vidro Retrátil em ${n}`,
+  (n: string) => `Fechamento de Varanda Gourmet em ${n}`,
+  (n: string) => `Empresa de Envidraçamento de Sacada em ${n}`,
+  (n: string) => `Vidraçaria Especializada em Sacadas em ${n}`,
+  (n: string) => `Envidraçamento de Varandas e Sacadas em ${n}`,
+  (n: string) => `Projetos de Cortina de Vidro Sob Medida em ${n}`,
+  (n: string) => `Fechamento de Sacada com Vidro Temperado em ${n}`,
+  (n: string) => `Envidraçamento Articulado para Sacadas em ${n}`,
+  (n: string) => `Manutenção e Envidraçamento de Sacadas em ${n}`,
+  (n: string) => `Envidraçamento de Sacada de Alto Padrão em ${n}`,
+  (n: string) => `Especialista em Fechamento de Varandas em ${n}`,
+];
+
+
+
 function hashSlug(s: string) {
   let h = 0;
   for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
