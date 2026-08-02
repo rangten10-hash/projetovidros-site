@@ -203,6 +203,12 @@ const STATIC_ROUTES: RouteMeta[] = [
       "Espelhos com iluminação LED integrada — design contemporâneo para banheiros, lavabos e salas.",
   },
   {
+    path: "/envidracamento-de-sacada",
+    title: "Envidraçamento de Sacada Sob Medida em São Paulo | Projeto Vidros",
+    description:
+      "Envidraçamento de sacada sob medida em SP: cortina de vidro temperado, sistema articulado, vedação dupla e instalação especializada. Orçamento no WhatsApp.",
+  },
+  {
     path: "/projetos",
     title: "Projetos Realizados | Projeto Vidros São Paulo",
     description:
