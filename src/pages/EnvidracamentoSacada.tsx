@@ -274,7 +274,49 @@ const EnvidracamentoSacada = () => {
         </div>
       </section>
 
+      {/* Grade de bairros atendidos */}
+      <section className="py-16 md:py-20">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-10">
+            <span className="text-copper text-xs font-semibold tracking-[0.25em] uppercase">
+              Atendimento Local
+            </span>
+            <h2 className="font-display text-3xl md:text-4xl text-petrol mt-2">
+              Envidraçamento de Sacadas por Bairro em São Paulo
+            </h2>
+            <p className="text-muted-foreground text-sm mt-3 max-w-2xl mx-auto">
+              Clique no seu bairro e confira projetos realizados, modelos e solicite
+              seu orçamento sob medida.
+            </p>
+          </div>
+
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {(Object.keys(ZONA_BAIRROS) as Zona[]).map((z) => (
+              <div key={z} className="rounded-xl border border-border bg-card p-5">
+                <h3 className="font-display text-lg text-petrol mb-3 pb-2 border-b border-copper/40">
+                  {ZONA_LABEL[z]}
+                </h3>
+                <ul className="space-y-1.5">
+                  {ZONA_BAIRROS[z].map((b, i) => (
+                    <li key={b.slug}>
+                      <Link
+                        to={`/envidracamento-de-sacada/${b.slug}`}
+                        className="group flex items-center gap-2 text-sm text-muted-foreground hover:text-copper transition-colors"
+                      >
+                        <span className="w-1.5 h-1.5 rounded-full bg-copper/60 group-hover:bg-copper transition-colors" />
+                        {pickSacadaLinkLabel(i, b.nome)}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <Footer />
+
       <WhatsAppButton />
     </div>
   );
