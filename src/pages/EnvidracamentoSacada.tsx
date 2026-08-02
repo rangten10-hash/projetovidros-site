@@ -154,32 +154,32 @@ const EnvidracamentoSacada = () => {
             Transformação Real: Veja o Antes e Depois
           </h2>
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <figure className="rounded-2xl overflow-hidden border border-border bg-card">
-              <div className="flex items-center justify-center bg-black/5 max-h-[380px]">
+            <figure className="rounded-2xl overflow-hidden border border-border bg-card flex flex-col">
+              <div className="flex items-center justify-center bg-black/5 h-[300px] md:h-[380px]">
                 <img
                   src={sacadaAntes}
                   alt="Sacada aberta antes do envidraçamento – Projeto Vidros Vidraçaria Zona Norte SP"
                   loading="lazy"
                   decoding="async"
-                  className="w-full max-h-[380px] object-contain"
+                  className="w-full h-full object-contain"
                 />
               </div>
-              <figcaption className="p-4 text-sm text-muted-foreground">
+              <figcaption className="p-4 mt-auto text-sm text-muted-foreground">
                 <strong className="text-petrol">Antes:</strong> sacada aberta, exposta
                 à chuva, ao vento e à poeira.
               </figcaption>
             </figure>
-            <figure className="rounded-2xl overflow-hidden border border-border bg-card">
-              <div className="flex items-center justify-center bg-black/5 max-h-[380px]">
+            <figure className="rounded-2xl overflow-hidden border border-border bg-card flex flex-col">
+              <div className="flex items-center justify-center bg-black/5 h-[300px] md:h-[380px]">
                 <img
                   src={sacadaDepois}
                   alt="Sacada envidraçada com vidro temperado depois da instalação – Projeto Vidros Vidraçaria Zona Norte SP"
                   loading="lazy"
                   decoding="async"
-                  className="w-full max-h-[380px] object-contain"
+                  className="w-full h-full object-contain"
                 />
               </div>
-              <figcaption className="p-4 text-sm text-muted-foreground">
+              <figcaption className="p-4 mt-auto text-sm text-muted-foreground">
                 <strong className="text-petrol">Depois:</strong> varanda integrada,
                 protegida e com vista panorâmica preservada.
               </figcaption>
