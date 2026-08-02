@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/accordion";
 import { Maximize2, CloudRain, Volume2, ShieldCheck, Phone } from "lucide-react";
 import sacadaAntes from "@/assets/blog-sacada-unique-antes.jpg";
-import sacadaDepois from "@/assets/blog-sacada-unique-depois.jpg";
+import sacadaDepois from "@/assets/sacada-depois-envidracada.webp";
 
 const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20envidraçamento%20de%20sacada.";
@@ -153,15 +153,15 @@ const EnvidracamentoSacada = () => {
           <h2 className="font-display text-3xl md:text-4xl text-petrol text-center mb-10">
             Transformação Real: Veja o Antes e Depois
           </h2>
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <figure className="rounded-2xl overflow-hidden border border-border bg-card flex flex-col">
-              <div className="flex items-center justify-center bg-black/5 h-[300px] md:h-[380px]">
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto items-stretch">
+            <figure className="rounded-2xl overflow-hidden border border-border bg-card flex flex-col h-full">
+              <div className="aspect-[4/3] w-full overflow-hidden bg-black/5">
                 <img
                   src={sacadaAntes}
                   alt="Sacada aberta antes do envidraçamento – Projeto Vidros Vidraçaria Zona Norte SP"
                   loading="lazy"
                   decoding="async"
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <figcaption className="p-4 mt-auto text-sm text-muted-foreground">
@@ -169,14 +169,14 @@ const EnvidracamentoSacada = () => {
                 à chuva, ao vento e à poeira.
               </figcaption>
             </figure>
-            <figure className="rounded-2xl overflow-hidden border border-border bg-card flex flex-col">
-              <div className="flex items-center justify-center bg-black/5 h-[300px] md:h-[380px]">
+            <figure className="rounded-2xl overflow-hidden border border-border bg-card flex flex-col h-full">
+              <div className="aspect-[4/3] w-full overflow-hidden bg-black/5">
                 <img
                   src={sacadaDepois}
                   alt="Sacada envidraçada com vidro temperado depois da instalação – Projeto Vidros Vidraçaria Zona Norte SP"
                   loading="lazy"
                   decoding="async"
-                  className="w-full h-full object-contain"
+                  className="w-full h-full object-cover"
                 />
               </div>
               <figcaption className="p-4 mt-auto text-sm text-muted-foreground">
@@ -185,6 +185,7 @@ const EnvidracamentoSacada = () => {
               </figcaption>
             </figure>
           </div>
+
         </div>
       </section>
 
