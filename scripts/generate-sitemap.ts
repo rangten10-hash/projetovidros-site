@@ -45,6 +45,7 @@ const STATIC_ROUTES: { path: string; changefreq?: string; priority?: string }[] 
   { path: "/portas-de-vidro", changefreq: "monthly", priority: "0.8" },
   { path: "/espelhos", changefreq: "monthly", priority: "0.8" },
   { path: "/espelhos-led", changefreq: "monthly", priority: "0.8" },
+  { path: "/envidracamento-de-sacada", changefreq: "monthly", priority: "0.9" },
   { path: "/projetos", changefreq: "monthly", priority: "0.7" },
   { path: "/simulador", changefreq: "monthly", priority: "0.6" },
   { path: "/blog", changefreq: "weekly", priority: "0.7" },
