@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/accordion";
 import { Maximize2, CloudRain, Volume2, ShieldCheck, Phone } from "lucide-react";
 import sacadaAntes from "@/assets/blog-sacada-unique-antes.jpg";
-import sacadaDepois from "@/assets/blog-sacada-unique-depois.jpg";
+import sacadaDepois from "@/assets/sacada-depois-envidracada.webp";
 
 const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20envidraçamento%20de%20sacada.";
