@@ -84,6 +84,7 @@ const urls: string[] = [
   ...BAIRROS.map((b) => urlBlock(`/espelhos/${b}`, "monthly", "0.7")),
   ...BAIRROS.map((b) => urlBlock(`/portas-de-vidro/${b}`, "monthly", "0.7")),
   ...BAIRROS.map((b) => urlBlock(`/projetos/${b}`, "monthly", "0.7")),
+  ...BAIRROS.map((b) => urlBlock(`/envidracamento-de-sacada/${b}`, "monthly", "0.7")),
 ];
 
 const xml = [
@@ -96,5 +97,5 @@ const xml = [
 
 writeFileSync(resolve("public/sitemap.xml"), xml);
 console.log(
-  `sitemap.xml gerado (${STATIC_ROUTES.length} estáticas + ${blogSlugs.length} posts + ${BAIRROS.length} bairros × 8 prefixos: servicos, box-fume, box-incolor, box-verde, box-bronze, espelhos, portas-de-vidro, projetos)`,
+  `sitemap.xml gerado (${STATIC_ROUTES.length} estáticas + ${blogSlugs.length} posts + ${BAIRROS.length} bairros × 9 prefixos: servicos, box-fume, box-incolor, box-verde, box-bronze, espelhos, portas-de-vidro, projetos, envidracamento-de-sacada)`,
 );
