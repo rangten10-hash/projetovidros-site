@@ -162,9 +162,9 @@ const STATIC_ROUTES: RouteMeta[] = [
   },
   {
     path: "/box-verde",
-    title: "Box Verde em São Paulo | Vidro Temperado Direto da Fábrica",
+    title: "Box Verde Sob Medida SP | Vidro Temperado 8mm – Projeto Vidros",
     description:
-      "Box verde em vidro temperado 8mm: tonalidade natural sofisticada, privacidade suave e modelos sob medida em toda São Paulo.",
+      "Box de banheiro com vidro verde temperado 8mm em São Paulo. Estética biofílica, privacidade suave e instalação rápida. Orçamento pelo WhatsApp!",
   },
   {
     path: "/box-bronze",
