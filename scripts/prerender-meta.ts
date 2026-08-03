@@ -144,10 +144,11 @@ const STATIC_ROUTES: RouteMeta[] = [
   },
   {
     path: "/box-de-banheiro",
-    title: "Box de Banheiro Zona Norte SP | Vidro Temperado com Película – Projeto Vidros",
+    title: "Box de Banheiro Zona Norte SP | Película – Projeto Vidros",
     description:
-      "Box de banheiro na Zona Norte de SP com vidro temperado e película anti-estilhaço. Box de canto, reto, flex e até o teto sob medida. Orçamento grátis pelo WhatsApp!",
+      "Box de banheiro na Zona Norte SP com vidro temperado e película anti-estilhaço. Canto, reto, flex e até o teto sob medida. Orçamento pelo WhatsApp!",
   },
+
 
   {
     path: "/box-fume",
