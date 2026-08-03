@@ -187,6 +187,13 @@ const BoxBanheiro = () => {
         <p>
           Com sede na Zona Norte, a Projeto Vidros leva qualidade e rapidez para todas as regiões: Zona Sul, Zona Leste, Zona Oeste e Centro. Também atendemos com exclusividade condomínios em Alphaville, Barueri e Santana de Parnaíba.
         </p>
+        <p className="mt-4">
+          Mora na região? Veja nossa página dedicada de{" "}
+          <Link to="/box-para-banheiro-zona-norte" className="text-copper font-semibold underline underline-offset-2 hover:text-petrol transition-colors">
+            box para banheiro na Zona Norte de SP
+          </Link>{" "}
+          com os bairros atendidos.
+        </p>
       </div>
 
       <div className="bg-background border border-border rounded-xl p-6 text-center">
