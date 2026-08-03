@@ -144,10 +144,11 @@ const STATIC_ROUTES: RouteMeta[] = [
   },
   {
     path: "/box-de-banheiro",
-    title: "Box de Banheiro em São Paulo | Projeto Vidros",
+    title: "Box de Banheiro Zona Norte SP | Vidro Temperado com Película – Projeto Vidros",
     description:
-      "Box de banheiro em vidro temperado 8mm com película anti-estilhaço. Fabricação própria, instalação em toda São Paulo.",
+      "Box de banheiro na Zona Norte de SP com vidro temperado e película anti-estilhaço. Box de canto, reto, flex e até o teto sob medida. Orçamento grátis pelo WhatsApp!",
   },
+
   {
     path: "/box-fume",
     title: "Box Fumê em São Paulo | Vidro Temperado Direto da Fábrica",
