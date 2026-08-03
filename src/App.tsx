@@ -44,6 +44,7 @@ const App = () => (
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/box-de-banheiro" element={<BoxBanheiro />} />
+        <Route path="/box-para-banheiro-zona-norte" element={<BoxBanheiroZonaNorte />} />
         <Route path="/box-de-vidro" element={<Navigate to="/box-de-banheiro" replace />} />
         <Route path="/box-flex" element={<BoxFlex />} />
         <Route path="/box-piso-teto-kit-reto" element={<BoxPisoTetoKitReto />} />
