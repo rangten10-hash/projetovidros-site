@@ -148,6 +148,12 @@ const STATIC_ROUTES: RouteMeta[] = [
     description:
       "Box de banheiro na Zona Norte SP com vidro temperado e película anti-estilhaço. Canto, reto, flex e até o teto sob medida. Orçamento pelo WhatsApp!",
   },
+  {
+    path: "/box-para-banheiro-zona-norte",
+    title: "Box para Banheiro na Zona Norte SP | Projeto Vidros",
+    description:
+      "Box para banheiro na Zona Norte de SP com vidro temperado e película anti-estilhaço. Atendemos Santana, Tucuruvi, Imirim, Vila Guilherme e toda a ZN. Orçamento pelo WhatsApp!",
+  },
 
 
   {

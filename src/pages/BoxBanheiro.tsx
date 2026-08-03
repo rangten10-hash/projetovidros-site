@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ProductPageLayout from "@/components/ProductPageLayout";
 import boxCerto from "@/assets/box-certo.webp";
 import boxFlex from "@/assets/box-flex.webp";
@@ -186,6 +187,13 @@ const BoxBanheiro = () => {
         <h2 className="font-display text-2xl text-foreground mb-4">Atendimento em Toda a Grande São Paulo</h2>
         <p>
           Com sede na Zona Norte, a Projeto Vidros leva qualidade e rapidez para todas as regiões: Zona Sul, Zona Leste, Zona Oeste e Centro. Também atendemos com exclusividade condomínios em Alphaville, Barueri e Santana de Parnaíba.
+        </p>
+        <p className="mt-4">
+          Mora na região? Veja nossa página dedicada de{" "}
+          <Link to="/box-para-banheiro-zona-norte" className="text-copper font-semibold underline underline-offset-2 hover:text-petrol transition-colors">
+            box para banheiro na Zona Norte de SP
+          </Link>{" "}
+          com os bairros atendidos.
         </p>
       </div>
 
