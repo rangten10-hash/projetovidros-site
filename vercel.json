@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    {
+      "source": "/box-de-vidro",
+      "destination": "/box-de-banheiro",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",

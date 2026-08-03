@@ -3,8 +3,14 @@ const verde1 = "/assets/box-verde/box-verde-1.webp";
 const verde2 = "/assets/box-verde/box-verde-2.webp";
 
 export const BOX_VERDE_IMAGES = [
-  { src: verde1, alt: "Box de banheiro em vidro verde temperado com porta de correr e perfil preto" },
-  { src: verde2, alt: "Box de canto em vidro verde temperado com revestimento esverdeado e perfil preto" },
+  {
+    src: verde1,
+    alt: "Box de Banheiro Verde Temperado 8mm – Projeto Vidros Vidraçaria Zona Norte SP",
+  },
+  {
+    src: verde2,
+    alt: "Box de Banheiro Verde Temperado 8mm – Projeto Vidros Vidraçaria Zona Norte SP",
+  },
 ];
 
 export function pickRandomBoxVerdeImage(seed?: string) {
