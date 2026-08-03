@@ -10,6 +10,7 @@ const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e
 
 const navItemsLeft = [
   { label: "Box de Banheiro", path: "/box-de-banheiro" },
+  { label: "Box Zona Norte", path: "/box-para-banheiro-zona-norte" },
   { label: "Portas de Vidro", path: "/portas-de-vidro" },
   { label: "Envidraçamento de Sacada", path: "/envidracamento-de-sacada" },
 ];
