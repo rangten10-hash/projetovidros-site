@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import ProductPageLayout from "@/components/ProductPageLayout";
 import boxCerto from "@/assets/box-certo.webp";
 import boxFlex from "@/assets/box-flex.webp";
