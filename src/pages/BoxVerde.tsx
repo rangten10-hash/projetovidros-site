@@ -24,9 +24,9 @@ const MODELOS_VERDE: { titulo: string; desc: string }[] = [
 
 const BoxVerde = () => {
   useSeo({
-    title: "Box de Vidro Verde e Box para Banheiro Verde | Projeto Vidros",
+    title: "Box Verde Sob Medida SP | Vidro Temperado 8mm – Projeto Vidros",
     description:
-      "Box de vidro verde temperado 8mm: frontal, canto, abrir, elegance, flex e piso-teto. Tonalidade natural sofisticada, medição digital a laser e instalação em toda a Grande SP.",
+      "Box de banheiro com vidro verde temperado 8mm em São Paulo. Estética biofílica, privacidade suave e instalação rápida. Orçamento pelo WhatsApp!",
     path: "/box-verde",
     jsonLd: {
       "@context": "https://schema.org",
@@ -62,7 +62,7 @@ const BoxVerde = () => {
                 Acabamento Verde
               </span>
               <h1 className="font-display text-3xl md:text-5xl text-petrol mt-3 mb-5 leading-tight">
-                Box de Vidro Verde e Box para Banheiro Verde
+                Box de Vidro Verde Sob Medida em São Paulo
               </h1>
               <h2 className="font-display text-lg md:text-xl text-foreground/80 mb-4">
                 Box de Banheiro Verde Sob Medida com Instalação Rápida
@@ -73,10 +73,20 @@ const BoxVerde = () => {
               <p className="text-foreground/80 text-base md:text-lg leading-relaxed mb-6">
                 O <strong className="text-foreground">box de vidro verde</strong> é a escolha
                 de quem quer fugir do óbvio sem abrir mão da elegância. A tonalidade discreta do{" "}
-                <strong>vidro verde temperado 8mm</strong> entrega privacidade suave, conversa
-                naturalmente com revestimentos amadeirados, marmorizados claros e metais pretos
-                ou dourados — uma estética biofílica e contemporânea. É a aposta certa para
-                banheiros com personalidade marcante em São Paulo.
+                <Link to="/box-seguro" className="text-copper font-semibold underline underline-offset-2 hover:text-petrol transition-colors">
+                  vidro temperado
+                </Link>{" "}
+                verde 8mm entrega privacidade suave, conversa naturalmente com revestimentos
+                amadeirados, marmorizados claros e metais pretos ou dourados — uma estética
+                biofílica e contemporânea. É a aposta certa para quem procura um{" "}
+                <Link to="/box-de-banheiro" className="text-copper font-semibold underline underline-offset-2 hover:text-petrol transition-colors">
+                  box de banheiro
+                </Link>{" "}
+                com personalidade marcante em São Paulo, combinando também com um{" "}
+                <Link to="/espelhos" className="text-copper font-semibold underline underline-offset-2 hover:text-petrol transition-colors">
+                  espelho
+                </Link>{" "}
+                sob medida na mesma parede.
               </p>
               <div className="flex flex-wrap gap-3">
                 <a
