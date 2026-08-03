@@ -7,6 +7,7 @@ import VersionChecker from "./components/VersionChecker";
 // Every route except the home page is code-split so the initial payload
 // only contains what the first paint needs.
 const BoxBanheiro = lazy(() => import("./pages/BoxBanheiro"));
+const BoxBanheiroZonaNorte = lazy(() => import("./pages/BoxBanheiroZonaNorte"));
 const BoxFlex = lazy(() => import("./pages/BoxFlex"));
 const BoxPisoTetoKitReto = lazy(() => import("./pages/BoxPisoTetoKitReto"));
 const BoxTradicionalKitReto = lazy(() => import("./pages/BoxTradicionalKitReto"));
