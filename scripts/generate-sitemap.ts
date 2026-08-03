@@ -36,6 +36,7 @@ const BAIRROS: string[] = [
 const STATIC_ROUTES: { path: string; changefreq?: string; priority?: string }[] = [
   { path: "/", changefreq: "weekly", priority: "1.0" },
   { path: "/box-de-banheiro", changefreq: "monthly", priority: "0.8" },
+  { path: "/box-para-banheiro-zona-norte", changefreq: "monthly", priority: "0.9" },
   { path: "/box-flex", changefreq: "monthly", priority: "0.9" },
   { path: "/box-seguro", changefreq: "monthly", priority: "0.8" },
   { path: "/box-fume", changefreq: "monthly", priority: "0.9" },
