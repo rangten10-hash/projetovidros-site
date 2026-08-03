@@ -23,8 +23,6 @@ export const ZONA_BAIRROS: Record<Zona, { slug: string; nome: string }[]> = {
     { slug: "vila-guilherme", nome: "Vila Guilherme" },
     { slug: "jacana", nome: "Jaçanã" },
     { slug: "pirituba", nome: "Pirituba" },
-    { slug: "cachoeirinha", nome: "Cachoeirinha" },
-    { slug: "guarulhos", nome: "Guarulhos" },
   ],
   sul: [
     { slug: "moema", nome: "Moema" },
