@@ -1,5 +1,5 @@
 import { lazy, Suspense } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Index from "./pages/Index";
 import CookieConsent from "./components/CookieConsent";
 import VersionChecker from "./components/VersionChecker";
@@ -43,6 +43,7 @@ const App = () => (
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/box-de-banheiro" element={<BoxBanheiro />} />
+        <Route path="/box-de-vidro" element={<Navigate to="/box-de-banheiro" replace />} />
         <Route path="/box-flex" element={<BoxFlex />} />
         <Route path="/box-piso-teto-kit-reto" element={<BoxPisoTetoKitReto />} />
         <Route path="/box-tradicional-kit-reto" element={<BoxTradicionalKitReto />} />
