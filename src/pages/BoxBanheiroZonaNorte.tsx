@@ -22,7 +22,7 @@ const MODELOS = [
 const FAQ = [
   {
     q: "Qual o prazo de instalação de box na Zona Norte?",
-    a: "Em média 3 a 5 dias úteis após a medição. Realizamos medição a laser gratuita em toda a Zona Norte de SP.",
+    a: "O prazo varia de 5 a 15 dias úteis após a medição, a depender da complexidade do projeto. Realizamos medição a laser gratuita em toda a Zona Norte de SP.",
   },
   {
     q: "Box para banheiro pequeno tem na Zona Norte?",
@@ -136,7 +136,7 @@ const BoxBanheiroZonaNorte = () => {
             </ul>
             <p className="text-foreground/80 leading-relaxed mt-6">
               Cada projeto é feito sob medida com medição a laser e instalação limpa sem obra.
-              Atendemos também Alphaville, Barueri e toda a Grande São Paulo. Veja a linha completa
+              Atendemos também Guarulhos e toda a Grande São Paulo. Veja a linha completa
               de{" "}
               <Link to="/box-de-banheiro" className="text-copper font-semibold underline underline-offset-2 hover:text-petrol transition-colors">
                 box de banheiro
