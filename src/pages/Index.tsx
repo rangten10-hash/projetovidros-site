@@ -15,9 +15,9 @@ import promoMobile from "@/assets/banner-mobile-oferta.webp";
 
 const Index = () => {
   useSeo({
-    title: "Projeto Vidros | Box de Banheiro e Espelhos em São Paulo",
+    title: "Vidraçaria Zona Norte SP | Box de Banheiro e Espelhos – Projeto Vidros",
     description:
-      "Vidraçaria especializada em box de banheiro com película anti-estilhaço, espelhos sob medida e portas de vidro em São Paulo e região.",
+      "Vidraçaria especializada em box de banheiro, espelhos e portas de vidro na Zona Norte de SP. Vidro temperado com película anti-estilhaço. Orçamento grátis pelo WhatsApp!",
     path: "/",
   });
 
