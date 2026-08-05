@@ -39,9 +39,9 @@ const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
-      <div className="container mx-auto px-4 flex items-center justify-between gap-4 h-24">
+      <div className="container mx-auto px-3 sm:px-4 flex items-center justify-between gap-2 sm:gap-3 h-24">
         <Link to="/" className="flex items-center py-1 shrink-0" aria-label="Projeto Vidros - Início">
-          <img src={logo} alt="Projeto Vidros" width={224} height={112} className="h-20 xl:h-24 w-auto" decoding="async" />
+          <img src={logo} alt="Projeto Vidros" width={224} height={112} className="h-16 sm:h-20 xl:h-24 w-auto" decoding="async" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-4 xl:gap-5">
@@ -95,19 +95,25 @@ const Header = () => {
           ))}
         </nav>
 
-        <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+        {/* Botão WhatsApp mobile centralizado entre logo e menu */}
+        <div className="flex lg:hidden flex-1 justify-center min-w-0">
           <a
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleWhatsAppClick}
-            className="lg:hidden inline-flex items-center gap-1.5 text-[#25D366] hover:text-[#1ebe5a] transition-colors"
+            className="inline-flex items-center justify-center gap-2 rounded-lg bg-[#25D366] px-2.5 sm:px-3 py-2 text-white shadow-md transition-all hover:bg-[#1ebe5a] hover:shadow-lg active:scale-95"
             aria-label="Falar pelo WhatsApp com a Projeto Vidros"
           >
-            <MessageCircle className="w-5 h-5" />
-            <span className="hidden min-[360px]:inline text-sm font-bold whitespace-nowrap">(11) 91548-5945</span>
+            <Phone className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" strokeWidth={2.5} />
+            <div className="flex flex-col items-start leading-none">
+              <span className="text-[9px] sm:text-[10px] font-semibold uppercase tracking-[0.12em]">WhatsApp e Orçamento</span>
+              <span className="text-sm sm:text-base font-bold whitespace-nowrap">(11) 91548-5945</span>
+            </div>
           </a>
+        </div>
 
+        <div className="flex items-center gap-2 sm:gap-3 shrink-0">
           <a
             href={WHATSAPP_URL}
             target="_blank"
@@ -122,7 +128,7 @@ const Header = () => {
             <span className="text-sm xl:text-base font-bold leading-tight">(11) 91548-5945</span>
           </a>
 
-          <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden text-foreground p-2" aria-label="Menu">
+          <button onClick={() => setIsOpen(!isOpen)} className="lg:hidden text-foreground p-2 shrink-0" aria-label="Menu">
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
         </div>
