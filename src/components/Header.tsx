@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import SmartLink from "./SmartLink";
-import { Menu, X, Phone, ChevronDown } from "lucide-react";
+import { Menu, X, Phone, ChevronDown, MessageCircle } from "lucide-react";
 import logo from "@/assets/logo-projectovidros.webp";
 import logoBoxSeguro from "@/assets/logo-box-seguro.webp";
 import { gtagReportConversion } from "@/lib/gtag";
