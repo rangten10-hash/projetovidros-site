@@ -133,7 +133,6 @@ const Header = () => {
           </button>
         </div>
       </div>
-      </div>
 
       {isOpen && (
         <div className="lg:hidden bg-white border-t border-border max-h-[calc(100vh-6rem)] overflow-y-auto">
