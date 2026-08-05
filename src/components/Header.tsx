@@ -95,13 +95,25 @@ const Header = () => {
           ))}
         </nav>
 
-        <div className="flex items-center gap-3 shrink-0">
+        <div className="flex items-center gap-2 sm:gap-3 shrink-0">
           <a
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
             onClick={handleWhatsAppClick}
-            className="hidden sm:inline-flex flex-col items-start rounded-md bg-[#25D366] px-4 py-2.5 text-white shadow-sm transition-colors hover:bg-[#1ebe5a]"
+            className="lg:hidden inline-flex items-center gap-1.5 text-[#25D366] hover:text-[#1ebe5a] transition-colors"
+            aria-label="Falar pelo WhatsApp com a Projeto Vidros"
+          >
+            <MessageCircle className="w-5 h-5" />
+            <span className="hidden min-[360px]:inline text-sm font-bold whitespace-nowrap">(11) 91548-5945</span>
+          </a>
+
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={handleWhatsAppClick}
+            className="hidden lg:inline-flex flex-col items-start rounded-md bg-[#25D366] px-4 py-2.5 text-white shadow-sm transition-colors hover:bg-[#1ebe5a]"
           >
             <span className="flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.15em]">
               <Phone className="h-3.5 w-3.5" />
