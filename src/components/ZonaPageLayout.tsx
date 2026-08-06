@@ -168,6 +168,11 @@ const ZonaPageLayout = ({ data }: { data: ZonaPageData }) => {
                 </Link>
               ))}
             </div>
+            {data.closing && (
+              <p className="text-foreground/80 leading-relaxed mt-6">
+                {data.closing}
+              </p>
+            )}
           </div>
         </section>
 
