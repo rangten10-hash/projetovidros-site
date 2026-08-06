@@ -8,6 +8,9 @@ import VersionChecker from "./components/VersionChecker";
 // only contains what the first paint needs.
 const BoxBanheiro = lazy(() => import("./pages/BoxBanheiro"));
 const BoxBanheiroZonaNorte = lazy(() => import("./pages/BoxBanheiroZonaNorte"));
+const BoxVidroZonaSul = lazy(() => import("./pages/BoxVidroZonaSul"));
+const BoxVidroZonaOeste = lazy(() => import("./pages/BoxVidroZonaOeste"));
+const BoxVidroZonaLeste = lazy(() => import("./pages/BoxVidroZonaLeste"));
 const BoxFlex = lazy(() => import("./pages/BoxFlex"));
 const BoxPisoTetoKitReto = lazy(() => import("./pages/BoxPisoTetoKitReto"));
 const BoxTradicionalKitReto = lazy(() => import("./pages/BoxTradicionalKitReto"));
