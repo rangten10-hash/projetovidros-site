@@ -8,6 +8,9 @@ import VersionChecker from "./components/VersionChecker";
 // only contains what the first paint needs.
 const BoxBanheiro = lazy(() => import("./pages/BoxBanheiro"));
 const BoxBanheiroZonaNorte = lazy(() => import("./pages/BoxBanheiroZonaNorte"));
+const BoxVidroZonaSul = lazy(() => import("./pages/BoxVidroZonaSul"));
+const BoxVidroZonaOeste = lazy(() => import("./pages/BoxVidroZonaOeste"));
+const BoxVidroZonaLeste = lazy(() => import("./pages/BoxVidroZonaLeste"));
 const BoxFlex = lazy(() => import("./pages/BoxFlex"));
 const BoxPisoTetoKitReto = lazy(() => import("./pages/BoxPisoTetoKitReto"));
 const BoxTradicionalKitReto = lazy(() => import("./pages/BoxTradicionalKitReto"));
@@ -38,6 +41,15 @@ const BlogPost = lazy(() => import("./pages/BlogPost"));
 const ServicosBairro = lazy(() => import("./pages/ServicosBairro"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
+const BAIRRO_ALIAS_SLUGS = [
+  "moema", "vila-mariana", "campo-belo", "brooklin", "morumbi", "santo-amaro",
+  "ipiranga", "jabaquara", "saude", "vila-mascote",
+  "pinheiros", "perdizes", "lapa", "vila-madalena", "alto-de-pinheiros",
+  "pompeia", "butanta", "vila-leopoldina", "jaguare", "barra-funda",
+  "tatuape", "mooca", "analia-franco", "vila-formosa", "belem", "penha",
+  "vila-prudente", "carrao", "itaquera", "aricanduva",
+];
+
 const App = () => (
   <BrowserRouter>
     <Suspense fallback={<div className="min-h-screen" />}>
@@ -45,6 +57,13 @@ const App = () => (
         <Route path="/" element={<Index />} />
         <Route path="/box-de-banheiro" element={<BoxBanheiro />} />
         <Route path="/box-para-banheiro-zona-norte" element={<BoxBanheiroZonaNorte />} />
+        <Route path="/box-de-vidro-zona-norte" element={<Navigate to="/box-para-banheiro-zona-norte" replace />} />
+        <Route path="/box-de-vidro-zona-sul" element={<BoxVidroZonaSul />} />
+        <Route path="/box-de-vidro-zona-oeste" element={<BoxVidroZonaOeste />} />
+        <Route path="/box-de-vidro-zona-leste" element={<BoxVidroZonaLeste />} />
+        {BAIRRO_ALIAS_SLUGS.map((slug) => (
+          <Route key={slug} path={`/box-de-banheiro-${slug}`} element={<ServicosBairro />} />
+        ))}
         <Route path="/box-de-vidro" element={<Navigate to="/box-de-banheiro" replace />} />
         <Route path="/box-flex" element={<BoxFlex />} />
         <Route path="/box-piso-teto-kit-reto" element={<BoxPisoTetoKitReto />} />

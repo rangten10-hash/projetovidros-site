@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className="bg-petrol border-t border-copper/10">
       <div className="container mx-auto px-4 py-16">
-        <div className="grid md:grid-cols-3 gap-12">
+        <div className="grid md:grid-cols-4 gap-12">
           <div>
             <div className="mb-4">
               <h3 className="text-primary-foreground font-display text-xl font-semibold">Projeto Vidros</h3>
@@ -33,6 +33,22 @@ const Footer = () => {
                 { label: "Projetos", path: "/projetos" },
                 { label: "Blog", path: "/blog" },
 
+              ].map((item) => (
+                <Link key={item.path} to={item.path} className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm">
+                  {item.label}
+                </Link>
+              ))}
+            </nav>
+          </div>
+
+          <div>
+            <h4 className="text-copper font-semibold text-sm tracking-widest uppercase mb-4">Regiões Atendidas</h4>
+            <nav className="flex flex-col gap-2">
+              {[
+                { label: "Box de Vidro Zona Norte", path: "/box-de-vidro-zona-norte" },
+                { label: "Box de Vidro Zona Sul", path: "/box-de-vidro-zona-sul" },
+                { label: "Box de Vidro Zona Oeste", path: "/box-de-vidro-zona-oeste" },
+                { label: "Box de Vidro Zona Leste", path: "/box-de-vidro-zona-leste" },
               ].map((item) => (
                 <Link key={item.path} to={item.path} className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm">
                   {item.label}
