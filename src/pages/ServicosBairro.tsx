@@ -11,9 +11,9 @@ type Zona = "norte" | "sul" | "oeste" | "leste" | "centro";
 
 const ZONA_BAIRROS: Record<Zona, string[]> = {
   norte: ["santana", "mandaqui", "tucuruvi", "parada-inglesa", "lauzane-paulista", "horto-florestal", "tremembe", "casa-verde", "bairro-do-limao", "vila-nova-cachoeirinha", "imirim", "freguesia-do-o", "vila-maria", "vila-guilherme", "jacana", "pirituba", "cachoeirinha", "guarulhos"],
-  sul: ["moema", "morumbi", "vila-clementino", "brooklin", "socorro", "santo-amaro", "ibirapuera", "saude", "campo-belo", "vila-mariana", "jabaquara", "itaim-bibi", "interlagos", "paraiso", "panamby", "jardim-europa", "vila-sonia"],
-  oeste: ["alphaville", "cotia", "barueri", "butanta", "pinheiros", "lapa", "perdizes", "vila-leopoldina", "osasco", "barra-funda", "pompeia", "vila-madalena", "parque-sao-domingos", "vila-olimpia", "santana-de-parnaiba"],
-  leste: ["mooca", "penha", "vila-formosa", "tatuape", "vila-prudente", "belem", "vila-carrao", "ipiranga"],
+  sul: ["moema", "morumbi", "vila-clementino", "brooklin", "socorro", "santo-amaro", "ibirapuera", "saude", "campo-belo", "vila-mariana", "jabaquara", "itaim-bibi", "interlagos", "paraiso", "panamby", "jardim-europa", "vila-sonia", "vila-mascote"],
+  oeste: ["alphaville", "cotia", "barueri", "butanta", "pinheiros", "lapa", "perdizes", "vila-leopoldina", "osasco", "barra-funda", "pompeia", "vila-madalena", "parque-sao-domingos", "vila-olimpia", "santana-de-parnaiba", "alto-de-pinheiros", "jaguare"],
+  leste: ["mooca", "penha", "vila-formosa", "tatuape", "vila-prudente", "belem", "vila-carrao", "ipiranga", "analia-franco", "carrao", "itaquera", "aricanduva"],
   centro: ["avenida-paulista", "bom-retiro", "liberdade", "consolacao", "centro", "aclimacao", "bela-vista", "cambuci", "bras", "santa-cecilia", "pacaembu", "higienopolis", "jardins", "frei-caneca"],
 };
 
@@ -77,6 +77,13 @@ const BAIRRO_DISPLAY: Record<string, string> = {
   "belem": "Belém",
   "vila-carrao": "Vila Carrão",
   "ipiranga": "Ipiranga",
+  "vila-mascote": "Vila Mascote",
+  "alto-de-pinheiros": "Alto de Pinheiros",
+  "jaguare": "Jaguaré",
+  "analia-franco": "Anália Franco",
+  "carrao": "Carrão",
+  "itaquera": "Itaquera",
+  "aricanduva": "Aricanduva",
   "avenida-paulista": "Avenida Paulista",
   "bom-retiro": "Bom Retiro",
   "liberdade": "Liberdade",
