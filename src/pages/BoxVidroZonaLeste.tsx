@@ -14,6 +14,10 @@ const data: ZonaPageData = {
   h1: "Box de Banheiro Sob Medida na Zona Leste de São Paulo",
   subtitulo:
     "Qualidade, segurança e pontualidade na instalação de box de vidro na Zona Leste.",
+  intro:
+    "A Projeto Vidros é especialista em box para banheiro na Zona Leste de São Paulo. Desde 1991 atendemos moradores do Tatuapé, Mooca, Anália Franco, Vila Formosa, Belém, Penha, Vila Prudente, Carrão, Itaquera e Aricanduva com instalação profissional, vidro temperado 8mm e película de segurança anti-estilhaço inclusa.",
+  closing:
+    "Cada projeto é feito sob medida com medição a laser e instalação limpa sem obra. Atendemos também toda a região da Zona Leste e Grande São Paulo. Veja a linha completa de box de banheiro e nossos espelhos sob medida.",
   bairros: [
     { nome: "Tatuapé", to: "/box-de-banheiro-tatuape" },
     { nome: "Mooca", to: "/box-de-banheiro-mooca" },

@@ -14,6 +14,10 @@ const data: ZonaPageData = {
   h1: "Box de Banheiro Sob Medida na Zona Oeste de São Paulo",
   subtitulo:
     "Projetos exclusivos em vidro temperado com medição sem custo para a Zona Oeste.",
+  intro:
+    "A Projeto Vidros é especialista em box para banheiro na Zona Oeste de São Paulo. Desde 1991 atendemos moradores de Pinheiros, Perdizes, Lapa, Vila Madalena, Alto de Pinheiros, Pompéia, Butantã, Vila Leopoldina, Jaguaré e Barra Funda com instalação profissional, vidro temperado 8mm e película de segurança anti-estilhaço inclusa.",
+  closing:
+    "Cada projeto é feito sob medida com medição a laser e instalação limpa sem obra. Atendemos também toda a região da Zona Oeste e Grande São Paulo. Veja a linha completa de box de banheiro e nossos espelhos sob medida.",
   bairros: [
     { nome: "Pinheiros", to: "/box-de-banheiro-pinheiros" },
     { nome: "Perdizes", to: "/box-de-banheiro-perdizes" },

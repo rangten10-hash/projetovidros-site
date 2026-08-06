@@ -29,6 +29,8 @@ export interface ZonaPageData {
   description: string;
   h1: string;
   subtitulo: string;
+  intro?: string;
+  closing?: string;
   bairros: { nome: string; to: string }[];
   galeria: { src: string; alt: string }[];
   faq: { q: string; a: string }[];
@@ -126,9 +128,15 @@ const ZonaPageLayout = ({ data }: { data: ZonaPageData }) => {
               <h1 className="font-display text-3xl md:text-5xl text-primary-foreground mt-3 mb-5 leading-tight">
                 {data.h1}
               </h1>
-              <p className="text-primary-foreground/70 text-base md:text-lg leading-relaxed mb-8">
-                {data.subtitulo}
-              </p>
+              {data.intro ? (
+                <p className="text-primary-foreground/80 text-base md:text-lg leading-relaxed mb-6">
+                  {data.intro}
+                </p>
+              ) : (
+                <p className="text-primary-foreground/70 text-base md:text-lg leading-relaxed mb-8">
+                  {data.subtitulo}
+                </p>
+              )}
               <a
                 href={waUrl}
                 target="_blank"
@@ -160,6 +168,11 @@ const ZonaPageLayout = ({ data }: { data: ZonaPageData }) => {
                 </Link>
               ))}
             </div>
+            {data.closing && (
+              <p className="text-foreground/80 leading-relaxed mt-6">
+                {data.closing}
+              </p>
+            )}
           </div>
         </section>
 
