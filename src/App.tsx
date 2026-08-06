@@ -48,6 +48,11 @@ const App = () => (
         <Route path="/" element={<Index />} />
         <Route path="/box-de-banheiro" element={<BoxBanheiro />} />
         <Route path="/box-para-banheiro-zona-norte" element={<BoxBanheiroZonaNorte />} />
+        <Route path="/box-de-vidro-zona-norte" element={<Navigate to="/box-para-banheiro-zona-norte" replace />} />
+        <Route path="/box-de-vidro-zona-sul" element={<BoxVidroZonaSul />} />
+        <Route path="/box-de-vidro-zona-oeste" element={<BoxVidroZonaOeste />} />
+        <Route path="/box-de-vidro-zona-leste" element={<BoxVidroZonaLeste />} />
+        <Route path="/box-de-banheiro-:bairro" element={<ServicosBairro />} />
         <Route path="/box-de-vidro" element={<Navigate to="/box-de-banheiro" replace />} />
         <Route path="/box-flex" element={<BoxFlex />} />
         <Route path="/box-piso-teto-kit-reto" element={<BoxPisoTetoKitReto />} />
