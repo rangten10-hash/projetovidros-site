@@ -18,6 +18,7 @@ const data: ZonaPageData = {
     "A Projeto Vidros é especialista em box para banheiro na Zona Sul de São Paulo. Desde 1991 atendemos moradores de Moema, Vila Mariana, Campo Belo, Brooklin, Morumbi, Santo Amaro, Ipiranga, Jabaquara, Saúde e Vila Mascote com instalação profissional, vidro temperado 8mm e película de segurança anti-estilhaço inclusa.",
   closing:
     "Cada projeto é feito sob medida com medição a laser e instalação limpa sem obra. Atendemos também toda a região da Zona Sul e Grande São Paulo. Veja a linha completa de box de banheiro e nossos espelhos sob medida.",
+  bairros: [
     { nome: "Moema", to: "/box-de-banheiro-moema" },
     { nome: "Vila Mariana", to: "/box-de-banheiro-vila-mariana" },
     { nome: "Campo Belo", to: "/box-de-banheiro-campo-belo" },
