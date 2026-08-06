@@ -29,6 +29,8 @@ export interface ZonaPageData {
   description: string;
   h1: string;
   subtitulo: string;
+  intro?: string;
+  closing?: string;
   bairros: { nome: string; to: string }[];
   galeria: { src: string; alt: string }[];
   faq: { q: string; a: string }[];
