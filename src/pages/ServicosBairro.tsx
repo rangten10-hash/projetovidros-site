@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Link, useParams, Navigate } from "react-router-dom";
+import { Link, useParams, useLocation, Navigate } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -182,7 +182,10 @@ const MODELOS = [
 
 const ServicosBairro = () => {
   const { bairro } = useParams<{ bairro: string }>();
-  const slug = bairro ? slugify(bairro) : "";
+  const { pathname } = useLocation();
+  // Aceita tanto /servicos/:bairro quanto o alias /box-de-banheiro-<bairro>
+  const rawBairro = bairro ?? pathname.replace(/^\/box-de-banheiro-/, "");
+  const slug = rawBairro && rawBairro !== pathname ? slugify(rawBairro) : "";
   const zona = slug ? getZona(slug) : null;
 
   const bairroNome = formatBairro(slug);
