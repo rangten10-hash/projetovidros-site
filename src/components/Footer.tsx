@@ -42,6 +42,22 @@ const Footer = () => {
           </div>
 
           <div>
+            <h4 className="text-copper font-semibold text-sm tracking-widest uppercase mb-4">Regiões Atendidas</h4>
+            <nav className="flex flex-col gap-2">
+              {[
+                { label: "Box de Vidro Zona Norte", path: "/box-de-vidro-zona-norte" },
+                { label: "Box de Vidro Zona Sul", path: "/box-de-vidro-zona-sul" },
+                { label: "Box de Vidro Zona Oeste", path: "/box-de-vidro-zona-oeste" },
+                { label: "Box de Vidro Zona Leste", path: "/box-de-vidro-zona-leste" },
+              ].map((item) => (
+                <Link key={item.path} to={item.path} className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm">
+                  {item.label}
+                </Link>
+              ))}
+            </nav>
+          </div>
+
+          <div>
             <h4 className="text-copper font-semibold text-sm tracking-widest uppercase mb-4">Contato</h4>
             <div className="space-y-4">
               <a
