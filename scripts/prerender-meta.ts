@@ -154,6 +154,24 @@ const STATIC_ROUTES: RouteMeta[] = [
     description:
       "Box para banheiro na Zona Norte de SP com vidro temperado e película anti-estilhaço. Atendemos Santana, Tucuruvi, Imirim, Vila Guilherme e toda a ZN. Orçamento pelo WhatsApp!",
   },
+  {
+    path: "/box-de-vidro-zona-sul",
+    title: "Box de Vidro para Banheiro na Zona Sul SP | Projeto Vidros",
+    description:
+      "Fabricação e instalação de box de banheiro na Zona Sul de SP. Vidro temperado sob medida, medição rápida e garantia.",
+  },
+  {
+    path: "/box-de-vidro-zona-oeste",
+    title: "Box de Vidro para Banheiro na Zona Oeste SP | Projeto Vidros",
+    description:
+      "Box de vidro para banheiro na Zona Oeste de SP. Modelos elegantes, roldanas aparentes, articulados e sob medida.",
+  },
+  {
+    path: "/box-de-vidro-zona-leste",
+    title: "Box de Vidro para Banheiro na Zona Leste SP | Projeto Vidros",
+    description:
+      "Preço direto de fábrica e instalação rápida de box de vidro na Zona Leste SP. Vidro temperado 8mm certificado.",
+  },
 
 
   {
