@@ -10,8 +10,8 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { useSeo } from "@/lib/seo";
 import { schedulePrefetch } from "@/lib/routePrefetch";
-import promoDesktop from "@/assets/banner-desktop-oferta.webp";
-import promoMobile from "@/assets/banner-mobile-oferta.webp";
+import promoDesktop from "@/assets/promo-box-incolor-desktop.webp";
+import promoMobile from "@/assets/promo-box-incolor-mobile.webp";
 
 const Index = () => {
   useSeo({
