@@ -161,6 +161,30 @@ const STATIC_ROUTES: RouteMeta[] = [
       "Fabricação e instalação de box de banheiro na Zona Sul de SP. Vidro temperado sob medida, medição rápida e garantia.",
   },
   {
+    path: "/envidracamento-de-sacadas-zona-norte-sp",
+    title: "Envidraçamento de Sacadas Zona Norte SP | Projeto Vidros",
+    description:
+      "Envidraçamento de sacadas na Zona Norte de SP: cortina de vidro retrátil sob medida, medição grátis e instalação garantida.",
+  },
+  {
+    path: "/envidracamento-de-sacadas-zona-sul-sp",
+    title: "Envidraçamento de Sacadas Zona Sul SP | Projeto Vidros",
+    description:
+      "Envidraçamento de sacadas na Zona Sul de SP: cortina de vidro retrátil sob medida para varandas gourmet, com medição grátis.",
+  },
+  {
+    path: "/envidracamento-de-sacadas-zona-leste-sp",
+    title: "Envidraçamento de Sacadas Zona Leste SP | Projeto Vidros",
+    description:
+      "Envidraçamento de sacadas na Zona Leste de SP: fechamento de varanda com vidro retrátil sob medida, medição grátis e garantia.",
+  },
+  {
+    path: "/envidracamento-de-sacadas-zona-oeste-sp",
+    title: "Envidraçamento de Sacadas Zona Oeste SP | Projeto Vidros",
+    description:
+      "Envidraçamento de sacadas na Zona Oeste de SP e Alphaville: cortina de vidro retrátil sob medida com medição grátis.",
+  },
+  {
     path: "/box-de-vidro-zona-oeste",
     title: "Box de Vidro para Banheiro na Zona Oeste SP | Projeto Vidros",
     description:

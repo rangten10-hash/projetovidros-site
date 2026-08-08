@@ -49,6 +49,10 @@ const Footer = () => {
                 { label: "Box de Vidro Zona Sul", path: "/box-de-vidro-zona-sul" },
                 { label: "Box de Vidro Zona Oeste", path: "/box-de-vidro-zona-oeste" },
                 { label: "Box de Vidro Zona Leste", path: "/box-de-vidro-zona-leste" },
+                { label: "Envidraçamento de Sacadas Zona Norte", path: "/envidracamento-de-sacadas-zona-norte-sp" },
+                { label: "Envidraçamento de Sacadas Zona Sul", path: "/envidracamento-de-sacadas-zona-sul-sp" },
+                { label: "Envidraçamento de Sacadas Zona Leste", path: "/envidracamento-de-sacadas-zona-leste-sp" },
+                { label: "Envidraçamento de Sacadas Zona Oeste", path: "/envidracamento-de-sacadas-zona-oeste-sp" },
               ].map((item) => (
                 <Link key={item.path} to={item.path} className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm">
                   {item.label}

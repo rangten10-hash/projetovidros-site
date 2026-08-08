@@ -32,6 +32,10 @@ const Espelhos = lazy(() => import("./pages/Espelhos"));
 const EspelhosBairro = lazy(() => import("./pages/EspelhosBairro"));
 const EspelhosLed = lazy(() => import("./pages/EspelhosLed"));
 const EnvidracamentoSacada = lazy(() => import("./pages/EnvidracamentoSacada"));
+const SacadaZonaNorte = lazy(() => import("./pages/SacadaZonaNorte"));
+const SacadaZonaSul = lazy(() => import("./pages/SacadaZonaSul"));
+const SacadaZonaLeste = lazy(() => import("./pages/SacadaZonaLeste"));
+const SacadaZonaOeste = lazy(() => import("./pages/SacadaZonaOeste"));
 const EnvidracamentoSacadaBairro = lazy(() => import("./pages/EnvidracamentoSacadaBairro"));
 const Projetos = lazy(() => import("./pages/Projetos"));
 const ProjetosBairro = lazy(() => import("./pages/ProjetosBairro"));
@@ -86,6 +90,10 @@ const App = () => (
         <Route path="/espelhos/:bairro" element={<EspelhosBairro />} />
         <Route path="/espelhos-led" element={<EspelhosLed />} />
         <Route path="/envidracamento-de-sacada" element={<EnvidracamentoSacada />} />
+        <Route path="/envidracamento-de-sacadas-zona-norte-sp" element={<SacadaZonaNorte />} />
+        <Route path="/envidracamento-de-sacadas-zona-sul-sp" element={<SacadaZonaSul />} />
+        <Route path="/envidracamento-de-sacadas-zona-leste-sp" element={<SacadaZonaLeste />} />
+        <Route path="/envidracamento-de-sacadas-zona-oeste-sp" element={<SacadaZonaOeste />} />
         <Route path="/envidracamento-de-sacada/:bairro" element={<EnvidracamentoSacadaBairro />} />
         <Route path="/projetos" element={<Projetos />} />
         <Route path="/projetos/:bairro" element={<ProjetosBairro />} />
