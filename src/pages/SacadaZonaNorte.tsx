@@ -46,7 +46,7 @@ const data: ZonaPageData = {
   faq: [
     {
       q: "Qual o prazo de instalação de envidraçamento de sacada na Zona Norte?",
-      a: "Após a medição, o prazo médio é de 10 a 20 dias úteis, dependendo do sistema escolhido e do tamanho da varanda. A medição é gratuita em toda a Zona Norte.",
+      a: "Após a medição, o prazo médio é de 15 a 30 dias úteis, dependendo do sistema escolhido e do tamanho da varanda. A medição é gratuita em toda a Zona Norte.",
     },
     {
       q: "O envidraçamento retrátil precisa de autorização do condomínio?",
