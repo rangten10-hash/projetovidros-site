@@ -22,16 +22,23 @@ const PromoBanner = () => {
         />
       </picture>
 
-      {/* Overlay para legibilidade */}
-      <div className="absolute inset-0 z-[2] bg-black/40" />
+      {/* Gradiente lateral: escurece a esquerda e libera a foto à direita */}
+      <div className="absolute inset-0 z-[2] bg-gradient-to-r from-black/75 via-black/45 to-black/10" />
 
-      <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center px-6 pb-20 md:pb-24">
-        <h2 className="font-display text-2xl sm:text-3xl md:text-5xl text-white leading-tight max-w-3xl drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]">
+      <div className="absolute inset-0 z-10 flex flex-col items-start justify-center text-left px-6 md:px-14 lg:px-20 pb-16 md:pb-20">
+        <h2 className="font-display text-lg sm:text-xl md:text-3xl text-white leading-tight max-w-md drop-shadow-[0_2px_12px_rgba(0,0,0,0.6)]">
           Box de Vidro Incolor 8mm Temperado
         </h2>
-        <p className="mt-3 md:mt-5 text-white/90 text-sm sm:text-base md:text-xl max-w-2xl leading-snug drop-shadow-[0_2px_10px_rgba(0,0,0,0.6)]">
-          Promoção Imperdível a partir de 12x de R$ 79,90 já instalado!
-        </p>
+
+        <div className="mt-3 md:mt-4 inline-flex flex-col bg-black/55 border-l-4 border-[#FFD400] px-4 py-2 md:px-6 md:py-3">
+          <span className="text-[#FFD400] font-display font-bold leading-none text-3xl sm:text-4xl md:text-6xl drop-shadow-[0_3px_10px_rgba(0,0,0,0.7)]">
+            12x R$ 79,90
+          </span>
+          <span className="mt-1 md:mt-2 text-white/90 text-[11px] sm:text-xs md:text-sm leading-snug">
+            Promoção imperdível — já instalado, sem custo extra.
+          </span>
+        </div>
+
         <a
           href={WHATSAPP_URL}
           target="_blank"
@@ -40,7 +47,7 @@ const PromoBanner = () => {
             e.preventDefault();
             gtagReportConversion(WHATSAPP_URL);
           }}
-          className="mt-6 md:mt-8 inline-block bg-[#25D366] hover:bg-[#1ebe5a] text-white px-6 md:px-10 py-3 md:py-4 rounded-full text-xs sm:text-sm md:text-base font-bold uppercase tracking-wide shadow-[0_8px_24px_rgba(0,0,0,0.45)] transition-colors active:scale-[0.97]"
+          className="mt-4 md:mt-6 inline-block bg-[#25D366] hover:bg-[#1ebe5a] text-white px-5 md:px-8 py-3 md:py-4 rounded-sm text-[11px] sm:text-sm md:text-base font-bold uppercase tracking-wide shadow-[0_8px_24px_rgba(0,0,0,0.45)] transition-colors active:scale-[0.97]"
         >
           Garantir Oferta no WhatsApp
         </a>
