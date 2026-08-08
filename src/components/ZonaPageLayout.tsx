@@ -24,6 +24,18 @@ import { gtagReportConversion } from "@/lib/gtag";
 
 export interface ZonaPageData {
   zonaLabel: string;
+  /** Categoria do serviço (padrão: box de banheiro) */
+  categoria?: string;
+  eyebrow?: string;
+  parentLabel?: string;
+  parentPath?: string;
+  serviceName?: string;
+  serviceType?: string;
+  ctaMessage?: string;
+  bairrosHeading?: string;
+  galeriaHeading?: string;
+  ctaHeading?: string;
+  diferenciais?: { title: string; desc: string }[];
   path: string;
   title: string;
   description: string;
@@ -59,8 +71,15 @@ const DIFERENCIAIS = [
   },
 ];
 
+const ICONS = [ShieldCheck, Ruler, Truck, BadgeCheck];
+
 const ZonaPageLayout = ({ data }: { data: ZonaPageData }) => {
-  const waMsg = `Olá! Vi o site e gostaria de um orçamento de box de vidro para banheiro na ${data.zonaLabel} de SP.`;
+  const diferenciais = data.diferenciais
+    ? data.diferenciais.map((d, i) => ({ ...d, icon: ICONS[i % ICONS.length] }))
+    : DIFERENCIAIS;
+  const waMsg =
+    data.ctaMessage ??
+    `Olá! Vi o site e gostaria de um orçamento de box de vidro para banheiro na ${data.zonaLabel} de SP.`;
   const waUrl = `https://wa.me/5511915485945?text=${encodeURIComponent(waMsg)}`;
   const [slide, setSlide] = useState(0);
 
@@ -72,8 +91,11 @@ const ZonaPageLayout = ({ data }: { data: ZonaPageData }) => {
       {
         "@context": "https://schema.org",
         "@type": "Service",
-        name: `Box de Vidro para Banheiro na ${data.zonaLabel} de São Paulo`,
+        name:
+          data.serviceName ??
+          `Box de Vidro para Banheiro na ${data.zonaLabel} de São Paulo`,
         serviceType:
+          data.serviceType ??
           "Fabricação e instalação de box de banheiro em vidro temperado 8mm sob medida",
         areaServed: data.bairros.map((b) => ({ "@type": "Place", name: b.nome })),
         provider: {
@@ -118,12 +140,12 @@ const ZonaPageLayout = ({ data }: { data: ZonaPageData }) => {
               <nav className="text-xs text-primary-foreground/50 mb-5">
                 <Link to="/" className="hover:text-copper">Início</Link>
                 {" / "}
-                <Link to="/box-de-banheiro" className="hover:text-copper">Box de Banheiro</Link>
+                <Link to={data.parentPath ?? "/box-de-banheiro"} className="hover:text-copper">{data.parentLabel ?? "Box de Banheiro"}</Link>
                 {" / "}
                 <span>{data.zonaLabel}</span>
               </nav>
               <span className="text-copper text-xs font-semibold tracking-[0.25em] uppercase">
-                Atendimento {data.zonaLabel} SP
+                {data.eyebrow ?? `Atendimento ${data.zonaLabel} SP`}
               </span>
               <h1 className="font-display text-3xl md:text-5xl text-primary-foreground mt-3 mb-5 leading-tight">
                 {data.h1}
@@ -154,7 +176,7 @@ const ZonaPageLayout = ({ data }: { data: ZonaPageData }) => {
         <section className="container mx-auto px-4 mt-14">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-display text-2xl md:text-3xl text-petrol mb-6">
-              Bairros atendidos na {data.zonaLabel}
+              {data.bairrosHeading ?? `Bairros atendidos na ${data.zonaLabel}`}
             </h2>
             <div className="flex flex-wrap gap-2.5">
               {data.bairros.map((b) => (
@@ -180,7 +202,7 @@ const ZonaPageLayout = ({ data }: { data: ZonaPageData }) => {
         <section className="container mx-auto px-4 mt-14">
           <div className="max-w-4xl mx-auto">
             <h2 className="font-display text-2xl md:text-3xl text-petrol mb-6">
-              Modelos de box instalados na {data.zonaLabel}
+              {data.galeriaHeading ?? `Modelos de box instalados na ${data.zonaLabel}`}
             </h2>
             <div className="relative overflow-hidden rounded-xl border border-border bg-card">
               <div
@@ -237,7 +259,7 @@ const ZonaPageLayout = ({ data }: { data: ZonaPageData }) => {
               Por que escolher a Projeto Vidros na {data.zonaLabel}
             </h2>
             <div className="grid sm:grid-cols-2 gap-4">
-              {DIFERENCIAIS.map((d) => (
+              {diferenciais.map((d) => (
                 <div key={d.title} className="flex gap-4 rounded-xl border border-border bg-card p-5">
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-copper/10">
                     <d.icon className="h-5 w-5 text-copper" />
@@ -273,7 +295,7 @@ const ZonaPageLayout = ({ data }: { data: ZonaPageData }) => {
 
             <div className="mt-10 rounded-xl border border-border bg-muted/40 p-6 text-center">
               <p className="font-display text-xl text-petrol mb-4">
-                Peça seu orçamento de box de vidro na {data.zonaLabel}
+                {data.ctaHeading ?? `Peça seu orçamento de box de vidro na ${data.zonaLabel}`}
               </p>
               <a
                 href={waUrl}
