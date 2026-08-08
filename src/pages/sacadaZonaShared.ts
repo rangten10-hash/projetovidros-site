@@ -1,6 +1,7 @@
-import sacada1 from "@/assets/sacada-envidracada-149.png.asset.json";
-import sacada2 from "@/assets/sacada-envidracada-150.png.asset.json";
-import sacada3 from "@/assets/sacada-envidracada-151.png.asset.json";
+import sacada1 from "@/assets/sacada-envidracada-149.webp";
+import sacada2 from "@/assets/sacada-envidracada-150.webp";
+import sacada3 from "@/assets/sacada-envidracada-151.webp";
+import sacada4 from "@/assets/sacada-envidracada-152.webp";
 
 export const SACADA_DIFERENCIAIS = [
   {
@@ -25,8 +26,9 @@ export function sacadaGaleria(zona: string) {
   const alt = (n: number) =>
     `envidracamento-de-sacada-instalado-${zona}-sp-${n}`;
   return [
-    { src: sacada1.url, alt: alt(1) },
-    { src: sacada2.url, alt: alt(2) },
-    { src: sacada3.url, alt: alt(3) },
+    { src: sacada1, alt: alt(1) },
+    { src: sacada2, alt: alt(2) },
+    { src: sacada3, alt: alt(3) },
+    { src: sacada4, alt: alt(4) },
   ];
 }
