@@ -9,23 +9,23 @@ const ALT = "Oferta Box de vidro incolor 8mm temperado - 12x de R$79,90 já inst
 
 const PromoBanner = () => {
   return (
-    <section className="relative h-full w-full overflow-hidden bg-[#1a1a1a] lg:pt-24">
-      <picture>
-        <source media="(min-width: 768px)" srcSet={promoDesktop} type="image/webp" />
-        <source media="(max-width: 767px)" srcSet={promoMobile} type="image/webp" />
-        <img
-          src={promoDesktop}
-          alt={ALT}
-          loading="lazy"
-          fetchPriority="low"
+    <section className="relative h-full w-full overflow-hidden bg-[#1a1a1a] flex flex-col">
+      <div className="relative flex-1 min-h-0">
+        <picture>
+          <source media="(min-width: 768px)" srcSet={promoDesktop} type="image/webp" />
+          <source media="(max-width: 767px)" srcSet={promoMobile} type="image/webp" />
+          <img
+            src={promoDesktop}
+            alt={ALT}
+            loading="lazy"
+            fetchPriority="low"
+            decoding="async"
+            className="absolute inset-0 w-full h-full object-contain object-center z-[1]"
+          />
+        </picture>
+      </div>
 
-          decoding="async"
-          className="absolute inset-0 md:top-0 lg:top-24 w-full h-full lg:h-[calc(100%-6rem)] object-contain object-center z-[1]"
-        />
-      </picture>
-
-
-      <div className="absolute inset-x-0 bottom-4 md:bottom-12 z-10 flex justify-center px-4">
+      <div className="shrink-0 z-10 flex justify-center px-4 py-3 md:py-5">
         <a
           href={WHATSAPP_URL}
           target="_blank"
@@ -41,6 +41,7 @@ const PromoBanner = () => {
       </div>
     </section>
   );
+
 };
 
 export default PromoBanner;
