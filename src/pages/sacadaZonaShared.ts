@@ -1,10 +1,6 @@
-import sacadaDepois from "@/assets/sacada-depois-envidracada.webp";
-import sacadaRetratilCapa from "@/assets/blog-sacada-retratil-capa.webp";
-import sacadaRetratilAbrindo from "@/assets/blog-sacada-retratil-abrindo.webp";
-import sacadaRetratilFinal from "@/assets/blog-sacada-retratil-final.jpg";
-import sacadaUniqueCapa from "@/assets/blog-sacada-unique-capa.webp";
-import sacadaUniqueDepois from "@/assets/blog-sacada-unique-depois.jpg";
-import cortinaVidro from "@/assets/blog-vidro-acrilico-cortina-capa.webp";
+import sacada1 from "@/assets/sacada-envidracada-149.png.asset.json";
+import sacada2 from "@/assets/sacada-envidracada-150.png.asset.json";
+import sacada3 from "@/assets/sacada-envidracada-151.png.asset.json";
 
 export const SACADA_DIFERENCIAIS = [
   {
@@ -29,12 +25,8 @@ export function sacadaGaleria(zona: string) {
   const alt = (n: number) =>
     `envidracamento-de-sacada-instalado-${zona}-sp-${n}`;
   return [
-    { src: sacadaDepois, alt: alt(1) },
-    { src: sacadaRetratilCapa, alt: alt(2) },
-    { src: sacadaRetratilAbrindo, alt: alt(3) },
-    { src: sacadaUniqueCapa, alt: alt(4) },
-    { src: sacadaUniqueDepois, alt: alt(5) },
-    { src: sacadaRetratilFinal, alt: alt(6) },
-    { src: cortinaVidro, alt: alt(7) },
+    { src: sacada1.url, alt: alt(1) },
+    { src: sacada2.url, alt: alt(2) },
+    { src: sacada3.url, alt: alt(3) },
   ];
 }

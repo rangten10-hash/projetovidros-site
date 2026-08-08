@@ -49,7 +49,7 @@ const data: ZonaPageData = {
     },
     {
       q: "Qual o prazo do serviço na Zona Leste?",
-      a: "De 10 a 20 dias úteis após a medição e a aprovação do projeto, conforme o sistema escolhido.",
+      a: "De 15 a 30 dias úteis após a medição e a aprovação do projeto, conforme o sistema escolhido.",
     },
     {
       q: "Dá para envidraçar sacada pequena?",
