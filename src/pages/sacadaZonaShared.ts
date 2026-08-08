@@ -1,6 +1,7 @@
-import sacada1 from "@/assets/sacada-envidracada-149.png.asset.json";
-import sacada2 from "@/assets/sacada-envidracada-150.png.asset.json";
-import sacada3 from "@/assets/sacada-envidracada-151.png.asset.json";
+import sacada1 from "@/assets/sacada-envidracada-149.webp";
+import sacada2 from "@/assets/sacada-envidracada-150.webp";
+import sacada3 from "@/assets/sacada-envidracada-151.webp";
+import sacada4 from "@/assets/sacada-envidracada-152.webp";
 
 export const SACADA_DIFERENCIAIS = [
   {
