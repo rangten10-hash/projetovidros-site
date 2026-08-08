@@ -25,11 +25,12 @@ const PromoBanner = () => {
         alt={ALT}
         loading="lazy"
         decoding="async"
-        className="block md:hidden absolute inset-0 w-full h-full object-contain object-top z-[1]"
+        className="block md:hidden absolute inset-x-0 top-0 w-full h-[calc(100%-7rem)] object-contain object-top z-[1]"
       />
 
       {/* CTA WhatsApp sobre o banner */}
-      <div className="absolute inset-x-0 bottom-16 md:bottom-10 z-10 flex justify-center px-6">
+      <div className="absolute inset-x-0 bottom-12 md:bottom-10 z-10 flex justify-center px-6">
+
         <a
           href={WHATSAPP_URL}
           target="_blank"
