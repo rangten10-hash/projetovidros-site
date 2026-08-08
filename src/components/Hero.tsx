@@ -8,24 +8,24 @@ const WHATSAPP_URL =
 
 const Hero = () => {
   return (
-    <section className="relative h-full w-full overflow-hidden bg-[#1a1a1a] lg:pt-24">
+    <section className="relative h-full w-full overflow-hidden bg-[#1a1a1a] flex flex-col">
       {/* Single <picture>: browser downloads only the matching source (no double fetch) */}
-      <picture>
-        <source media="(min-width: 768px)" srcSet={heroDesktop} type="image/webp" />
-        <source media="(max-width: 767px)" srcSet={heroMobile} type="image/webp" />
-        <img
-          src={heroMobile}
-          alt="Box+ Seguro: a beleza que você quer e a segurança que sua família precisa"
-          loading="eager"
-          fetchPriority="high"
-          decoding="async"
-          className="absolute inset-0 md:top-24 w-full h-full md:h-[calc(100%-6rem)] object-cover md:object-contain object-center z-[1]"
-        />
-      </picture>
+      <div className="relative flex-1 min-h-0">
+        <picture>
+          <source media="(min-width: 768px)" srcSet={heroDesktop} type="image/webp" />
+          <source media="(max-width: 767px)" srcSet={heroMobile} type="image/webp" />
+          <img
+            src={heroMobile}
+            alt="Box+ Seguro: a beleza que você quer e a segurança que sua família precisa"
+            loading="eager"
+            fetchPriority="high"
+            decoding="async"
+            className="absolute inset-0 w-full h-full object-contain object-center z-[1]"
+          />
+        </picture>
+      </div>
 
-
-
-      <div className="absolute inset-x-0 bottom-12 md:bottom-28 z-10 flex justify-center px-4">
+      <div className="shrink-0 z-10 flex justify-center px-4 py-3 md:py-5">
         <a
           href={WHATSAPP_URL}
           target="_blank"
@@ -41,6 +41,7 @@ const Hero = () => {
       </div>
     </section>
   );
+
 };
 
 export default Hero;
