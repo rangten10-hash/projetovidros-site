@@ -49,10 +49,16 @@ const HeroCarousel = () => {
   const handleTouchEnd = () => setIsPaused(false);
 
   return (
-    <section className="relative h-[calc(150vw+6rem)] max-h-[calc(100vh+6rem)] md:max-h-none md:h-screen w-full overflow-hidden pt-24">
+    <section
+      className="relative h-[calc(150vw+6rem)] max-h-[calc(100vh+6rem)] md:max-h-none md:h-screen w-full overflow-hidden pt-24"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
+    >
       <div
         className="flex h-full transition-transform duration-700 ease-out"
-        style={{ transform: `translateX(-${activeSlide * 100}%)` }}
+        style={{ transform: `translateX(-${activeSlide * 100}%)`, transitionDuration: `${TRANSITION_DURATION}ms` }}
       >
         {slides.map(({ Component, to, label }) => (
           <div
