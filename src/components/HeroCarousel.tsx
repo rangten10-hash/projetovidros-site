@@ -1,11 +1,12 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Hero from "./Hero";
 import PromoBanner from "./PromoBanner";
 import SacadaBanner from "./SacadaBanner";
 
-const INTERVAL = 5000; // 5 seconds
+const INTERVAL = 6000; // 6 seconds
+const TRANSITION_DURATION = 700; // ms
 
 const slides = [
   { Component: Hero, to: "/box-seguro", label: "Box + Seguro" },
@@ -15,25 +16,49 @@ const slides = [
 
 const HeroCarousel = () => {
   const [activeSlide, setActiveSlide] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
   const totalSlides = slides.length;
   const navigate = useNavigate();
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   const goToSlide = useCallback((index: number) => {
     setActiveSlide(((index % totalSlides) + totalSlides) % totalSlides);
   }, [totalSlides]);
 
-  useEffect(() => {
-    const timer = setInterval(() => {
+  const startAutoplay = useCallback(() => {
+    if (timerRef.current) clearInterval(timerRef.current);
+    timerRef.current = setInterval(() => {
       setActiveSlide((prev) => (prev + 1) % totalSlides);
     }, INTERVAL);
-    return () => clearInterval(timer);
   }, [totalSlides]);
 
+  const stopAutoplay = useCallback(() => {
+    if (timerRef.current) clearInterval(timerRef.current);
+    timerRef.current = null;
+  }, []);
+
+  useEffect(() => {
+    if (!isPaused) startAutoplay();
+    else stopAutoplay();
+    return () => stopAutoplay();
+  }, [isPaused, startAutoplay, stopAutoplay]);
+
+  const handleMouseEnter = () => setIsPaused(true);
+  const handleMouseLeave = () => setIsPaused(false);
+  const handleTouchStart = () => setIsPaused(true);
+  const handleTouchEnd = () => setIsPaused(false);
+
   return (
-    <section className="relative h-[calc(150vw+6rem)] max-h-[calc(100vh+6rem)] md:max-h-none md:h-screen w-full overflow-hidden pt-24">
+    <section
+      className="relative h-[calc(150vw+6rem)] max-h-[calc(100vh+6rem)] md:max-h-none md:h-screen w-full overflow-hidden pt-24"
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
+    >
       <div
         className="flex h-full transition-transform duration-700 ease-out"
-        style={{ transform: `translateX(-${activeSlide * 100}%)` }}
+        style={{ transform: `translateX(-${activeSlide * 100}%)`, transitionDuration: `${TRANSITION_DURATION}ms` }}
       >
         {slides.map(({ Component, to, label }) => (
           <div
