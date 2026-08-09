@@ -29,7 +29,7 @@ const Hero = () => {
       </picture>
 
       {/* Overlay para legibilidade */}
-      <div className="absolute inset-0 z-[2] bg-black/45" />
+      <div className="absolute inset-0 z-[2] bg-black/25 md:bg-black/45" />
 
       {/* Títulos laterais (desktop) */}
       <div className="hidden md:grid absolute inset-x-0 top-[14%] z-10 grid-cols-2 gap-3 px-10">
