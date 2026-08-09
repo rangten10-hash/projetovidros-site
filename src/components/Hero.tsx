@@ -7,7 +7,7 @@ const ALT =
 
 const Hero = () => {
   return (
-    <section className="relative h-full w-full overflow-hidden bg-[#1a1a1a]">
+    <section className="relative h-full w-full overflow-hidden bg-black">
       {/* Imagem desktop (widescreen) */}
       <img
         src={heroDesktop}
@@ -15,7 +15,7 @@ const Hero = () => {
         loading="eager"
         fetchPriority="high"
         decoding="async"
-        className="hidden md:block absolute inset-0 w-full h-full object-cover object-center z-[1]"
+        className="hidden md:block absolute inset-0 w-full h-full object-contain object-center z-[1]"
       />
       {/* Imagem mobile (vertical) */}
       <img
@@ -27,8 +27,8 @@ const Hero = () => {
         className="block md:hidden absolute inset-0 w-full h-full object-contain object-top z-[1]"
       />
 
-      {/* CTA desktop */}
-      <div className="hidden md:flex absolute inset-x-0 bottom-[18%] z-10 justify-center px-6">
+      {/* CTA desktop — centralizado logo abaixo do escudo dourado */}
+      <div className="hidden md:flex absolute inset-x-0 top-[58%] z-10 justify-center px-6">
         <Link
           to="/box-seguro"
           className="inline-block bg-[#25D366] hover:bg-[#1ebe5a] text-white px-10 py-4 rounded-md text-base font-bold uppercase tracking-wide shadow-[0_8px_24px_rgba(0,0,0,0.45)] transition-colors"
