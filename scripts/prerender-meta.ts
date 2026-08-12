@@ -137,16 +137,16 @@ interface RouteMeta {
 const STATIC_ROUTES: RouteMeta[] = [
   {
     path: "/",
-    title: "Vidraçaria Zona Norte SP | Box de Banheiro e Espelhos – Projeto Vidros",
+    title: "Vidraçaria na Zona Norte e Imirim | Projeto Vidros SP",
     description:
-      "Vidraçaria especializada em box de banheiro, espelhos e portas de vidro na Zona Norte de SP. Vidro temperado com película anti-estilhaço. Orçamento grátis pelo WhatsApp!",
+      "Vidraçaria no Imirim e Zona Norte de SP. Especialista em box de banheiro, espelhos sob medida e envidraçamento. Medição rápida e orçamento direto pelo WhatsApp!",
     ogType: "website",
   },
   {
     path: "/box-de-banheiro",
-    title: "Box de Banheiro Zona Norte SP | Película – Projeto Vidros",
+    title: "Box de Banheiro na Zona Norte SP: Preços e Modelos | Projeto Vidros",
     description:
-      "Box de banheiro na Zona Norte SP com vidro temperado e película anti-estilhaço. Canto, reto, flex e até o teto sob medida. Orçamento pelo WhatsApp!",
+      "Procurando box para banheiro na Zona Norte? Modelos de abrir, correr, elegantes e temperados com instalação rápida no Imirim e região. Solicite seu orçamento!",
   },
   {
     path: "/box-para-banheiro-zona-norte",
@@ -254,9 +254,9 @@ const STATIC_ROUTES: RouteMeta[] = [
   },
   {
     path: "/envidracamento-de-sacada",
-    title: "Envidraçamento de Sacada Sob Medida em São Paulo | Projeto Vidros",
+    title: "Envidraçamento de Sacadas na Zona Norte e SP | Projeto Vidros",
     description:
-      "Envidraçamento de sacada sob medida em SP: cortina de vidro temperado, sistema articulado, vedação dupla e instalação especializada. Orçamento no WhatsApp.",
+      "Fechamento de sacadas e janelas retráteis sob medida em SP. Segurança, vedação de chuva e acabamento fino. Peça uma visita técnica!",
   },
   {
     path: "/projetos",
