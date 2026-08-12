@@ -64,9 +64,9 @@ const FAQ = [
 
 const EnvidracamentoSacada = () => {
   useSeo({
-    title: "Envidraçamento de Sacada Sob Medida em São Paulo | Projeto Vidros",
+    title: "Envidraçamento de Sacadas na Zona Norte e SP | Projeto Vidros",
     description:
-      "Envidraçamento de sacada sob medida em São Paulo: cortina de vidro temperado, sistema articulado, vedação dupla e instalação especializada. Orçamento no WhatsApp.",
+      "Fechamento de sacadas e janelas retráteis sob medida em SP. Segurança, vedação de chuva e acabamento fino. Peça uma visita técnica!",
     path: "/envidracamento-de-sacada",
     jsonLd: [
       {

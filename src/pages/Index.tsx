@@ -15,9 +15,9 @@ import promoMobile from "@/assets/promo-box-incolor-mobile.webp";
 
 const Index = () => {
   useSeo({
-    title: "Vidraçaria Zona Norte SP | Box de Banheiro e Espelhos – Projeto Vidros",
+    title: "Vidraçaria na Zona Norte e Imirim | Projeto Vidros SP",
     description:
-      "Vidraçaria especializada em box de banheiro, espelhos e portas de vidro na Zona Norte de SP. Vidro temperado com película anti-estilhaço. Orçamento grátis pelo WhatsApp!",
+      "Vidraçaria no Imirim e Zona Norte de SP. Especialista em box de banheiro, espelhos sob medida e envidraçamento. Medição rápida e orçamento direto pelo WhatsApp!",
     path: "/",
   });
 

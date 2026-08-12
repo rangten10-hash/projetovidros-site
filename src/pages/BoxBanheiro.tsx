@@ -128,9 +128,9 @@ const products = [
 
 const BoxBanheiro = () => {
   useSeo({
-    title: "Box de Banheiro Zona Norte SP | Película – Projeto Vidros",
+    title: "Box de Banheiro na Zona Norte SP: Preços e Modelos | Projeto Vidros",
     description:
-      "Box de banheiro na Zona Norte SP com vidro temperado e película anti-estilhaço. Canto, reto, flex e até o teto sob medida. Orçamento pelo WhatsApp!",
+      "Procurando box para banheiro na Zona Norte? Modelos de abrir, correr, elegantes e temperados com instalação rápida no Imirim e região. Solicite seu orçamento!",
     path: "/box-de-banheiro",
 
 
