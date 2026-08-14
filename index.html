@@ -57,15 +57,26 @@
         gtag('config', 'AW-18016443240', { 'allow_enhanced_conversions': true });
         gtag('set', 'allow_enhanced_conversions', true);
       }
-      if (document.readyState === 'complete') {
-        setTimeout(loadGtag, 1500);
-      } else {
-        window.addEventListener('load', function(){ setTimeout(loadGtag, 1500); });
+      // Never before 3.5s: keeps the main thread free during the LCP/TBT window
+      var GTAG_MIN_DELAY = 3500;
+      var t0 = performance.now();
+      function scheduleGtag(extra){
+        var wait = Math.max(GTAG_MIN_DELAY - (performance.now() - t0), extra || 0);
+        setTimeout(function(){
+          if (window.requestIdleCallback) requestIdleCallback(loadGtag, { timeout: 2000 });
+          else loadGtag();
+        }, wait);
       }
-      // Also load on first user interaction (whichever comes first)
+      if (document.readyState === 'complete') {
+        scheduleGtag(0);
+      } else {
+        window.addEventListener('load', function(){ scheduleGtag(0); });
+      }
+      // First real user interaction still respects the 3.5s floor
       ['scroll','mousemove','touchstart','keydown'].forEach(function(e){
-        window.addEventListener(e, loadGtag, { once: true, passive: true });
+        window.addEventListener(e, function(){ scheduleGtag(0); }, { once: true, passive: true });
       });
+
     </script>
     <title>Vidraçaria na Zona Norte e Imirim | Projeto Vidros SP</title>
     <meta name="description" content="Vidraçaria no Imirim e Zona Norte de SP. Especialista em box de banheiro, espelhos sob medida e envidraçamento. Medição rápida e orçamento direto pelo WhatsApp!">
