@@ -1,7 +1,7 @@
 import { Instagram, Star, User } from "lucide-react";
-import instagramLogo from "@/assets/social-instagram.png";
-import tiktokLogo from "@/assets/social-tiktok.png";
-import youtubeLogo from "@/assets/social-youtube.png";
+import instagramLogo from "@/assets/social-instagram.webp";
+import tiktokLogo from "@/assets/social-tiktok.webp";
+import youtubeLogo from "@/assets/social-youtube.webp";
 
 const YOUTUBE_URL = "https://www.youtube.com/@ProjetoVidrosVidra%C3%A7aria/shorts";
 const TIKTOK_URL = "https://www.tiktok.com/@projeto.vidros?_r=1&_t=ZS-95oOpJcsi9d";
@@ -47,7 +47,7 @@ const SocialProof = () => {
               aria-label="Instagram Projeto Vidros"
               className="transition-transform duration-300 hover:scale-125 hover:animate-pulse"
             >
-              <img src={instagramLogo} alt="Instagram" loading="lazy" decoding="async" className="h-16 w-16 md:h-20 md:w-20 object-contain" />
+              <img src={instagramLogo} alt="Instagram" width={80} height={80} loading="lazy" decoding="async" className="h-16 w-16 md:h-20 md:w-20 object-contain" />
             </a>
             <a
               href={YOUTUBE_URL}
@@ -56,7 +56,7 @@ const SocialProof = () => {
               aria-label="YouTube Projeto Vidros"
               className="transition-transform duration-300 hover:scale-125 hover:animate-pulse"
             >
-              <img src={youtubeLogo} alt="YouTube" loading="lazy" decoding="async" className="h-16 w-16 md:h-20 md:w-20 object-contain rounded-2xl" />
+              <img src={youtubeLogo} alt="YouTube" width={80} height={80} loading="lazy" decoding="async" className="h-16 w-16 md:h-20 md:w-20 object-contain rounded-2xl" />
             </a>
             <a
               href={TIKTOK_URL}
@@ -65,7 +65,7 @@ const SocialProof = () => {
               aria-label="TikTok Projeto Vidros"
               className="transition-transform duration-300 hover:scale-125 hover:animate-pulse"
             >
-              <img src={tiktokLogo} alt="TikTok" loading="lazy" decoding="async" className="h-16 w-16 md:h-20 md:w-20 object-contain rounded-2xl" />
+              <img src={tiktokLogo} alt="TikTok" width={80} height={80} loading="lazy" decoding="async" className="h-16 w-16 md:h-20 md:w-20 object-contain rounded-2xl" />
             </a>
             <a
               href={GOOGLE_URL}

@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
-import heroDesktop from "@/assets/hero-box-seguro-desktop.webp";
-import heroMobile from "@/assets/hero-box-seguro-mobile.webp";
+
+// Served from /public so the exact URL can be preloaded in index.html
+// (bundled assets get hashed names and cannot be preloaded statically).
+const HERO_DESKTOP = "/hero-box-seguro-desktop.webp";
+const HERO_MOBILE = "/hero-box-seguro-mobile.webp";
 
 const ALT =
   "Comparativo: box de banheiro perfeito à esquerda e box com vidro trincado que não se solta graças à película de segurança Box + Seguro";
@@ -10,8 +13,10 @@ const Hero = () => {
     <section className="relative h-full w-full overflow-hidden bg-black">
       {/* Imagem desktop (widescreen) */}
       <img
-        src={heroDesktop}
+        src={HERO_DESKTOP}
         alt={ALT}
+        width={1600}
+        height={585}
         loading="eager"
         fetchPriority="high"
         decoding="async"
@@ -19,8 +24,10 @@ const Hero = () => {
       />
       {/* Imagem mobile (vertical) */}
       <img
-        src={heroMobile}
+        src={HERO_MOBILE}
         alt={ALT}
+        width={828}
+        height={1035}
         loading="eager"
         fetchPriority="high"
         decoding="async"
