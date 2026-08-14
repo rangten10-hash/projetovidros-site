@@ -9,7 +9,10 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
 
-    <!-- Hero LCP image is bundled and preloaded by the app build -->
+    <!-- LCP: preload do banner principal (Hero) por dispositivo -->
+    <link rel="preload" as="image" href="/hero-box-seguro-mobile.webp" type="image/webp" media="(max-width: 767px)" fetchpriority="high" />
+    <link rel="preload" as="image" href="/hero-box-seguro-desktop.webp" type="image/webp" media="(min-width: 768px)" fetchpriority="high" />
+
 
 
     <!-- Preconnect to third-party origins used after LCP (analytics + WhatsApp click-through) -->
