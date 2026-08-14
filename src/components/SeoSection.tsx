@@ -3,7 +3,7 @@ import { MapPin, ArrowRight } from "lucide-react";
 
 // Modal (Radix) carregado sob demanda para não pesar no bundle inicial da Home
 const BairrosDialog = lazy(() => import("./BairrosDialog"));
-import saoPauloCard from "@/assets/regioes-sao-paulo-card.jpg";
+import saoPauloCard from "@/assets/regioes-sao-paulo-card.webp";
 
 const regions = [
   "Zona Norte",
@@ -74,8 +74,9 @@ const SeoSection = () => {
                 src={saoPauloCard}
                 alt="São Paulo - bairros atendidos pela Projeto Vidros"
                 loading="lazy"
-                width={1024}
-                height={1280}
+                decoding="async"
+                width={800}
+                height={800}
                 className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#002B36]/95 via-[#002B36]/55 to-[#002B36]/20" />

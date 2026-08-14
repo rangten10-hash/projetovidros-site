@@ -52,12 +52,22 @@ let scheduled = false;
 export const schedulePrefetch = (paths: string[], imageUrls: string[] = []) => {
   if (scheduled || typeof window === "undefined") return;
   scheduled = true;
-  const run = () => {
-    onIdle(() => {
-      paths.forEach(prefetchRoute);
-      imageUrls.forEach(prefetchImage);
-    });
+
+  // Prefetch ONE item per idle slot so chunk parsing never forms a long task
+  // during the TBT measurement window.
+  const queue: Array<() => void> = [
+    ...paths.map((p) => () => prefetchRoute(p)),
+    ...imageUrls.map((u) => () => prefetchImage(u)),
+  ];
+
+  const pump = () => {
+    const next = queue.shift();
+    if (!next) return;
+    next();
+    onIdle(pump, 4000);
   };
+
+  const run = () => setTimeout(() => onIdle(pump, 4000), 3500);
   if (document.readyState === "complete") run();
   else window.addEventListener("load", run, { once: true });
 };

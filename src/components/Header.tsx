@@ -143,7 +143,7 @@ const Header = () => {
               </SmartLink>
             ))}
             <SmartLink to="/box-seguro" onClick={() => setIsOpen(false)} className="py-2">
-              <img src={logoBoxSeguro} alt="Box +Seguro" className="h-10 w-auto" loading="lazy" decoding="async" />
+              <img src={logoBoxSeguro} alt="Box +Seguro" width={120} height={80} className="h-10 w-auto" loading="lazy" decoding="async" />
             </SmartLink>
 
             <button
