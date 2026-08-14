@@ -13,10 +13,13 @@ const SacadaBanner = () => {
         <img
           src={sacadaMobile}
           alt={ALT}
+          width={900}
+          height={1350}
           loading="lazy"
           decoding="async"
           className="absolute inset-0 w-full h-full object-cover object-center z-[1]"
         />
+
       </picture>
 
       {/* Overlay para legibilidade */}
