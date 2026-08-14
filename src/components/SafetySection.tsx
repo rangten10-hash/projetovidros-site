@@ -53,6 +53,8 @@ const SafetySection = () => {
               <img
                 src={logo}
                 alt="Projeto Vidros - Desde 1991"
+                width={288}
+                height={288}
                 loading="lazy"
                 decoding="async"
                 className="w-72 h-72 object-contain drop-shadow-2xl"
