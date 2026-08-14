@@ -8,10 +8,10 @@ const TIKTOK_URL = "https://www.tiktok.com/@projeto.vidros?_r=1&_t=ZS-95oOpJcsi9
 const GOOGLE_URL = "https://maps.app.goo.gl/AMCBT3PqQ2bHAiXo9";
 
 // Placeholder Instagram-like grid using existing project images
-import img1 from "@/assets/cat-box-banheiro.webp";
-import img2 from "@/assets/cat-espelhos.webp";
-import img3 from "@/assets/cat-espelhos-led.webp";
-import img4 from "@/assets/category-portas.webp";
+import img1 from "@/assets/cat-box-banheiro-400.webp";
+import img2 from "@/assets/cat-espelhos-400.webp";
+import img3 from "@/assets/cat-espelhos-led-400.webp";
+import img4 from "@/assets/category-portas-400.webp";
 
 const instagramPosts = [
   { src: img1, alt: "Box de banheiro instalado" },
@@ -88,7 +88,7 @@ const SocialProof = () => {
           {/* Instagram Feed */}
           <div className="bg-card rounded-2xl p-4 sm:p-6 shadow-sm border border-border min-w-0 overflow-hidden">
             <div className="flex items-center gap-3 mb-5">
-              <img src={instagramLogo} alt="" loading="lazy" decoding="async" className="h-8 w-8 object-contain" aria-hidden />
+              <img src={instagramLogo} alt="" width={32} height={32} loading="lazy" decoding="async" className="h-8 w-8 object-contain" aria-hidden />
               <div>
                 <h3 className="font-display text-lg text-foreground">@projetovidros.sp</h3>
                 <p className="text-xs text-muted-foreground">Nosso feed no Instagram</p>
@@ -107,7 +107,10 @@ const SocialProof = () => {
                   <img
                     src={post.src}
                     alt={post.alt}
+                    width={400}
+                    height={400}
                     loading="lazy"
+                    decoding="async"
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-petrol/0 group-hover:bg-petrol/40 transition-colors flex items-center justify-center">
@@ -131,7 +134,7 @@ const SocialProof = () => {
           {/* TikTok Carousel */}
           <div className="bg-card rounded-2xl p-4 sm:p-6 shadow-sm border border-border min-w-0 overflow-hidden">
             <div className="flex items-center gap-3 mb-5">
-              <img src={tiktokLogo} alt="" loading="lazy" decoding="async" className="h-8 w-8 object-contain rounded-lg" aria-hidden />
+              <img src={tiktokLogo} alt="" width={32} height={32} loading="lazy" decoding="async" className="h-8 w-8 object-contain rounded-lg" aria-hidden />
               <div>
                 <h3 className="font-display text-lg text-foreground">@projeto.vidros</h3>
                 <p className="text-xs text-muted-foreground">Vídeos no TikTok</p>
@@ -150,7 +153,10 @@ const SocialProof = () => {
                   <img
                     src={v.src}
                     alt={v.alt}
+                    width={400}
+                    height={711}
                     loading="lazy"
+                    decoding="async"
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
