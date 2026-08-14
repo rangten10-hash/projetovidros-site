@@ -3,7 +3,7 @@ import { MapPin, ArrowRight } from "lucide-react";
 
 // Modal (Radix) carregado sob demanda para não pesar no bundle inicial da Home
 const BairrosDialog = lazy(() => import("./BairrosDialog"));
-import saoPauloCard from "@/assets/regioes-sao-paulo-card.jpg";
+import saoPauloCard from "@/assets/regioes-sao-paulo-card.webp";
 
 const regions = [
   "Zona Norte",
