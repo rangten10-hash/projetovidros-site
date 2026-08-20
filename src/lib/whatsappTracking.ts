@@ -106,6 +106,6 @@ export function installWhatsAppTracking() {
       if (Date.now() - lastTrackedAt < 800) return;
       trackWhatsAppClick(resolveWhatsAppProduct(anchor), anchor.href);
     },
-    true,
+    false,
   );
 }
