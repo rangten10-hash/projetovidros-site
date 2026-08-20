@@ -42,7 +42,7 @@ const PromoBanner = () => {
           rel="noopener noreferrer"
           onClick={(e) => {
             e.preventDefault();
-            gtagReportConversion(WHATSAPP_URL);
+            gtagReportConversion(WHATSAPP_URL, undefined, "banner_promo_box_incolor");
           }}
           className="inline-block bg-[#25D366] hover:bg-[#1ebe5a] text-white px-4 md:px-8 py-2.5 md:py-4 rounded-sm text-[11px] sm:text-xs md:text-base font-bold uppercase tracking-wide shadow-[0_8px_24px_rgba(0,0,0,0.45)] transition-colors active:scale-[0.97]"
         >

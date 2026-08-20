@@ -11,7 +11,7 @@ const WhatsAppButton = () => {
       rel="noopener noreferrer"
       onClick={(e) => {
         e.preventDefault();
-        gtagReportConversion(WHATSAPP_URL);
+        gtagReportConversion(WHATSAPP_URL, undefined, "botao_flutuante");
       }}
       className="fixed bottom-28 right-4 md:bottom-6 md:right-6 z-[60] bg-[hsl(142,72%,29%)] hover:bg-[hsl(142,72%,24%)] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all hover:scale-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[hsl(142,72%,29%)]"
       aria-label="Falar pelo WhatsApp com a Projeto Vidros"

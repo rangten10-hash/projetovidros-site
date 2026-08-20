@@ -68,7 +68,7 @@ const Footer = () => {
                 href={WHATSAPP_URL}
                 target="_blank"
                 rel="noopener noreferrer"
-                onClick={(e) => { e.preventDefault(); gtagReportConversion(WHATSAPP_URL); }}
+                onClick={(e) => { e.preventDefault(); gtagReportConversion(WHATSAPP_URL, undefined, "footer"); }}
                 className="group inline-flex flex-col rounded-lg border border-[#25D366]/30 bg-[#25D366]/10 px-4 py-3 transition-colors hover:border-[#25D366]/50 hover:bg-[#25D366]/20"
               >
                 <span className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-[#25D366]">
