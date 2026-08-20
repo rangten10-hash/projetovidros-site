@@ -103,7 +103,7 @@ export function installWhatsAppTracking() {
       const anchor = target?.closest?.("a[href]") as HTMLAnchorElement | null;
       if (!anchor || !isWhatsAppUrl(anchor.getAttribute("href"))) return;
       // Já rastreado pelo handler do próprio botão (gtagReportConversion).
-      if (Date.now() - lastTrackedAt < 800) return;
+      if (Date.now() - lastTrackedAt < 150) return;
       trackWhatsAppClick(resolveWhatsAppProduct(anchor), anchor.href);
     },
     false,
