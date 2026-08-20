@@ -1,3 +1,9 @@
+import {
+  markWhatsAppTracked,
+  resolveWhatsAppProduct,
+  trackWhatsAppClick,
+} from "@/lib/whatsappTracking";
+
 declare global {
   interface Window {
     gtag: (...args: unknown[]) => void;
