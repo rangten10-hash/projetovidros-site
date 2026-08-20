@@ -23,6 +23,10 @@ if (typeof window !== "undefined") {
 }
 
 import "./index.css";
+import { installWhatsAppTracking } from "./lib/whatsappTracking";
+
+// Rastreia todo clique em links de WhatsApp (wa.me / api.whatsapp.com)
+installWhatsAppTracking();
 
 createRoot(document.getElementById("root")!).render(<App />);
 

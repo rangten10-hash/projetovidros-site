@@ -30,7 +30,7 @@ const linkClass =
 
 const handleWhatsAppClick = (e: React.MouseEvent) => {
   e.preventDefault();
-  gtagReportConversion(WHATSAPP_URL);
+  gtagReportConversion(WHATSAPP_URL, undefined, "header");
 };
 
 const Header = () => {

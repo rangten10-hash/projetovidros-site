@@ -1,3 +1,9 @@
+import {
+  markWhatsAppTracked,
+  resolveWhatsAppProduct,
+  trackWhatsAppClick,
+} from "@/lib/whatsappTracking";
+
 declare global {
   interface Window {
     gtag: (...args: unknown[]) => void;
@@ -52,12 +58,13 @@ function buildUserData(data?: EnhancedConversionUserData) {
 
 /**
  * Reports a Google Ads conversion for a WhatsApp click and then opens the URL.
- * Supports Enhanced Conversions: if user-provided data (email/phone/etc.) is
- * available on the page, pass it via `userData` to enrich the conversion.
+ * Also fires the GA4 `click_whatsapp` event with a `product` parameter that
+ * identifies which product/page the click came from.
  */
 export function gtagReportConversion(
   url: string,
   userData?: EnhancedConversionUserData,
+  product?: string,
 ) {
   let opened = false;
   const openUrl = () => {
@@ -66,7 +73,10 @@ export function gtagReportConversion(
     window.open(url, "_blank");
   };
 
+  const resolvedProduct = product ?? resolveWhatsAppProduct();
+
   if (typeof window === "undefined" || typeof window.gtag === "undefined") {
+    markWhatsAppTracked();
     openUrl();
     return;
   }
@@ -77,12 +87,8 @@ export function gtagReportConversion(
     window.gtag("set", "user_data", enhanced);
   }
 
-  // GA4 custom conversion event
-  window.gtag("event", "click_whatsapp", {
-    event_category: "engagement",
-    event_label: url,
-    transport_type: "beacon",
-  });
+  // GA4 custom conversion event (com origem do clique)
+  trackWhatsAppClick(resolvedProduct, url);
 
   // Google Ads conversion
   window.gtag("event", "conversion", {
@@ -95,3 +101,4 @@ export function gtagReportConversion(
   // Safety net: ensure navigation happens even if gtag never fires the callback
   setTimeout(openUrl, 1200);
 }
+
