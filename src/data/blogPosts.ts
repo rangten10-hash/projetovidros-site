@@ -86,6 +86,7 @@ import sacadaUniqueDepois from "@/assets/blog-sacada-unique-depois.jpg";
 import sacadaRetratilCapa from "@/assets/blog-sacada-retratil-capa.webp";
 import sacadaRetratilAbrindo from "@/assets/blog-sacada-retratil-abrindo.webp";
 import sacadaRetratilFinal from "@/assets/blog-sacada-retratil-final.jpg";
+import quantoCustaBox2026Capa from "@/assets/blog-quanto-custa-box-2026-capa.webp";
 
 export interface BlogPost {
   slug: string;
@@ -116,6 +117,8 @@ export type BlogBlock =
   | { type: "list"; items: { strong?: string; text: string }[] }
   | { type: "image"; src: string; alt: string; caption?: string }
   | { type: "internalLink"; href: string; label: string; description?: string }
+  | { type: "table"; title?: string; headers: string[]; rows: string[][] }
+  | { type: "whatsappCta"; label: string; description?: string }
   | { type: "youtube"; videoId: string; title: string };
 
 
@@ -5504,6 +5507,216 @@ export const blogPosts: BlogPost[] = [
     ],
     cta: {
       label: "Falar com Especialista no WhatsApp",
+      href: WHATSAPP_URL,
+    },
+  },
+  {
+    slug: "quanto-custa-box-de-banheiro-sao-paulo-2026",
+    title: "Quanto custa um Box de Banheiro em São Paulo (2026): Tabela Completa de Preços",
+    excerpt:
+      "Veja a tabela completa de preços de box de banheiro em São Paulo para 2026: modelos de abrir, de canto e de correr, em vidro incolor 8mm, fumê e verde — já com instalação inclusa.",
+    image: quantoCustaBox2026Capa,
+    imageAlt:
+      "Box de banheiro de vidro incolor instalado em banheiro moderno em São Paulo — tabela de preços 2026 da Projeto Vidros",
+    date: "2026-09-06",
+    author: "Equipe Projeto Vidros",
+    metaDescription:
+      "Quanto custa um box de banheiro em São Paulo em 2026? Confira a tabela completa de preços dos modelos de abrir, de canto e de correr em vidro incolor 8mm, fumê e verde, com instalação inclusa.",
+    autoLink: true,
+    faqTitle: "Perguntas Frequentes sobre Preço de Box de Banheiro",
+    content: [
+      {
+        type: "paragraph",
+        text: "Se você está reformando o banheiro ou construindo do zero, uma das primeiras perguntas é: quanto custa um box de banheiro? A resposta muda bastante dependendo do tipo de vidro, do modelo (abrir, correr ou canto) e do tamanho do vão.",
+      },
+      {
+        type: "paragraph",
+        text: "Neste guia, você encontra os valores de referência praticados em São Paulo para os modelos e cores mais vendidos: incolor 8mm e fumê/verde. Todos os valores já incluem instalação por profissional habilitado da Projeto Vidros — sem custo extra de mão de obra.",
+      },
+      {
+        type: "whatsappCta",
+        label: "Solicitar Orçamento Gratuito no WhatsApp",
+        description:
+          "Envie a medida do seu vão e receba o valor exato do seu box em minutos.",
+      },
+      {
+        type: "paragraph",
+        text: "Os valores abaixo são a partir de, calculados com base na medida do vão e na altura padrão de box (1,90m), já com instalação inclusa. Podem variar conforme período de promoção, condição do local de instalação e ferragens escolhidas. Solicite um orçamento personalizado pelo WhatsApp.",
+      },
+      { type: "heading", text: "O que define o preço do box de banheiro?" },
+      {
+        type: "paragraph",
+        text: "Três fatores principais impactam o valor final:",
+      },
+      {
+        type: "list",
+        items: [
+          {
+            strong: "Tipo de vidro:",
+            text: "O incolor é a opção mais econômica; o fumê e o verde têm um acabamento mais sofisticado e custam cerca de 20% a mais.",
+          },
+          {
+            strong: "Modelo:",
+            text: "Box de abrir (frontal), de canto ou de correr têm estruturas e quantidade de vidro diferentes.",
+          },
+          {
+            strong: "Tamanho do vão:",
+            text: "Quanto maior a largura, maior a área de vidro e, consequentemente, o valor.",
+          },
+        ],
+      },
+      { type: "heading", text: "Tabela de Preços — Box de Abrir (Frontal)" },
+      {
+        type: "paragraph",
+        text: "Ideal para vãos entre 0,80m e 1,00m — a faixa mais comum para esse modelo.",
+      },
+      {
+        type: "table",
+        title: "Incolor 8mm",
+        headers: ["Largura", "Altura", "Área (m²)", "Preço"],
+        rows: [
+          ["0,80m", "1,90m", "1,52 m²", "R$ 760,00"],
+          ["0,90m", "1,90m", "1,71 m²", "R$ 855,00"],
+          ["1,00m", "1,90m", "1,90 m²", "R$ 950,00"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Fumê / Verde",
+        headers: ["Largura", "Altura", "Área (m²)", "Preço"],
+        rows: [
+          ["0,80m", "1,90m", "1,52 m²", "R$ 912,00"],
+          ["0,90m", "1,90m", "1,71 m²", "R$ 1.026,00"],
+          ["1,00m", "1,90m", "1,90 m²", "R$ 1.140,00"],
+        ],
+      },
+      { type: "heading", text: "Tabela de Preços — Box de Canto" },
+      {
+        type: "paragraph",
+        text: "O box de canto usa duas folhas de vidro, uma em cada lado do vão. O cálculo considera a soma das duas larguras.",
+      },
+      {
+        type: "table",
+        title: "Incolor 8mm",
+        headers: ["Medidas (L x L)", "Altura", "Área (m²)", "Preço"],
+        rows: [
+          ["0,80m x 0,80m", "1,90m", "3,04 m²", "R$ 1.520,00"],
+          ["0,90m x 0,90m", "1,90m", "3,42 m²", "R$ 1.710,00"],
+          ["1,00m x 1,00m", "1,90m", "3,80 m²", "R$ 1.900,00"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Fumê / Verde",
+        headers: ["Medidas (L x L)", "Altura", "Área (m²)", "Preço"],
+        rows: [
+          ["0,80m x 0,80m", "1,90m", "3,04 m²", "R$ 1.824,00"],
+          ["0,90m x 0,90m", "1,90m", "3,42 m²", "R$ 2.052,00"],
+          ["1,00m x 1,00m", "1,90m", "3,80 m²", "R$ 2.280,00"],
+        ],
+      },
+      { type: "heading", text: "Tabela de Preços — Box de Correr" },
+      {
+        type: "paragraph",
+        text: "Recomendado para vãos maiores, de 1,00m a 1,60m de largura.",
+      },
+      {
+        type: "table",
+        title: "Incolor 8mm",
+        headers: ["Largura", "Altura", "Área (m²)", "Preço"],
+        rows: [
+          ["1,00m", "1,90m", "1,90 m²", "R$ 950,00"],
+          ["1,10m", "1,90m", "2,09 m²", "R$ 1.045,00"],
+          ["1,20m", "1,90m", "2,28 m²", "R$ 1.140,00"],
+          ["1,30m", "1,90m", "2,47 m²", "R$ 1.235,00"],
+          ["1,40m", "1,90m", "2,66 m²", "R$ 1.330,00"],
+          ["1,50m", "1,90m", "2,85 m²", "R$ 1.425,00"],
+          ["1,60m", "1,90m", "3,04 m²", "R$ 1.520,00"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Fumê / Verde",
+        headers: ["Largura", "Altura", "Área (m²)", "Preço"],
+        rows: [
+          ["1,00m", "1,90m", "1,90 m²", "R$ 1.140,00"],
+          ["1,10m", "1,90m", "2,09 m²", "R$ 1.254,00"],
+          ["1,20m", "1,90m", "2,28 m²", "R$ 1.368,00"],
+          ["1,30m", "1,90m", "2,47 m²", "R$ 1.482,00"],
+          ["1,40m", "1,90m", "2,66 m²", "R$ 1.596,00"],
+          ["1,50m", "1,90m", "2,85 m²", "R$ 1.710,00"],
+          ["1,60m", "1,90m", "3,04 m²", "R$ 1.824,00"],
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Ver Modelos de Box de Banheiro",
+        description:
+          "Conheça todos os modelos de box de banheiro sob medida da Projeto Vidros, com instalação inclusa em toda São Paulo.",
+      },
+      { type: "heading", text: "Incolor ou Fumê/Verde: qual escolher?" },
+      {
+        type: "list",
+        items: [
+          {
+            strong: "Incolor 8mm:",
+            text: "A opção mais procurada, combina com qualquer decoração e é a mais econômica.",
+          },
+          {
+            strong: "Fumê e Verde:",
+            text: "Dão mais privacidade (disfarçam respingos e sabão) e um acabamento mais elegante, com um acréscimo de cerca de 20% no valor.",
+          },
+        ],
+      },
+      {
+        type: "whatsappCta",
+        label: "Pedir Orçamento Personalizado no WhatsApp",
+        description:
+          "Compare os valores e descubra qual modelo combina com o seu banheiro.",
+      },
+      { type: "heading", text: "Promoções e descontos" },
+      {
+        type: "paragraph",
+        text: "Os valores desta tabela podem receber descontos em períodos promocionais. Fale com nosso time pelo WhatsApp para verificar as condições vigentes no momento da sua compra.",
+      },
+      {
+        type: "internalLink",
+        href: "/box-de-banheiro",
+        label: "Conhecer a Linha Completa de Box de Banheiro",
+        description:
+          "Vidro temperado 8mm, perfis de alta resistência e instalação profissional garantida pela Projeto Vidros.",
+      },
+    ],
+    faq: [
+      {
+        question: "O preço do box inclui instalação?",
+        answer:
+          "Sim. Todos os valores desta tabela já incluem a instalação, feita por profissional habilitado da Projeto Vidros.",
+      },
+      {
+        question: "Qual a espessura de vidro usada nesses valores?",
+        answer:
+          "Todos os valores desta tabela consideram vidro temperado de 8mm, o padrão de mercado para segurança em box de banheiro.",
+      },
+      {
+        question: "Posso pedir um tamanho fora dessas medidas?",
+        answer:
+          "Sim. Fazemos box sob medida para qualquer vão. As tabelas acima servem como referência de preço por faixa de tamanho — o valor exato do seu projeto é calculado após a medição.",
+      },
+      {
+        question: "Qual a diferença entre box de abrir, de canto e de correr?",
+        answer:
+          "O box de abrir é indicado para vãos menores e usa uma folha de vidro com dobradiças. O de canto usa duas folhas fixas em ângulo de 90°, ideal para banheiros com boxes de esquina. Já o de correr é recomendado para vãos maiores, com folhas que deslizam sobre trilhos.",
+      },
+      {
+        question: "O box de banheiro segue alguma norma de segurança?",
+        answer:
+          "Sim, o vidro utilizado deve ser temperado, conforme normas da ABNT (NBR 7199 e NBR 14697), que garantem resistência e segurança em caso de quebra.",
+      },
+    ],
+    cta: {
+      label: "Solicitar Orçamento Gratuito no WhatsApp",
       href: WHATSAPP_URL,
     },
   },
