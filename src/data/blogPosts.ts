@@ -87,6 +87,7 @@ import sacadaRetratilCapa from "@/assets/blog-sacada-retratil-capa.webp";
 import sacadaRetratilAbrindo from "@/assets/blog-sacada-retratil-abrindo.webp";
 import sacadaRetratilFinal from "@/assets/blog-sacada-retratil-final.jpg";
 import quantoCustaBox2026Capa from "@/assets/blog-quanto-custa-box-2026-capa.webp";
+import boxFumeVsIncolorCapa from "@/assets/blog-box-fume-vs-incolor-capa.webp";
 
 export interface BlogPost {
   slug: string;
@@ -5670,6 +5671,13 @@ export const blogPosts: BlogPost[] = [
         ],
       },
       {
+        type: "internalLink",
+        href: "/blog/box-fume-vs-incolor-preco-diferenca",
+        label: "Box Fumê vs Incolor: Preço e Diferença",
+        description:
+          "Quer se aprofundar na comparação? Veja o guia completo lado a lado entre o vidro fumê e o incolor.",
+      },
+      {
         type: "whatsappCta",
         label: "Pedir Orçamento Personalizado no WhatsApp",
         description:
@@ -5713,6 +5721,155 @@ export const blogPosts: BlogPost[] = [
         question: "O box de banheiro segue alguma norma de segurança?",
         answer:
           "Sim, o vidro utilizado deve ser temperado, conforme normas da ABNT (NBR 7199 e NBR 14697), que garantem resistência e segurança em caso de quebra.",
+      },
+    ],
+    cta: {
+      label: "Solicitar Orçamento Gratuito no WhatsApp",
+      href: WHATSAPP_URL,
+    },
+  },
+  {
+    slug: "box-fume-vs-incolor-preco-diferenca",
+    title: "Box Fumê vs Incolor: Preço e Diferença — Qual Escolher?",
+    excerpt:
+      "Vidro fumê ou incolor no box de banheiro? Compare preço, privacidade, manutenção e estética lado a lado e descubra qual é a melhor opção para o seu banheiro.",
+    image: boxFumeVsIncolorCapa,
+    imageAlt:
+      "Comparativo entre box de banheiro de vidro fumê e vidro incolor lado a lado — preço e diferença pela Projeto Vidros",
+    date: "2026-09-06",
+    author: "Equipe Projeto Vidros",
+    metaDescription:
+      "Box fumê ou incolor: qual escolher? Compare o preço (fumê custa ~20% a mais), a privacidade e a manutenção dos dois modelos de vidro temperado 8mm e veja qual combina com seu banheiro.",
+    autoLink: true,
+    faqTitle: "Perguntas Frequentes",
+    content: [
+      {
+        type: "paragraph",
+        text: "Na hora de comprar o box de banheiro, uma das primeiras decisões é a cor do vidro: incolor ou fumê? Além da estética, essa escolha afeta o preço, a privacidade e até a manutenção do dia a dia. Neste guia, comparamos os dois modelos lado a lado para te ajudar a decidir.",
+      },
+      {
+        type: "internalLink",
+        href: "/blog/quanto-custa-box-de-banheiro-sao-paulo-2026",
+        label: "Quanto Custa um Box de Banheiro em São Paulo (2026)",
+        description:
+          "Quer ver a tabela completa de preços por tamanho? Confira o guia de preços.",
+      },
+      { type: "heading", text: "Comparativo Rápido" },
+      {
+        type: "table",
+        title: "Box Incolor 8mm vs Box Fumê 8mm",
+        headers: ["Critério", "Incolor 8mm", "Fumê 8mm"],
+        rows: [
+          ["Custo", "Mais econômico", "Cerca de 20% mais caro"],
+          ["Transparência", "Total", "Parcial (efeito espelhado leve)"],
+          ["Privacidade", "Baixa", "Média/Alta"],
+          ["Disfarça respingos e sabão", "Não", "Sim"],
+          [
+            "Combina com",
+            "Banheiros pequenos, decoração clara",
+            "Banheiros amplos, decoração moderna/escura",
+          ],
+          ["Sensação de amplitude", "Maior", "Levemente reduzida"],
+          [
+            "Manutenção do dia a dia",
+            "Exige limpeza mais frequente",
+            "Disfarça marcas de água e sabão",
+          ],
+        ],
+      },
+      { type: "heading", text: "Diferença de Preço na Prática" },
+      {
+        type: "paragraph",
+        text: "Como o fumê custa cerca de 20% a mais que o incolor, a diferença de valor cresce junto com o tamanho do box. Veja um exemplo comparando as duas opções no mesmo tamanho:",
+      },
+      {
+        type: "table",
+        title: "Comparativo de Preço: Incolor x Fumê",
+        headers: ["Modelo", "Tamanho", "Incolor", "Fumê", "Diferença"],
+        rows: [
+          ["Frontal (Abrir)", "1,00m x 1,90m", "R$ 950,00", "R$ 1.140,00", "R$ 190,00"],
+          ["Canto", "0,90m x 0,90m x 1,90m", "R$ 1.710,00", "R$ 2.052,00", "R$ 342,00"],
+          ["Correr", "1,40m x 1,90m", "R$ 1.330,00", "R$ 1.596,00", "R$ 266,00"],
+        ],
+      },
+      {
+        type: "internalLink",
+        href: "/blog/quanto-custa-box-de-banheiro-sao-paulo-2026",
+        label: "Ver Tabela Completa de Preços de Box",
+        description:
+          "Para a tabela completa com todos os tamanhos e modelos, veja o guia de preços de box de banheiro.",
+      },
+      { type: "heading", text: "Quando vale a pena pagar mais pelo Fumê?" },
+      {
+        type: "paragraph",
+        text: "O fumê costuma ser a escolha certa quando:",
+      },
+      {
+        type: "list",
+        items: [
+          { text: "O banheiro é usado por várias pessoas e a privacidade é uma prioridade" },
+          {
+            text: "Você quer disfarçar marcas de sabão, xampu e respingos de água entre uma limpeza e outra",
+          },
+          {
+            text: "A decoração do banheiro é moderna, com metais pretos, pisos escuros ou porcelanatos com veios",
+          },
+          { text: "Você busca um acabamento com aparência mais sofisticada" },
+        ],
+      },
+      {
+        type: "whatsappCta",
+        label: "Pedir Orçamento de Box Fumê no WhatsApp",
+        description:
+          "Envie a medida do seu vão e compare o valor do fumê e do incolor para o seu banheiro.",
+      },
+      { type: "heading", text: "Quando o Incolor é a melhor opção?" },
+      {
+        type: "paragraph",
+        text: "O incolor continua sendo a escolha mais popular porque:",
+      },
+      {
+        type: "list",
+        items: [
+          { text: "É a opção mais econômica" },
+          {
+            text: "Deixa o banheiro com sensação de espaço mais amplo, já que não há barreira visual",
+          },
+          {
+            text: "Combina com qualquer estilo de decoração, do clássico ao contemporâneo",
+          },
+          {
+            text: "É ideal para banheiros pequenos, onde a transparência ajuda a não sobrecarregar o ambiente visualmente",
+          },
+        ],
+      },
+      { type: "heading", text: "E o Vidro Verde?" },
+      {
+        type: "paragraph",
+        text: "O vidro verde segue a mesma lógica de preço do fumê e oferece um efeito parecido de leve opacidade, com um tom mais suave. É uma alternativa para quem gosta do conceito do fumê, mas prefere uma tonalidade menos escura.",
+      },
+      {
+        type: "whatsappCta",
+        label: "Receber Recomendação Personalizada no WhatsApp",
+        description:
+          "Ficou com alguma dúvida sobre qual opção combina mais com o seu banheiro? Fale com a gente.",
+      },
+    ],
+    faq: [
+      {
+        question: "O fumê risca mais fácil que o incolor?",
+        answer:
+          "Não. A resistência do vidro depende da espessura e do tratamento térmico (temperado), não da cor. Ambos usam vidro temperado de 8mm com a mesma resistência.",
+      },
+      {
+        question: "O fumê escurece o banheiro?",
+        answer:
+          "Não de forma significativa. O box fica posicionado apenas na área do chuveiro, então a diferença de luminosidade no restante do banheiro é mínima.",
+      },
+      {
+        question: "Qual dos dois valoriza mais o imóvel?",
+        answer:
+          "Ambos são bem aceitos no mercado. O fumê costuma ser associado a acabamentos mais recentes e modernos, mas isso varia conforme o padrão do restante do imóvel.",
       },
     ],
     cta: {
