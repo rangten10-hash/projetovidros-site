@@ -116,6 +116,8 @@ export type BlogBlock =
   | { type: "list"; items: { strong?: string; text: string }[] }
   | { type: "image"; src: string; alt: string; caption?: string }
   | { type: "internalLink"; href: string; label: string; description?: string }
+  | { type: "table"; title?: string; headers: string[]; rows: string[][] }
+  | { type: "whatsappCta"; label: string; description?: string }
   | { type: "youtube"; videoId: string; title: string };
 
 

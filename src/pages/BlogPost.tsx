@@ -190,6 +190,73 @@ const BlogPost = () => {
                       </Link>
                     </div>
                   );
+                if (block.type === "table")
+                  return (
+                    <figure key={i} className="my-8">
+                      {block.title && (
+                        <figcaption className="font-display text-lg text-petrol mb-3">
+                          {block.title}
+                        </figcaption>
+                      )}
+                      <div className="overflow-x-auto rounded-xl border border-petrol/15 shadow-sm">
+                        <table className="w-full text-sm md:text-base border-collapse bg-card">
+                          <thead>
+                            <tr className="bg-petrol text-primary-foreground">
+                              {block.headers.map((h, k) => (
+                                <th
+                                  key={k}
+                                  className="px-4 py-3 text-left font-semibold whitespace-nowrap"
+                                >
+                                  {h}
+                                </th>
+                              ))}
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {block.rows.map((row, r) => (
+                              <tr
+                                key={r}
+                                className={r % 2 === 0 ? "bg-muted/40" : "bg-card"}
+                              >
+                                {row.map((cell, c) => (
+                                  <td
+                                    key={c}
+                                    className={`px-4 py-3 border-t border-border/60 whitespace-nowrap ${
+                                      c === row.length - 1
+                                        ? "font-bold text-petrol"
+                                        : "text-foreground/80"
+                                    }`}
+                                  >
+                                    {cell}
+                                  </td>
+                                ))}
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                    </figure>
+                  );
+                if (block.type === "whatsappCta")
+                  return (
+                    <div key={i} className="my-8 rounded-2xl bg-petrol p-6 md:p-8 text-center">
+                      {block.description && (
+                        <p className="text-primary-foreground/85 text-base mb-4">
+                          {block.description}
+                        </p>
+                      )}
+                      <a
+                        href={WHATSAPP_URL}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => handleCta(e, WHATSAPP_URL)}
+                        className="inline-flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#1ebe5a] text-white font-bold text-sm md:text-base px-6 md:px-8 py-3.5 rounded-lg shadow-lg transition-colors"
+                      >
+                        <MessageCircle className="w-5 h-5" />
+                        {block.label}
+                      </a>
+                    </div>
+                  );
                 if (block.type === "youtube")
                   return (
                     <div key={i} className="my-8">
