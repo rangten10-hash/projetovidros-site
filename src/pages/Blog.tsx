@@ -33,7 +33,12 @@ const Blog = () => {
           </header>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {blogPosts.map((post) => (
+            {[...blogPosts]
+              .sort(
+                (a, b) =>
+                  new Date(b.date).getTime() - new Date(a.date).getTime()
+              )
+              .map((post) => (
               <article
                 key={post.slug}
                 className="group bg-card rounded-xl overflow-hidden border border-border shadow-sm hover:shadow-lg transition-all"
