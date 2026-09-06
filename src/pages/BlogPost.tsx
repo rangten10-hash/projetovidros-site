@@ -10,6 +10,9 @@ import { useSeo, SITE_URL } from "@/lib/seo";
 import { autoLinkText } from "@/lib/autoLink";
 import YouTubeFacade from "@/components/YouTubeFacade";
 
+const WHATSAPP_URL =
+  "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
+
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
