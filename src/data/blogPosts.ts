@@ -88,6 +88,7 @@ import sacadaRetratilAbrindo from "@/assets/blog-sacada-retratil-abrindo.webp";
 import sacadaRetratilFinal from "@/assets/blog-sacada-retratil-final.jpg";
 import quantoCustaBox2026Capa from "@/assets/blog-quanto-custa-box-2026-capa.webp";
 import boxFumeVsIncolorCapa from "@/assets/blog-box-fume-vs-incolor-capa.webp";
+import sacadaPrecoCapa from "@/assets/sacada-envidracada-precos-2026.webp.asset.json";
 
 export interface BlogPost {
   slug: string;
@@ -97,6 +98,8 @@ export interface BlogPost {
   imageAlt: string;
   date: string;
   author: string;
+  authorBio?: string;
+  whatsappUrl?: string;
   /** Array of content blocks rendered in order */
   content: BlogBlock[];
   cta?: {
@@ -127,6 +130,53 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "quanto-custa-envidracamento-sacada-sao-paulo-2026",
+    title: "Quanto Custa Envidraçamento de Sacada em São Paulo (2026): Preços e Como Funciona",
+    excerpt: "Veja preços de referência para envidraçamento de sacada em São Paulo em 2026, diferenças entre sistemas e vidros, e como calcular seu orçamento.",
+    image: sacadaPrecoCapa.url,
+    imageAlt: "Sacada envidraçada com vista para São Paulo — guia de preços de envidraçamento em 2026",
+    date: "2026-09-25",
+    author: "Rangel Furlaneto",
+    authorBio: "Revisor da Projeto Vidros. Com minha experiência no setor vidreiro desde 1991, compartilho dicas valiosas e informações práticas para clientes, sempre com o compromisso de oferecer conteúdos relevantes e de qualidade para impulsionar o mercado de vidros e espelhos.",
+    whatsappUrl: "https://wa.me/5511915485945?text=" + encodeURIComponent("Olá, vi o guia de preços de envidraçamento de sacada e gostaria de um orçamento para o meu projeto."),
+    metaDescription: "Quanto custa envidraçamento de sacada em São Paulo em 2026? Veja preços a partir de R$ 3.220, compare sistemas e vidros e peça orçamento personalizado.",
+    faqTitle: "Perguntas Frequentes sobre Envidraçamento de Sacada",
+    content: [
+      { type: "paragraph", text: "Envidraçar a sacada é uma das reformas que mais valorizam um apartamento — ganha-se espaço útil, proteção contra chuva e vento, e conforto acústico. Mas quanto custa, na prática, fechar a sua sacada com vidro em São Paulo?" },
+      { type: "paragraph", text: "Neste guia, você entende os valores de referência, os fatores que mais pesam no orçamento e como calcular uma estimativa para o seu projeto." },
+      { type: "whatsappCta", label: "Pedir orçamento de sacada pelo WhatsApp", description: "Envie as medidas da sua sacada e receba uma estimativa personalizada." },
+      { type: "paragraph", text: "Os valores abaixo são a partir de, já considerando o reajuste recente de vidro e alumínio. Cada projeto tem suas particularidades — solicite um orçamento personalizado pelo WhatsApp para um valor exato." },
+      { type: "heading", text: "Preços Médios: Quanto Custa Envidraçar uma Sacada?" },
+      { type: "paragraph", text: "O investimento varia principalmente pelo tamanho da sacada e pela complexidade do projeto. Como referência:" },
+      { type: "table", headers: ["Porte da sacada", "Valor a partir de"], rows: [["Pequena", "R$ 3.220,00"], ["Média", "R$ 5.520,00"], ["Grande", "R$ 9.200,00"]] },
+      { type: "paragraph", text: "Esses valores são estimativas de mercado atualizadas — o valor final do seu projeto depende do sistema de abertura escolhido, do tipo e espessura do vidro, e das condições específicas do local de instalação." },
+      { type: "heading", text: "Os Dois Sistemas de Abertura" },
+      { type: "heading", text: "Sistema com Roldanas (Trilho)" },
+      { type: "paragraph", text: "O mais comum e versátil. As folhas de vidro deslizam sobre trilhos na parte superior e inferior, permitindo empilhar os painéis em um dos lados quando abertos. É a opção mais equilibrada entre custo e funcionalidade, recomendada para a maioria dos projetos residenciais." },
+      { type: "heading", text: "Sistema sem Roldanas" },
+      { type: "paragraph", text: "Sistema de abertura em que as folhas giram e se recolhem sem depender de trilhos deslizantes. Tem um acabamento mais sofisticado e um funcionamento mais silencioso, mas exige uma instalação mais técnica — por isso, custa mais que o sistema com roldanas." },
+      { type: "list", items: [{ strong: "Qual escolher?", text: "Os dois sistemas oferecem a mesma capacidade de abertura do vão. A diferença está no acabamento, no funcionamento e no orçamento: se a prioridade é custo-benefício, o sistema com roldanas é a escolha certa. Se você busca um acabamento premium e mais silencioso, vale o investimento no sistema sem roldanas." }] },
+      { type: "heading", text: "Tipo de Vidro: Temperado ou Laminado?" },
+      { type: "table", headers: ["Critério", "Temperado (8mm ou 10mm)", "Laminado (8, 10 ou 12mm)"], rows: [["Custo", "Mais econômico", "Mais alto"], ["Segurança", "Alta (estilhaça em pedaços pequenos)", "Muito alta (mantém-se unido em caso de quebra)"], ["Isolamento acústico", "Padrão", "Superior"], ["Indicado para", "Maioria dos projetos residenciais", "Sacadas em andares altos, avenidas movimentadas, ou quem busca conforto acústico extra"]] },
+      { type: "whatsappCta", label: "Comparar opções no WhatsApp", description: "Descubra qual sistema e qual vidro combinam com a sua sacada." },
+      { type: "heading", text: "Como Calcular uma Estimativa" },
+      { type: "list", items: [{ strong: "1. Meça a área do vão:", text: "largura × altura da abertura da sacada, em metros." }, { strong: "2. Defina o sistema:", text: "com roldanas (mais em conta) ou sem roldanas (acabamento premium)." }, { strong: "3. Escolha o vidro:", text: "temperado (mais econômico) ou laminado (mais segurança e acústica)." }, { strong: "4. Peça o orçamento:", text: "com essas informações, nossa equipe calcula o valor exato considerando o porte da sua sacada e as condições do local." }] },
+      { type: "heading", text: "O que Influencia o Valor Final" },
+      { type: "list", items: [{ strong: "Tamanho e formato do vão —", text: "sacadas maiores ou com recortes/curvas exigem mais material e mão de obra" }, { strong: "Andar do imóvel —", text: "instalações em andares muito altos podem exigir estrutura adicional de segurança" }, { strong: "Sistema de abertura —", text: "com ou sem roldanas" }, { strong: "Tipo e espessura do vidro —", text: "temperado ou laminado, 8 a 12mm" }, { strong: "Acabamento do perfil de alumínio", text: "" }] },
+      { type: "heading", text: "Vale a Pena Investir?" },
+      { type: "paragraph", text: "Além de ganhar um ambiente protegido da chuva, vento e poeira o ano todo, o envidraçamento de sacada reduz ruído externo, aumenta a sensação de segurança (especialmente com crianças e pets em casa) e valoriza o imóvel — a sacada envidraçada passa a funcionar como uma extensão real da sala." },
+      { type: "internalLink", href: "/envidracamento-de-sacadas-zona-norte-sp", label: "Envidraçamento de sacada na Zona Norte de SP", description: "Conheça nosso serviço de envidraçamento de sacada sob medida na Zona Norte de São Paulo." },
+      { type: "internalLink", href: "/envidracamento-de-sacada/santana", label: "Envidraçamento de sacada em Santana", description: "Mora em Santana? Veja as opções de fechamento de varanda para o bairro." },
+      { type: "whatsappCta", label: "Solicitar orçamento personalizado pelo WhatsApp", description: "Quer um orçamento personalizado para a sua sacada? Receba o valor exato para o seu projeto." },
+    ],
+    faq: [
+      { question: "Envidraçamento de sacada precisa de aprovação do condomínio?", answer: "Na maioria dos prédios em São Paulo, sim — geralmente é necessário seguir um padrão estético definido em assembleia. Consulte o síndico ou o regimento interno antes de fechar o orçamento." },
+      { question: "Qual a diferença entre o sistema com e sem roldanas?", answer: "Os dois sistemas abrem o vão da mesma forma. A diferença está no mecanismo: o sistema com roldanas desliza sobre trilhos, enquanto o sem roldanas gira e se recolhe sem depender de trilho. O sem roldanas tem acabamento mais sofisticado e funcionamento mais silencioso, com um custo um pouco mais alto." },
+      { question: "O vidro laminado vale o investimento extra?", answer: "Para sacadas em vias movimentadas ou andares muito altos, sim — o ganho em isolamento acústico e segurança costuma compensar a diferença de preço." },
+      { question: "Quanto tempo leva a instalação?", answer: "Para a maioria dos projetos residenciais, a instalação é concluída em 1 dia, dependendo do tamanho e da complexidade da sacada." },
+    ],
+  },
   {
     slug: "sacada-com-vidro-retratil-como-funciona",
     title: "Sacada com Vidro Retrátil: Veja Como Abre e Fecha na Prática",
