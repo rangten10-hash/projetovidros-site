@@ -31,7 +31,7 @@ const BlogPost = () => {
         headline: cleanTitle,
         datePublished: post.date,
         author: { "@type": "Person", name: post.author },
-        image: `${SITE_URL}${post.image}`,
+        image: post.image.startsWith("http") ? post.image : `${SITE_URL}${post.image}`,
         mainEntityOfPage: `${SITE_URL}/blog/${post.slug}`,
         publisher: {
           "@type": "Organization",
@@ -61,7 +61,7 @@ const BlogPost = () => {
     title: post ? `${cleanTitle} | Projeto Vidros` : "Blog | Projeto Vidros",
     description: post?.metaDescription ?? "",
     path: post ? `/blog/${post.slug}` : "/blog",
-    image: post ? `${SITE_URL}${post.image}` : undefined,
+    image: post ? (post.image.startsWith("http") ? post.image : `${SITE_URL}${post.image}`) : undefined,
     jsonLd: articleJsonLd
       ? faqJsonLd
         ? [articleJsonLd, faqJsonLd]

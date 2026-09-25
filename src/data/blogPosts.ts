@@ -88,6 +88,7 @@ import sacadaRetratilAbrindo from "@/assets/blog-sacada-retratil-abrindo.webp";
 import sacadaRetratilFinal from "@/assets/blog-sacada-retratil-final.jpg";
 import quantoCustaBox2026Capa from "@/assets/blog-quanto-custa-box-2026-capa.webp";
 import boxFumeVsIncolorCapa from "@/assets/blog-box-fume-vs-incolor-capa.webp";
+import sacadaCover from "@/assets/sacada-cover-2026.webp.asset.json";
 
 export interface BlogPost {
   slug: string;
@@ -133,8 +134,8 @@ export const blogPosts: BlogPost[] = [
     slug: "quanto-custa-envidracamento-sacada-sao-paulo-2026",
     title: "Quanto Custa Envidraçamento de Sacada em São Paulo (2026): Preços e Como Funciona",
     excerpt: "Veja preços de referência para envidraçamento de sacada em São Paulo em 2026, diferenças entre sistemas e vidros, e como calcular seu orçamento.",
-    image: "/images/sacada-precos-2026.webp",
-    imageAlt: "Sacada envidraçada com vista para São Paulo — guia de preços de envidraçamento em 2026",
+    image: `https://secure-shine-studio.lovable.app${sacadaCover.url}`,
+    imageAlt: "Quanto custa envidraçamento de sacada em São Paulo 2026 — Projeto Vidros",
     date: "2026-09-25",
     author: "Rangel Furlaneto",
     authorBio: "Revisor da Projeto Vidros. Com minha experiência no setor vidreiro desde 1991, compartilho dicas valiosas e informações práticas para clientes, sempre com o compromisso de oferecer conteúdos relevantes e de qualidade para impulsionar o mercado de vidros e espelhos.",
