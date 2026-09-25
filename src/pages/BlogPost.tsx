@@ -76,6 +76,8 @@ const BlogPost = () => {
 
   if (!post) return <Navigate to="/blog" replace />;
 
+  const whatsappHref = post.whatsappUrl ?? WHATSAPP_URL;
+
   const handleCta = (e: React.MouseEvent, href: string) => {
     e.preventDefault();
     gtagReportConversion(href);
@@ -249,10 +251,10 @@ const BlogPost = () => {
                         </p>
                       )}
                       <a
-                        href={WHATSAPP_URL}
+                        href={whatsappHref}
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={(e) => handleCta(e, WHATSAPP_URL)}
+                        onClick={(e) => handleCta(e, whatsappHref)}
                         className="inline-flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#1ebe5a] text-white font-bold text-sm md:text-base px-6 md:px-8 py-3.5 rounded-lg shadow-lg transition-colors"
                       >
                         <MessageCircle className="w-5 h-5" />
@@ -310,6 +312,16 @@ const BlogPost = () => {
                   {post.cta.label}
                 </a>
               </div>
+            )}
+            {post.authorBio && (
+              <aside className="mt-12 border-t border-border pt-8 text-center">
+                <p className="text-xs font-semibold uppercase text-copper">Revisor</p>
+                <h2 className="mt-2 font-display text-2xl text-petrol">{post.author}</h2>
+                <p className="mx-auto mt-3 max-w-2xl text-foreground/80 leading-relaxed">{post.authorBio}</p>
+                <Link to="/blog" className="mt-6 inline-flex items-center gap-2 text-copper font-semibold hover:underline">
+                  Ver todos os posts do blog <ArrowLeft className="h-4 w-4 rotate-180" />
+                </Link>
+              </aside>
             )}
           </div>
         </article>

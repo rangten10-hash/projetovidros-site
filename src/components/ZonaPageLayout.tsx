@@ -195,6 +195,14 @@ const ZonaPageLayout = ({ data }: { data: ZonaPageData }) => {
                 {data.closing}
               </p>
             )}
+            {data.categoria === "envidraçamento de sacada" && (
+              <p className="mt-6 text-foreground/80 leading-relaxed">
+                Quer saber quanto custa fechar sua varanda?{" "}
+                <Link to="/blog/quanto-custa-envidracamento-sacada-sao-paulo-2026" className="text-copper font-semibold underline underline-offset-2 hover:text-petrol">
+                  Veja nosso guia completo de preços de envidraçamento de sacada em São Paulo.
+                </Link>
+              </p>
+            )}
           </div>
         </section>
 
