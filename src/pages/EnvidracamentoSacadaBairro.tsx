@@ -202,6 +202,13 @@ const EnvidracamentoSacadaBairro = () => {
             {/* Navegação interna */}
             <div className="flex flex-wrap gap-x-6 gap-y-3 pt-6 border-t border-border text-sm">
               <Link
+                to="/blog/quanto-custa-envidracamento-sacada-sao-paulo-2026"
+                className="inline-flex items-center gap-2 text-petrol font-semibold hover:text-copper transition-colors"
+              >
+                <CheckCircle2 className="w-4 h-4 text-copper" />
+                Quanto custa envidraçar uma sacada? Veja os preços
+              </Link>
+              <Link
                 to="/envidracamento-de-sacada"
                 className="inline-flex items-center gap-2 text-petrol font-semibold hover:text-copper transition-colors"
               >
