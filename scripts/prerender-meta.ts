@@ -132,6 +132,7 @@ interface RouteMeta {
   title: string;
   description: string;
   ogType?: "website" | "article";
+  image?: string;
 }
 
 const STATIC_ROUTES: RouteMeta[] = [
@@ -397,6 +398,9 @@ function blogMeta(p: { slug: string; title: string; metaDescription: string }): 
     title: `${cleanTitle} | Projeto Vidros`,
     description: p.metaDescription,
     ogType: "article",
+    image: p.slug === "quanto-custa-envidracamento-sacada-sao-paulo-2026"
+      ? `${BASE_URL}${JSON.parse(readFileSync(resolve("src/assets/sacada-envidracada-precos-2026.webp.asset.json"), "utf8")).url}`
+      : undefined,
   };
 }
 
@@ -448,6 +452,10 @@ function applyMeta(html: string, meta: RouteMeta): string {
     /<meta\s+property="og:type"\s+content="[^"]*"\s*\/?>/i,
     `<meta property="og:type" content="${ogType}" />`,
   );
+
+  if (meta.image) {
+    out = out.replace(/<\/head>/i, `  <meta property="og:image" content="${escapeAttr(meta.image)}" />\n  <meta name="twitter:image" content="${escapeAttr(meta.image)}" />\n  </head>`);
+  }
 
   // twitter
   out = out.replace(
