@@ -1,0 +1,2 @@
+- [ ] Trocar a capa do post de preços de sacada pela imagem enviada, sem cortes no artigo nem no card do blog.
+- [ ] Conferir a capa e os links no preview; publicar o post.
