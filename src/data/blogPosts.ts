@@ -98,7 +98,6 @@ export interface BlogPost {
   imageAlt: string;
   date: string;
   author: string;
-  authorBio?: string;
   whatsappUrl?: string;
   /** Array of content blocks rendered in order */
   content: BlogBlock[];
@@ -138,7 +137,6 @@ export const blogPosts: BlogPost[] = [
     imageAlt: "Quanto custa envidraçamento de sacada em São Paulo 2026 — Projeto Vidros",
     date: "2026-09-25",
     author: "Rangel Furlaneto",
-    authorBio: "Revisor da Projeto Vidros. Com minha experiência no setor vidreiro desde 1991, compartilho dicas valiosas e informações práticas para clientes, sempre com o compromisso de oferecer conteúdos relevantes e de qualidade para impulsionar o mercado de vidros e espelhos.",
     whatsappUrl: "https://wa.me/5511915485945?text=" + encodeURIComponent("Olá, vi o guia de preços de envidraçamento de sacada e gostaria de um orçamento para o meu projeto."),
     metaDescription: "Quanto custa envidraçamento de sacada em São Paulo em 2026? Veja preços a partir de R$ 3.220, compare sistemas e vidros e peça orçamento personalizado.",
     faqTitle: "Perguntas Frequentes sobre Envidraçamento de Sacada",
