@@ -13,6 +13,10 @@ import YouTubeFacade from "@/components/YouTubeFacade";
 const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
+const REVIEWER = {
+  name: "Rangel Furlaneto",
+  bio: "Revisor da Projeto Vidros. Com minha experiência no setor vidreiro desde 1991, compartilho dicas valiosas e informações práticas para clientes, sempre com o compromisso de oferecer conteúdos relevantes e de qualidade para impulsionar o mercado de vidros e espelhos.",
+};
 
 const BlogPost = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -30,7 +34,7 @@ const BlogPost = () => {
         "@type": "Article",
         headline: cleanTitle,
         datePublished: post.date,
-        author: { "@type": "Person", name: post.author },
+        author: { "@type": "Person", name: REVIEWER.name },
         image: post.image.startsWith("http") ? post.image : `${SITE_URL}${post.image}`,
         mainEntityOfPage: `${SITE_URL}/blog/${post.slug}`,
         publisher: {
@@ -104,7 +108,7 @@ const BlogPost = () => {
                 year: "numeric",
               })}
               {" · "}
-              {post.author}
+              {REVIEWER.name}
             </time>
 
             <h1 className="font-display text-3xl md:text-5xl text-petrol mt-3 mb-6 leading-tight">
@@ -313,16 +317,14 @@ const BlogPost = () => {
                 </a>
               </div>
             )}
-            {post.authorBio && (
-              <aside className="mt-12 border-t border-border pt-8 text-center">
+            <aside className="mt-12 rounded-lg border border-border bg-muted/40 p-6 md:p-8 text-center">
                 <p className="text-xs font-semibold uppercase text-copper">Revisor</p>
-                <h2 className="mt-2 font-display text-2xl text-petrol">{post.author}</h2>
-                <p className="mx-auto mt-3 max-w-2xl text-foreground/80 leading-relaxed">{post.authorBio}</p>
+                <h2 className="mt-2 font-display text-2xl text-petrol">{REVIEWER.name}</h2>
+                <p className="mx-auto mt-3 max-w-2xl text-foreground/80 leading-relaxed">{REVIEWER.bio}</p>
                 <Link to="/blog" className="mt-6 inline-flex items-center gap-2 text-copper font-semibold hover:underline">
                   Ver todos os posts do blog <ArrowLeft className="h-4 w-4 rotate-180" />
                 </Link>
-              </aside>
-            )}
+            </aside>
           </div>
         </article>
       </main>
