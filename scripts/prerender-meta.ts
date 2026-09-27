@@ -8,6 +8,7 @@
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
 import { resolve, dirname } from "path";
+import { ledBairroTitle, pickLedBairroDescricao } from "../src/lib/espelhoLedBairroContent";
 
 const BASE_URL = "https://www.projetovidros.com.br";
 const DIST = resolve("dist");
@@ -331,8 +332,16 @@ function hashSlug(s: string) {
 function bairroMeta(
   slug: string,
   nome: string,
-  prefixo: "servicos" | "box-fume" | "box-incolor" | "box-verde" | "box-bronze" | "espelhos" | "portas-de-vidro" | "projetos" | "envidracamento-de-sacada",
+  prefixo: "servicos" | "box-fume" | "box-incolor" | "box-verde" | "box-bronze" | "espelhos" | "espelhos-led" | "portas-de-vidro" | "projetos" | "envidracamento-de-sacada",
 ): RouteMeta {
+  if (prefixo === "espelhos-led") {
+    return {
+      path: `/espelhos-led/${slug}`,
+      title: ledBairroTitle(nome),
+      description: pickLedBairroDescricao(slug, nome),
+      ogType: "article",
+    };
+  }
   if (prefixo === "espelhos") {
     const t = ESPELHO_TITLES[hashSlug(slug) % ESPELHO_TITLES.length](nome);
     return {
@@ -369,14 +378,14 @@ function bairroMeta(
       ogType: "article",
     };
   }
-  const titleByPrefix: Record<Exclude<typeof prefixo, "espelhos" | "portas-de-vidro" | "projetos" | "envidracamento-de-sacada">, string> = {
+  const titleByPrefix: Record<Exclude<typeof prefixo, "espelhos" | "espelhos-led" | "portas-de-vidro" | "projetos" | "envidracamento-de-sacada">, string> = {
     servicos: `${nome} | Box de Vidro Direto da Fábrica`,
     "box-fume": `${nome} | Box de Vidro Fumê Direto da Fábrica`,
     "box-incolor": `${nome} | Box de Vidro Incolor Direto da Fábrica`,
     "box-verde": `${nome} | Box de Vidro Verde Direto da Fábrica`,
     "box-bronze": `${nome} | Box de Vidro Bronze Direto da Fábrica`,
   };
-  const descByPrefix: Record<Exclude<typeof prefixo, "espelhos" | "portas-de-vidro" | "projetos" | "envidracamento-de-sacada">, string> = {
+  const descByPrefix: Record<Exclude<typeof prefixo, "espelhos" | "espelhos-led" | "portas-de-vidro" | "projetos" | "envidracamento-de-sacada">, string> = {
     servicos: `Box de banheiro em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado sob medida. Peça seu orçamento pelo WhatsApp!`,
     "box-fume": `Box de banheiro fumê em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado fumê sob medida. Peça seu orçamento pelo WhatsApp!`,
     "box-incolor": `Box de banheiro incolor em ${nome} com instalação rápida. Fabricação própria, corte CNC de alta precisão e vidro temperado incolor sob medida. Peça seu orçamento pelo WhatsApp!`,
@@ -500,6 +509,7 @@ const routes: RouteMeta[] = [
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "box-verde")),
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "box-bronze")),
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "espelhos")),
+  ...BAIRROS.filter((b) => !["cachoeirinha", "guarulhos"].includes(b.slug)).map((b) => bairroMeta(b.slug, b.nome, "espelhos-led")),
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "portas-de-vidro")),
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "projetos")),
   ...BAIRROS.map((b) => bairroMeta(b.slug, b.nome, "envidracamento-de-sacada")),

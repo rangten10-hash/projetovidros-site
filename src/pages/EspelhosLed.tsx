@@ -8,6 +8,7 @@ import { useSeo } from "@/lib/seo";
 import { gtagReportConversion } from "@/lib/gtag";
 import { ArrowLeft, ArrowRight, MessageCircle } from "lucide-react";
 import { Link } from "react-router-dom";
+import { ZONA_BAIRROS, ZONA_LABEL, type Zona } from "@/lib/bairros";
 import reto1 from "@/assets/espelhos-led/reto-1.webp.asset.json";
 import reto2 from "@/assets/espelhos-led/reto-2.webp.asset.json";
 import reto3 from "@/assets/espelhos-led/reto-3.webp.asset.json";
@@ -122,6 +123,24 @@ const EspelhosLed = () => {
             </div>
           </section>
         ))}
+        <section className="border-t border-border py-14 md:py-20">
+          <div className="container mx-auto px-4">
+            <p className="text-xs font-semibold uppercase text-copper">Atendimento local</p>
+            <h2 className="mt-3 font-display text-3xl text-petrol md:text-4xl">Espelhos LED por bairro</h2>
+            <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {(Object.keys(ZONA_BAIRROS) as Zona[]).map((zona) => (
+                <div key={zona}>
+                  <h3 className="mb-3 border-b border-copper/40 pb-2 font-display text-xl text-petrol">{ZONA_LABEL[zona]}</h3>
+                  <ul className="grid gap-2">
+                    {ZONA_BAIRROS[zona].map((bairro) => (
+                      <li key={bairro.slug}><Link to={`/espelhos-led/${bairro.slug}`} className="text-sm text-muted-foreground transition-colors hover:text-copper">Espelhos LED em {bairro.nome}</Link></li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
       <WhatsAppButton />

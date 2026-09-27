@@ -3,15 +3,15 @@ import { gtagReportConversion } from "@/lib/gtag";
 
 const WHATSAPP_URL = "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
-const WhatsAppButton = () => {
+const WhatsAppButton = ({ url = WHATSAPP_URL, product = "botao_flutuante" }: { url?: string; product?: string }) => {
   return (
     <a
-      href={WHATSAPP_URL}
+      href={url}
       target="_blank"
       rel="noopener noreferrer"
       onClick={(e) => {
         e.preventDefault();
-        gtagReportConversion(WHATSAPP_URL, undefined, "botao_flutuante");
+        gtagReportConversion(url, undefined, product);
       }}
       className="fixed bottom-28 right-4 md:bottom-6 md:right-6 z-[60] bg-[hsl(142,72%,29%)] hover:bg-[hsl(142,72%,24%)] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all hover:scale-110 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[hsl(142,72%,29%)]"
       aria-label="Falar pelo WhatsApp com a Projeto Vidros"
