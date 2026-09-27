@@ -31,6 +31,7 @@ const PortasVidroBairro = lazy(() => import("./pages/PortasVidroBairro"));
 const Espelhos = lazy(() => import("./pages/Espelhos"));
 const EspelhosBairro = lazy(() => import("./pages/EspelhosBairro"));
 const EspelhosLed = lazy(() => import("./pages/EspelhosLed"));
+const EspelhosLedBairro = lazy(() => import("./pages/EspelhosLedBairro"));
 const EnvidracamentoSacada = lazy(() => import("./pages/EnvidracamentoSacada"));
 const SacadaZonaNorte = lazy(() => import("./pages/SacadaZonaNorte"));
 const SacadaZonaSul = lazy(() => import("./pages/SacadaZonaSul"));
@@ -89,6 +90,7 @@ const App = () => (
         <Route path="/espelhos" element={<Espelhos />} />
         <Route path="/espelhos/:bairro" element={<EspelhosBairro />} />
         <Route path="/espelhos-led" element={<EspelhosLed />} />
+        <Route path="/espelhos-led/:bairro" element={<EspelhosLedBairro />} />
         <Route path="/envidracamento-de-sacada" element={<EnvidracamentoSacada />} />
         <Route path="/envidracamento-de-sacadas-zona-norte-sp" element={<SacadaZonaNorte />} />
         <Route path="/envidracamento-de-sacadas-zona-sul-sp" element={<SacadaZonaSul />} />
