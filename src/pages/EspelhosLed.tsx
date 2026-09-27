@@ -12,6 +12,15 @@ import reto1 from "@/assets/espelhos-led/reto-1.webp.asset.json";
 import reto2 from "@/assets/espelhos-led/reto-2.webp.asset.json";
 import reto3 from "@/assets/espelhos-led/reto-3.webp.asset.json";
 import reto4 from "@/assets/espelhos-led/reto-4.webp.asset.json";
+import organico1 from "@/assets/espelhos-led/organico-1.webp.asset.json";
+import organico2 from "@/assets/espelhos-led/organico-2.webp.asset.json";
+import organico3 from "@/assets/espelhos-led/organico-3.webp.asset.json";
+import organico4 from "@/assets/espelhos-led/organico-4.webp.asset.json";
+import organico5 from "@/assets/espelhos-led/organico-5.webp.asset.json";
+import organico6 from "@/assets/espelhos-led/organico-6.webp.asset.json";
+import organico7 from "@/assets/espelhos-led/organico-7.webp.asset.json";
+import organico8 from "@/assets/espelhos-led/organico-8.webp.asset.json";
+import organico9 from "@/assets/espelhos-led/organico-9.webp.asset.json";
 
 type MirrorPhoto = { src: string; alt: string };
 
@@ -22,8 +31,17 @@ const straightPhotos: MirrorPhoto[] = [
   { src: `https://secure-shine-studio.lovable.app${reto4.url}`, alt: "Espelho LED retangular de lavabo com luz quente e bancada de pedra" },
 ];
 
-// Galerias aceitam até dez fotos por categoria; as fotos orgânicas serão adicionadas quando enviadas.
-const organicPhotos: MirrorPhoto[] = [];
+const organicPhotos: MirrorPhoto[] = [
+  { src: `https://secure-shine-studio.lovable.app${organico1.url}`, alt: "Espelho LED orgânico de lavabo com luz indireta e bancada clara" },
+  { src: `https://secure-shine-studio.lovable.app${organico2.url}`, alt: "Espelho orgânico retroiluminado em parede de madeira" },
+  { src: `https://secure-shine-studio.lovable.app${organico3.url}`, alt: "Espelho LED orgânico assimétrico sobre pia de banheiro" },
+  { src: `https://secure-shine-studio.lovable.app${organico4.url}`, alt: "Espelho orgânico iluminado em banheiro com bancada de pedra" },
+  { src: `https://secure-shine-studio.lovable.app${organico5.url}`, alt: "Espelho orgânico oval com iluminação traseira sobre lavatório" },
+  { src: `https://secure-shine-studio.lovable.app${organico6.url}`, alt: "Espelho orgânico com luz Halo em sala de jantar" },
+  { src: `https://secure-shine-studio.lovable.app${organico7.url}`, alt: "Espelho orgânico LED na parede da sala de jantar" },
+  { src: `https://secure-shine-studio.lovable.app${organico8.url}`, alt: "Espelho orgânico iluminado sobre aparador em sala de jantar" },
+  { src: `https://secure-shine-studio.lovable.app${organico9.url}`, alt: "Espelho orgânico LED oval em lavabo com bancada de madeira" },
+];
 
 const categories = [
   {
