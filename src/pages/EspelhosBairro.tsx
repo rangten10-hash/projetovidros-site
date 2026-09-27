@@ -221,7 +221,7 @@ const EspelhosBairro = () => {
                 Ver todos os modelos de Espelhos
               </Link>
               <Link
-                to="/espelhos-led"
+                 to={`/espelhos-led/${slug}`}
                 className="inline-flex items-center gap-2 text-petrol font-semibold hover:text-copper transition-colors"
               >
                 <CheckCircle2 className="w-4 h-4 text-copper" />

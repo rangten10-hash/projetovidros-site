@@ -6,5 +6,5 @@
 - [x] Atualizar /espelhos-led com duas categorias, quatro fotos retas enviadas e espaço para fotos orgânicas futuras.
 - [x] Verificar galerias e WhatsApp no celular e desktop.
 - [x] Adicionar as nove fotos orgânicas enviadas e conferir galeria no celular e desktop.
-- [ ] Criar páginas de Espelhos LED por bairro com galerias, orçamento local e SEO pré-renderizado.
-- [ ] Conferir links, imagens e orçamento no celular e computador.
+- [x] Criar páginas de Espelhos LED por bairro com galerias, orçamento local e SEO pré-renderizado.
+- [x] Conferir links, imagens e orçamento no celular e computador.
