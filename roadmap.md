@@ -2,3 +2,6 @@
 - [x] Conferir a capa e os links no preview.
 - [x] Tornar o bloco de Rangel padrão em todos os posts e alinhar o schema Article.
 - [ ] Publicar o post e o template atualizado.
+
+- [x] Atualizar /espelhos-led com duas categorias, quatro fotos retas enviadas e espaço para fotos orgânicas futuras.
+- [x] Verificar galerias e WhatsApp no celular e desktop.
