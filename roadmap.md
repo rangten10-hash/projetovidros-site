@@ -5,4 +5,4 @@
 
 - [x] Atualizar /espelhos-led com duas categorias, quatro fotos retas enviadas e espaço para fotos orgânicas futuras.
 - [x] Verificar galerias e WhatsApp no celular e desktop.
-- [ ] Adicionar as nove fotos orgânicas enviadas e conferir galeria no celular e desktop.
+- [x] Adicionar as nove fotos orgânicas enviadas e conferir galeria no celular e desktop.
