@@ -16,10 +16,10 @@ import reto4 from "@/assets/espelhos-led/reto-4.webp.asset.json";
 type MirrorPhoto = { src: string; alt: string };
 
 const straightPhotos: MirrorPhoto[] = [
-  { src: reto1.url, alt: "Espelho LED retangular de banheiro com luz indireta em bancada de pedra" },
-  { src: reto2.url, alt: "Espelho LED retangular retroiluminado sobre bancada de banheiro" },
-  { src: reto3.url, alt: "Espelho LED reto com iluminação branca em banheiro com bancada dupla" },
-  { src: reto4.url, alt: "Espelho LED retangular de lavabo com luz quente e bancada de pedra" },
+  { src: `https://secure-shine-studio.lovable.app${reto1.url}`, alt: "Espelho LED retangular de banheiro com luz indireta em bancada de pedra" },
+  { src: `https://secure-shine-studio.lovable.app${reto2.url}`, alt: "Espelho LED retangular retroiluminado sobre bancada de banheiro" },
+  { src: `https://secure-shine-studio.lovable.app${reto3.url}`, alt: "Espelho LED reto com iluminação branca em banheiro com bancada dupla" },
+  { src: `https://secure-shine-studio.lovable.app${reto4.url}`, alt: "Espelho LED retangular de lavabo com luz quente e bancada de pedra" },
 ];
 
 // Galerias aceitam até dez fotos por categoria; as fotos orgânicas serão adicionadas quando enviadas.
