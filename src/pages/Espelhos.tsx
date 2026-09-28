@@ -31,21 +31,22 @@ type Category = "Orgânicos" | "Banheiros" | "Parede Inteira";
 type Photo = { src: string; alt: string; category: Category };
 const filters = ["Todos", "Orgânicos", "Banheiros", "Parede Inteira"] as const;
 type Filter = typeof filters[number];
+const assetUrl = (path: string) => `https://secure-shine-studio.lovable.app${path}`;
 
 // Add future projects here with their category; the filters update automatically.
 const photos: Photo[] = [
-  { src: organico.url, alt: "Espelho orgânico sob medida em hall com aparador", category: "Orgânicos" },
-  { src: salaGrande.url, alt: "Espelho de parede inteira em sala de estar", category: "Parede Inteira" },
-  { src: banheiro.url, alt: "Espelho sob medida instalado sobre bancada de banheiro", category: "Banheiros" },
-  { src: organicoMoldura.url, alt: "Espelho orgânico com moldura em quarto", category: "Orgânicos" },
-  { src: lapidado.url, alt: "Espelho lapidado amplo sobre bancada de lavabo", category: "Banheiros" },
-  { src: closet.url, alt: "Espelho orgânico de corpo inteiro em closet", category: "Orgânicos" },
+  { src: assetUrl(organico.url), alt: "Espelho orgânico sob medida em hall com aparador", category: "Orgânicos" },
+  { src: assetUrl(salaGrande.url), alt: "Espelho de parede inteira em sala de estar", category: "Parede Inteira" },
+  { src: assetUrl(banheiro.url), alt: "Espelho sob medida instalado sobre bancada de banheiro", category: "Banheiros" },
+  { src: assetUrl(organicoMoldura.url), alt: "Espelho orgânico com moldura em quarto", category: "Orgânicos" },
+  { src: assetUrl(lapidado.url), alt: "Espelho lapidado amplo sobre bancada de lavabo", category: "Banheiros" },
+  { src: assetUrl(closet.url), alt: "Espelho orgânico de corpo inteiro em closet", category: "Orgânicos" },
   { src: espelho5, alt: "Espelho de parede inteira em sala de jantar", category: "Parede Inteira" },
   { src: espelho1, alt: "Espelho amplo em banheiro claro", category: "Banheiros" },
-  { src: quarto.url, alt: "Espelho de corpo inteiro em quarto", category: "Parede Inteira" },
+  { src: assetUrl(quarto.url), alt: "Espelho de corpo inteiro em quarto", category: "Parede Inteira" },
   { src: espelho6, alt: "Espelho de parede inteira em ambiente residencial", category: "Parede Inteira" },
-  { src: lavabo.url, alt: "Espelho de formato orgânico em lavabo", category: "Orgânicos" },
-  { src: armario.url, alt: "Espelho sob medida em armário de banheiro", category: "Banheiros" },
+  { src: assetUrl(lavabo.url), alt: "Espelho de formato orgânico em lavabo", category: "Orgânicos" },
+  { src: assetUrl(armario.url), alt: "Espelho sob medida em armário de banheiro", category: "Banheiros" },
   { src: espelho2, alt: "Espelhos retangulares sobre bancada de banheiro", category: "Banheiros" },
   { src: espelho3, alt: "Espelho de parede inteira em ambiente comercial", category: "Parede Inteira" },
   { src: espelho4, alt: "Espelho decorativo em espaço de atendimento", category: "Parede Inteira" },
@@ -115,7 +116,7 @@ const Espelhos = () => {
 
         <section className="bg-muted/30 py-14 md:py-20" aria-labelledby="organicos-title">
           <div className="container mx-auto grid items-center gap-8 px-4 md:grid-cols-2 md:gap-14">
-            <img src={organicoMoldura.url} alt="Espelho orgânico com moldura sob medida instalado em quarto" loading="lazy" className="aspect-[4/3] w-full rounded-md object-cover object-center md:aspect-[5/4]" />
+            <img src={assetUrl(organicoMoldura.url)} alt="Espelho orgânico com moldura sob medida instalado em quarto" loading="lazy" className="aspect-[4/3] w-full rounded-md object-cover object-center md:aspect-[5/4]" />
             <div>
               <p className="text-xs font-semibold uppercase text-copper">Design fluído e assimétrico</p>
               <h2 id="organicos-title" className="mt-3 font-display text-3xl text-petrol md:text-4xl">Espelhos Orgânicos</h2>
