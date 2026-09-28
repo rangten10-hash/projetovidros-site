@@ -9,4 +9,4 @@
 - [x] Criar páginas de Espelhos LED por bairro com galerias, orçamento local e SEO pré-renderizado.
 - [x] Conferir links, imagens e orçamento no celular e computador.
 - [x] Reorganizar /espelhos com galeria no topo, filtros e destaque orgânico usando as fotos enviadas.
-- [ ] Conferir filtros, ampliação, orçamento e links de bairros em celular e computador.
+- [x] Conferir filtros, ampliação, orçamento e links de bairros em celular e computador.
