@@ -13,5 +13,5 @@
 - [x] Retirar o termo proibido das páginas LED e adicionar quatro fotos retas e duas fotos de espelhos.
 - [x] Conferir as novas fotos, filtros e ampliação.
 - [x] Adicionar três fotos de espelhos e uma orgânica com LED conforme classificação confirmada; conferir carregamento e ampliação.
-- [ ] Destacar marcas premium, proteção Tekbond e colagem neutra nas duas páginas principais de espelhos.
-- [ ] Adicionar comparação de diferenciais e conferir a apresentação nas duas páginas.
+- [x] Destacar marcas premium, proteção Tekbond e colagem neutra nas duas páginas principais de espelhos.
+- [x] Adicionar comparação de diferenciais e conferir a apresentação nas duas páginas.
