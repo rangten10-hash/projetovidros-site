@@ -89,6 +89,9 @@ import sacadaRetratilFinal from "@/assets/blog-sacada-retratil-final.jpg";
 import quantoCustaBox2026Capa from "@/assets/blog-quanto-custa-box-2026-capa.webp";
 import boxFumeVsIncolorCapa from "@/assets/blog-box-fume-vs-incolor-capa.webp";
 import sacadaCover from "@/assets/sacada-cover-2026.webp.asset.json";
+import protetorBordaCapa from "@/assets/blog-protetor-borda/capa.webp.asset.json";
+import protetorBordaRedondo from "@/assets/blog-protetor-borda/aplicacao-redondo.webp.asset.json";
+import protetorBordaAplicacao from "@/assets/blog-protetor-borda/aplicacao-borda.webp.asset.json";
 
 export interface BlogPost {
   slug: string;
@@ -129,6 +132,84 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "espelhos-protecao-borda-tekbond-guardian-cebrace",
+    title: "O Segredo dos Espelhos que Não Mancham Facilmente: Por que Exigir a Proteção de Borda Tekbond nas Linhas Guardian e Cebrace?",
+    excerpt: "Entenda como a proteção de borda Tekbond, espelhos Guardian Evolution e Cebrace e a fixação neutra ajudam a prevenir manchas e oxidação precoce.",
+    image: `https://secure-shine-studio.lovable.app${protetorBordaCapa.url}`,
+    imageAlt: "Protetor de bordas Tekbond — proteção extra em todos os espelhos da Projeto Vidros",
+    date: "2026-10-10",
+    author: "Rangel Furlaneto",
+    whatsappUrl: "https://wa.me/5511915485945?text=" + encodeURIComponent("Olá, li a postagem sobre proteção de borda Tekbond e gostaria de um orçamento de espelho sob medida com proteção antioxidação."),
+    metaDescription: "Saiba como a proteção de borda Tekbond e os espelhos Guardian Evolution e Cebrace ajudam a prevenir manchas. Espelhos sob medida em São Paulo com garantia de 1 ano.",
+    content: [
+      { type: "paragraph", text: "Se você já percebeu manchas pretas ou escuras nas bordas de um espelho de banheiro, closet ou lavabo, saiba que isso é o resultado da corrosão da camada reflexiva de prata causada pela umidade e agentes externos." },
+      { type: "paragraph", text: "Muitas pessoas acreditam que a degradação precoce do espelho é inevitável. No entanto, a durabilidade de uma peça depende diretamente de como ela é processada na fábrica e instalada no seu ambiente." },
+      { type: "paragraph", text: "Na Projeto Vidros, 100% dos nossos espelhos saem de fábrica com o Protetor de Borda Tekbond (Grupo Saint-Gobain) já aplicado, além de trabalharmos exclusivamente com as lâminas de alta definição Guardian Evolution e Cebrace." },
+      { type: "paragraph", text: "Neste artigo, você vai entender o que causa a corrosão nos espelhos, a importância da selagem perimetral e como escolher uma peça que aumente a vida útil do seu projeto." },
+      { type: "whatsappCta", label: "Solicitar orçamento de espelho com proteção de borda" },
+      { type: "heading", text: "O que causa as manchas pretas nas bordas dos espelhos?" },
+      { type: "paragraph", text: "Um espelho não é apenas um vidro comum. Ele é composto por uma lâmina de vidro float transparente sobre a qual é depositada uma fina camada metálica de prata, responsável pela reflexão da imagem. Por cima dessa camada, o fabricante aplica tintas protetoras especiais." },
+      { type: "heading", text: "O momento crítico: corte, lapidação e furação" },
+      { type: "paragraph", text: "Quando a chapa passa pelos processos de corte sob medida, lapidação, bisotê ou furação para tomadas e suportes, as camadas protetoras do fundo podem ficar expostas nas extremidades." },
+      { type: "paragraph", text: "Essas áreas ficam mais vulneráveis ao ar, à umidade e aos agentes químicos presentes no ambiente, como vapor do chuveiro, produtos de limpeza e cosméticos." },
+      { type: "heading", text: "A corrosão da camada reflexiva" },
+      { type: "paragraph", text: "Quando a umidade e agentes agressivos alcançam a camada de prata pelas bordas, ela pode sofrer corrosão e perder sua capacidade de refletir. O resultado são manchas escuras que começam nas extremidades e podem se alastrar." },
+      { type: "heading", text: "O que é e como funciona o Protetor de Borda Tekbond?" },
+      { type: "paragraph", text: "O Protetor de Borda Tekbond, marca integrante do Grupo Saint-Gobain, é um produto desenvolvido especificamente para a proteção das bordas dos espelhos após o processamento." },
+      { type: "image", src: `https://secure-shine-studio.lovable.app${protetorBordaRedondo.url}`, alt: "Aplicação de Protetor de Borda Tekbond em espelho redondo", caption: "Proteção perimetral aplicada após o acabamento do espelho." },
+      { type: "heading", text: "Como funciona a ação protetora?" },
+      { type: "list", items: [
+        { strong: "Selagem das bordas:", text: "a aplicação forma uma película protetora na extremidade processada do espelho." },
+        { strong: "Barreira contra a umidade:", text: "ajuda a reduzir o contato da umidade com a camada reflexiva, retardando a oxidação e aumentando a vida útil da peça." },
+        { strong: "Proteção nos recortes e furos:", text: "a atenção também se estende aos recortes internos, comuns em espelhos sob medida para banheiros e tomadas." }
+      ] },
+      { type: "paragraph", text: "Diferencial Projeto Vidros: nenhum espelho sai para entrega ou instalação sem passar pelo processo de aplicação e cura da proteção de borda Tekbond." },
+      { type: "image", src: `https://secure-shine-studio.lovable.app${protetorBordaAplicacao.url}`, alt: "Aplicação de proteção Tekbond na borda de uma lâmina de espelho", caption: "A selagem protege as extremidades expostas após o corte e a lapidação." },
+      { type: "heading", text: "Veja o vídeo do fabricante" },
+      { type: "youtube", videoId: "pZVTzY9brbI", title: "Protetor de Borda Tekbond — vídeo do fabricante" },
+      { type: "heading", text: "Matérias-primas premium: Guardian Evolution e Cebrace" },
+      { type: "paragraph", text: "A selagem de borda é fundamental, mas precisa ser feita sobre uma base de qualidade. Por isso, a Projeto Vidros trabalha exclusivamente com espelhos Guardian Evolution e Cebrace, combinando lâminas de alta definição, acabamento cuidadoso e instalação adequada." },
+      { type: "heading", text: "Por que escolhemos Guardian Evolution?" },
+      { type: "paragraph", text: "A linha Guardian Evolution reúne qualidade óptica e tecnologia de proteção da camada reflexiva. A reflexão fiel, o cuidado no processamento e a proteção do fundo são importantes para o resultado final do seu projeto." },
+      { type: "heading", text: "Por que escolhemos Cebrace?" },
+      { type: "paragraph", text: "Os espelhos Cebrace oferecem controle de qualidade da lâmina e da camada reflexiva. Em banheiros e lavabos, a escolha do material deve estar acompanhada de vedação, fixação e cuidados de limpeza corretos." },
+      { type: "internalLink", href: "/espelhos", label: "Conheça nossos espelhos sob medida em São Paulo" },
+      { type: "heading", text: "O perigo invisível: colas e adesivos inadequados" },
+      { type: "paragraph", text: "Um espelho de alta qualidade ainda pode sofrer danos se for instalado incorretamente. Colas genéricas ou silicone acético podem conter substâncias incompatíveis com a pintura protetora do fundo do espelho." },
+      { type: "paragraph", text: "Essas substâncias podem atingir a camada reflexiva e causar manchas no meio da peça, mesmo que as bordas estejam protegidas. Por isso, o adesivo deve ser próprio para espelhos e compatível com as orientações do fabricante." },
+      { type: "heading", text: "A solução Projeto Vidros: Fixa Espelho neutro" },
+      { type: "paragraph", text: "Em nossas instalações, utilizamos exclusivamente adesivos e vedações neutras da categoria Fixa Espelho, livres de solventes e ácidos que possam atacar a prata. A aplicação considera o tipo de parede, a aderência necessária e o tempo de cura recomendado." },
+      { type: "whatsappCta", label: "Consultar materiais e instalação pelo WhatsApp" },
+      { type: "heading", text: "Comparativo: sem tratamento específico vs. padrão Projeto Vidros" },
+      { type: "table", headers: ["Característica", "Sem tratamento específico", "Projeto Vidros"], rows: [
+        ["Marca do espelho", "Procedência e especificações a confirmar", "Guardian Evolution e Cebrace"],
+        ["Proteção de borda", "Bordas expostas após o processamento", "Tekbond em 100% das peças"],
+        ["Adesivo de fixação", "Produtos sem compatibilidade confirmada", "Fixa Espelho neutro próprio para espelhos"],
+        ["Garantia", "Consultar as condições do fornecedor", "1 ano contra defeitos de fabricação e oxidação precoce"],
+        ["Durabilidade", "Maior exposição à umidade nas bordas", "Tratamento que ajuda a prolongar a vida útil"]
+      ] },
+      { type: "heading", text: "Garantia e compromisso com a qualidade" },
+      { type: "paragraph", text: "Oferecemos garantia de 1 ano em nossos espelhos contra defeitos de fabricação e oxidação precoce. Seguimos as orientações técnicas dos fabricantes para o processamento, a vedação e a instalação." },
+      { type: "paragraph", text: "Nenhum espelho tem imunidade eterna contra a ação do tempo, umidade extrema ou limpeza com produtos corrosivos. A proteção de borda e as colas neutras ajudam a prevenir a oxidação precoce, mas os cuidados de uso continuam essenciais." },
+      { type: "heading", text: "Como preservar seu espelho por mais tempo" },
+      { type: "list", items: [
+        { strong: "Não jogue água diretamente:", text: "use um pano macio ou de microfibra levemente umedecido e seque em seguida, seguindo as recomendações do fabricante." },
+        { strong: "Evite produtos agressivos:", text: "não utilize amoníaco, alvejantes, cloro, ácidos ou abrasivos." },
+        { strong: "Mantenha as bordas secas:", text: "evite o acúmulo de água na parte inferior da peça, especialmente após o banho." },
+        { strong: "Ventile o ambiente:", text: "a circulação de ar ajuda a reduzir a umidade constante sobre o espelho." }
+      ] },
+      { type: "internalLink", href: "/espelhos-led", label: "Veja os espelhos com LED e a mesma proteção de borda", description: "Modelos orgânicos e retos sob medida, com materiais premium e proteção Tekbond." }
+    ],
+    faqTitle: "Perguntas frequentes sobre proteção antioxidação",
+    faq: [
+      { question: "O protetor de borda altera o visual do espelho?", answer: "A aplicação é feita nas bordas de forma discreta, preservando o aspecto da superfície reflexiva. O acabamento segue as orientações técnicas do produto." },
+      { question: "Posso encomendar espelhos com LED com essa proteção?", answer: "Sim. Todos os espelhos com LED da Projeto Vidros passam pelo mesmo processo de acabamento, proteção de borda Tekbond e montagem com adesivos neutros." },
+      { question: "A proteção impede qualquer mancha para sempre?", answer: "Não. A selagem ajuda a prevenir a oxidação precoce, mas a durabilidade também depende da instalação, ventilação e limpeza adequada, sem produtos corrosivos." },
+      { question: "Qual é a garantia dos espelhos da Projeto Vidros?", answer: "A Projeto Vidros oferece garantia de 1 ano contra defeitos de fabricação e oxidação precoce. Cuidados de limpeza e uso adequado continuam indispensáveis." }
+    ],
+    cta: { label: "Solicitar orçamento de espelho sob medida", href: "https://wa.me/5511915485945?text=" + encodeURIComponent("Olá, li a postagem sobre proteção de borda Tekbond e gostaria de um orçamento de espelho sob medida com proteção antioxidação.") }
+  },
   {
     slug: "quanto-custa-envidracamento-sacada-sao-paulo-2026",
     title: "Quanto Custa Envidraçamento de Sacada em São Paulo (2026): Preços e Como Funciona",
