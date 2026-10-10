@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, ArrowRight, MessageCircle } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import MirrorQualitySection from "@/components/MirrorQualitySection";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
@@ -139,6 +140,8 @@ const Espelhos = () => {
             </div>
           </div>
         </section>
+
+        <MirrorQualitySection />
 
         <section className="py-14 md:py-20" aria-labelledby="acabamentos-title">
           <div className="container mx-auto max-w-4xl px-4 leading-relaxed text-muted-foreground">
