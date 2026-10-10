@@ -17,6 +17,6 @@
 - [x] Adicionar comparação de diferenciais e conferir a apresentação nas duas páginas.
 - [x] Criar artigo sobre proteção de borda Tekbond com capa 4, fotos internas 2 e 3, vídeo do fabricante e revisor padrão.
 - [x] Conferir artigo, imagens, vídeo, links e metadados na prévia.
-- [ ] Destacar Porta Max System Pivotante como primeiro card de Portas com fotos e vídeo enviados.
-- [ ] Criar página dedicada com comparação, orçamento, links por bairro e SEO.
-- [ ] Conferir navegação, vídeos, fotos e orçamento na prévia.
+- [x] Destacar Porta Max System Pivotante como primeiro card de Portas com fotos e vídeo enviados.
+- [x] Criar página dedicada com comparação, orçamento, links por bairro e SEO.
+- [x] Conferir navegação, vídeos, fotos e orçamento na prévia.
