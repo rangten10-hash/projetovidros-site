@@ -7,7 +7,7 @@ import { gtagReportConversion } from "@/lib/gtag";
 export function MaxSystemWhatsApp({ source, label = "Solicitar orçamento" }: { source: "card" | "page"; label?: string }) {
   const url = maxSystemWhatsApp(source);
   return <Button asChild variant="whatsapp" className="h-auto min-h-11 whitespace-normal py-3 text-center">
-    <a href={url} target="_blank" rel="noopener noreferrer" data-whatsapp-product={`porta_max_system_pivotante_${source}`} onClick={(event) => { event.preventDefault(); gtagReportConversion(url, undefined, `porta_max_system_pivotante_${source}`); }}>
+    <a href={url} target="_blank" rel="noopener noreferrer" data-wa-product={`porta_max_system_pivotante_${source}`} onClick={(event) => { event.preventDefault(); gtagReportConversion(url, undefined, `porta_max_system_pivotante_${source}`); }}>
       <MessageCircle />{label}
     </a>
   </Button>;
@@ -30,7 +30,7 @@ export default function MaxSystemFeature() {
   return <article className="col-span-full overflow-hidden rounded-lg border border-copper bg-petrol text-primary-foreground" aria-label="Porta Max System Pivotante em destaque">
     <div className="grid md:grid-cols-[minmax(0,0.8fr)_minmax(0,1.2fr)]">
       <div className="bg-petrol-light flex items-center justify-center p-4 md:p-6">
-        <video controls playsInline preload="none" poster={MAX_SYSTEM.poster} src={MAX_SYSTEM.video} aria-label="Vídeo de demonstração da Porta Max System Pivotante" className="w-full max-w-sm aspect-[9/16] max-h-[620px] object-contain" />
+        <video controls playsInline preload="none" poster={MAX_SYSTEM.poster} aria-label="Vídeo de demonstração da Porta Max System Pivotante" className="w-full max-w-sm aspect-[9/16] max-h-[620px] object-contain"><source src={MAX_SYSTEM.videoWebm} type="video/webm" /><source src={MAX_SYSTEM.video} type="video/mp4" /></video>
       </div>
       <div className="p-6 md:p-9 flex flex-col justify-center gap-6">
         <span className="text-copper-light text-xs font-semibold">ALTA SEGURANÇA E ALTO PADRÃO</span>

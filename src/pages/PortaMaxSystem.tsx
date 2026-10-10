@@ -47,7 +47,7 @@ export default function PortaMaxSystem() {
             </div>
             <div>
               <h2 className="text-2xl text-petrol mb-4">Veja a Max System em ação</h2>
-              <video controls playsInline preload="none" poster={MAX_SYSTEM.poster} src={MAX_SYSTEM.video} aria-label="Vídeo de demonstração da Porta Max System Pivotante" className="w-full aspect-[9/16] object-contain bg-petrol rounded-md" />
+              <video controls playsInline preload="none" poster={MAX_SYSTEM.poster} aria-label="Vídeo de demonstração da Porta Max System Pivotante" className="w-full aspect-[9/16] object-contain bg-petrol rounded-md"><source src={MAX_SYSTEM.videoWebm} type="video/webm" /><source src={MAX_SYSTEM.video} type="video/mp4" /></video>
               <p className="mt-3 text-sm text-muted-foreground">Demonstração do sistema pivotante AL Indústria.</p>
             </div>
           </div>

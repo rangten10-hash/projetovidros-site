@@ -3,6 +3,7 @@ import instalacao from "../assets/max-system/instalacao.webp.asset.json";
 import design from "../assets/max-system/design.webp.asset.json";
 import poster from "../assets/max-system/video-poster.webp.asset.json";
 import video from "../assets/max-system/demonstracao.mp4.asset.json";
+import webm from "../assets/max-system/demonstracao.webm.asset.json";
 
 const assetUrl = (url: string) => `https://secure-shine-studio.lovable.app${url}`;
 export const MAX_SYSTEM = {
@@ -14,6 +15,7 @@ export const MAX_SYSTEM = {
   cardMessage: "Olá! Gostaria de mais informações e orçamento para a Porta Max System Pivotante.",
   pageMessage: "Olá! Vim pela página da Porta Max System Pivotante e gostaria de solicitar um orçamento.",
   video: assetUrl(video.url),
+  videoWebm: assetUrl(webm.url),
   poster: assetUrl(poster.url),
   images: [
     { src: assetUrl(ambiente.url), alt: "Porta Max System Pivotante com perfis pretos em ambiente residencial" },
