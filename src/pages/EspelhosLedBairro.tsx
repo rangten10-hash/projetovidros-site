@@ -19,6 +19,7 @@ import organico6 from "@/assets/espelhos-led/organico-6.webp.asset.json";
 import organico7 from "@/assets/espelhos-led/organico-7.webp.asset.json";
 import organico8 from "@/assets/espelhos-led/organico-8.webp.asset.json";
 import organico9 from "@/assets/espelhos-led/organico-9.webp.asset.json";
+import organico10 from "@/assets/espelhos-led/organico-10.webp.asset.json";
 import reto1 from "@/assets/espelhos-led/reto-1.webp.asset.json";
 import reto2 from "@/assets/espelhos-led/reto-2.webp.asset.json";
 import reto3 from "@/assets/espelhos-led/reto-3.webp.asset.json";
@@ -33,7 +34,7 @@ const galleries = [
   {
     title: "Espelhos Orgânicos",
     description: "Contornos assimétricos e fluidos para lavabos, banheiros e salas. A iluminação traseira valoriza o contorno do espelho; consulte opções de acionamento Touch ou por sensor.",
-    photos: [organico1, organico2, organico3, organico4, organico5, organico6, organico7, organico8, organico9].map((photo, i) => ({ src: asset(photo.url), alt: `Espelho orgânico LED sob medida — modelo ${i + 1}` })),
+    photos: [organico1, organico2, organico3, organico4, organico5, organico6, organico7, organico8, organico9, organico10].map((photo, i) => ({ src: asset(photo.url), alt: `Espelho orgânico LED sob medida — modelo ${i + 1}` })),
   },
   {
     title: "Espelhos Retos",
