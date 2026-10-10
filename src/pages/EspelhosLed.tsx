@@ -26,6 +26,7 @@ import organico6 from "@/assets/espelhos-led/organico-6.webp.asset.json";
 import organico7 from "@/assets/espelhos-led/organico-7.webp.asset.json";
 import organico8 from "@/assets/espelhos-led/organico-8.webp.asset.json";
 import organico9 from "@/assets/espelhos-led/organico-9.webp.asset.json";
+import organico10 from "@/assets/espelhos-led/organico-10.webp.asset.json";
 
 type MirrorPhoto = { src: string; alt: string };
 
@@ -50,6 +51,7 @@ const organicPhotos: MirrorPhoto[] = [
   { src: `https://secure-shine-studio.lovable.app${organico7.url}`, alt: "Espelho orgânico LED na parede da sala de jantar" },
   { src: `https://secure-shine-studio.lovable.app${organico8.url}`, alt: "Espelho orgânico iluminado sobre aparador em sala de jantar" },
   { src: `https://secure-shine-studio.lovable.app${organico9.url}`, alt: "Espelho orgânico LED oval em lavabo com bancada de madeira" },
+  { src: `https://secure-shine-studio.lovable.app${organico10.url}`, alt: "Espelho orgânico com LED e iluminação traseira em banheiro com box preto" },
 ];
 
 const categories = [

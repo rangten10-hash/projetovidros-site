@@ -28,6 +28,9 @@ import quarto from "@/assets/espelhos-gallery/espelho-quarto.webp.asset.json";
 import salaGrande from "@/assets/espelhos-gallery/espelho-sala-grande1.webp.asset.json";
 import organicoLavabo from "@/assets/espelhos-gallery/espelho-organico-lavabo.webp.asset.json";
 import corpoInteiroHall from "@/assets/espelhos-gallery/espelho-corpo-inteiro-hall.webp.asset.json";
+import organicoMarmore from "@/assets/espelhos-gallery/organico-marmore.webp.asset.json";
+import capsulaCorpoInteiro from "@/assets/espelhos-gallery/capsula-corpo-inteiro.webp.asset.json";
+import paredeInteiraCorredor from "@/assets/espelhos-gallery/parede-inteira-corredor.webp.asset.json";
 
 type Category = "Orgânicos" | "Banheiros" | "Parede Inteira";
 type Photo = { src: string; alt: string; category: Category };
@@ -37,6 +40,9 @@ const assetUrl = (path: string) => `https://secure-shine-studio.lovable.app${pat
 
 // Add future projects here with their category; the filters update automatically.
 const photos: Photo[] = [
+  { src: assetUrl(organicoMarmore.url), alt: "Espelho orgânico sob medida em lavabo com revestimento de mármore", category: "Orgânicos" },
+  { src: assetUrl(capsulaCorpoInteiro.url), alt: "Espelho cápsula de corpo inteiro instalado em hall", category: "Parede Inteira" },
+  { src: assetUrl(paredeInteiraCorredor.url), alt: "Espelho de parede inteira instalado em corredor", category: "Parede Inteira" },
   { src: assetUrl(organicoLavabo.url), alt: "Espelho orgânico sob medida em lavabo com bancada de pedra", category: "Orgânicos" },
   { src: assetUrl(corpoInteiroHall.url), alt: "Espelho de corpo inteiro sob medida em hall de entrada", category: "Parede Inteira" },
   { src: assetUrl(organico.url), alt: "Espelho orgânico sob medida em hall com aparador", category: "Orgânicos" },
