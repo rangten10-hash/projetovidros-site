@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import ProductPageLayout from "@/components/ProductPageLayout";
+import MaxSystemFeature from "@/components/MaxSystemFeature";
 import portaVision from "@/assets/porta-vision.webp";
 import portaNobre from "@/assets/porta-nobre.webp";
 import portaCerto from "@/assets/porta-certo.webp";
@@ -116,7 +117,7 @@ const PortasVidro = () => {
   useSeo({
     title: "Portas de Vidro Sob Medida em São Paulo | Projeto Vidros",
     description:
-      "Portas de vidro sob medida para residências e escritórios em SP. Modelos Vision, Nobre, Certo, Flex, Versatik e mais. Peça orçamento.",
+      "Portas de vidro sob medida em SP. Conheça a Max System Pivotante: design europeu, bordas protegidas e vedação. Modelos Vision, Nobre e mais. Peça orçamento.",
     path: "/portas-de-vidro",
     jsonLd: {
       "@context": "https://schema.org",
@@ -137,6 +138,7 @@ const PortasVidro = () => {
     title="Portas de Vidro Sob Medida: Divisórias Elegantes e Modernas"
     subtitle="Soluções para Integração de Ambientes em SP"
     products={products}
+    featuredProduct={<MaxSystemFeature />}
   >
     <div className="space-y-6 text-muted-foreground leading-relaxed">
       <p>
