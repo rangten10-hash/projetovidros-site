@@ -15,5 +15,5 @@
 - [x] Adicionar três fotos de espelhos e uma orgânica com LED conforme classificação confirmada; conferir carregamento e ampliação.
 - [x] Destacar marcas premium, proteção Tekbond e colagem neutra nas duas páginas principais de espelhos.
 - [x] Adicionar comparação de diferenciais e conferir a apresentação nas duas páginas.
-- [ ] Criar artigo sobre proteção de borda Tekbond com capa 4, fotos internas 2 e 3, vídeo do fabricante e revisor padrão.
-- [ ] Conferir artigo, imagens, vídeo, links e metadados na prévia.
+- [x] Criar artigo sobre proteção de borda Tekbond com capa 4, fotos internas 2 e 3, vídeo do fabricante e revisor padrão.
+- [x] Conferir artigo, imagens, vídeo, links e metadados na prévia.
