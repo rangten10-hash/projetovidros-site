@@ -12,4 +12,4 @@
 - [x] Conferir filtros, ampliação, orçamento e links de bairros em celular e computador.
 - [x] Retirar o termo proibido das páginas LED e adicionar quatro fotos retas e duas fotos de espelhos.
 - [x] Conferir as novas fotos, filtros e ampliação.
-- [ ] Adicionar três fotos de espelhos e uma orgânica com LED conforme classificação confirmada; conferir carregamento e ampliação.
+- [x] Adicionar três fotos de espelhos e uma orgânica com LED conforme classificação confirmada; conferir carregamento e ampliação.
