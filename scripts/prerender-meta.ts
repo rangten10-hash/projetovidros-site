@@ -409,6 +409,8 @@ function blogMeta(p: { slug: string; title: string; metaDescription: string }): 
     ogType: "article",
     image: p.slug === "quanto-custa-envidracamento-sacada-sao-paulo-2026"
       ? `https://secure-shine-studio.lovable.app${JSON.parse(readFileSync(resolve("src/assets/sacada-cover-2026.webp.asset.json"), "utf8")).url}`
+      : p.slug === "espelhos-protecao-borda-tekbond-guardian-cebrace"
+        ? `https://secure-shine-studio.lovable.app${JSON.parse(readFileSync(resolve("src/assets/blog-protetor-borda/capa.webp.asset.json"), "utf8")).url}`
       : undefined,
   };
 }
