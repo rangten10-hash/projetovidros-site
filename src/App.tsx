@@ -27,6 +27,7 @@ const BoxVerdeBairro = lazy(() => import("./pages/BoxVerdeBairro"));
 const BoxBronze = lazy(() => import("./pages/BoxBronze"));
 const BoxBronzeBairro = lazy(() => import("./pages/BoxBronzeBairro"));
 const PortasVidro = lazy(() => import("./pages/PortasVidro"));
+const PortaMaxSystem = lazy(() => import("./pages/PortaMaxSystem"));
 const PortasVidroBairro = lazy(() => import("./pages/PortasVidroBairro"));
 const Espelhos = lazy(() => import("./pages/Espelhos"));
 const EspelhosBairro = lazy(() => import("./pages/EspelhosBairro"));
@@ -86,6 +87,7 @@ const App = () => (
         <Route path="/box-bronze" element={<BoxBronze />} />
         <Route path="/box-bronze/:bairro" element={<BoxBronzeBairro />} />
         <Route path="/portas-de-vidro" element={<PortasVidro />} />
+        <Route path="/portas/max-system-pivotante" element={<PortaMaxSystem />} />
         <Route path="/portas-de-vidro/:bairro" element={<PortasVidroBairro />} />
         <Route path="/espelhos" element={<Espelhos />} />
         <Route path="/espelhos/:bairro" element={<EspelhosBairro />} />

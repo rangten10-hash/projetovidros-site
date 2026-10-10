@@ -9,6 +9,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
 import { resolve, dirname } from "path";
 import { ledBairroTitle, pickLedBairroDescricao } from "../src/lib/espelhoLedBairroContent";
+import { MAX_SYSTEM, maxSystemSchemas } from "../src/lib/maxSystem";
 
 const BASE_URL = "https://www.projetovidros.com.br";
 const DIST = resolve("dist");
@@ -134,9 +135,11 @@ interface RouteMeta {
   description: string;
   ogType?: "website" | "article";
   image?: string;
+  jsonLd?: Record<string, unknown>[];
 }
 
 const STATIC_ROUTES: RouteMeta[] = [
+  { path: MAX_SYSTEM.path, title: MAX_SYSTEM.title, description: MAX_SYSTEM.description, image: MAX_SYSTEM.images[0].src, jsonLd: maxSystemSchemas },
   {
     path: "/",
     title: "Vidraçaria na Zona Norte e Imirim | Projeto Vidros SP",
@@ -240,7 +243,7 @@ const STATIC_ROUTES: RouteMeta[] = [
     path: "/portas-de-vidro",
     title: "Portas de Vidro Sob Medida em São Paulo | Projeto Vidros",
     description:
-      "Portas de vidro temperado sob medida: pivotantes, de correr, camarão e blindex. Instalação em toda São Paulo.",
+      "Portas de vidro sob medida em SP. Conheça a Max System Pivotante: design europeu, bordas protegidas e vedação. Modelos Vision, Nobre e mais. Peça orçamento.",
   },
   {
     path: "/espelhos",
@@ -466,6 +469,10 @@ function applyMeta(html: string, meta: RouteMeta): string {
 
   if (meta.image) {
     out = out.replace(/<\/head>/i, `  <meta property="og:image" content="${escapeAttr(meta.image)}" />\n  <meta name="twitter:image" content="${escapeAttr(meta.image)}" />\n  </head>`);
+  }
+  if (meta.jsonLd) {
+    const scripts = meta.jsonLd.map((data) => `<script type="application/ld+json" data-id="route-jsonld">${JSON.stringify(data).replace(/</g, "\\u003c")}</script>`).join("\n");
+    out = out.replace(/<\/head>/i, `${scripts}\n</head>`);
   }
 
   // twitter
