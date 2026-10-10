@@ -20,3 +20,4 @@
 - [x] Destacar Porta Max System Pivotante como primeiro card de Portas com fotos e vídeo enviados.
 - [x] Criar página dedicada com comparação, orçamento, links por bairro e SEO.
 - [x] Conferir navegação, vídeos, fotos e orçamento na prévia.
+- [x] Adicionar os banners enviados da Max System como primeiro slide, preservando os demais e conferindo o clique para o produto.

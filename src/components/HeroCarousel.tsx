@@ -4,11 +4,13 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import Hero from "./Hero";
 import PromoBanner from "./PromoBanner";
 import SacadaBanner from "./SacadaBanner";
+import MaxSystemBanner from "./MaxSystemBanner";
 
 const INTERVAL = 6000; // 6 seconds
 const TRANSITION_DURATION = 700; // ms
 
 const slides = [
+  { Component: MaxSystemBanner, to: "/portas/max-system-pivotante", label: "Porta Max System Pivotante" },
   { Component: Hero, to: "/box-seguro", label: "Box + Seguro" },
   { Component: PromoBanner, to: "/box-de-banheiro", label: "Oferta Box de Banheiro" },
   { Component: SacadaBanner, to: "/envidracamento-de-sacada", label: "Envidraçamento de Sacadas" },
