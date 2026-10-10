@@ -20,6 +20,7 @@ export function isWhatsAppUrl(url: string | null | undefined): boolean {
 
 /** Regras de rota -> nome do produto enviado ao GA4. */
 const ROUTE_RULES: { test: RegExp; product: string }[] = [
+  { test: /^\/portas\/max-system-pivotante(?:\/|$)/, product: "porta_max_system_pivotante" },
   { test: /^\/box-seguro/, product: "box_seguro" },
   { test: /^\/box-fume/, product: "box_fume" },
   { test: /^\/box-incolor/, product: "box_incolor" },

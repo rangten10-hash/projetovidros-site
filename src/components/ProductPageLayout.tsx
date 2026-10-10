@@ -21,6 +21,7 @@ interface ProductPageLayoutProps {
   title: string;
   subtitle: string;
   products: Product[];
+  featuredProduct?: React.ReactNode;
   children?: React.ReactNode;
 }
 
@@ -60,7 +61,7 @@ const ProductCardInner = ({ product, asLink }: { product: Product; asLink?: bool
   </>
 );
 
-const ProductPageLayout = ({ title, subtitle, products, children }: ProductPageLayoutProps) => {
+const ProductPageLayout = ({ title, subtitle, products, featuredProduct, children }: ProductPageLayoutProps) => {
   const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
 
   return (
@@ -83,6 +84,7 @@ const ProductPageLayout = ({ title, subtitle, products, children }: ProductPageL
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {featuredProduct}
             {products.map((product) => {
               const cardClass = "group bg-card rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-shadow duration-500 border border-border cursor-pointer block";
               if (product.to) {
