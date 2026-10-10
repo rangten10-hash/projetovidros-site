@@ -10,3 +10,5 @@
 - [x] Conferir links, imagens e orçamento no celular e computador.
 - [x] Reorganizar /espelhos com galeria no topo, filtros e destaque orgânico usando as fotos enviadas.
 - [x] Conferir filtros, ampliação, orçamento e links de bairros em celular e computador.
+- [x] Retirar o termo proibido das páginas LED e adicionar quatro fotos retas e duas fotos de espelhos.
+- [x] Conferir as novas fotos, filtros e ampliação.

@@ -13,6 +13,10 @@ import reto1 from "@/assets/espelhos-led/reto-1.webp.asset.json";
 import reto2 from "@/assets/espelhos-led/reto-2.webp.asset.json";
 import reto3 from "@/assets/espelhos-led/reto-3.webp.asset.json";
 import reto4 from "@/assets/espelhos-led/reto-4.webp.asset.json";
+import reto5 from "@/assets/espelhos-led/reto-5.webp.asset.json";
+import reto6 from "@/assets/espelhos-led/reto-6.webp.asset.json";
+import reto7 from "@/assets/espelhos-led/reto-7.webp.asset.json";
+import reto8 from "@/assets/espelhos-led/reto-8.webp.asset.json";
 import organico1 from "@/assets/espelhos-led/organico-1.webp.asset.json";
 import organico2 from "@/assets/espelhos-led/organico-2.webp.asset.json";
 import organico3 from "@/assets/espelhos-led/organico-3.webp.asset.json";
@@ -30,6 +34,10 @@ const straightPhotos: MirrorPhoto[] = [
   { src: `https://secure-shine-studio.lovable.app${reto2.url}`, alt: "Espelho LED retangular retroiluminado sobre bancada de banheiro" },
   { src: `https://secure-shine-studio.lovable.app${reto3.url}`, alt: "Espelho LED reto com iluminação branca em banheiro com bancada dupla" },
   { src: `https://secure-shine-studio.lovable.app${reto4.url}`, alt: "Espelho LED retangular de lavabo com luz quente e bancada de pedra" },
+  { src: `https://secure-shine-studio.lovable.app${reto5.url}`, alt: "Espelho LED reto com iluminação traseira em lavabo com pendentes" },
+  { src: `https://secure-shine-studio.lovable.app${reto6.url}`, alt: "Espelho LED retangular com luz quente sobre bancada de banheiro" },
+  { src: `https://secure-shine-studio.lovable.app${reto7.url}`, alt: "Espelho LED reto amplo em banheiro com armário cinza" },
+  { src: `https://secure-shine-studio.lovable.app${reto8.url}`, alt: "Espelho LED retangular em lavabo com bancada de pedra e pendentes" },
 ];
 
 const organicPhotos: MirrorPhoto[] = [
@@ -38,7 +46,7 @@ const organicPhotos: MirrorPhoto[] = [
   { src: `https://secure-shine-studio.lovable.app${organico3.url}`, alt: "Espelho LED orgânico assimétrico sobre pia de banheiro" },
   { src: `https://secure-shine-studio.lovable.app${organico4.url}`, alt: "Espelho orgânico iluminado em banheiro com bancada de pedra" },
   { src: `https://secure-shine-studio.lovable.app${organico5.url}`, alt: "Espelho orgânico oval com iluminação traseira sobre lavatório" },
-  { src: `https://secure-shine-studio.lovable.app${organico6.url}`, alt: "Espelho orgânico com luz Halo em sala de jantar" },
+  { src: `https://secure-shine-studio.lovable.app${organico6.url}`, alt: "Espelho orgânico com iluminação indireta em sala de jantar" },
   { src: `https://secure-shine-studio.lovable.app${organico7.url}`, alt: "Espelho orgânico LED na parede da sala de jantar" },
   { src: `https://secure-shine-studio.lovable.app${organico8.url}`, alt: "Espelho orgânico iluminado sobre aparador em sala de jantar" },
   { src: `https://secure-shine-studio.lovable.app${organico9.url}`, alt: "Espelho orgânico LED oval em lavabo com bancada de madeira" },
@@ -50,7 +58,7 @@ const categories = [
     name: "Espelhos Orgânicos",
     subtitle: "Formas livres, luz envolvente",
     description: "Com contornos assimétricos e fluidos, os espelhos orgânicos criam um ponto de destaque em banheiros, lavabos, dormitórios e camarins. A luz indireta valoriza o desenho da peça e traz uma atmosfera acolhedora ao ambiente.",
-    details: ["Formatos assimétricos, em gota ou sob medida", "Iluminação traseira com efeito Halo", "Acionamento Touch ou por sensor"],
+    details: ["Formatos assimétricos, em gota ou sob medida", "Iluminação traseira", "Acionamento Touch ou por sensor"],
     photos: organicPhotos,
     query: "espelho LED orgânico",
   },
@@ -72,7 +80,7 @@ const EspelhosLed = () => {
   const [selectedPhoto, setSelectedPhoto] = useState<MirrorPhoto | null>(null);
   useSeo({
     title: "Espelhos com LED Sob Medida em São Paulo | Projeto Vidros",
-    description: "Espelhos LED orgânicos e retos sob medida em São Paulo. Iluminação Halo, frontal ou traseira, acionamento Touch ou sensor e opção de desembaçador.",
+    description: "Espelhos LED orgânicos e retos sob medida em São Paulo. Iluminação frontal ou traseira, acionamento Touch ou sensor e opção de desembaçador.",
     path: "/espelhos-led",
   });
 
