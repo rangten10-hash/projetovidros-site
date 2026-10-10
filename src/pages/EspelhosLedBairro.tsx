@@ -23,18 +23,22 @@ import reto1 from "@/assets/espelhos-led/reto-1.webp.asset.json";
 import reto2 from "@/assets/espelhos-led/reto-2.webp.asset.json";
 import reto3 from "@/assets/espelhos-led/reto-3.webp.asset.json";
 import reto4 from "@/assets/espelhos-led/reto-4.webp.asset.json";
+import reto5 from "@/assets/espelhos-led/reto-5.webp.asset.json";
+import reto6 from "@/assets/espelhos-led/reto-6.webp.asset.json";
+import reto7 from "@/assets/espelhos-led/reto-7.webp.asset.json";
+import reto8 from "@/assets/espelhos-led/reto-8.webp.asset.json";
 
 const asset = (url: string) => `https://secure-shine-studio.lovable.app${url}`;
 const galleries = [
   {
     title: "Espelhos Orgânicos",
-    description: "Contornos assimétricos e fluidos para lavabos, banheiros e salas. A iluminação traseira cria um efeito Halo ao redor do espelho; consulte opções de acionamento Touch ou por sensor.",
+    description: "Contornos assimétricos e fluidos para lavabos, banheiros e salas. A iluminação traseira valoriza o contorno do espelho; consulte opções de acionamento Touch ou por sensor.",
     photos: [organico1, organico2, organico3, organico4, organico5, organico6, organico7, organico8, organico9].map((photo, i) => ({ src: asset(photo.url), alt: `Espelho orgânico LED sob medida — modelo ${i + 1}` })),
   },
   {
     title: "Espelhos Retos",
     description: "Modelos retangulares, quadrados ou ovais sob medida. Combine iluminação frontal ou traseira e consulte a opção de desembaçador para banheiros.",
-    photos: [reto1, reto2, reto3, reto4].map((photo, i) => ({ src: asset(photo.url), alt: `Espelho reto LED sob medida — modelo ${i + 1}` })),
+    photos: [reto1, reto2, reto3, reto4, reto5, reto6, reto7, reto8].map((photo, i) => ({ src: asset(photo.url), alt: `Espelho reto LED sob medida — modelo ${i + 1}` })),
   },
 ];
 
