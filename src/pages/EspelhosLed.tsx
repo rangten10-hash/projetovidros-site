@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import MirrorQualitySection from "@/components/MirrorQualitySection";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
@@ -133,6 +134,8 @@ const EspelhosLed = () => {
             </div>
           </section>
         ))}
+        <MirrorQualitySection />
+
         <section className="border-t border-border py-14 md:py-20">
           <div className="container mx-auto px-4">
             <p className="text-xs font-semibold uppercase text-copper">Atendimento local</p>
