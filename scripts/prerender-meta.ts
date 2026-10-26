@@ -414,6 +414,8 @@ function blogMeta(p: { slug: string; title: string; metaDescription: string }): 
       ? `https://secure-shine-studio.lovable.app${JSON.parse(readFileSync(resolve("src/assets/sacada-cover-2026.webp.asset.json"), "utf8")).url}`
       : p.slug === "espelhos-protecao-borda-tekbond-guardian-cebrace"
         ? `https://secure-shine-studio.lovable.app${JSON.parse(readFileSync(resolve("src/assets/blog-protetor-borda/capa.webp.asset.json"), "utf8")).url}`
+      : p.slug === "espelho-led-sob-medida-sao-paulo-guia"
+        ? `https://secure-shine-studio.lovable.app${JSON.parse(readFileSync(resolve("src/assets/blog-espelho-led/capa.webp.asset.json"), "utf8")).url}`
       : undefined,
   };
 }

@@ -93,6 +93,12 @@ import protetorBordaCapa from "@/assets/blog-protetor-borda/capa.webp.asset.json
 import protetorBordaRedondo from "@/assets/blog-protetor-borda/aplicacao-redondo.webp.asset.json";
 import protetorBordaAplicacao from "@/assets/blog-protetor-borda/aplicacao-borda.webp.asset.json";
 
+import espelhoLedCapa from "@/assets/blog-espelho-led/capa.webp.asset.json";
+import espelhoLedLavabo from "@/assets/blog-espelho-led/lavabo.webp.asset.json";
+import espelhoLedJanela from "@/assets/blog-espelho-led/janela.webp.asset.json";
+import espelhoLedLavabo2 from "@/assets/blog-espelho-led/led-lavabo.webp.asset.json";
+import espelhoLedOrganicoJantar from "@/assets/blog-espelho-led/organico-jantar.webp.asset.json";
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -132,6 +138,93 @@ const WHATSAPP_URL =
   "https://wa.me/5511915485945?text=Olá,%20vi%20o%20site%20e%20gostaria%20de%20um%20orçamento%20para%20box%20de%20segurança.";
 
 export const blogPosts: BlogPost[] = [
+  {
+    slug: "espelho-led-sob-medida-sao-paulo-guia",
+    title: "Espelho LED Sob Medida em São Paulo: O Guia Definitivo de Luxo, Decoração e Iluminação Técnica para o Seu Ambiente",
+    excerpt: "Tipos de iluminação, formatos, acionamento Touch, temperatura de cor e dicas de instalação para escolher seu espelho LED sob medida em São Paulo.",
+    image: `https://secure-shine-studio.lovable.app${espelhoLedCapa.url}`,
+    imageAlt: "Espelho LED sob medida da Projeto Vidros em São Paulo",
+    date: "2026-10-26",
+    author: "Rangel Furlaneto",
+    whatsappUrl: "https://wa.me/5511915485945?text=" + encodeURIComponent("Olá, li o guia de Espelho LED sob medida no blog e gostaria de um orçamento."),
+    metaDescription: "Guia completo de Espelho LED sob medida em São Paulo: luz frontal, indireta ou mista, Touch com dimmer, cristais Guardian e Cebrace e instalação. Peça orçamento.",
+    content: [
+      { type: "paragraph", text: "O espelho com iluminação LED embutida deixou de ser apenas um item funcional no banheiro ou lavabo para se transformar no grande protagonista da arquitetura de interiores moderna. Combinando elegância minimalista, eficiência energética e alta fidelidade de reflexão, o espelho LED sob medida é a escolha ideal para banheiros, closets, camarins e ambientes corporativos." },
+      { type: "paragraph", text: "Na Projeto Vidros, somos especialistas no projeto, corte, lapidação e instalação de espelhos LED sob medida, unindo cristais de alta qualidade à engenharia de iluminação e ao corte computadorizado CNC." },
+      { type: "paragraph", text: "Neste guia, você vai entender as vantagens, especificações técnicas, tecnologias de acionamento (Touch Screen) e as melhores práticas de instalação para valorizar o seu imóvel em São Paulo." },
+      { type: "whatsappCta", label: "Solicitar orçamento de Espelho LED sob medida" },
+      { type: "heading", text: "O que é e como funciona o Espelho LED sob medida?" },
+      { type: "paragraph", text: "Diferente dos modelos com tamanhos padronizados vendidos em grandes lojas, o espelho LED sob medida é projetado de acordo com as dimensões, o formato e o estilo arquitetônico do seu ambiente. Ele é composto por uma base de cristal de alta pureza, com fita LED profissional integrada no verso ou jateada na própria superfície do vidro." },
+      { type: "list", items: [
+        { strong: "Luz Frontal (Jateada):", text: "a camada prateada do verso é removida por laser ou jateamento, permitindo que a luz atravesse o vidro. Iluminação direta e uniforme, perfeita para maquiagem, barbear e cuidados diários." },
+        { strong: "Luz Indireta (Retroiluminado):", text: "o LED é fixado na estrutura traseira, projetando uma luz suave na parede ao redor do espelho, com a sensação de que a peça está flutuando." },
+        { strong: "Luz Mista (Dupla Iluminação):", text: "combina a luz frontal jateada com a iluminação traseira, equilibrando funcionalidade e aconchego." }
+      ] },
+      { type: "image", src: `https://secure-shine-studio.lovable.app${espelhoLedLavabo.url}`, alt: "Espelho LED sob medida instalado em lavabo", caption: "Espelho com iluminação LED valorizando o lavabo." },
+      { type: "internalLink", href: "/espelhos-led", label: "Veja modelos e fotos de Espelhos LED", description: "Galerias de espelhos orgânicos e retos com LED sob medida." },
+      { type: "heading", text: "Por que escolher a Projeto Vidros para o seu Espelho LED em São Paulo?" },
+      { type: "paragraph", text: "A produção de um espelho com LED integrado exige conhecimento em vidraçaria fina e elétrica de baixa tensão. Um erro na escolha do cristal ou no isolamento do LED pode favorecer oxidação precoce (manchas pretas) ou falhas no circuito por causa da umidade do banheiro." },
+      { type: "heading", text: "1. Cristais premium Guardian Evolution e Cebrace" },
+      { type: "paragraph", text: "Trabalhamos exclusivamente com espelhos Guardian Evolution e Cebrace, linhas com camada protetora contra corrosão e oxidação, indicadas inclusive para ambientes úmidos." },
+      { type: "heading", text: "2. Selamento perimetral com Tekbond (Saint-Gobain)" },
+      { type: "paragraph", text: "Antes da montagem do chassi e do circuito de LED, todas as bordas lapidadas recebem o protetor de borda Tekbond, que ajuda a proteger as extremidades do cristal contra a umidade e o vapor do chuveiro." },
+      { type: "internalLink", href: "/blog/espelhos-protecao-borda-tekbond-guardian-cebrace", label: "Entenda a proteção de borda Tekbond" },
+      { type: "heading", text: "3. Corte e formatos orgânicos na CNC" },
+      { type: "list", items: [
+        { strong: "Orgânicos e assimétricos:", text: "curvas suaves e fluidas inspiradas no design contemporâneo." },
+        { strong: "Retangulares e quadrados:", text: "com quinas retas ou cantos arredondados." },
+        { strong: "Redondos e ovais:", text: "proporções ideais para lavabos e penteadeiras." },
+        { strong: "Bisotados:", text: "acabamento em bisotê para um toque clássico de requinte." }
+      ] },
+      { type: "image", src: `https://secure-shine-studio.lovable.app${espelhoLedOrganicoJantar.url}`, alt: "Espelho orgânico sob medida em sala de jantar", caption: "Formato orgânico cortado em CNC para sala de jantar." },
+      { type: "heading", text: "4. Tecnologia Touch Screen e dimerização" },
+      { type: "paragraph", text: "Nossos espelhos contam com sensor Touch embutido no próprio vidro. Com um toque, você liga, desliga e ajusta a intensidade da luz (função dimmer), seja para um banho relaxante ou uma maquiagem de precisão." },
+      { type: "whatsappCta", label: "Falar com um especialista em Espelho LED" },
+      { type: "heading", text: "Onde instalar o Espelho LED sob medida?" },
+      { type: "list", items: [
+        { strong: "Banheiros e lavabos:", text: "o ambiente ganha ares de SPA urbano, especialmente combinado com porcelanato ou MDF ripado." },
+        { strong: "Closets e quartos:", text: "a luz frontal uniforme evita sombras no rosto e facilita a preparação diária." },
+        { strong: "Hall de entrada e salas:", text: "um espelho orgânico grande retroiluminado amplia o espaço e funciona como obra de arte luminosa." },
+        { strong: "Salões, clínicas e penteadeiras profissionais:", text: "iluminação adequada para maquiagem e registro de resultados sem iluminação adicional." }
+      ] },
+      { type: "image", src: `https://secure-shine-studio.lovable.app${espelhoLedJanela.url}`, alt: "Espelho LED sob medida instalado em ambiente com janela", caption: "Iluminação integrada que acompanha a arquitetura do ambiente." },
+      { type: "heading", text: "Tabela técnica: comparativo de opções" },
+      { type: "table", headers: ["Característica", "Espelho LED Standard (Mercado)", "Espelho LED Sob Medida (Projeto Vidros)"], rows: [
+        ["Marca do cristal", "Genérica / importada", "Guardian Evolution / Cebrace"],
+        ["Proteção de bordas", "Sem selamento", "Proteção com Tekbond (Saint-Gobain)"],
+        ["Tecnologia de corte", "Manual / genérica", "Corte e lapidação CNC"],
+        ["Acionamento", "Interruptor externo de parede", "Sensor Touch embutido no vidro"],
+        ["Temperatura de cor", "Cor única fixa (geralmente 6000K)", "Quente (3000K), Neutra (4000K) ou Fria (6000K)"],
+        ["Estrutura traseira", "Plastificada / frágil", "Chassi em alumínio / MDF tratado"],
+        ["Dimensão", "Tamanhos padronizados", "100% sob medida para o seu vão"]
+      ] },
+      { type: "heading", text: "Atendimento regional em São Paulo" },
+      { type: "paragraph", text: "A Projeto Vidros atende com medição precisa e instalação especializada em São Paulo e na Grande SP. Nossa equipe faz a medição técnica no local com trena a laser, conferindo esquadro das paredes e pontos elétricos para um encaixe milimétrico." },
+      { type: "list", items: [
+        { strong: "Zona Norte:", text: "Santana, Jardim São Paulo, Imirim, Mandaqui, Alto de Santana e Tucuruvi." },
+        { strong: "Zona Oeste:", text: "Pinheiros, Vila Madalena, Perdizes, Pompeia, Alto de Pinheiros e Pacaembu." },
+        { strong: "Zona Sul:", text: "Moema, Vila Nova Conceição, Campo Belo, Brooklin, Morumbi, Vila Mariana, Saúde e Santo Amaro." },
+        { strong: "Zona Leste:", text: "Tatuapé, Anália Franco, Mooca, Vila Formosa e Belém." },
+        { strong: "Centro e Grande SP:", text: "Higienópolis, Consolação, Bela Vista, Alphaville, Tamboré e Granja Viana." }
+      ] },
+      { type: "internalLink", href: "/espelhos-led/santana", label: "Espelho LED em Santana e bairros da Zona Norte" },
+      { type: "heading", text: "Dicas essenciais antes de instalar seu Espelho LED" },
+      { type: "list", items: [
+        { strong: "Ponto de energia centralizado:", text: "deixe o ponto (110V ou 220V) atrás da área onde o espelho será centralizado; a fonte fica oculta atrás do chassi." },
+        { strong: "Superfície da parede:", text: "a parede deve estar nivelada, prumada e limpa. Em porcelanato, mármore ou granito, a furação é feita com broca diamantada." },
+        { strong: "Espelhos colados:", text: "quando a fixação é direta por adesivo, usamos exclusivamente Fixa Espelhos neutro, sem solventes que ataquem a prata do cristal." }
+      ] },
+      { type: "image", src: `https://secure-shine-studio.lovable.app${espelhoLedLavabo2.url}`, alt: "Espelho LED retroiluminado em lavabo", caption: "Instalação com acabamento limpo e fonte oculta atrás do espelho." }
+    ],
+    faqTitle: "Perguntas frequentes sobre Espelho LED",
+    faq: [
+      { question: "A lâmpada LED do espelho queima com facilidade?", answer: "Utilizamos fitas LED profissionais com vida útil estimada em mais de 25.000 horas e drivers estabilizados. Se for preciso substituir a fita ou o driver no futuro, a manutenção é simples e não exige a troca do espelho." },
+      { question: "Qual a diferença entre luz quente (3000K), neutra (4000K) e fria (6000K)?", answer: "A luz quente é amarelada e aconchegante, ideal para lavabos e quartos. A neutra é a mais próxima da luz natural, ideal para maquiagem e banheiros de uso diário. A fria é branca azulada, para quem gosta de máxima luminosidade." },
+      { question: "É seguro colocar espelho LED dentro do banheiro por causa do vapor?", answer: "Sim. Nossos espelhos contam com isolamento elétrico no circuito traseiro e selagem perimetral com Tekbond, que ajuda a proteger a prata contra a oxidação causada pela umidade. Ventilação e limpeza adequada continuam importantes." },
+      { question: "Como solicitar um orçamento para o meu projeto?", answer: "Envie pelo WhatsApp as medidas aproximadas do vão, o formato desejado (retangular, redondo ou orgânico) e o seu bairro. Nossa equipe retorna com a cotação personalizada." }
+    ],
+    cta: { label: "Solicitar orçamento de Espelho LED", href: "https://wa.me/5511915485945?text=" + encodeURIComponent("Olá, li o guia de Espelho LED sob medida no blog e gostaria de um orçamento.") }
+  },
   {
     slug: "espelhos-protecao-borda-tekbond-guardian-cebrace",
     title: "O Segredo dos Espelhos que Não Mancham Facilmente: Por que Exigir a Proteção de Borda Tekbond nas Linhas Guardian e Cebrace?",
